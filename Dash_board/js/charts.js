@@ -235,10 +235,12 @@ function segBand(container, parts, opts = {}) {
     const bw = (p.value / total) * w;
     const rect = el("rect", { x: x + 1, y: bandY, width: bw - 2, height: bandH, rx: 5, fill: p.color }, svg);
     bindTip(rect, `<div class="t-title">${p.key}</div>${fmtComma(p.value)} 백만원 (${fmtKR(p.value)}원) · ${(p.value / total * 100).toFixed(1)}%<br><span class="t-muted">${p.desc || ""}</span>`);
-    // 상단 키 라벨 + 하단 수치
-    txt(svg, x + 8, bandY - 14, `${p.key} · ${p.count}건`, { size: 13, fill: BODY, weight: 600 });
-    txt(svg, x + 8, bandY + bandH + 20, `${fmtKR(p.value)}원 (${(p.value / total * 100).toFixed(0)}%)`,
-        { size: 15, fill: p.dark ? INK : p.color, weight: 600 });
+    // 상단 키 라벨 + 하단 수치 (좁은 세그먼트는 겹침 방지를 위해 생략 — 툴팁·범례로 확인)
+    if (bw >= 130) {
+      txt(svg, x + 8, bandY - 14, `${p.key} · ${p.count}건`, { size: 13, fill: BODY, weight: 600 });
+      txt(svg, x + 8, bandY + bandH + 20, `${fmtKR(p.value)}원 (${(p.value / total * 100).toFixed(0)}%)`,
+          { size: 15, fill: p.dark ? INK : p.color, weight: 600 });
+    }
     x += bw;
   });
   return svg;
