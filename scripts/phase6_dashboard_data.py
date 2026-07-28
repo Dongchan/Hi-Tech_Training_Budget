@@ -113,15 +113,27 @@ def write_csv(path, rows, fields=None):
 
 write_csv(DATA / "projects_raw.csv", rows)
 
-# ---------------- CSV 2: 내역사업 ----------------
+# ---------------- CSV 2: 내역사업 (v1.2 보정 반영) ----------------
+subfix_path = BASE / "analysis" / "sub_projects_corrections_v12.json"
+SUBFIX = ({int(k): v for k, v in json.load(open(subfix_path, encoding="utf-8"))["projects"].items()}
+          if subfix_path.exists() else {})
 subs = []
 for p in projects:
-    for s in (p.get("sub_projects") or []):
-        subs.append({"parent_id": p["id"], "department": p["department"],
-                     "parent_name": p["project_name"], "sub_name": s.get("name"),
-                     "b2024": num(s.get("budget_2024")), "b2025": num(s.get("budget_2025")),
-                     "b2026": num(s.get("budget_2026"))})
+    pid = p["id"]
+    if pid in SUBFIX and SUBFIX[pid]["subs"]:
+        for s in SUBFIX[pid]["subs"]:
+            subs.append({"parent_id": pid, "department": p["department"],
+                         "parent_name": p["project_name"], "sub_name": s.get("name"),
+                         "b2024": s.get("b2024"), "b2025": s.get("b2025"), "b2026": s.get("b2026"),
+                         "source": "v1.2_corrected"})
+    else:
+        for s in (p.get("sub_projects") or []):
+            subs.append({"parent_id": pid, "department": p["department"],
+                         "parent_name": p["project_name"], "sub_name": s.get("name"),
+                         "b2024": num(s.get("budget_2024")), "b2025": num(s.get("budget_2025")),
+                         "b2026": num(s.get("budget_2026")), "source": "original"})
 write_csv(DATA / "sub_projects_raw.csv", subs)
+print("  내역 v1.2 보정 모사업:", sum(1 for pid in SUBFIX if SUBFIX[pid]["subs"]), "건")
 
 # ---------------- CSV 3: 인재양성 96건 ----------------
 trows = [{"id": t["id"], "department": t["department"], "project_name": t["project_name"],

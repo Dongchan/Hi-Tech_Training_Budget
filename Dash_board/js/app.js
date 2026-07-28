@@ -242,8 +242,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------- CSV 파일 카드 ---------- */
   const files = [
-    ["projects_raw.csv", "전체 533개 사업 원자료", "식별·계층·예산 7필드·분류·검증 판정·보정값 포함 (42개 열)"],
-    ["sub_projects_raw.csv", "내역사업 1,523행", "모사업 id 연결, 2024–2026 예산"],
+    ["projects_raw.csv", "전체 533개 사업 원자료", "식별·계층·예산 7필드·v1.1 보정값·개정 도메인·검증 판정 포함 (48개 열)"],
+    ["sub_projects_raw.csv", "내역사업 1,658행", "모사업 id 연결, 2024–2026 예산 · 불일치 165개 사업은 v1.2 재추출본(source 열)"],
     ["talent_projects.csv", "인재양성 확정 96건", "주력/요소 구분, 보정 예산, 판정 근거"],
     ["verification_issues.csv", "검증 이슈 234행", "예산 불일치 49건 + 분류 부적절 195건 + 사업명 불일치"],
     ["by_department.csv", "부처별 집계 41행", "전체·인재양성(주력/요소) 2026 예산"],
