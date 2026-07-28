@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "id": 187,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1515 총괄표(4,000 / 4,000 / 4,000(추경A) / 3,600(요구안) / 3,600(본예산B) / △400 / △10.0)와 JSON 7개 필드 전부 일치. change_amount -400, change_rate -10.0은 PDF의 △400, △10.0과 부호까지 일치.",
+   "name_match": true,
+   "name_detail": "JSON '과학기술정보통신부_초거대AI 클라우드팜 실증 및 AI 확산 환경조성'(2601-410) = PDF '(37) 초거대 AI 클라우드 팜 실증 및 AI 확산 환경 조성(2601-410)'. 띄어쓰기만 차이.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "초거대AI 인프라 구성(1,440)·융합플랫폼 실증(1,800)·산학연 생태계(360). 'LLM/언어모델','클라우드/컴퓨팅','디지털전환(AX)' 모두 실질과 부합. rnd_stage '실증/시범'도 타당.",
+   "ai_relevance": "core",
+   "talent_related": true,
+   "talent_note": "소관 '디지털인재양성과'. 내역사업➌ 산학연 협력생태계 조성(2026 360백만원)이 '초거대AI 전문인력 지원, 교육·세미나, 창업지원·멘토링'으로 구성 → 인력양성 요소 명확(단, 전체 3,600 중 10% 규모)."
+  },
+  {
+   "id": 194,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1559 '가. 지출계획 총괄표'(75,701 / 39,508 / 39,508(추경A) / 15,000(요구안) / 15,000(본예산B) / △24,508 / △62.0)와 JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '과학기술정보통신부_클라우드컴퓨팅산업육성(정보화)'(2602-311) = PDF 세부사업명 '클라우드컴퓨팅산업육성(정보화)' 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "내역 3개(서비스활성화·기업경쟁력, 공공부문 도입촉진, 신뢰성 확보·이용자 보호)에 대해 '클라우드/컴퓨팅'+'보안/사이버' 조합이 적절. 단위사업이 'AI경쟁력강화(방발)'이므로 '디지털전환(AX)' 추가 여지는 있으나 누락이 오분류 수준은 아님.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "클라우드컴퓨팅법 제14조(전문인력의 양성) 근거. 실적에 '클라우드 전문기술 교육과정·교재개발·운영(수료생 433/444/490/496명)', 'K-PaaS 전문가 교육 14회(213명)·전문강사 교육(40명)', '국내외 대학·대학원 정규교과 클라우드 과정 9→14개 확대, 대학 오픈랩 5개교' 등 인력양성 활동이 구체적으로 명시."
+  },
+  {
+   "id": 198,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1598 총괄표(207,269 / 218,356 / 233,356(추경A) / 287,242(요구안) / 297,077(본예산B) / 78,721 / 36.1)와 JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '한국과학기술원 연구 운영비 지원(R&D)'(2231-401) = PDF '한국과학기술원 연구운영비 지원(R&D)' 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains가 'R&D 지원' 단독. 그러나 소관이 미래인재정책국 미래인재양성과이고, 학사사업비 42,351·창의적인재양성 특성화교육 15,371·AI 국가대표 양성(InnoCORE) 52,500·AI 전사양성사업 4,450·InnoCORE Link KAIST 1,950·충북 AI BIO 과학영재학교 152 등 인재양성 비중이 매우 큼 → '교육/인재' 누락. 1차 판정과 동일.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "KAIST 기관운영·연구비 사업이나 2026년 신규·계속 내역 중 AI 국가대표 양성(InnoCORE) 52,500백만원, AI 전사양성사업 4,450백만원, 창의적 인재양성 특성화교육 15,371백만원 등 총 297,077 중 약 20%가 명시적 인재양성 사업. 1971년 설립 근거 자체가 '고급과학기술 인력양성'."
+  },
+  {
+   "id": 202,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1641 총괄표(34,814 / 37,984 / 37,984(추경A) / 40,369(요구안) / 40,369(본예산B) / 2,385 / 6.3)와 JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '한국뇌연구원 연구운영비 지원(R&D)'(2231-415) = PDF '한국뇌연구원 연구운영비 지원' 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains 'R&D 지원' 단독. 실질은 뇌신경망·뇌질환 중점연구, 뇌발달질환 진단·치료기기 개발(2,652), 브레인 리부팅 치료제 개발(1,821) 등 명백한 의료·바이오 영역이므로 '의료/바이오' 누락. (1차 'appropriate'에서 하향)",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "내역사업 'KBRI Brain Brand 사업'(2026 400백만원)이 '글로벌 수준의 대표과학자 육성 및 신진인재 확보'로 정의됨. 다만 사업 전체(40,369) 대비 1% 수준의 부수적 요소."
+  },
+  {
+   "id": 208,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1695 총괄표(140,717 / 154,061 / 154,061(추경A) / 165,256(요구안) / 171,326(본예산B) / 17,265 / 11.2)와 JSON 7개 필드 전부 일치. sub_projects b2024=142,460은 결산(140,717)이 아닌 예산액 기준이나 총괄표 필드 자체는 정확.",
+   "name_match": true,
+   "name_detail": "JSON '한국원자력연구원 연구 운영비 지원(R&D)'(2241-401) = PDF '한국원자력연구원 연구운영비 지원(R&D)' 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains 'R&D 지원' 단독. 선진원자로·핵연료·방사성폐기물·SMR 상용화 등 실질이 원자력 에너지 영역이므로 '에너지' 누락(부수적으로 '교육/인재'도 해당). (1차 'appropriate'에서 하향)",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "내역사업 '원자력 인재육성·정책 및 글로벌협력 지원'에 '국내·외 원자력 교육과정 개발 및 운영을 통한 글로벌 원자력 전문 인재육성'이 명시. 다만 사업 전체(171,326)에서 차지하는 비중은 제한적."
+  },
+  {
+   "id": 219,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1802 총괄표(77,943 / 63,638 / 63,638(추경) / 63,129(정부안) / 63,129(본예산B) / △509 / △0.8)와 JSON 7개 필드 전부 일치. change_amount -509, change_rate -0.8이 PDF의 △509, △0.8과 부호 일치.",
+   "name_match": true,
+   "name_detail": "JSON '관세청_관세행정 정보관리(정보화)'(1441-500) = PDF '관세행정 정보관리(정보화)(1441-500)' 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "1차의 'wrong'은 과함. 최대 내역이 '국가관세망 노후장비 교체'(19,315, 임차료 중심)로 통신망 인프라 성격이 일부 있어 '통신/네트워크'가 완전히 틀리지는 않음. 다만 사업 실질(관세정보시스템 운영·유지관리, 행정정보시스템 유지관리, 세관 정보화 지원, 전자통관)은 '행정/전자정부'가 핵심 도메인이며 이것이 누락 → partial.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "인력양성·교육훈련 요소 없음. 전산장비·시스템 운영유지 사업."
+  },
+  {
+   "id": 225,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1854 총괄표(2,936 / 2,816 / 2,816(추경A) / 10,531(요구안) / 10,531(본예산B) / 7,715 / 274.0)와 JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '교육부_대학정보공시 제도 운영(정보화)'(2268-300) = PDF '(9) 대학정보공시 제도 운영(정보화)(2268-300)' 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "'교육/인재'는 고등교육 분야(고등·평생교육 지원특별회계, 프로그램 '대학교육 역량강화')라는 점에서 부분 타당하나, 사업 실질은 대학정보공시 데이터 조사·검증과 차세대 통합시스템 구축·운영(2026 9,187/10,531)이므로 '데이터' 및 '행정/전자정부'가 더 정확. 1차 판단과 동일 취지.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "'담당자 교육 연수'(2026 5백만원)는 시스템 입력담당자 대상 업무연수로 인재양성 사업으로 볼 수 없음. 인력양성·장학 요소 없음."
+  },
+  {
+   "id": 232,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1933 총괄표(1,939 / 1,915 / 1,915(추경) / 2,197(요구) / 2,148(본예산B) / 233 / 12.2)와 JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '국가데이터처_통계교육지원'(1032-304) = PDF '통계교육지원'(소관 통계인재개발원 교육운영과) 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains '데이터' 단독. 통계법 제8조·공무원인재개발법 제4조 근거의 전문교육훈련 사업(집합 99개 157회, 이러닝 127개)이므로 '교육/인재' 누락. 1차 판정과 동일.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "1991년부터 '통계를 생산·분석·가공할 수 있는 통계전문인력 양성'을 목적으로 계속 추진. 국가데이터인재개발원이 공무원·통계작성기관 종사자·통계이용자 교육훈련을 관장. 학생 실용통계교육·교사 통계연수 포함. 명백한 교육훈련·인재양성 사업."
+  },
+  {
+   "id": 234,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1961 총괄표(7,116 / 6,362 / 6,362(추경) / 7,084(요구) / 6,942(본예산B) / 580 / 9.1)와 JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '국가데이터처_통계센터 및 교육시설 운영'(1032-305) = PDF '통계센터 및 교육시설 운영'(소관 통계인재개발원 교육기획과) 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains '데이터' 단독. 통계인재개발원의 교육시설(통계센터 임차·관리 5,840, AI·디지털 학습관 983, 제주분원 119) 운영 사업이므로 '교육/인재' 누락. 1차 판정과 동일.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "국가데이터인재개발원 교육시설(통계센터 연면적 31,898㎡, AI·디지털학습관 4,397㎡) 운영 사업. 2025년 집합교육 97개 과정 4,095명·이러닝 134개 과정 139,856명 이수 기반시설. 기대효과에 'AI를 이해하고 활용할 수 있는 인재 양성 기여' 명시. 단 예산 자체는 임차료·위탁관리비·자산취득비 등 시설비."
+  },
+  {
+   "id": 240,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.2006 총괄표는 추경 컬럼이 없는 6칸 구조(2024결산 '-' / 2025본예산(A) 1,000 / 2026요구 12,011 / 2026조정(B) 6,651 / 증감(B-A) 5,651 / 증감률 565.1). JSON이 한 칸씩 밀림: 2025_supplementary=12011(실제 해당없음), 2026_request=6651(실제 12,011), 2026_budget=5651(실제 6,651), change_amount=565.1(실제 5,651), change_rate=null(실제 565.1). 2024_settlement=null, 2025_original=1000만 정확. 사업개요의 '2026 사업비 6,651'과 sub_project b2026=5,651 불일치로도 교차 확인됨. 1차 판정 그대로 확인.",
+   "name_match": true,
+   "name_detail": "JSON '국방부_국방ICT혁신기술'(2131-310) = PDF '(23) 국방ICT혁신기술 (2131-310)' 일치. 다만 총괄표 사업명 행은 '정보통신기반체계구축'으로 표기되어 있음(단위사업 계층 표기 차이).",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'국방/안보' 적정. 다만 is_rnd=false는 오류 소지 — 근거법이 국가연구개발혁신법이고 목이 '연구개발출연금-연구개발활동비등(360-05)', 내역사업이 '국방정보화R&D'인 명백한 R&D 사업.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "'全 장병 AI 역량강화'는 기대효과 문구일 뿐이며, 예산 산출근거는 전액 R&D 과제(자율지능 지휘통제 4,461 + AI기반 주파수 2,190). 인재양성 사업 아님."
+  },
+  {
+   "id": 242,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.2021 총괄표는 추경 컬럼이 없는 6칸 구조(2024결산 5,907 / 2025본예산(A) 7,617 / 2026요구안 9,831 / 2026조정안(B) 9,177 / 증감(B-A) 1,560 / 증감률 20.5). JSON이 한 칸씩 밀림: 2025_supplementary=9831(실제 해당없음), 2026_request=9177(실제 9,831), 2026_budget=1560(실제 9,177), change_amount=20.5(실제 1,560), change_rate=null(실제 20.5). p.2024 '전투발전연구 : (25) 7,617 → (26) 9,177백만원 +1,560백만원(+20.5%)'로 명확히 교차 확인. 1차 판정 그대로 확인.",
+   "name_match": true,
+   "name_detail": "JSON '국방부_전투발전연구'(2438-304) = PDF '(89) 전투발전연구 (2438-304)' 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "'국방/안보'는 타당하나, 프로그램/단위사업이 '군 인사 및 교육훈련 / 훈련 및 교육지원'이고 내역이 전투실험 및 연구·교리교범연구·해외교리장교 운영으로 군 교육훈련 체계 발전이 목적이므로 '교육/인재' 누락.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "군 교육훈련 발전을 위한 전투실험·교리교범 연구 사업이며, 성과지표가 '군 위탁교육 이수인원(전문학위 석·박사 위탁교육 + 국외군사교육)'으로 설정되어 '연간 위탁교육을 통한 인재양성 규모 확인'이라 명시. 해외교리장교 9명 해외 파견 운영(540백만원) 포함. 다만 직접적 인력양성 예산이라기보다 교육훈련 기반 연구 성격."
+  },
+  {
+   "id": 243,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.2032 총괄표는 추경 컬럼이 없는 6칸 구조(2024결산 184,408 / 2025본예산(A) 187,774 / 2026요구 210,446 / 2026조정(B) 183,056 / 증감(B-A) △4,718 / 증감률 △2.5). JSON이 한 칸씩 밀림: 2025_supplementary=210446(실제 해당없음), 2026_request=183056(실제 210,446), 2026_budget=-4718(실제 183,056), change_amount=-2.5(실제 △4,718), change_rate=null(실제 △2.5). 2026_budget이 음수인 것은 △4,718을 잘못 옮긴 결과이며, PDF 최근5년 사업비표의 '2026 = 183,056'과 sub_project b2026=2.5로도 밀림 확인. 1차 판정 그대로 확인.",
+   "name_match": true,
+   "name_detail": "JSON '국방부_정보체계개발유지(정보화)'(2131-302) = PDF '(18) 정보체계개발유지 (2131-302)' 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "'국방/안보'는 소관 기준으로 타당하나, 사업 실질은 기획·재정, 인사·동원, 군수·시설, 전자행정 등 국방자원관리 응용체계 개발과 유지보수·상용SW 도입(근거법에 전자정부법 명시)이므로 '행정/전자정부' 누락. (1차는 appropriate로 두고 detail에서만 지적)",
+   "ai_relevance": "none",
+   "talent_related": false,
+   "talent_note": "인사·동원 정보체계는 시스템 개발·유지 항목일 뿐이며 교육훈련·인재양성 요소 없음."
+  }
+ ]
+}

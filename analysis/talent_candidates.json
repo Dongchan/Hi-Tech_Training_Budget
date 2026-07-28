@@ -1,0 +1,2092 @@
+{
+ "counts": {
+  "A": 66,
+  "B": 8,
+  "C_only": 14
+ },
+ "total_candidates": 88,
+ "sum_2026_A": 6823880.0,
+ "sum_2026_A_or_B": 6896039.0,
+ "by_tier": {
+  "A": [
+   3,
+   17,
+   18,
+   22,
+   24,
+   25,
+   39,
+   42,
+   62,
+   63,
+   76,
+   78,
+   85,
+   86,
+   90,
+   108,
+   115,
+   123,
+   124,
+   125,
+   126,
+   130,
+   132,
+   133,
+   138,
+   139,
+   142,
+   156,
+   172,
+   175,
+   177,
+   190,
+   220,
+   221,
+   222,
+   223,
+   224,
+   225,
+   226,
+   227,
+   228,
+   229,
+   230,
+   239,
+   250,
+   263,
+   280,
+   302,
+   350,
+   352,
+   356,
+   378,
+   379,
+   418,
+   420,
+   428,
+   431,
+   433,
+   440,
+   441,
+   443,
+   479,
+   480,
+   520,
+   522,
+   529
+  ],
+  "B": [
+   163,
+   232,
+   234,
+   266,
+   299,
+   315,
+   384,
+   466
+  ],
+  "C_only": [
+   4,
+   41,
+   61,
+   93,
+   110,
+   194,
+   208,
+   430,
+   491,
+   523,
+   524,
+   525,
+   530,
+   533
+  ]
+ },
+ "candidates": [
+  {
+   "id": 3,
+   "name": "개인정보보호위원회_신뢰기반의 AI 개인정보 보호·활용 기술개발(R&D)",
+   "department": "개인정보보호위원회",
+   "project_name": "신뢰기반의 AI 개인정보 보호·활용 기술개발(R&D)",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "보안/사이버",
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": 1500.0,
+   "budget_2025_supp": 1500.0,
+   "budget_2026": 2660.0
+  },
+  {
+   "id": 4,
+   "name": "개인정보보호위원회_안전한 데이터 활용 지원",
+   "department": "개인정보보호위원회",
+   "project_name": "안전한 데이터 활용 지원",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "데이터"
+   ],
+   "budget_2024": 3328.0,
+   "budget_2025": 3564.0,
+   "budget_2025_supp": 3564.0,
+   "budget_2026": 6456.0
+  },
+  {
+   "id": 17,
+   "name": "고용노동부_내일배움카드(고보)",
+   "department": "고용노동부",
+   "project_name": "내일배움카드(고보)",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 571022.0,
+   "budget_2025": 603198.0,
+   "budget_2025_supp": 603198.0,
+   "budget_2026": 508979.0
+  },
+  {
+   "id": 18,
+   "name": "고용노동부_내일배움카드(일반)",
+   "department": "고용노동부",
+   "project_name": "내일배움카드(일반)",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 577838.0,
+   "budget_2025": 580161.0,
+   "budget_2025_supp": 596161.0,
+   "budget_2026": 627325.0
+  },
+  {
+   "id": 22,
+   "name": "고용노동부_사업주직업훈련지원금",
+   "department": "고용노동부",
+   "project_name": "사업주직업훈련지원금",
+   "tiers": [
+    "A",
+    "B"
+   ],
+   "name_keywords": [
+    "훈련"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 368023.0,
+   "budget_2025": 300670.0,
+   "budget_2025_supp": 300670.0,
+   "budget_2026": 249668.0
+  },
+  {
+   "id": 24,
+   "name": "고용노동부_직업능력개발담당자양성 및 훈련매체개발",
+   "department": "고용노동부",
+   "project_name": "직업능력개발담당자양성 및 훈련매체개발",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "양성",
+    "훈련"
+   ],
+   "body_keywords": [
+    "인력양성",
+    "교육훈련"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 75138.0,
+   "budget_2025": 75778.0,
+   "budget_2025_supp": 75778.0,
+   "budget_2026": 82080.0
+  },
+  {
+   "id": 25,
+   "name": "고용노동부_직업능력개발심사평가",
+   "department": "고용노동부",
+   "project_name": "직업능력개발심사평가",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 18394.0,
+   "budget_2025": 19802.0,
+   "budget_2025_supp": 19802.0,
+   "budget_2026": 23024.0
+  },
+  {
+   "id": 39,
+   "name": "과학기술정보통신부_AI-RAN 글로벌 선도 프로젝트(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "AI-RAN 글로벌 선도 프로젝트(R&D)",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재",
+    "통신/네트워크"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 9000.0
+  },
+  {
+   "id": 41,
+   "name": "과학기술정보통신부_AIxBio 혁신 연구거점 조성 시범사업(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "AIxBio 혁신 연구거점 조성 시범사업(R&D)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인재양성"
+   ],
+   "ai_domains": [
+    "의료/바이오"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 10200.0
+  },
+  {
+   "id": 42,
+   "name": "과학기술정보통신부_AI·SW 중심대학",
+   "department": "과학기술정보통신부",
+   "project_name": "AI·SW 중심대학",
+   "tiers": [
+    "A",
+    "B"
+   ],
+   "name_keywords": [
+    "대학"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 117960.0
+  },
+  {
+   "id": 61,
+   "name": "과학기술정보통신부_AI일상화 확산",
+   "department": "과학기술정보통신부",
+   "project_name": "AI일상화 확산",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "LLM/언어모델",
+    "의료/바이오",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 38300.0,
+   "budget_2025": 30870.0,
+   "budget_2025_supp": 30870.0,
+   "budget_2026": 8296.0
+  },
+  {
+   "id": 62,
+   "name": "과학기술정보통신부_AI정밀의료SW선도기반조성",
+   "department": "과학기술정보통신부",
+   "project_name": "AI정밀의료SW선도기반조성",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "의료/바이오",
+    "교육/인재",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 19838.0,
+   "budget_2025": 17825.0,
+   "budget_2025_supp": 17825.0,
+   "budget_2026": 12650.0
+  },
+  {
+   "id": 63,
+   "name": "과학기술정보통신부_AI최고급신진연구자지원사업(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "AI최고급신진연구자지원사업(R&D)",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": null,
+   "budget_2025": 6000.0,
+   "budget_2025_supp": 9000.0,
+   "budget_2026": 34000.0
+  },
+  {
+   "id": 76,
+   "name": "과학기술정보통신부_PIM인공지능반도체핵심기술개발(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "PIM인공지능반도체핵심기술개발(R&D)",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "AI반도체",
+    "교육/인재"
+   ],
+   "budget_2024": 27767.0,
+   "budget_2025": 41458.0,
+   "budget_2025_supp": null,
+   "budget_2026": 27014.0
+  },
+  {
+   "id": 78,
+   "name": "과학기술정보통신부_World Best LLM 데이터 활용 지원",
+   "department": "과학기술정보통신부",
+   "project_name": "World Best LLM 데이터 활용 지원",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "LLM/언어모델",
+    "데이터",
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": 30000.0,
+   "budget_2026": 30000.0
+  },
+  {
+   "id": 85,
+   "name": "과학기술정보통신부_경쟁형 AI혁신인재 성장 지원",
+   "department": "과학기술정보통신부",
+   "project_name": "경쟁형 AI혁신인재 성장 지원",
+   "tiers": [
+    "A",
+    "B"
+   ],
+   "name_keywords": [
+    "인재"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 13000.0
+  },
+  {
+   "id": 86,
+   "name": "과학기술정보통신부_고성능 AI(Hyper-AI) 네트워크 기반조성 사업",
+   "department": "과학기술정보통신부",
+   "project_name": "고성능 AI(Hyper-AI) 네트워크 기반조성 사업",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 8300.0
+  },
+  {
+   "id": 90,
+   "name": "과학기술정보통신부_과학기술혁신인재양성(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "과학기술혁신인재양성(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "인력양성",
+    "전문인력",
+    "교육과정"
+   ],
+   "ai_domains": [
+    "AI반도체",
+    "의료/바이오",
+    "교육/인재",
+    "피지컬AI/디바이스"
+   ],
+   "budget_2024": 52120.0,
+   "budget_2025": 59850.0,
+   "budget_2025_supp": 59850.0,
+   "budget_2026": 76881.0
+  },
+  {
+   "id": 93,
+   "name": "과학기술정보통신부_광주과학기술원 연구 운영비 지원(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "광주과학기술원 연구 운영비 지원(R&D)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인재양성"
+   ],
+   "ai_domains": [
+    "R&D 지원"
+   ],
+   "budget_2024": 93124.0,
+   "budget_2025": 97634.0,
+   "budget_2025_supp": 101384.0,
+   "budget_2026": 120610.0
+  },
+  {
+   "id": 108,
+   "name": "과학기술정보통신부_대학디지털교육역량강화",
+   "department": "과학기술정보통신부",
+   "project_name": "대학디지털교육역량강화",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "교육",
+    "대학"
+   ],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 106241.0,
+   "budget_2025": 110186.0,
+   "budget_2025_supp": 110186.0,
+   "budget_2026": 12031.0
+  },
+  {
+   "id": 110,
+   "name": "과학기술정보통신부_데이터 활용확산 정책지원",
+   "department": "과학기술정보통신부",
+   "project_name": "데이터 활용확산 정책지원",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "데이터"
+   ],
+   "budget_2024": 2850.0,
+   "budget_2025": 2615.0,
+   "budget_2025_supp": 2615.0,
+   "budget_2026": 1277.0
+  },
+  {
+   "id": 115,
+   "name": "과학기술정보통신부_동대구 벤처벨리 AI테크포트 구축",
+   "department": "과학기술정보통신부",
+   "project_name": "동대구 벤처벨리 AI테크포트 구축",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 3000.0
+  },
+  {
+   "id": 123,
+   "name": "과학기술정보통신부_디지털분야글로벌인재양성(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "디지털분야글로벌인재양성(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "대학원"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 8000.0,
+   "budget_2025": 12000.0,
+   "budget_2025_supp": 12000.0,
+   "budget_2026": 12000.0
+  },
+  {
+   "id": 124,
+   "name": "과학기술정보통신부_디지털선도기술 핵심인재양성(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "디지털선도기술 핵심인재양성(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "교육훈련"
+   ],
+   "ai_domains": [
+    "교육/인재",
+    "통신/네트워크"
+   ],
+   "budget_2024": 47890.0,
+   "budget_2025": 49206.0,
+   "budget_2025_supp": 49206.0,
+   "budget_2026": 59529.0
+  },
+  {
+   "id": 125,
+   "name": "과학기술정보통신부_디지털역량강화교육",
+   "department": "과학기술정보통신부",
+   "project_name": "디지털역량강화교육",
+   "tiers": [
+    "A",
+    "B"
+   ],
+   "name_keywords": [
+    "교육",
+    "역량강화교육"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 35685.0,
+   "budget_2025": 32085.0,
+   "budget_2025_supp": 38665.0,
+   "budget_2026": 14102.0
+  },
+  {
+   "id": 126,
+   "name": "과학기술정보통신부_디지털전문·융합인재양성",
+   "department": "과학기술정보통신부",
+   "project_name": "디지털전문·융합인재양성",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "인력양성",
+    "전문인력",
+    "교육과정",
+    "아카데미"
+   ],
+   "ai_domains": [
+    "교육/인재",
+    "문화/콘텐츠",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 81858.0,
+   "budget_2025": 50752.0,
+   "budget_2025_supp": 55752.0,
+   "budget_2026": 91188.0
+  },
+  {
+   "id": 130,
+   "name": "과학기술정보통신부_미래디지털인재양성및 저변확대",
+   "department": "과학기술정보통신부",
+   "project_name": "미래디지털인재양성및 저변확대",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "교육과정"
+   ],
+   "ai_domains": [
+    "교육/인재",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 9625.0,
+   "budget_2025": 7411.0,
+   "budget_2025_supp": 7411.0,
+   "budget_2026": 23924.0
+  },
+  {
+   "id": 132,
+   "name": "과학기술정보통신부_바이오.의료기술개발(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "바이오.의료기술개발(R&D)",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 304292.0,
+   "budget_2025": 361072.0,
+   "budget_2025_supp": 361072.0,
+   "budget_2026": 442976.0
+  },
+  {
+   "id": 133,
+   "name": "과학기술정보통신부_반도체원천기술개발사업(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "반도체원천기술개발사업(R&D)",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "AI반도체",
+    "교육/인재"
+   ],
+   "budget_2024": 40707.0,
+   "budget_2025": 65011.0,
+   "budget_2025_supp": 65011.0,
+   "budget_2026": 68808.0
+  },
+  {
+   "id": 138,
+   "name": "과학기술정보통신부_사람중심인공지능핵심원천기술개발(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "사람중심인공지능핵심원천기술개발(R&D)",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "데이터",
+    "교육/인재",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 45075.0,
+   "budget_2025": 42860.0,
+   "budget_2025_supp": 42860.0,
+   "budget_2026": 42860.0
+  },
+  {
+   "id": 139,
+   "name": "과학기술정보통신부_생성AI선도인재양성(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "생성AI선도인재양성(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "대학원"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 3500.0,
+   "budget_2025": 5200.0,
+   "budget_2025_supp": 8700.0,
+   "budget_2026": 27000.0
+  },
+  {
+   "id": 142,
+   "name": "과학기술정보통신부_소프트웨어인재키움",
+   "department": "과학기술정보통신부",
+   "project_name": "소프트웨어인재키움",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재"
+   ],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "LLM/언어모델",
+    "교육/인재",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 3328.0
+  },
+  {
+   "id": 156,
+   "name": "과학기술정보통신부_의료 AI 반도체 전문인력 양성센터 구축",
+   "department": "과학기술정보통신부",
+   "project_name": "의료 AI 반도체 전문인력 양성센터 구축",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인력 양성",
+    "양성"
+   ],
+   "body_keywords": [
+    "전문인력",
+    "교육과정"
+   ],
+   "ai_domains": [
+    "AI반도체",
+    "의료/바이오",
+    "교육/인재"
+   ],
+   "budget_2024": 3000.0,
+   "budget_2025": 2922.0,
+   "budget_2025_supp": 2922.0,
+   "budget_2026": 4078.0
+  },
+  {
+   "id": 163,
+   "name": "과학기술정보통신부_인공지능융합혁신인재양성(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "인공지능융합혁신인재양성(R&D)",
+   "tiers": [
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "교육과정"
+   ],
+   "ai_domains": [
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 10500.0,
+   "budget_2025": 13500.0,
+   "budget_2025_supp": null,
+   "budget_2026": 21000.0
+  },
+  {
+   "id": 172,
+   "name": "과학기술정보통신부_정보통신방송혁신인재양성(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "정보통신방송혁신인재양성(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "인력양성",
+    "교육과정",
+    "교육훈련",
+    "대학원"
+   ],
+   "ai_domains": [
+    "AI반도체",
+    "교육/인재",
+    "통신/네트워크"
+   ],
+   "budget_2024": 105410.0,
+   "budget_2025": 130400.0,
+   "budget_2025_supp": 140400.0,
+   "budget_2026": 144742.0
+  },
+  {
+   "id": 175,
+   "name": "과학기술정보통신부_지속가능한 데이터센터 산업 발전 지원",
+   "department": "과학기술정보통신부",
+   "project_name": "지속가능한 데이터센터 산업 발전 지원",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "데이터",
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": 9500.0,
+   "budget_2025_supp": 9500.0,
+   "budget_2026": 5250.0
+  },
+  {
+   "id": 177,
+   "name": "과학기술정보통신부_지역디지털 인재양성",
+   "department": "과학기술정보통신부",
+   "project_name": "지역디지털 인재양성",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "아카데미"
+   ],
+   "ai_domains": [
+    "교육/인재",
+    "피지컬AI/디바이스"
+   ],
+   "budget_2024": 54216.0,
+   "budget_2025": 57617.0,
+   "budget_2025_supp": 60997.0,
+   "budget_2026": 69095.0
+  },
+  {
+   "id": 190,
+   "name": "과학기술정보통신부_최고급AI해외인재유치지원(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "최고급AI해외인재유치지원(R&D)",
+   "tiers": [
+    "A",
+    "B"
+   ],
+   "name_keywords": [
+    "인재"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": 5000.0,
+   "budget_2026": 10000.0
+  },
+  {
+   "id": 194,
+   "name": "과학기술정보통신부_클라우드컴퓨팅산업육성(정보화)",
+   "department": "과학기술정보통신부",
+   "project_name": "클라우드컴퓨팅산업육성(정보화)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "보안/사이버",
+    "클라우드/컴퓨팅"
+   ],
+   "budget_2024": 75701.0,
+   "budget_2025": 39508.0,
+   "budget_2025_supp": 39508.0,
+   "budget_2026": 15000.0
+  },
+  {
+   "id": 208,
+   "name": "과학기술정보통신부_한국원자력연구원 연구 운영비 지원(R&D)",
+   "department": "과학기술정보통신부",
+   "project_name": "한국원자력연구원 연구 운영비 지원(R&D)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "교육과정"
+   ],
+   "ai_domains": [
+    "R&D 지원"
+   ],
+   "budget_2024": 140717.0,
+   "budget_2025": 154061.0,
+   "budget_2025_supp": 154061.0,
+   "budget_2026": 171326.0
+  },
+  {
+   "id": 220,
+   "name": "교육부_4단계 두뇌한국21 사업",
+   "department": "교육부",
+   "project_name": "4단계 두뇌한국21 사업",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "대학원",
+    "장학"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 524684.0,
+   "budget_2025": 522478.0,
+   "budget_2025_supp": 523764.0,
+   "budget_2026": 541546.0
+  },
+  {
+   "id": 221,
+   "name": "교육부_AI 디지털 유니버시티 혁신교육 플랫폼 구축(정보화)",
+   "department": "교육부",
+   "project_name": "AI 디지털 유니버시티 혁신교육 플랫폼 구축(정보화)",
+   "tiers": [
+    "A",
+    "B"
+   ],
+   "name_keywords": [
+    "교육"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 200.0
+  },
+  {
+   "id": 222,
+   "name": "교육부_가상실험실습 학습콘텐츠 공유 플랫폼 구축(정보화)",
+   "department": "교육부",
+   "project_name": "가상실험실습 학습콘텐츠 공유 플랫폼 구축(정보화)",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인재양성"
+   ],
+   "ai_domains": [
+    "데이터",
+    "교육/인재",
+    "문화/콘텐츠",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 327.0,
+   "budget_2025": 1673.0,
+   "budget_2025_supp": 1673.0,
+   "budget_2026": 2064.0
+  },
+  {
+   "id": 223,
+   "name": "교육부_국립대학육성사업",
+   "department": "교육부",
+   "project_name": "국립대학육성사업",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "대학"
+   ],
+   "body_keywords": [
+    "인재양성"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 572200.0,
+   "budget_2025": 424300.0,
+   "budget_2025_supp": 424300.0,
+   "budget_2026": 873550.0
+  },
+  {
+   "id": 224,
+   "name": "교육부_대학생 AI 기본 교육 지원",
+   "department": "교육부",
+   "project_name": "대학생 AI 기본 교육 지원",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "교육",
+    "대학"
+   ],
+   "body_keywords": [
+    "교육과정"
+   ],
+   "ai_domains": [
+    "교육/인재",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 8840.0
+  },
+  {
+   "id": 225,
+   "name": "교육부_대학정보공시 제도 운영(정보화)",
+   "department": "교육부",
+   "project_name": "대학정보공시 제도 운영(정보화)",
+   "tiers": [
+    "A",
+    "B"
+   ],
+   "name_keywords": [
+    "대학"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 2936.0,
+   "budget_2025": 2816.0,
+   "budget_2025_supp": 2816.0,
+   "budget_2026": 10531.0
+  },
+  {
+   "id": 226,
+   "name": "교육부_산학연협력 고도화 지원",
+   "department": "교육부",
+   "project_name": "산학연협력 고도화 지원",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인재양성",
+    "교육과정"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 440375.0,
+   "budget_2025": 182700.0,
+   "budget_2025_supp": 184950.0,
+   "budget_2026": 262461.0
+  },
+  {
+   "id": 227,
+   "name": "교육부_소프트웨어인재양성기반구축",
+   "department": "교육부",
+   "project_name": "소프트웨어인재양성기반구축",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 1962.0,
+   "budget_2025": 1962.0,
+   "budget_2025_supp": 1962.0,
+   "budget_2026": 1962.0
+  },
+  {
+   "id": 228,
+   "name": "교육부_학생교육 교류 지원",
+   "department": "교육부",
+   "project_name": "학생교육 교류 지원",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "교육"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "교육과정"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 11175.0,
+   "budget_2025": 14054.0,
+   "budget_2025_supp": 14054.0,
+   "budget_2026": 13682.0
+  },
+  {
+   "id": 229,
+   "name": "교육부_한국장학재단 출연",
+   "department": "교육부",
+   "project_name": "한국장학재단 출연",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "장학"
+   ],
+   "body_keywords": [
+    "장학"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 367382.0,
+   "budget_2025": 407913.0,
+   "budget_2025_supp": 407913.0,
+   "budget_2026": 421041.0
+  },
+  {
+   "id": 230,
+   "name": "교육부_한국형 온라인 공개강좌 콘텐츠 개발 및 활용 활성화",
+   "department": "교육부",
+   "project_name": "한국형 온라인 공개강좌 콘텐츠 개발 및 활용 활성화",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "교육과정"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 19401.0,
+   "budget_2025": 16968.0,
+   "budget_2025_supp": 16968.0,
+   "budget_2026": 19810.0
+  },
+  {
+   "id": 232,
+   "name": "국가데이터처_통계교육지원",
+   "department": "국가데이터처",
+   "project_name": "통계교육지원",
+   "tiers": [
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "교육"
+   ],
+   "body_keywords": [
+    "교육과정",
+    "교육훈련"
+   ],
+   "ai_domains": [
+    "데이터"
+   ],
+   "budget_2024": 1939.0,
+   "budget_2025": 1915.0,
+   "budget_2025_supp": 1915.0,
+   "budget_2026": 2148.0
+  },
+  {
+   "id": 234,
+   "name": "국가데이터처_통계센터 및 교육시설 운영",
+   "department": "국가데이터처",
+   "project_name": "통계센터 및 교육시설 운영",
+   "tiers": [
+    "B"
+   ],
+   "name_keywords": [
+    "교육"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "데이터"
+   ],
+   "budget_2024": 7116.0,
+   "budget_2025": 6362.0,
+   "budget_2025_supp": 6362.0,
+   "budget_2026": 6942.0
+  },
+  {
+   "id": 239,
+   "name": "국방부_국내외 전문 군사교육",
+   "department": "국방부",
+   "project_name": "국내외 전문 군사교육",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "교육"
+   ],
+   "body_keywords": [
+    "전문인력",
+    "교육과정"
+   ],
+   "ai_domains": [
+    "국방/안보",
+    "교육/인재"
+   ],
+   "budget_2024": 47839.0,
+   "budget_2025": 49034.0,
+   "budget_2025_supp": 49034.0,
+   "budget_2026": 49250.0
+  },
+  {
+   "id": 250,
+   "name": "국토교통부_AI 모빌리티 시범도시 조성",
+   "department": "국토교통부",
+   "project_name": "AI 모빌리티 시범도시 조성",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "교통/모빌리티",
+    "교육/인재",
+    "건설/스마트시티"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 61760.0
+  },
+  {
+   "id": 263,
+   "name": "국토교통부_국토교통 DNA플러스융합기술대학원 육성사업(R&D)",
+   "department": "국토교통부",
+   "project_name": "국토교통 DNA플러스융합기술대학원 육성사업(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "대학",
+    "대학원"
+   ],
+   "body_keywords": [
+    "전문인력",
+    "대학원"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 5950.0,
+   "budget_2025": 6000.0,
+   "budget_2025_supp": 6000.0,
+   "budget_2026": 6720.0
+  },
+  {
+   "id": 266,
+   "name": "국토교통부_대심도 장대터널(GTX 등)의 재난대응 복합훈련장 개발(R&D)",
+   "department": "국토교통부",
+   "project_name": "대심도 장대터널(GTX 등)의 재난대응 복합훈련장 개발(R&D)",
+   "tiers": [
+    "B"
+   ],
+   "name_keywords": [
+    "훈련"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "건설/스마트시티",
+    "재난/안전"
+   ],
+   "budget_2024": 2776.0,
+   "budget_2025": 6932.0,
+   "budget_2025_supp": 6932.0,
+   "budget_2026": 8318.0
+  },
+  {
+   "id": 280,
+   "name": "국토교통부_자율자동차 상용화",
+   "department": "국토교통부",
+   "project_name": "자율자동차 상용화",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "데이터",
+    "보안/사이버",
+    "교통/모빌리티",
+    "교육/인재"
+   ],
+   "budget_2024": 42900.0,
+   "budget_2025": 9354.0,
+   "budget_2025_supp": 9354.0,
+   "budget_2026": 9829.0
+  },
+  {
+   "id": 299,
+   "name": "기후에너지환경부_K-그리드 인재·창업 밸리",
+   "department": "기후에너지환경부",
+   "project_name": "K-그리드 인재·창업 밸리",
+   "tiers": [
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재"
+   ],
+   "body_keywords": [
+    "인재양성"
+   ],
+   "ai_domains": [
+    "건설/스마트시티"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 24500.0
+  },
+  {
+   "id": 302,
+   "name": "기후에너지환경부_국립생태원 출연",
+   "department": "기후에너지환경부",
+   "project_name": "국립생태원 출연",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "환경/기후",
+    "교육/인재",
+    "산림/생태"
+   ],
+   "budget_2024": 74942.0,
+   "budget_2025": 70242.0,
+   "budget_2025_supp": 70242.0,
+   "budget_2026": 76928.0
+  },
+  {
+   "id": 315,
+   "name": "기후에너지환경부_생물다양성 보전 및 관리",
+   "department": "기후에너지환경부",
+   "project_name": "생물다양성 보전 및 관리",
+   "tiers": [
+    "B"
+   ],
+   "name_keywords": [
+    "양성"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "환경/기후"
+   ],
+   "budget_2024": 3387.0,
+   "budget_2025": 3392.0,
+   "budget_2025_supp": 3392.0,
+   "budget_2026": 3321.0
+  },
+  {
+   "id": 350,
+   "name": "문화체육관광부_국학진흥 정책기반 조성",
+   "department": "문화체육관광부",
+   "project_name": "국학진흥 정책기반 조성",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 13853.0,
+   "budget_2025": 12812.0,
+   "budget_2025_supp": 12812.0,
+   "budget_2026": 11702.0
+  },
+  {
+   "id": 352,
+   "name": "문화체육관광부_문화기술 전문인력양성(R&D)",
+   "department": "문화체육관광부",
+   "project_name": "문화기술 전문인력양성(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인력양성",
+    "양성"
+   ],
+   "body_keywords": [
+    "인력양성",
+    "전문인력",
+    "교육과정"
+   ],
+   "ai_domains": [
+    "교육/인재",
+    "문화/콘텐츠"
+   ],
+   "budget_2024": null,
+   "budget_2025": 7044.0,
+   "budget_2025_supp": 7044.0,
+   "budget_2026": 6900.0
+  },
+  {
+   "id": 356,
+   "name": "문화체육관광부_저작권 및 AI 산업 상생협력 지원",
+   "department": "문화체육관광부",
+   "project_name": "저작권 및 AI 산업 상생협력 지원",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "데이터",
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 2000.0
+  },
+  {
+   "id": 378,
+   "name": "보건복지부_다기관-멀티모달 연합학습 기반 의료 인공지능 기술 시범모델…",
+   "department": "보건복지부",
+   "project_name": "다기관-멀티모달 연합학습 기반 의료 인공지능 기술 시범모델…",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "LLM/언어모델",
+    "의료/바이오",
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": 6750.0,
+   "budget_2025_supp": 6750.0,
+   "budget_2026": 9000.0
+  },
+  {
+   "id": 379,
+   "name": "보건복지부_바이오헬스산업 육성 지원",
+   "department": "보건복지부",
+   "project_name": "바이오헬스산업 육성 지원",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "의료/바이오",
+    "교육/인재"
+   ],
+   "budget_2024": 67720.0,
+   "budget_2025": 68500.0,
+   "budget_2025_supp": 71582.0,
+   "budget_2026": 233770.0
+  },
+  {
+   "id": 384,
+   "name": "보건복지부_의료 인공지능 특화 융합인재 양성 사업(R&D)",
+   "department": "보건복지부",
+   "project_name": "의료 인공지능 특화 융합인재 양성 사업(R&D)",
+   "tiers": [
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재",
+    "양성"
+   ],
+   "body_keywords": [
+    "인재양성",
+    "교육과정",
+    "대학원"
+   ],
+   "ai_domains": [
+    "의료/바이오"
+   ],
+   "budget_2024": null,
+   "budget_2025": 4500.0,
+   "budget_2025_supp": 4500.0,
+   "budget_2026": 6000.0
+  },
+  {
+   "id": 418,
+   "name": "산업통상부_민관공동투자반도체고급인력양성(R&D)",
+   "department": "산업통상부",
+   "project_name": "민관공동투자반도체고급인력양성(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인력양성",
+    "양성"
+   ],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "AI반도체",
+    "교육/인재"
+   ],
+   "budget_2024": 11974.0,
+   "budget_2025": 16529.0,
+   "budget_2025_supp": 16529.0,
+   "budget_2026": 17332.0
+  },
+  {
+   "id": 420,
+   "name": "산업통상부_바이오산업개방형 생태계 조성 촉진",
+   "department": "산업통상부",
+   "project_name": "바이오산업개방형 생태계 조성 촉진",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인력양성"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 40574.0,
+   "budget_2025": 41661.0,
+   "budget_2025_supp": 41661.0,
+   "budget_2026": 55627.0
+  },
+  {
+   "id": 428,
+   "name": "산업통상부_산업단지환경조성",
+   "department": "산업통상부",
+   "project_name": "산업단지환경조성",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인력양성",
+    "대학원"
+   ],
+   "ai_domains": [
+    "데이터",
+    "에너지",
+    "교육/인재",
+    "제조/스마트팩토리",
+    "통신/네트워크",
+    "건설/스마트시티",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 397197.0,
+   "budget_2025": 331378.0,
+   "budget_2025_supp": 387478.0,
+   "budget_2026": 409920.0
+  },
+  {
+   "id": 430,
+   "name": "산업통상부_산업혁신기반구축(R&D)",
+   "department": "산업통상부",
+   "project_name": "산업혁신기반구축(R&D)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "R&D 지원"
+   ],
+   "budget_2024": 190992.0,
+   "budget_2025": 240845.0,
+   "budget_2025_supp": 240845.0,
+   "budget_2026": 268484.0
+  },
+  {
+   "id": 431,
+   "name": "산업통상부_산업혁신인재성장지원(R&D)",
+   "department": "산업통상부",
+   "project_name": "산업혁신인재성장지원(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인재"
+   ],
+   "body_keywords": [
+    "교육과정",
+    "교육훈련",
+    "대학원"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 157479.0,
+   "budget_2025": 166145.0,
+   "budget_2025_supp": 166145.0,
+   "budget_2026": 201395.0
+  },
+  {
+   "id": 433,
+   "name": "산업통상부_섬유패션산업활성화기반마련",
+   "department": "산업통상부",
+   "project_name": "섬유패션산업활성화기반마련",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 21193.0,
+   "budget_2025": 18490.0,
+   "budget_2025_supp": 18490.0,
+   "budget_2026": 23408.0
+  },
+  {
+   "id": 440,
+   "name": "산업통상부_자율형소프트로봇핵심기술국제공동연구(R&D)",
+   "department": "산업통상부",
+   "project_name": "자율형소프트로봇핵심기술국제공동연구(R&D)",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "국방/안보",
+    "로봇",
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": 3150.0,
+   "budget_2025_supp": 3150.0,
+   "budget_2026": 2520.0
+  },
+  {
+   "id": 441,
+   "name": "산업통상부_제조AI 데이터 벨류체인 구축",
+   "department": "산업통상부",
+   "project_name": "제조AI 데이터 벨류체인 구축",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "데이터",
+    "교육/인재",
+    "제조/스마트팩토리",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 1000.0
+  },
+  {
+   "id": 443,
+   "name": "산업통상부_제조특화 초거대 제조 AI 서비스 개발 및 실증",
+   "department": "산업통상부",
+   "project_name": "제조특화 초거대 제조 AI 서비스 개발 및 실증",
+   "tiers": [
+    "A",
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "인력양성",
+    "전문인력"
+   ],
+   "ai_domains": [
+    "교육/인재",
+    "제조/스마트팩토리"
+   ],
+   "budget_2024": 1400.0,
+   "budget_2025": 5920.0,
+   "budget_2025_supp": 5920.0,
+   "budget_2026": 7680.0
+  },
+  {
+   "id": 466,
+   "name": "인사혁신처_국가인재개발 지능형 오픈 플랫폼 운영(정보화)",
+   "department": "인사혁신처",
+   "project_name": "국가인재개발 지능형 오픈 플랫폼 운영(정보화)",
+   "tiers": [
+    "B"
+   ],
+   "name_keywords": [
+    "인재"
+   ],
+   "body_keywords": [],
+   "ai_domains": [
+    "데이터"
+   ],
+   "budget_2024": 1890.0,
+   "budget_2025": 1988.0,
+   "budget_2025_supp": 1988.0,
+   "budget_2026": -70.0
+  },
+  {
+   "id": 479,
+   "name": "중소벤처기업부_창업사업화지원",
+   "department": "중소벤처기업부",
+   "project_name": "창업사업화지원",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 359131.0,
+   "budget_2025": 403567.0,
+   "budget_2025_supp": 457567.0,
+   "budget_2026": 461838.0
+  },
+  {
+   "id": 480,
+   "name": "중소벤처기업부_창업성공패키지",
+   "department": "중소벤처기업부",
+   "project_name": "창업성공패키지",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": 97368.0,
+   "budget_2025": 100031.0,
+   "budget_2025_supp": 100031.0,
+   "budget_2026": 106431.0
+  },
+  {
+   "id": 491,
+   "name": "해양경찰청_AI기반해양재난대응체계CDX기술개발(R&D)",
+   "department": "해양경찰청",
+   "project_name": "AI기반해양재난대응체계CDX기술개발(R&D)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "현장인력"
+   ],
+   "ai_domains": [
+    "LLM/언어모델",
+    "데이터",
+    "재난/안전",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": null,
+   "budget_2025": 1000.0,
+   "budget_2025_supp": 1000.0,
+   "budget_2026": 4800.0
+  },
+  {
+   "id": 520,
+   "name": "해양수산부_해양수산 융합형 전문인력양성사업(R&D)",
+   "department": "해양수산부",
+   "project_name": "해양수산 융합형 전문인력양성사업(R&D)",
+   "tiers": [
+    "A",
+    "B",
+    "C"
+   ],
+   "name_keywords": [
+    "인력양성",
+    "양성"
+   ],
+   "body_keywords": [
+    "인력양성",
+    "전문인력"
+   ],
+   "ai_domains": [
+    "교육/인재"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 3700.0
+  },
+  {
+   "id": 522,
+   "name": "행정안전부_공공데이터 개방 및 이용활성화 지원(정보화)",
+   "department": "행정안전부",
+   "project_name": "공공데이터 개방 및 이용활성화 지원(정보화)",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "데이터",
+    "교육/인재"
+   ],
+   "budget_2024": 44925.0,
+   "budget_2025": 41634.0,
+   "budget_2025_supp": 41634.0,
+   "budget_2026": 40662.0
+  },
+  {
+   "id": 523,
+   "name": "행정안전부_공공부문 AI 서비스 지원(정보화)",
+   "department": "행정안전부",
+   "project_name": "공공부문 AI 서비스 지원(정보화)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "전문인력"
+   ],
+   "ai_domains": [
+    "행정/전자정부",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": null,
+   "budget_2025": null,
+   "budget_2025_supp": null,
+   "budget_2026": 20608.0
+  },
+  {
+   "id": 524,
+   "name": "행정안전부_과학수사감정지원",
+   "department": "행정안전부",
+   "project_name": "과학수사감정지원",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "교육과정",
+    "교육훈련"
+   ],
+   "ai_domains": [
+    "의료/바이오",
+    "에너지",
+    "법률/치안",
+    "재난/안전"
+   ],
+   "budget_2024": 10779.0,
+   "budget_2025": 12360.0,
+   "budget_2025_supp": 12360.0,
+   "budget_2026": 12843.0
+  },
+  {
+   "id": 525,
+   "name": "행정안전부_데이터기반행정활성화(정보화)",
+   "department": "행정안전부",
+   "project_name": "데이터기반행정활성화(정보화)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "교육과정"
+   ],
+   "ai_domains": [
+    "데이터",
+    "디지털전환(AX)"
+   ],
+   "budget_2024": 14664.0,
+   "budget_2025": 15008.0,
+   "budget_2025_supp": 15008.0,
+   "budget_2026": 10478.0
+  },
+  {
+   "id": 529,
+   "name": "행정안전부_재난안전 AI 관제체계 및 데이터 구축(정보화)",
+   "department": "행정안전부",
+   "project_name": "재난안전 AI 관제체계 및 데이터 구축(정보화)",
+   "tiers": [
+    "A"
+   ],
+   "name_keywords": [],
+   "body_keywords": [],
+   "ai_domains": [
+    "데이터",
+    "보안/사이버",
+    "교육/인재",
+    "법률/치안",
+    "재난/안전"
+   ],
+   "budget_2024": 3251.0,
+   "budget_2025": 5075.0,
+   "budget_2025_supp": 5075.0,
+   "budget_2026": 12369.0
+  },
+  {
+   "id": 530,
+   "name": "행정안전부_재난안전부처협력기술개발(R&D)",
+   "department": "행정안전부",
+   "project_name": "재난안전부처협력기술개발(R&D)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "교육훈련"
+   ],
+   "ai_domains": [
+    "의료/바이오",
+    "로봇",
+    "문화/콘텐츠",
+    "건설/스마트시티",
+    "재난/안전"
+   ],
+   "budget_2024": 11060.0,
+   "budget_2025": 11867.0,
+   "budget_2025_supp": 11867.0,
+   "budget_2026": 18925.0
+  },
+  {
+   "id": 533,
+   "name": "행정안전부_행정서비스통합포털운영(정보화)",
+   "department": "행정안전부",
+   "project_name": "행정서비스통합포털운영(정보화)",
+   "tiers": [
+    "C"
+   ],
+   "name_keywords": [],
+   "body_keywords": [
+    "교육과정"
+   ],
+   "ai_domains": [
+    "행정/전자정부"
+   ],
+   "budget_2024": 15793.0,
+   "budget_2025": 24999.0,
+   "budget_2025_supp": 24999.0,
+   "budget_2026": 22524.0
+  }
+ ]
+}

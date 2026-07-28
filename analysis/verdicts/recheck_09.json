@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "id": 444,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF 총괄표(p.4330): 77,225 / 119,165 / 119,165 / 178,562 / 194,412 / 75,247 / 63.1%. JSON은 앞 6개 필드 일치하나 change_rate가 null(PDF 63.1%) — 1차 판정과 동일하게 확인됨.",
+   "name_match": true,
+   "name_detail": "PDF 사업명 '조선해양산업기술개발(R&D)' (3551-302), 산업통상부 — JSON과 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "내역사업에 AI완전자율운항선박기술개발(15,850), 자율운항선박AI데이터플랫폼기술개발(6,000), 조선산업생산협업디지털전환, 선박소부재생산지능화 등이 실제 존재 → 데이터·교통/모빌리티·제조·해양/수산·디지털전환(AX) 라벨 모두 근거 있음",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "PDF 전문에 인재양성·교육훈련 내역 없음. 조선해양 핵심기술 R&D 자금 지원 사업"
+  },
+  {
+   "id": 450,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF 총괄표(p.4429): 4,800 / 4,800 / 추경 '-' / 10,287 / 10,287 / 5,487 / 114.3%. JSON은 2025_supplementary null(PDF '-'와 일치), 그러나 change_rate가 null(PDF 114.3%) → mismatch 확정",
+   "name_match": true,
+   "name_detail": "PDF '첨단민군융합기술개발(R&D)' (3541-409) 산업통상부 — 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains '국방/안보'는 타당하나, 사업 전체가 '인공지능(AI) 기반 제어기술 개발'이고 내역에 인공지능 기반 스마트 통합함교체계·엣지AI 엔진 최적화가 명시되는데 ai_tech가 null로 비어 있음",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "인력양성·교육훈련 내역 없음. 방산 첨단장비 AI 제어기술 R&D"
+  },
+  {
+   "id": 452,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF 총괄표(p.4454)는 2026 '요구안' 열이 없고 2026 예산(B)만 존재: 1,760 / 1,907(본예산A) / 1,907(추경) / 1,705(2026예산B) / △202 / △10.6. JSON은 한 칸씩 밀려 2026_request 1,705, 2026_budget -202, change_amount -10.6, change_rate null → mismatch 확정",
+   "name_match": true,
+   "name_detail": "PDF '119빅데이터 분석운영' (1133-311) 소방청 — 일치. 다만 sub_projects가 사업명을 '119빅데이터'/'분석운영'으로 잘못 분절",
+   "classification_verdict": "partial",
+   "classification_detail": "'데이터'·'재난/안전'·'행정/전자정부'는 타당. '피지컬AI/디바이스'는 소방안전 빅데이터 플랫폼의 '소방 IoT' 데이터 수집 언급 수준이라 근거 약함. 또한 공공 AI·데이터 역량강화 교육 내역이 있음에도 '교육/인재' 누락",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "'빅데이터 운영' 내역에 공공 AI·데이터 역량강화 교육 운영, 데이터교육 1.2백만원×24명×1주=29백만원, 중앙소방학교·KISTI 빅데이터 실무교육(총 125명 수료) 명시. 다만 전체 예산(1,705백만원) 대비 소액 부수요소"
+  },
+  {
+   "id": 453,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF 총괄표(p.4454~5)에 2026 '요구안' 열 없음: 8,703 / 13,337(본예산A) / 13,337(추경) / 15,310(2026예산B) / 1,973 / 14.8. JSON은 한 칸 밀려 2026_budget 1,973, change_amount 14.8, change_rate null → mismatch 확정",
+   "name_match": true,
+   "name_detail": "PDF '소방정보시스템구축(정보화)' (1150-500) 소방청 — 일치. sub_projects 분절 오류('소방정보시스템'/'구축(정보화)')",
+   "classification_verdict": "appropriate",
+   "classification_detail": "1차의 '건설/스마트시티 근거 약함' 지적은 재검 결과 부적절 — 사업목적에 '소방 현장영상과 스마트시티 CCTV 영상 통합관제체계 구축' 명시. 우주/위성(비상위성통신망), 통신/네트워크(긴급구조 데이터망), 교통/모빌리티(소방항공 운항관리) 모두 내역 근거 있음",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "인력양성 내역 없음. 다만 1차의 ai_relevance 'none'은 오판 — 차세대 119시스템(AI 신고접수·긴급도 판단), 국가화재정보시스템 빅데이터·AI 고도화, AI·클라우드 기반 119 통합시스템 구축이 핵심 내역으로 명시됨"
+  },
+  {
+   "id": 457,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 총괄표(p.4516): 14,926 / 12,512(본예산A) / 13,820(추경) / 17,739(요구) / 17,739(예산B) / 5,227 / 41.8 — JSON 7개 필드 모두 일치",
+   "name_match": true,
+   "name_detail": "PDF '식의약품 안전정보체계 선진화(정보화)' (7032-503) 식품의약품안전처 — 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'데이터·보안/사이버·의료/바이오'는 타당하나, 최대 내역(의약품 AI 심사 및 산업지원 체계 구축 8,010백만원, 전체의 45%)에서 생성형 AI·문자인식·의약품 특화 AI 모델·AI검색모델이 명시되는데 ai_tech가 null. 규제과학인재원 운영 플랫폼 ISP가 있어 '교육/인재' 도메인도 누락",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "내역사업 '규제과학인재원 운영 플랫폼 구축 ISP'(274백만원) — 식의약 종사자 대상 규제과학 전문인력 양성 인재원(총사업비 193.6억, '24~'27) 설립·운영 관리체계 구축, '27년부터 직무·전문·사이버 182개 교육과정 직접 수행 예정"
+  },
+  {
+   "id": 466,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF 총괄표(p.4667)에 추경 열 없음. 열 구성: 2024결산 1,890 / 2025본예산(A) 1,988 / 2026요구안 1,988 / 확정(B) 1,918 / 증감 △70 / 증감률 △3.5. JSON은 2025_supplementary 1,988, 2026_request 1,918, 2026_budget -70, change_amount -3.5, change_rate null로 한 칸씩 밀림 → mismatch 확정",
+   "name_match": true,
+   "name_detail": "PDF '국가 인재개발 지능형 오픈 플랫폼 운영(정보화)' (1732-301) 인사혁신처 — 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains가 '데이터' 단독 — 사업 자체가 공무원 인재개발 학습플랫폼이므로 '교육/인재' 및 '행정/전자정부' 누락. AI·빅데이터 기반 맞춤형 학습 추천이 핵심 기능인데 ai_tech도 null",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "사업목적: '정부·민간 학습 콘텐츠 통합 제공, AI·빅데이터 기반 개인별 맞춤형 학습 추천으로 공무원 역량개발 지원'. 근거법령 「공무원 인재개발법」 제2조 및 시행령 제14조의4(지능형인재개발플랫폼 운영) — 명백한 교육훈련 인프라 사업"
+  },
+  {
+   "id": 467,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF 총괄표(p.4649경)에 추경 열 없음: 2024결산 8,394 / 2025본예산(A) 13,284 / 2026요구안 9,344 / 확정(B) 7,487 / 증감 △5,797 / 증감률 △43.6. JSON은 2025_supplementary 9,344, 2026_request 7,487, 2026_budget -5,797, change_amount -43.6, change_rate null로 한 칸씩 밀림 → mismatch 확정",
+   "name_match": true,
+   "name_detail": "PDF '전자인사관리시스템운영(정보화)' (1946-501) 인사혁신처 — 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains '디지털전환(AX)' 단독. 국가 인사행정 정보시스템(e-사람) 운영 사업이므로 '행정/전자정부' 누락이 명백",
+   "ai_relevance": "none",
+   "talent_related": false,
+   "talent_note": "PDF 전문 검색 결과 '인공지능/AI' 단어 0건. 인사기록·인사관리 시스템 운영으로 인재양성·교육훈련 사업 아님"
+  },
+  {
+   "id": 479,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 총괄표(p.4~): 359,131 / 403,567(본예산) / 457,567(추경A) / 491,667(요구안) / 461,838(본예산B) / 4,271 / 0.9 — JSON 7개 필드 모두 일치",
+   "name_match": true,
+   "name_detail": "PDF '창업사업화지원' (5132-302) 중소벤처기업부 — 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains '교육/인재' 단독은 부적절. 실제 내용은 창업패키지(195,187)·초격차 스타트업(145,622) 등 창업 사업화 자금 지원이 주. 창업중심대학(88,250, 19%)만이 대학 기반이나 이 역시 사업화지원 61,432 + 프로그램 운영 중심이며 인재양성 교육사업이 아님. '창업/벤처' 성격 도메인 누락",
+   "ai_relevance": "none",
+   "talent_related": false,
+   "talent_note": "창업중심대학·창업교육 언급은 있으나(중소기업창업 지원법 제10조 창업교육 조항 인용 수준), 예산 산출근거는 사업화지원금 중심으로 인재양성 사업으로 보기 어려움. 초격차 프로젝트 요구서에 'AI·팹리스·기후테크 분야 스타트업 집중 육성' 언급이 있으나 10개 분야 중 하나의 나열 수준"
+  },
+  {
+   "id": 485,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 총괄표(p.~): 23,495 / 26,853(본예산A) / 추경 '-' / 36,698(정부안) / 34,698(최종B) / 7,845 / 29.2 — JSON 7개 필드 모두 일치(2025_supplementary null = PDF '-')",
+   "name_match": true,
+   "name_detail": "PDF '지식재산 활용(사업화, 거래, 평가) 지원' (1332-303) 지식재산처 — 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "1차의 'wrong'은 과도. 내역사업 '지식재산활용 확산 인프라 구축'이 'AI 기반 IP거래·이전용 통합DB 구축 및 데이터 학습을 통한 AI 기반 IP가치평가 시스템 구축'으로 명시돼 '디지털전환(AX)' 라벨에 최소한의 근거는 있음. 다만 해당 내역은 '26년 예산 0원(740→0)으로 종료되고 나머지는 IP 사업화·거래·평가 자금 지원이라 단독 라벨로는 대표성이 약함",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "인재양성·교육훈련 내역 없음"
+  },
+  {
+   "id": 524,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 총괄표(p.~): 10,779 / 12,360(본예산) / 12,360(추경A) / 12,843(요구안) / 12,843(본예산B) / 483 / 3.9 — JSON 7개 필드 모두 일치",
+   "name_match": true,
+   "name_detail": "PDF '과학수사감정지원' (2531-303) 행정안전부(국립과학수사연구원) — 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'법률/치안·의료/바이오·재난/안전'은 타당. '에너지'는 부적절 — 내역 '방사선 안전관리'(36백만원, 감정장비 방사선 안전관리)를 에너지 분야로 오인한 것으로 판단. 또한 '딥페이크 탐지 AI시스템 도입'(900백만원, '26 신규)이 있음에도 ai_tech가 null",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "내역사업 '과학수사기법교육과정'(93백만원), '자유학기제 과학수사 프로그램'(41백만원) 존재 — 교육훈련 요소는 있으나 전체 12,843백만원 대비 1% 수준의 부수 내역"
+  },
+  {
+   "id": 525,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 총괄표(p.5197경): 14,664 / 15,008(본예산) / 15,008(추경A) / 14,506(요구안) / 10,478(본예산B) / △4,530 / △30.2 — JSON 7개 필드 모두 일치(음수는 PDF △ 표기와 부합)",
+   "name_match": true,
+   "name_detail": "PDF '데이터기반행정활성화(정보화)' (2046-503) 행정안전부 — 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'데이터·디지털전환(AX)'은 타당하나 '교육/인재' 및 '행정/전자정부' 누락. 특히 내역사업 '데이터기반행정 역량지원'(1,479백만원)의 대부분이 AI인재양성 교육과정 개발·운영(1,105백만원)",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "사업목적에 'AI·데이터 중심 대상별·수준별 교육과정 개발, 행정·공공기관 직원 AI리터러시 역량 제고, 내부 실무인재 육성' 명시. '26 예산 산출근거 'AI·데이터 인재 양성·리터러시 강화 1,105백만원 = AI인재양성 교육과정 개발·운영'. 추진경위에도 '전문인재 양성과정 계획 수립 및 운영('24.1~)' 기재"
+  },
+  {
+   "id": 527,
+   "budget_verdict": "uncertain",
+   "budget_detail": "PDF 총괄표(p.5214) 열: 2024결산 | 2025본예산 | 추경*(A) | 2026요구안 | 본예산(B) | 증감(B-A) | (B-A)/A, 값: '-' / 5,392 / 5,392 / 7,958 / 7,371 / 7,371 / 1,979. 추출 텍스트 순서상 JSON 7개 값이 PDF와 그대로 일치하나, 7,371이 두 번 나오고 증감액이 B-A=1,979와 불일치하며 증감률 1,979%는 비현실적(정상값은 증감 1,979, 증감률 36.7%). PDF 표 자체의 셀 중복/추출 오류 가능성이 있어 확정 불가 → uncertain. 앞 5개 필드(null/5,392/5,392/7,958/7,371)는 확실히 일치",
+   "name_match": true,
+   "name_detail": "PDF '범정부 인공지능 공통기반 구현' (2039-506) 행정안전부 인공지능정부실, 시행주체 한국지능정보사회진흥원 — 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'LLM/언어모델'은 타당(범정부 초거대AI 공통기반 구현·운영). 다만 각 기관이 특화 데이터로 초거대 AI 서비스를 구현·운영하도록 지원하는 범정부 공통기반 사업이므로 '행정/전자정부' 도메인 누락, ai_tech도 null",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "PDF 전문에 인재양성·교육훈련 내역 없음(사업목적은 초거대 AI 공통기반 구현·운영에 한정)"
+  }
+ ]
+}

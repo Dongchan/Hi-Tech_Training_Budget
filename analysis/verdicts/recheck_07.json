@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "id": 337,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.3013 예산총괄표(6열: 2024결산/2025본예산(A)/2026요구/2026조정(B)/증감(B-A)/(B-A)/A) = -, -, 7,800, 7,800, 7,800, 순증. JSON은 한 칸씩 밀림: 2025_supplementary=7800(PDF는 추경열 자체가 없고 값도 없음 → null이어야), 2026_request=7800(OK), 2026_budget=7800(OK), change_amount=null(PDF 증감 7,800), change_rate=null(PDF '순증' → null 허용). 결론: 2025_supplementary 오탑재 + change_amount 누락.",
+   "name_match": true,
+   "name_detail": "PDF '(29) AI기반작물모니터링및진단플랫폼개발(R&D) (1136-383)', 농촌진흥청 연구정책국 — JSON name/code 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "is_rnd=true, rnd_stage=개발(신규 R&D, 6+3+3 신규과제) 타당. ai_domains 데이터·농업/식품 적절. 내역사업 3개(3,510/2,340/1,950) PDF와 일치.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "인재양성·교육훈련 내역 없음. 수혜자는 산·학·연 공동연구 수행기관으로 연구비 지원 성격."
+  },
+  {
+   "id": 338,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.3023 예산총괄표 = -, -(2025본예산A), 2,000(2026요구), 2,000(조정B), 2,000(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=2000(→null이어야), change_amount=null(→2,000). 2026_request/2026_budget 2,000은 일치.",
+   "name_match": true,
+   "name_detail": "PDF '(57) 국경 이동성 해충의 국제 발생 예측 및 방제기술 개발(R&D) (1133-435)' — 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "is_rnd/rnd_stage/ai_domains(농업/식품)는 타당하나, PDF p.3026에 명시된 총사업비 127억(12,700백만원)이 JSON total_cost=null로 누락됨.",
+   "ai_relevance": "none",
+   "talent_related": false,
+   "talent_note": "해충 예찰·예측·방제 R&D. 인력양성 내역 없음."
+  },
+  {
+   "id": 339,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.3033 예산총괄표 = 7,974(2024결산) / 7,273(2025본예산A) / 7,050(2026요구) / 6,823(조정B) / △450(증감) / △6.2(%). JSON은 2024_settlement·2025_original까지만 정확하고 이후 한 칸 밀림: 2025_supplementary=7050(→2026요구), 2026_request=6823(→조정B), 2026_budget=-450(→증감액), change_amount=-6.2(→증감률), change_rate=null. 음수는 PDF의 △450/△6.2와 부호 자체는 정합하나 필드 위치가 전부 어긋남. sub_projects도 '농업기술정보화'/'(정보화)'로 사업명이 잘려 들어가 실제 내역사업(맞춤형 농업기술콘텐츠 확충 220, 농업과학기술정보플랫폼 운영 620, 농업 데이터 플랫폼 운영 1,001 등)과 무관.",
+   "name_match": true,
+   "name_detail": "PDF '농업기술정보화(정보화)' (2333-500) — 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "'로봇'은 PDF의 '소프트웨어 프로그램(로봇) 기반 자동화 서비스'(RPA) 오독으로 부적절, '산림/생태'는 근거 없음, '피지컬AI/디바이스'도 사물인터넷 작물정밀관리 정도로 과도. 실제로는 데이터·농업/식품·행정(정보시스템 운영)이 타당.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "정보시스템 운영·유지보수 사업. 교육훈련 내역 없음."
+  },
+  {
+   "id": 340,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.3051 예산총괄표 = -, -, 3,000(요구), 3,000(조정B), 3,000(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=3000(→null), change_amount=null(→3,000).",
+   "name_match": true,
+   "name_detail": "PDF '(40) 농작업안전관리기술및웨어러블편이장비개발(R&D) (1147-347)' — 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains가 '재난/안전' 단독. PDF 사업내용상 '농업/식품' 필수 누락이며, '행동 예측 기반 농작업 보조 웨어러블 로봇 개발'·'웨어러블 로봇 농업적용 협의체'가 명시되므로 로봇/피지컬AI 계열도 누락.",
+   "ai_relevance": "none",
+   "talent_related": false,
+   "talent_note": "농업인 안전·건강 R&D. 인력양성 내역 없음."
+  },
+  {
+   "id": 341,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.3060 예산총괄표 = -, -, 1,770(요구), 1,770(조정B), 1,770(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=1770(→null), change_amount=null(→1,770).",
+   "name_match": true,
+   "name_detail": "PDF '(36) 데이터기반농업관측을위한위성영상활용기술개발(R&D) (1147-342)' — 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_tech '컴퓨터비전'은 PDF 본문 근거 없음(위성영상 활용 작황 모니터링·이용변화 탐지 서술뿐). ai_domains에 '농업/식품' 누락(데이터·우주/위성만 부여). rnd_stage '응용연구'는 신규 3개 과제 성격상 수용 가능.",
+   "ai_relevance": "none",
+   "talent_related": false,
+   "talent_note": "위성 관측기술 R&D. 인력양성 내역 없음."
+  },
+  {
+   "id": 342,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.3078 예산총괄표 = 16,643(2024결산) / 18,180(2025본예산A) / 18,708(2026요구) / 18,708(조정B) / 528(증감) / 2.9(%). JSON 한 칸 밀림: 2025_supplementary=18708(→null), 2026_request=18708(→OK 우연 일치), 2026_budget=528(→18,708), change_amount=2.9(→528), change_rate=null(→2.9). 또한 sub_projects가 사업명 파편('패키지혁신기술개발'/'(R&D)' 각 264)으로 잘못 추출됨 — 실제 내역사업은 '스마트팜 실증·고도화 연구'(2024 7,641) 등.",
+   "name_match": true,
+   "name_detail": "PDF '스마트팜다부처 패키지혁신기술개발(R&D)' (1147-330) — 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "is_rnd/rnd_stage(실증·고도화) 타당하나 ai_domains가 '농업/식품' 단독. PDF에 '자율주행 기반 무인화 로봇', '수확 로봇', '무인 주행형 방제 로봇', '생성형 AI 축우/양돈 개체관리' 등이 다수여서 로봇/피지컬AI 및 LLM 계열 누락.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "다부처 스마트팜 R&D 패키지. 인력양성 내역사업 없음."
+  },
+  {
+   "id": 343,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.3084 예산총괄표 = -, -, 2,950(요구), 2,950(조정B), 2,950(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=2950(→null), change_amount=null(→2,950).",
+   "name_match": true,
+   "name_detail": "PDF '지능형농업로봇핵심기반기술개발(R&D)' (1147-343) — 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "내역사업 'AI기반 농업용 로봇지능형 농작업요소기술 개발' 2,950과 일치. ai_domains 로봇·농업/식품, ai_tech 로보틱스/자율시스템 타당.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "농업로봇 요소기술 R&D. 인력양성 내역 없음."
+  },
+  {
+   "id": 344,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.3092 예산총괄표 = -, -, 7,500(요구), 7,500(조정B), 7,500(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=7500(→null), change_amount=null(→7,500). 내역사업 4,200/3,300은 PDF와 일치.",
+   "name_match": true,
+   "name_detail": "PDF '(39) 특용작물유래천연활성바이오소재생산및활용기술개발(R&D) (1147-345)' — 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "그린바이오·세포배양·합성생물학 기반 소재 R&D. is_rnd/rnd_stage(개발), ai_domains 농업/식품 무난(굳이 보완하면 바이오 계열 추가 여지). ai_tech null도 PDF에 AI 기술 언급 없어 정합.",
+   "ai_relevance": "none",
+   "talent_related": false,
+   "talent_note": "바이오소재 생산기술 R&D. 인력양성 내역 없음."
+  },
+  {
+   "id": 346,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.3110 예산총괄표 = 48,598(2024결산) / 72,740(2025본예산A) / 112,938(2026요구) / 82,846(조정B) / 10,106(증감) / 13.9(%). JSON 한 칸 밀림: 2025_supplementary=112938(→null, PDF에 추경열 없음), 2026_request=82846(→112,938), 2026_budget=10106(→82,846), change_amount=13.9(→10,106), change_rate=null(→13.9). sub_projects 값도 동일하게 밀려 있음.",
+   "name_match": true,
+   "name_detail": "PDF '사법업무전산화'(대법원, 1331-300) — 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "정보화 운영사업으로 is_rnd=false 타당. ai_domains 데이터·보안/사이버·행정/전자정부 모두 PDF 내역사업(AI플랫폼, 지능형 보안운영체계, 사법업무시스템)과 정합.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "법원 정보시스템 구축·운영. 교육훈련·인재양성 내역사업 없음."
+  },
+  {
+   "id": 356,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.(문체부 저작권) 예산총괄표 7열 = -(2024결산) / -(2025본예산) / -(2025추경A) / 3,500(2026요구안) / 2,000(2026본예산B) / 2,000(증감) / 순증. JSON null/null/null/3500/2000/2000/null과 일치(증감률 '순증'은 수치 없음).",
+   "name_match": true,
+   "name_detail": "PDF '저작권 및 AI산업 상생협력 지원'(1333-302) — 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "'교육/인재' 도메인 부적절 — PDF의 '학습데이터'는 AI 모델 학습용 데이터(공공저작물 개방·권리정보 플랫폼)이지 사람 교육이 아님. 데이터·문화/콘텐츠(저작권)가 타당.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "AI 학습데이터 개방·저작권 권리정보 유통 플랫폼. 인력양성 요소 없음."
+  },
+  {
+   "id": 360,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 지출계획 총괄표 7열 = 17,914 / 19,397(본예산) / 19,397(추경A) / 16,792(요구안) / 16,792(본예산B) / △2,605 / △13.4. JSON 7필드 모두 일치(음수 -2605/-13.4는 PDF △ 표기와 정합).",
+   "name_match": true,
+   "name_detail": "PDF '방송콘텐츠 진흥'(방송미디어통신위원회, 1131-301) — 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains가 '디지털전환(AX)' 단독. 방송·크리에이터 미디어 콘텐츠 제작지원이 본류이므로 '문화/콘텐츠' 누락, 신설 내역사업 'AI·디지털 기반 미디어 융합인재'(1,792)와 '지역 방송 제작역량 강화'(AI 제작 기술교육)로 '교육/인재'도 누락. 또한 is_rnd=false인데 rnd_stage='실증/시범'이 남아 있어 내부 불일치.",
+   "ai_relevance": "core",
+   "talent_related": true,
+   "talent_note": "확정. PDF: '(AI·디지털 기반 미디어 융합인재) 전주기 방송인력 대상 AI·신기술 기반 수요 맞춤형 교육을 통한 핵심 AI 융합인재 양성'(’26 신설 1,792백만원), 근거법 방송법 제94조(방송전문인력의 양성), 방송통신발전기본법 제21조. '지역 방송 제작역량 강화'도 지역 융합인재 양성·AI 제작 기술교육, '크리에이터미디어 산업기반 조성'은 신직군 이론·실무·현장교육 및 취업 지원 포함."
+  },
+  {
+   "id": 369,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 예산총괄표 7열 = 8,435 / 8,046(본예산) / 8,046(추경*A) / 20,517(요구안) / 20,771(본예산B) / 12,725(증감) / 158(%). JSON 7필드 모두 일치. 내역사업 8건 금액도 PDF와 정합.",
+   "name_match": true,
+   "name_detail": "PDF '법제업무정보화추진(정보화)'(법제처, 1033-500) — 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "'LLM/언어모델'은 생성형 AI 법령검색(법령특화 LLM 1,656백만, 학습데이터 870백만 등 총 3,344백만원)으로 근거 충분하나, ai_domains 항목에 기술분류가 들어가 있고 ai_tech는 null이어서 필드 배치가 어긋남. 또한 사업 본질(국가법령정보·정부입법지원 등 행정 정보시스템)에 대한 '행정/전자정부' 도메인이 누락(동일 성격의 id 346에는 부여됨).",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "약하게 해당. 내역사업 '법제교육시스템 운영'(’25 40 → ’26 436백만원)이 존재하며 PDF는 '법제교육 과정 확인부터 수료까지 전 과정을 전산화', '기관별 교육생 관리 및 교육 유형별 체계적 교육관리 개발', 근거로 법제업무운영규정 제29조의2제4항(법제교육)을 명시 → 공무원 법제교육 훈련 지원 성격. 다만 전체 20,771백만원 중 2% 수준의 교육운영 시스템 유지·보수이며 AI 인재양성과는 무관."
+  }
+ ]
+}

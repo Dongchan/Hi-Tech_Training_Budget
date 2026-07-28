@@ -1,0 +1,160 @@
+{
+  "results": [
+    {
+      "id": 521,
+      "budget_verdict": "match",
+      "budget_detail": "PDF 총괄표(-/-/-/2,100/2,100/2,100/순증)와 JSON 7개 필드 일치, change_rate=null은 '순증' 표기와 부합",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "appropriate",
+      "classification_detail": "AUV·험지주행 시추탐사 로봇 개발이므로 '로봇' 타당",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "talent_note": ""
+    },
+    {
+      "id": 522,
+      "budget_verdict": "match",
+      "budget_detail": "change_rate: JSON -2.3 vs PDF △2.33 (반올림 차이 외 전 필드 일치)",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "appropriate",
+      "classification_detail": "AI 학습용 공공데이터 가공(데이터), 공공데이터 개방 교육훈련(교육/인재) 근거 있음",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "'공공데이터 이용활성화 지원' 내역에 공공데이터 개방 교육 훈련·창업경진대회 포함"
+    },
+    {
+      "id": 523,
+      "budget_verdict": "match",
+      "budget_detail": "PDF(-/-/-/20,608/20,608/20,608/순증)와 일치",
+      "name_match": true,
+      "name_detail": "PDF 사업명은 '공공부문 AI 서비스 지원', JSON은 '(정보화)' 부기 — 실질 동일",
+      "classification_verdict": "appropriate",
+      "classification_detail": "",
+      "ai_relevance": "core",
+      "talent_related": false,
+      "talent_note": "AX 전문인력 부족을 언급하나 지원 내용은 컨설팅(공공 AI 사업지원센터)으로 인재양성 사업 아님"
+    },
+    {
+      "id": 524,
+      "budget_verdict": "match",
+      "budget_detail": "PDF(10,779/12,360/12,360/12,843/12,843/483/3.9)와 일치",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "partial",
+      "classification_detail": "'에너지'는 부적절(방사선 안전관리 내역을 오인한 것으로 보임). 법률/치안·의료/바이오·재난/안전은 타당",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "과학수사기법 교육과정(93백만원), 자유학기제 과학수사 프로그램, 사업목적에 '교육훈련 지원' 명시"
+    },
+    {
+      "id": 525,
+      "budget_verdict": "match",
+      "budget_detail": "PDF(14,664/15,008/15,008/14,506/10,478/△4,530/△30.2)와 일치",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "partial",
+      "classification_detail": "'교육/인재' 누락 — 데이터기반행정 역량지원(AI리터러시 교육과정 개발, 내부 실무인재 육성) 내역이 명확히 존재",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "데이터기반행정 역량지원(1,479백만원): 대상별·수준별 AI·데이터 교육과정 개발 및 실무인재 육성"
+    },
+    {
+      "id": 526,
+      "budget_verdict": "match",
+      "budget_detail": "PDF(-/1,500/1,500/2,600/2,600/1,100/73.3)와 일치",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "appropriate",
+      "classification_detail": "디지털트윈 기반 급경사지 위험성 분석·드론SAR 모니터링으로 건설/스마트시티·재난/안전 타당",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "talent_note": ""
+    },
+    {
+      "id": 527,
+      "budget_verdict": "mismatch",
+      "budget_detail": "change_amount: JSON 7,371 vs PDF 실제 증감액 1,979(7,371-5,392) / change_rate: JSON 1,979(%) vs PDF 총괄표에 증감률 수치 없음 — 총괄표 열 밀림으로 증감액·증감률이 한 칸씩 잘못 매핑됨(증감률 1,979%는 비현실적)",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "partial",
+      "classification_detail": "'LLM/언어모델'은 타당하나 범정부 전자정부 공통기반 사업으로 '행정/전자정부' 도메인 누락",
+      "ai_relevance": "core",
+      "talent_related": false,
+      "talent_note": ""
+    },
+    {
+      "id": 528,
+      "budget_verdict": "match",
+      "budget_detail": "총괄표 7개 필드(32,940/31,744/31,744/26,766/26,766/△4,978/△15.7) 일치. 다만 JSON total_cost(1,862.2억)는 PDF '총사업비: 해당없음'과 불일치",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "partial",
+      "classification_detail": "'교통/모빌리티'는 안전사고 R&D 중 교통사고 분야 언급뿐으로 근거 약함, 핵심은 재난/안전",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "talent_note": ""
+    },
+    {
+      "id": 529,
+      "budget_verdict": "match",
+      "budget_detail": "PDF(3,251/5,075/5,075/12,369/12,369/7,294/143.7)와 일치",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "partial",
+      "classification_detail": "'교육/인재'는 AI '학습데이터'를 오인한 것으로 부적절, '보안/사이버'·'법률/치안'도 근거 약함(CCTV 재난관제). 데이터·재난/안전이 핵심",
+      "ai_relevance": "core",
+      "talent_related": false,
+      "talent_note": ""
+    },
+    {
+      "id": 530,
+      "budget_verdict": "match",
+      "budget_detail": "PDF(11,060/11,867/11,867/18,925/18,925/7,058/59.5)와 일치",
+      "name_match": true,
+      "name_detail": "PDF '재난안전 부처협력 기술개발(R&D)' — 공백 차이만 존재",
+      "classification_verdict": "appropriate",
+      "classification_detail": "감염병(의료/바이오), 소방로봇(로봇), 메타버스 교육훈련(문화/콘텐츠), 지하공동구·초고층 플랫폼(건설) 모두 내역사업 근거 있음",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "'가상융합기술 기반 재난대응 교육훈련 플랫폼 개발'(2026년 1,000백만원) — 메타버스 기반 재난안전 교육훈련시스템 구축"
+    },
+    {
+      "id": 531,
+      "budget_verdict": "match",
+      "budget_detail": "총괄표 7개 필드(7,407/10,530/10,530/28,040/26,152/15,622/148.4) 일치. 다만 sub_projects가 사업명 줄바꿈('전자문서'/'소통시스템'/'(정보화)')을 내역사업으로 오추출(실제 내역은 온나라 문서시스템 운영 등 6개)",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "appropriate",
+      "classification_detail": "",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "talent_note": ""
+    },
+    {
+      "id": 532,
+      "budget_verdict": "match",
+      "budget_detail": "PDF(36,329/19,933/19,933/23,054/19,514/△419/△2.1)와 일치",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "appropriate",
+      "classification_detail": "보안/사이버·행정/전자정부 타당, '데이터'는 인증·SSL 중심이라 다소 약함",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "내역사업 '전자정부 정보보호 전문교육'(2026년 90백만원) 포함"
+    },
+    {
+      "id": 533,
+      "budget_verdict": "match",
+      "budget_detail": "PDF(15,793/24,999/24,999/21,780/22,524/△2,475/△9.9)와 일치",
+      "name_match": true,
+      "name_detail": "",
+      "classification_verdict": "appropriate",
+      "classification_detail": "",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "'대국민 행정서비스 확산' 내역에 정부24 헬프데스크 및 교육과정 운영 포함(부수적 수준)"
+    }
+  ]
+}

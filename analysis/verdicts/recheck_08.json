@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "id": 378,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.3430 총괄표: -/6,750/6,750/9,000/9,000/2,250/33.3 — JSON 7개 필드 전부 일치(2024결산 '-'→null 처리 타당)",
+   "name_match": true,
+   "name_detail": "PDF 사업명 '다기관-멀티모달 연합학습 기반 의료 인공지능 기술 시범모델 개발(R&D)'(3031-575)과 일치(JSON은 말줄임 표기)",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains의 '교육/인재'는 근거 없음(연합'학습'을 교육으로 오인한 것으로 보임). 실제 내용은 의료기관 간 데이터 비공유 연합학습 플랫폼·멀티모달 파운데이션 모델. '의료/바이오','LLM/언어모델'은 타당. 추가로 사업명·근거법(보건의료기술진흥법, 국가연구개발사업)상 명백한 R&D인데 is_rnd=false로 잘못 표기됨",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "인재양성·교육훈련 요소 없음. 수혜자는 산·학·연·병 연구자이며 지원금 전액이 R&D 출연금(한국보건산업진흥원 9,000백만원)"
+  },
+  {
+   "id": 382,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.3481 총괄표: 4,450/3,978/3,978/15,040/15,040/11,062/278.1 — JSON과 완전 일치",
+   "name_match": true,
+   "name_detail": "'사회보장정보시스템 구축 및 운영(정보화)'(2640-300) 일치",
+   "classification_verdict": "wrong",
+   "classification_detail": "ai_domains=['의료/바이오']는 오분류. 소관은 사회복지정책실 복지행정지원관, 분야 080 사회복지·부문 089 사회복지일반이며 내용은 복지로/복지멤버십/사각지대 발굴·차세대 사회보장정보시스템 구축. '행정/전자정부' 또는 '복지/사회서비스', '데이터'가 적합",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "'맞춤형 급여 안내 활성화'에 복지공무원 업무교육·홍보(470백만원)가 있으나 인재양성 사업 성격 아님"
+  },
+  {
+   "id": 384,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 총괄표: 2024결산 공란, 4,500/4,500/6,000/6,000/1,500/33.3 — JSON과 일치",
+   "name_match": true,
+   "name_detail": "'의료 인공지능 특화 융합인재 양성 사업(R&D)'(3031-592) 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'의료/바이오'+'신약/의료AI'는 맞으나, 사업 본질인 '교육/인재' 도메인이 누락됨. 학·석·박사 학위과정(마이크로디그리, 의료인공지능학 세부전공교실, PBL 실습) 운영 지원이 사업 전부",
+   "ai_relevance": "core",
+   "talent_related": true,
+   "talent_note": "사업목적이 '바이오헬스 특화 분야별 AI 융합 인재 양성', 내역사업이 '의료 인공지능 산업 특화 영역별 학·석·박사 인재양성 지원'으로 학위과정 운영 지원 — 명백한 인재양성 사업"
+  },
+  {
+   "id": 397,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.총괄표: 53,086/57,869/101,499/78,250/85,377/27,508/47.5 — JSON과 완전 일치(2025추경 101,499 포함)",
+   "name_match": true,
+   "name_detail": "'산불방지대책'(2332-300) 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "재난/안전·산림/생태·환경/기후 타당. 'AI기반 무선통신망 향상'(2026 1,000백만원) 신규 내역사업이 있어 '통신/네트워크'도 근거 있음",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "내역사업 '산불교육 및 훈련' 1,197백만원(진화대원 교육 910, 산불예방교육 200) 존재 — 다만 종사자 직무·안전 교육이며 AI 인재양성과는 무관"
+  },
+  {
+   "id": 399,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 총괄표: 939/947/947/3,865/3,865/2,918/308.1 — JSON과 완전 일치",
+   "name_match": true,
+   "name_detail": "'스마트 산림재해 대응(정보화)'(7035-507) 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'농업/식품'은 근거 없음(산림재난 대응 사업). 2026 신규 '저궤도 위성통신 장비 구입' 1,800백만원이 최대 증액 항목이므로 '통신/네트워크' 누락이 문제. '우주/위성','재난/안전','산림/생태','데이터'는 타당",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "1차 판정 true는 과대평가. '기타운영비 4백만원'의 담당자 워크숍·업무협의(산림재난 교육 및 워크숍 10.7백만원 수준)뿐으로 인재양성·직업훈련 사업 성격 없음"
+  },
+  {
+   "id": 403,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF 총괄표: -/9,200/9,200/10,000/7,500/∆1,700/∆18.5. JSON은 change_amount=null, change_rate=null로 두 필드 누락(음수 △ 표기 파싱 실패로 추정). 나머지 5개 필드는 일치",
+   "name_match": true,
+   "name_detail": "'AI자율제조SDM플랫폼기술개발(사업)(R&D)'(3541-414) 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "제조/스마트팩토리·로봇 도메인, 제조/산업AI 기술 분류 모두 타당(AI 자율제조 SDM 플랫폼)",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "'AI 자율제조 플랫폼 교육·홍보·정보공유'는 총괄운영 부수 항목으로 인재양성 사업 아님"
+  },
+  {
+   "id": 413,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF 총괄표: 158,854/158,244/158,244/219,989/219,989/61,745/39.0%. JSON change_rate=null로 누락(값에 '%' 문자가 붙어 파싱 실패 추정). 나머지 6개 필드 일치",
+   "name_match": true,
+   "name_detail": "'기계장비산업기술개발(R&D)'(3231-304) 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'제조/스마트팩토리','로봇' 도메인은 타당하나, 사업목적이 '업종별 특화 제조AI 기술확보'인데 ai_tech가 null로 '제조/산업AI'가 누락됨",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "본 사업 내역은 제조기반생산시스템·제조장비실증 등 기술개발로 구성. 인력양성 언급은 AI 자율제조 정책 배경 서술에만 등장"
+  },
+  {
+   "id": 414,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF 총괄표: 320,892/329,290/334,606/340,129/341,429/12,139/3.7%. JSON change_rate=null로 누락. 나머지 6개 필드 일치",
+   "name_match": true,
+   "name_detail": "'대한무역투자진흥공사(KOTRA) 출연' 사업으로 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "기관 조직망운영비·인건비·경상경비 중심의 기관운영 출연사업으로 ai_domains=['기타']는 수용 가능. 다만 정보화경비 내 'AI 지능형 수출지원 플랫폼 구축' 3,905백만원이 있어 '무역/통상' 성격 명시가 더 나음",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "'해외전문인력 유치'·'글로벌 일자리지원'은 채용·취업 알선 지원이며 인재양성·교육훈련 사업 아님"
+  },
+  {
+   "id": 428,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.4067 총괄표: 397,197/331,378/387,478/407,340/409,920/78,542/23.7 — JSON 7개 필드 전부 일치",
+   "name_match": true,
+   "name_detail": "'산업단지환경조성' 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "1차의 '근거 약함' 판정을 뒤집음. 스마트그린산단촉진 내 ③스마트제조고급인력 양성(학부·대학원 운영), ⑦제조 AX 산학혁신파크(제조데이터 전문가 육성)가 명시되어 '교육/인재' 근거 있음. ①통합관제센터 빅데이터 활용→'데이터', ⑥AX실증산단·제조-AI 융합→'디지털전환(AX)','제조/스마트팩토리', RE100·탄소중립→'에너지', 산단 정주·편의시설→'건설/스마트시티' 모두 근거 확인",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "스마트그린산단 공통기본사업에 '스마트제조고급인력 양성'(스마트제조 특화 학부·대학원 운영, 교육혁신 산학모델) 포함, 제조 AX 산학혁신파크에 '제조데이터 전문가 육성' 포함"
+  },
+  {
+   "id": 430,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.4099 총괄표: 190,992/240,845/240,845/258,501/268,484/27,639/11.5%. JSON change_rate=null로 누락. 나머지 6개 필드 일치",
+   "name_match": true,
+   "name_detail": "'산업혁신기반구축(R&D)'(3171-302) 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "중소·중견기업 공동활용 R&D 인프라 구축 사업으로 'R&D 지원' 도메인 타당. 다만 2026 신규·계속 과제에 제조 AI 솔루션 개발 지원센터, AI 휴머노이드 로봇 기술혁신 센터, AI 기반 화학공정·소재합성 최적화 등이 다수 포함되어 '제조/스마트팩토리' 등 보조 도메인 추가 여지 있음",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "대학혁신기반센터(UIC)는 대학 보유 장비·전문인력을 활용한 기업지원 플랫폼 구축으로 인재양성 사업 아님"
+  },
+  {
+   "id": 438,
+   "budget_verdict": "mismatch",
+   "budget_detail": "1차 uncertain을 해소. PDF p.4251 총괄표: 348,493/390,424/390,424/337,751/339,711/△50,713/△13.0%. JSON은 change_amount=-50713(일치)이나 change_rate=null로 누락 → mismatch",
+   "name_match": true,
+   "name_detail": "'자동차산업기술개발(R&D)'(3551-301) 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'교통/모빌리티'(그린카·스마트카·자율주행), '에너지'(전기·수소차), '보안/사이버'(SBOM·OTA 보안성 시험 시스템 3,200백만원), '디지털전환(AX)' 모두 내역사업으로 근거 확인",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "전 내역사업이 기술개발·기반구축(장비구축)으로 인재양성 요소 없음"
+  },
+  {
+   "id": 441,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 총괄표: -/-/-/4,000/1,000/순증/순증 — JSON(2024결산·2025 null, 요구 4,000, 확정 1,000, 증감액·증감률 null)과 일치. '순증'을 null 처리한 것은 타당",
+   "name_match": true,
+   "name_detail": "JSON명 '제조AI 데이터신뢰 체계 구축', PDF 총괄표 표기 '제조AI데이터벨류체인구축' — 동일 사업(내역사업명 '제조AI데이터밸류체인구축')",
+   "classification_verdict": "appropriate",
+   "classification_detail": "1차의 '교육/인재 근거 없음' 판정을 부분 수정. 사업내용 '기업대상 제조데이터 구축지원(국비 30억)'에 '전문인력(데이터 라벨러, AI운영자, 분석자 등) 양성 프로그램 운영'이 명시되어 근거 존재. '데이터','데이터/MLOps','제조/스마트팩토리','제조/산업AI','디지털전환(AX)'도 모두 부합",
+   "ai_relevance": "core",
+   "talent_related": true,
+   "talent_note": "부수 항목이지만 사업내용에 데이터 라벨러·AI운영자·분석자 등 전문인력 양성 프로그램 운영이 명시됨(주된 목적은 제조데이터 수집·평가·인증 체계 구축)"
+  }
+ ]
+}

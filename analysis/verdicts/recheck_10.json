@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "id": 529,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.5229 예산총괄표 3,251/5,075/5,075/12,369/12,369/7,294/143.7 — JSON 7개 필드 모두 일치. 내역사업 5건(431/820/2,000, '25 1,760·3,315, '26 1,554·3,135·7,680)도 p.5230 표와 일치",
+   "name_match": true,
+   "name_detail": "PDF '재난안전 AI 관제체계 및 데이터 구축(정보화)(3032-509)' = JSON name/code 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "핵심은 '데이터'와 '재난/안전'. '교육/인재'는 AI '학습데이터·교육훈련'이 아닌 학습용데이터를 오인한 것으로 부적절(사업 어디에도 인재양성 내용 없음). '보안/사이버'도 근거 없음(개인정보 보호 언급 수준). '법률/치안'은 지자체 CCTV 통합관제라는 점에서 간접 근거만 있음. ai_tech(컴퓨터비전·데이터/MLOps)는 타당",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "인공지능기본법 제21조(전문인력 확보)가 법령상 근거로 나열될 뿐, 사업내용·산출근거 어디에도 인재양성·교육훈련·장학 항목 없음. 전액 CCTV 관제시스템·학습데이터 구축비"
+  },
+  {
+   "id": 530,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.5237 예산총괄표 11,060/11,867/11,867/18,925/18,925/7,058/59.5 — 7개 필드 일치. 내역사업 11건 금액도 p.5237 표와 일치",
+   "name_match": true,
+   "name_detail": "PDF '재난안전 부처협력 기술개발(R&D)(2931-627)' = JSON 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "의료/바이오(범부처 감염병 방역체계 고도화), 로봇(소방현장 탐색·진압 로봇), 문화/콘텐츠(메타버스 실감콘텐츠 교육훈련 플랫폼), 건설/스마트시티(지하공동구·초고층 복합시설 디지털플랫폼), 재난/안전 — 모두 내역사업에 직접 근거 있음",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "내역사업 '가상융합기술 기반 재난대응 교육훈련 플랫폼 개발'('26 1,000백만원)이 메타버스 기반 해양경찰·재난안전 교육훈련시스템 구축이며, 기대효과에 '기능별·계급별 생애주기 교육훈련체계 제공'이 명시됨. 다만 인재양성 자체가 목적인 사업은 아니고 교육훈련 기술개발(전체의 5.3%) 수준"
+  },
+  {
+   "id": 532,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.5258 예산총괄표 36,329/19,933/19,933/23,054/19,514/△419/△2.1 — JSON의 -419/-2.1은 PDF의 △ 표기와 부호 일치. 내역사업 12건 금액도 p.5259 표와 일치",
+   "name_match": true,
+   "name_detail": "PDF '정보보호인프라확충(정보화)(2033-500)' = JSON 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "보안/사이버(사이버침해대응·주요정보통신기반시설 보호·SW보안약점), 행정/전자정부(전자정부법 기반 통합인증·모바일 신분증·정부24 연계) 모두 강한 근거. '데이터'는 인증서·SSL·신분증 중심이라 다소 약하나 배제할 정도는 아님",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "내역사업 '전자정부 정보보호 전문교육'('26 90백만원, KISA 출연, 행정·공공기관 정보보호 담당자 직무 전문교육 3개년 로드맵)과 '개발보안 인력양성 및 인식제고'('26 227백만원)가 명시. 다만 사업 전체(19,514백만원) 대비 1.6% 수준의 부수적 요소"
+  },
+  {
+   "id": 533,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.5286 예산총괄표 15,793/24,999/24,999/21,780/22,524/△2,475/△9.9 — 7개 필드 일치(요구안 21,780 < 본예산 22,524는 PDF 원문 그대로). 다만 JSON sub_projects에 '26 신규 내역사업 'AI 통합민원플랫폼 구축 1,791백만원'이 누락되어 내역 합계(20,733)가 총액과 불일치 — 총괄표 판정에는 영향 없음",
+   "name_match": true,
+   "name_detail": "PDF '행정서비스통합포털운영(정보화)(2047-500)' = JSON 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "정부24 범정부 서비스 통합창구 운영·고도화로 '행정/전자정부' 단일 도메인 부여가 타당. 'AI 통합민원플랫폼 구축' 내역이 신설되었으므로 ai_tech에 LLM/에이전트류를 추가할 여지는 있으나 오분류는 아님",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "1차 판정(true)을 뒤집음. '대국민 행정서비스 확산' 내역의 '교육과정 운영'은 정부24 이용안내·헬프데스크(콜센터 38명) 성격이고, '26년 산출근거(2,728백만원)는 헬프데스크 운영·전용망·관제로만 구성되어 인재양성·직업훈련·대학지원 요소가 전혀 없음"
+  },
+  {
+   "id": 33,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.(사업 첫장) 예산총괄표 -/1,000/1,000/3,070/3,670/2,670/267 — JSON 7개 필드 모두 일치",
+   "name_match": true,
+   "name_detail": "PDF 'AI 기반 주파수 간섭분석 및 전파 예측기술 개발(R&D)(2535-335)' = JSON 일치. 다만 sub_projects에 국정과제 문장·법령 조항이 내역사업으로 잘못 파싱된 항목 6건이 섞여 있음(실제 내역은 2건: AI 기반 차세대 주파수 간섭분석 1,920, 차세대 모빌리티 고속통신 전파예측 1,750)",
+   "classification_verdict": "partial",
+   "classification_detail": "'통신/네트워크'는 핵심, '교통/모빌리티'는 자율주행차·UAM 3차원 이동체 전파예측이라는 직접 근거 있음. '디지털전환(AX)'은 국정과제 인용문("디지털 혁신 가속화") 외 사업내용상 근거가 없어 과잉 부여",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "사업내용 전체가 AI 기반 간섭분석·전파예측 기술개발이며 인력양성 항목 없음"
+  },
+  {
+   "id": 84,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.674 예산안 총괄표 -/-/-/9,000/9,000/9,000/'순증' — JSON의 change_rate=null이 '순증' 표기와 부합. 내역·비목별 표('26 9,000, 연구개발활동비등 360-05)도 일치",
+   "name_match": true,
+   "name_detail": "PDF '경량·저전력AI한계극복기술개발(2601-393)' = JSON 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'피지컬AI/디바이스'(엣지·온디바이스 AI), 'AI반도체'(추진경위의 AI-반도체 이니셔티브 9대 과제 ②초거대 AI 모델의 경량·저전력 AI化), '에너지'(성과지표 GPU 사용시간 절감률, 에너지 사용량 획기적 절감) 모두 원문 근거 존재. 다만 AI반도체는 HW가 아닌 알고리즘 사업이라는 점에서 간접 근거",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "사업 담당과가 '디지털인재양성과'로 표기되어 있으나 사업내용은 순수 AI 알고리즘 기술개발(신규 6개 과제×2,000백만원)이며 인재양성 예산 없음 — 소관과 명칭에 낚이지 않도록 주의"
+  },
+  {
+   "id": 144,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1151 예산총괄표 3,000/2,400/2,400/2,160/2,160/△240/△10 — 7개 필드 일치. JSON sub_projects는 사업명이 '스마트물류 기술'/'실증화'로 잘못 분절되고 금액(3,000·2,159.3·0.7)이 왜곡되었으나 총괄표 판정에는 무관",
+   "name_match": true,
+   "name_detail": "PDF '스마트물류 기술 실증화(4231-307, 지역균형발전특별회계)' = JSON 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'물류산업의 디지털 전환 촉진'이 사업목적에 명시되어 디지털전환(AX) 타당. 물류데이터 플랫폼 구축이 핵심이므로 '데이터' 도메인 추가 여지는 있으나 오분류는 아님",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "AI 언급은 추진실적의 'AI기반 예측 모델 및 물류데이터 분석 모델 개발'과 국정과제 인용에 한정 — partial 유지. 인재양성 요소 없음(수혜자는 지역SW진흥기관·중소기업 컨소시엄)"
+  },
+  {
+   "id": 190,
+   "budget_verdict": "match",
+   "budget_detail": "PDF 예산총괄표 행: 2024결산 -, 2025본예산 -, 추경(A) 5,000, 요구안 10,000, 본예산(B) 10,000, 증감 5,000, 증감률 100 — JSON과 일치(추경 신규편성 사업). 다만 sub_projects의 b2025=10,000은 오류(실제 '25 5,000, '26 10,000)",
+   "name_match": true,
+   "name_detail": "PDF '최고급AI해외인재유치지원(2232-327)' = JSON 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'교육/인재' 단일 도메인 부여가 사업 성격(해외 AI 우수연구자 유치)과 정확히 부합",
+   "ai_relevance": "core",
+   "talent_related": true,
+   "talent_note": "사업목적이 '기업 등이 해외 AI 우수연구자를 유치하여 도전적 연구 수행 지원' — AI 최고급 인재 확보가 사업의 유일한 목적. 전형적 인재 관련 사업"
+  },
+  {
+   "id": 238,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1990 예산총괄표 0/0/0/0/35,000/35,000/'순증' — JSON 7개 필드(0,0,0,0,35000,35000,null) 일치. '26 요구안 0 / 조정안 35,000은 원문 그대로(국무회의 의결 후 반영). 총사업비 400억(’26 350억+’27 50억)",
+   "name_match": true,
+   "name_detail": "PDF 'AI응용제품 신속 상용화 지원사업(국방)(2341-500)' = JSON 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'국방/안보'(감시정찰·정보분석·군수지원)와 '디지털전환(AX)'(AX-Sprint 프로젝트, 인공지능전환 명시)은 정확. 그러나 '농업/식품'은 AX-Sprint 관계부처 협의회 표의 타부처 분담분야(농림·해수) 언급을 잘못 귀속한 것이고, 'LLM/언어모델'은 원문 근거 전무(AGI 각주 1회뿐). ai_tech 컴퓨터비전은 감시정찰 맥락상 추정 가능하나 명시 근거 없음",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "제품·서비스 상용화 지원(출연, IITP 국방사업팀)만 있고 인력양성 항목 없음"
+  },
+  {
+   "id": 288,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.2502 예산총괄표 4,626/4,947/4,947/4,801/4,801/△146/△3.0 — 7개 필드 일치. 사업코드는 PDF에 1332-501로 명시되어 있으나 JSON code=null(누락). 예산 판정 자체에는 영향 없음",
+   "name_match": true,
+   "name_detail": "PDF 'FIU 전산망 구축·운영(정보화)(1332-501)' = JSON project_name 일치, code만 null",
+   "classification_verdict": "appropriate",
+   "classification_detail": "특정금융거래정보 보고·관리 시스템으로 '금융' 단일 도메인 부여가 타당",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "'26 산출근거에 'AI기반 심사분석 지원시스템 구축 ISP 352백만원'만 AI 관련(전체 4,801의 7.3%) — partial 유지. 인력양성 항목 없음"
+  },
+  {
+   "id": 332,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.(2969) 예산총괄표 37,611/40,880/40,880/38,887/38,887/△1,993/△4.9 — 7개 필드 일치",
+   "name_match": true,
+   "name_detail": "PDF '고부가가치식품기술개발(R&D)(2810-420)' = JSON 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'농업/식품'은 핵심, '로봇'은 물류유통 자동화(자율주행 로봇)·커스텀푸드(ICT·AI·로봇 융합)로 근거 확실, '통신/네트워크'는 '5G기반 식품안전생산기술개발' 내역사업 근거가 있으나 '26년 예산이 0으로 종료된 내역이라 부여 부적절. '교통/모빌리티'는 물류센터 자동화를 모빌리티로 확대 해석한 과잉, '의료/바이오'는 '질환 관리식' 한 문구에 기댄 과잉 부여",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "AI 명시는 '커스텀푸드 스마트생산기술개발'의 ICT·AI·로봇 융합, '스마트 유통관리'의 지능형 저장·수급 정도. 인재양성 내역 없음"
+  },
+  {
+   "id": 388,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.3522 예산총괄표 -/2,625/2,625/3,150/3,150/525/20.0 — 7개 필드 일치",
+   "name_match": true,
+   "name_detail": "PDF '치매전주기 데이터수집 및 빅데이터 통합시스템 구축사업(R&D)(3031-588)' = JSON 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains의 '데이터'·'의료/바이오'는 타당. 그러나 ai_tech의 '신약/의료AI'는 원문 근거 없음 — 사업내용은 치매극복연구개발사업 레지스트리 환자의 2년 간격 추적 종적데이터·시료 수집·분양에 국한되며 AI 모델 개발·활용 언급이 전무",
+   "ai_relevance": "none",
+   "talent_related": false,
+   "talent_note": "1차의 partial을 하향. PDF 전문에 'AI'·'인공지능' 문자열이 단 한 번도 등장하지 않음(grep 확인). 데이터·시료 수집 인프라 사업으로, AI 학습 활용이 명시되지 않아 core/partial 근거 부족. 인재양성 요소도 없음"
+  }
+ ]
+}

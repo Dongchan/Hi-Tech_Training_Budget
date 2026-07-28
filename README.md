@@ -1,0 +1,39 @@
+# Hi-Tech Training Budget — 첨단분야 인재양성 예산 현황
+
+2026년 AI 재정사업 통합 설명자료(5,296p)를 파싱한 [KAIB2026](https://github.com/hollobit/KAIB2026) 데이터를 **원본 PDF와 전수 대조 검증**하고, 첨단분야 인재양성 예산 현황을 확정한 프로젝트입니다.
+
+## 🔗 대시보드 바로가기
+
+**https://dongchan.github.io/Hi-Tech_Training_Budget/Dash_board/**
+
+533개 사업 · 차트 11종(SVG/PNG 다운로드) · 정렬·검색 테이블 · 원자료 CSV 6종
+
+## 핵심 결과 (2026-07-28, 1차)
+
+| 항목 | 결과 |
+|---|---|
+| 검증 범위 | 533개 사업 전수 (파이썬 자동검사 + 에이전트 25명 2단계 PDF 대조) |
+| 예산 수치 오류 | **49건 (9.2%)** — 6열 총괄표 시프트 25 · 증감필드 20 · 다행 파싱 3 · 기타 1 |
+| AI 도메인 분류 | 부적절·누락 **195건 (36.6%)** + 대시보드-데이터 분류체계 이원화 |
+| 인재양성 확정 | **96건, 2026년 7.87조원** (주력 60건 5.79조 + 요소 포함 36건 2.08조) |
+| "27.1조 AI 예산" 실질 | AI 핵심 5.2조(19%) · 부분 10.3조(38%) · 비AI 성격 11.6조(43%) |
+
+## 구성
+
+```
+Dash_board/     대시보드 (index.html — 상대경로, 오프라인 동작) + 원자료 CSV 6종
+Reports/        분류체계 정합성 검증보고서 · 인재양성 예산현황 보고서
+Plans/          실행계획 (Plan_26.07.28_v1.0)
+scripts/        검증·생성 파이썬 스크립트 9종 (UTF-8)
+analysis/       검증 판정 DB (verification_results.json, talent_final.json 등)
+Work_history.md 작업 이력 (최신 상단)
+```
+
+> 용량·개인정보 사유로 원본 PDF(116MB), KAIB2026 클론, 사업별 추출 텍스트(`extracted/`)는
+> 저장소에서 제외했습니다. `scripts/phase2_extract.py`로 재생성할 수 있습니다.
+
+## 출처
+
+- 원본: 2026년 AI 예산사업 통합 설명자료 (정부 공개자료, 5,296p)
+- 파싱 데이터: [hollobit/KAIB2026](https://github.com/hollobit/KAIB2026) (MIT)
+- 검증·분석: Claude 에이전트 팀 (리더 Fable 5, 팀원 Opus 5 × 26)

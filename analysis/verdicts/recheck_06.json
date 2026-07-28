@@ -1,0 +1,148 @@
+{
+  "results": [
+    {
+      "id": 246,
+      "budget_verdict": "match",
+      "budget_detail": "PDF p.2063 예산 총괄표: 46,350 / 49,461 / 49,461(추경A) / 53,930(요구안) / 53,930(본예산B) / 4,469 / 9.0 - JSON 7개 필드 모두 일치. 1차의 'uncertain'은 발췌 범위 문제였고 전문 대조 결과 일치.",
+      "name_match": true,
+      "name_detail": "PDF '(64) 국세행정지원시스템 운영(정보화) (7133-500)' / 소관 국세청 - JSON name·code·department 일치.",
+      "classification_verdict": "partial",
+      "classification_detail": "ai_domains가 ['보안/사이버','통신/네트워크']뿐. 실제는 국세행정 전반의 정보시스템 운영(홈택스·e민원·온나라·국세법령정보 등)이므로 '행정/전자정부'가 핵심 누락. 또한 AI 전화상담(1,015백만원)·가상자산 통합분석시스템(2,600백만원)을 반영한 도메인도 없음.",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "내역사업 '사이버교육시스템 운영'(373백만원, 국세공무원교육원 교육운영과 시행) = 내부직원 직무능력 향상 온라인 교육시스템 운영·온라인 강의 콘텐츠 제작, 그리고 '정보화 업무 지원' 산출내역에 'IT인력 외부위탁 전문교육비 200백만원' 명시. 다만 전체 53,930백만원 중 약 1% 수준의 부수적 내부 직무교육이며 인재양성 목적 사업은 아님."
+    },
+    {
+      "id": 250,
+      "budget_verdict": "match",
+      "budget_detail": "PDF p.2105 총괄표: 2024결산 - / 2025본예산 - / 추경 - / 정부안 - / 확정 61,760 / 증감 61,760 / '순증'. JSON(2026_budget 61,760, change_amount 61,760, change_rate null=순증)과 일치. 최근5년 사업비표도 2022~2025 '-', 2026 61,760으로 확인.",
+      "name_match": true,
+      "name_detail": "PDF '(1) AI 모빌리티 시범도시 조성 (4633-320)' 국토교통부 - JSON 일치.",
+      "classification_verdict": "partial",
+      "classification_detail": "'교통/모빌리티' 타당, '건설/스마트시티'도 대도시 단위 실증도시 조성 성격상 수용 가능. 그러나 '교육/인재'는 부적절 - 내역사업 '자율주행 AI 학습센터'(720백만원)는 GPU 확보·정보화사업 ISP 등 모델 학습 인프라 설계이지 인재양성이 아님. 반면 '데이터'(대규모 주행데이터 수집·비식별화·라벨링 2,000백만원) 도메인은 누락.",
+      "ai_relevance": "core",
+      "talent_related": false,
+      "talent_note": "인재양성 예산 항목 없음. '자율주행 전문인력 양성'은 기대효과 문구에만 등장하고 산출근거(차량구매 48,000, 데이터가공 2,000, 관제 4,840, 정밀도로지도 5,020, 보험 960·160, 국제협력 60, AI학습센터 ISP 720)에 교육·훈련 항목 전무."
+    },
+    {
+      "id": 255,
+      "budget_verdict": "mismatch",
+      "budget_detail": "PDF p.2163 총괄표: 3,039 / 3,151 / 3,151 / 4,305 / 4,305 / 1,154 / 36.6%. JSON change_rate가 null - PDF의 36.6% 미반영(단일 필드 불일치). 나머지 6개 필드는 일치.",
+      "name_match": true,
+      "name_detail": "PDF '(9) 건설산업정보시스템 구축 및 운영(정보화) (4246-518)' - JSON 일치.",
+      "classification_verdict": "partial",
+      "classification_detail": "'건설/스마트시티'는 소관 산업 기준으로는 타당하나, 실체는 건설업 등록·행정처분·공사대장 등 행정정보 종합관리 시스템 운영(민간위탁사업비 100%)이므로 '행정/전자정부' 누락. 'AI' 관련 도메인·기술은 없어 정상.",
+      "ai_relevance": "none",
+      "talent_related": false,
+      "talent_note": "교육·훈련·인재양성 요소 없음. 예산 전액 민간위탁사업비(320-02)로 시스템 유지보수·위탁운영·CALL센터 운영."
+    },
+    {
+      "id": 257,
+      "budget_verdict": "mismatch",
+      "budget_detail": "PDF p.2194 총괄표: 1,037 / 2,128 / 2,128 / 3,807 / 3,807 / 1,679 / 78.9%. JSON change_rate null - PDF 78.9% 미반영. 나머지 6개 필드 일치.",
+      "name_match": true,
+      "name_detail": "PDF '(62) 공간지식추론 엔진기술개발(R&D) (4156-321)' - JSON 일치(띄어쓰기 차이만).",
+      "classification_verdict": "appropriate",
+      "classification_detail": "공간정보 특화 자연어 질의응답 AI 엔진(Geo-AI) 개발이므로 'LLM/언어모델'·'데이터'(공간 빅데이터 수집·팩토리화) 모두 근거 명확. is_rnd=true, rnd_stage '개발'도 '22~'26 개발과제로 타당.",
+      "ai_relevance": "core",
+      "talent_related": false,
+      "talent_note": "수행기관이 서울대 산학협력단 외 6개 기관이나 이는 연구수행 주체일 뿐, 인력양성·교육 목적 항목 없음."
+    },
+    {
+      "id": 280,
+      "budget_verdict": "match",
+      "budget_detail": "PDF p.2422 총괄표: 42,900 / 9,354 / 9,354 / 9,429(정부안) / 9,829(확정B) / 475 / 5.1 - JSON 7개 필드 전부 일치.",
+      "name_match": true,
+      "name_detail": "PDF '(5) 자율자동차상용화 (4633-319)' - JSON 일치.",
+      "classification_verdict": "appropriate",
+      "classification_detail": "'교통/모빌리티'(자율주행 상용화), '데이터'(주행데이터 공유사업 1,820백만원, AI학습용 데이터 가공), '보안/사이버'(자동차 사이버보안 인증심사 인프라 1,950백만원) 모두 내역사업으로 확인. '교육/인재'도 '자율차 경진대회'(300백만원)가 '대학생 경진대회 개최 + 이론·실습 교육프로그램 제공으로 자율주행 전문인력 저변 확대'로 명시되어 근거 존재(비중은 3% 수준). 1차의 'partial' 판단보다 근거가 확실하여 appropriate로 상향.",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "내역사업 '자율차 경진대회'(2026년 300백만원): 대학생 대상 경진대회 개최 및 이론·실습 교육프로그램 제공을 통한 자율주행 전문인력 저변 확대가 사업목적에 명시. 법적근거도 자동차관리법 제68조의7(전문인력의 양성) 인용. 전체 9,829백만원 중 소액이나 명백한 교육·인력저변 확대 항목."
+    },
+    {
+      "id": 281,
+      "budget_verdict": "mismatch",
+      "budget_detail": "PDF p.2443 총괄표는 신규('26~'29)로 증감률이 '순증'이며, 최근5년 사업비표에서 2022~2025 전부 '-', 2026 3,400으로 확인됨. 따라서 2025년 본예산(A)은 '-'가 맞고 JSON의 2025_original=3,400은 오배정(요구안/확정 열 값이 앞으로 밀린 것). 올바른 값: 2024결산 -, 2025본예산 -, 추경 -, 2026정부안 3,400, 확정 3,400, 증감 3,400, 순증.",
+      "name_match": true,
+      "name_detail": "PDF '(11) 자율주행 글로벌 혁신클러스터 연구개발사업(R&D) (4158-325)' - JSON 일치.",
+      "classification_verdict": "partial",
+      "classification_detail": "'교통/모빌리티'는 타당하나 ai_tech '강화학습/최적화'는 PDF에 근거 없음(내용은 정기검사 시나리오·통합시스템 개발, 데이터 공유 통합플랫폼 구축·검증, 글로벌 상호호환 표준 개발). '데이터'(자율주행 빅데이터 취합·학습·공유·거래 통합플랫폼) 도메인 누락.",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "talent_note": "국제공동연구·MOU 중심 R&D로 인력양성·교육 항목 없음."
+    },
+    {
+      "id": 284,
+      "budget_verdict": "match",
+      "budget_detail": "PDF p.2468 총괄표: - / - / - / 2,169(정부안) / 2,169(확정) / 2,169 / '순증'. JSON(2026_request·2026_budget·change_amount=2,169, change_rate null=순증, 나머지 null)과 일치.",
+      "name_match": true,
+      "name_detail": "PDF '(17) 철도차량차륜 자동검사시스템 기술개발(R&D) (4159-344)' 교통시설특별회계 철도계정 - JSON 일치.",
+      "classification_verdict": "wrong",
+      "classification_detail": "ai_domains ['건설/스마트시티']는 사업 실체와 무관. 실제는 철도차량 차륜 초음파 정밀탐상·AI 상태예측 자동검사(철도국 철도운영과, 철도기술연구)로 '교통/모빌리티(철도)'·'재난/안전'(열차탈선 등 대형사고 예방)·'제조/로봇'(차륜 로봇설비 자동검사)이 맞음. 또한 'AI 알고리즘·모델 개발 및 학습'(1,419백만원)이 예산의 65%인데 ai_tech가 null.",
+      "ai_relevance": "core",
+      "talent_related": false,
+      "talent_note": "인력 위주 유지보수의 자동화가 목적으로, 교육·인재양성 요소 없음."
+    },
+    {
+      "id": 290,
+      "budget_verdict": "mismatch",
+      "budget_detail": "PDF p.2514 지출계획 총괄표: 1,364 / 2,034 / 2,034(추경A) / 4,911(요구안) / 2,244(본예산B) / 210 / 10.3%. JSON change_rate null - PDF 10.3% 미반영. (참고: sub_projects의 b2025=4,911도 오류, 내역표상 2025년은 2,034임)",
+      "name_match": true,
+      "name_detail": "PDF '(12) 신용정보(정보화) (2431-315)' 신용보증기금/금융위원회 - JSON 일치.",
+      "classification_verdict": "partial",
+      "classification_detail": "'데이터'(기업 빅데이터 플랫폼 구축·운영, 데이터 가치평가기관 지정)는 타당. 다만 신용보증기금 소관 금융·신용정보 사업이므로 '금융' 도메인 누락.",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "talent_note": "빅데이터부 소관 신용정보 인프라 유지관리·플랫폼 운영으로 교육·인재양성 항목 없음."
+    },
+    {
+      "id": 294,
+      "budget_verdict": "match",
+      "budget_detail": "PDF p.2561 총괄표: 21,763 / 20,770 / 20,770 / 21,941(정부안) / 22,317(확정B) / 1,547 / 7.4 - JSON 7개 필드 전부 일치. (다만 PDF상 사업코드는 2713-500인데 JSON code=null - 예산값 자체는 이상 없음)",
+      "name_match": true,
+      "name_detail": "PDF '(4) 디지털예산회계시스템 운영(정보화) (2713–500)' 기획예산처 - 사업명·부처 일치, code만 JSON 누락.",
+      "classification_verdict": "appropriate",
+      "classification_detail": "'행정/전자정부' 단일 도메인이 dBrain(국가 재정업무 통합 정보시스템) 운영 성격에 정확히 부합. AI 도메인·기술을 부여하지 않은 것도 적절.",
+      "ai_relevance": "none",
+      "talent_related": false,
+      "talent_note": "1차의 talent=true는 과대판정으로 보임. 산출내역의 'dBrain 교육 및 소통 강화 852백만원'은 시스템 사용자(재정업무 담당자) 대상 사용법 교육·소통 비용으로, 인재양성·직업훈련·장학·대학지원 성격이 아니며 시스템 운영에 부수된 사용자 지원 항목임."
+    },
+    {
+      "id": 299,
+      "budget_verdict": "match",
+      "budget_detail": "PDF p.2599 지출계획 총괄표: - / - / - / 24,500(정부안) / 24,500(확정) / 24,500 / '순증'. JSON과 일치. total_cost 490억원도 PDF '총사업비 : 490억원'과 일치.",
+      "name_match": true,
+      "name_detail": "PDF 'K-그리드 인재·창업 밸리 조성(5139-301)' 기후에너지환경부(산업통상부에서 이관) - JSON name은 '조성' 누락한 축약형이나 code·부처 일치.",
+      "classification_verdict": "wrong",
+      "classification_detail": "ai_domains ['건설/스마트시티']는 근거 없음. 실체는 한국에너지공대 중심 차세대 분산전력망(VPP·디지털트윈 실증 14,500백만원) + 인재양성 인턴십(1,000) + 벤처유치·글로벌 공동연구(2,350) + 창업지원(1,650) + 고전력반도체 실증 인프라(5,000)이므로 '에너지', '교육/인재', '반도체'가 맞음. is_rnd=false/rnd_stage '사업화·확산'은 수용 가능.",
+      "ai_relevance": "none",
+      "talent_related": true,
+      "talent_note": "내역사업 '글로벌 K-에너지 스타트업 인재양성 인턴쉽 추진'(1,000백만원, 해외 에너지기업·스타트업 인턴십으로 청년 인재 발굴·육성) 및 '에너지 창업지원 프로그램 운영'(1,650백만원, 청년 창업가 양성), 성과지표 '창업교육 참여 인원 수(40명)'. 시행주체가 한국에너지공과대학교이고 법적근거도 전기사업법 시행령 제34조 제4호 '전력산업 관련 융복합 분야 전문인력의 양성 및 관리'. 인재양성 성격 명확."
+    },
+    {
+      "id": 316,
+      "budget_verdict": "mismatch",
+      "budget_detail": "PDF p.2823 지출계획 총괄표: 2024결산 '(1,233)' / 2025당초(A) 1,233 / 수정 1,233 / 2026정부안 2,052 / 확정(B) 2,052 / 증감 819 / 66.4. JSON 2024_settlement=null이 PDF의 (1,233) 표기와 불일치. 최근5년 사업비표에도 2023 (2,000), 2024 (1,233)로 기재되어 있어 2024 실적치는 존재. 나머지 필드는 일치.",
+      "name_match": true,
+      "name_detail": "PDF '(92) 세라믹분야 스마트그린 제조혁신 지원사업(R&D)(6431-582)' 기후대응기금/기후에너지환경부 - JSON 일치.",
+      "classification_verdict": "appropriate",
+      "classification_detail": "'제조/스마트팩토리'(세라믹 스마트 제조 플랫폼), '에너지'(지능형 FEMS 개발, 공정전력 3~7% 절감), '디지털전환(AX)'(세라믹 산업 디지털전환), ai_tech '제조/산업AI' 모두 사업내용에 근거 있음.",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "talent_note": "4개 계속과제(총괄1·세부3) 출연 R&D로 교육·인재양성 항목 없음. 법령 인용문에 '전문교육 및 연수' 문구가 있으나 이는 근거법 조문일 뿐 사업내용 아님."
+    },
+    {
+      "id": 336,
+      "budget_verdict": "mismatch",
+      "budget_detail": "PDF p.2999 총괄표는 추경 열이 없는 6열 구조: 2024결산 15,779 / 2025본예산(A) 16,636 / 2026요구안 17,808 / 2026본예산(B) 17,808 / 증감(B-A) 1,172 / 7.0. JSON은 열이 한 칸씩 밀림 - 2025_supplementary 17,808(실제 해당 열 없음), 2026_budget 1,172(실제 17,808), change_amount 7(실제 1,172), change_rate null(실제 7.0). 4개 필드 오류.",
+      "name_match": true,
+      "name_detail": "PDF '(94) 스마트팜다부처패키지혁신기술개발(R&D) (2280-481)' 농림축산식품부 농어촌구조개선특별회계 - JSON 일치.",
+      "classification_verdict": "partial",
+      "classification_detail": "'농업/식품' 도메인은 타당. 다만 내역사업이 '스마트팜 실증·고도화 연구'(8,879)와 '차세대 융합·원천기술 연구'(8,929)인데 JSON sub_projects가 '패키지혁신기술개발'/'(R&D)' 각 586백만원으로 파싱 오류 상태이며, 국정과제 'AI 활용 확대' 연계 및 스마트팜 지능화 성격상 '제조/스마트팩토리'급 자동화·데이터 도메인 표기가 없음.",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "talent_note": "대학·정출연·기업 대상 연구개발 출연사업으로, 연구수행 주체에 대학이 포함될 뿐 인력양성·교육 목적 내역사업은 없음."
+    }
+  ]
+}

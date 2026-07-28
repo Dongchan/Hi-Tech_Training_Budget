@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "id": 120,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.954 총괄표: 디지털배움터 -,-,-,816,816,816,순증. JSON(null,null,null,816,816,816,null) 일치. change_rate는 PDF가 '순증' 문자열이므로 null 타당",
+   "name_match": true,
+   "name_detail": "PDF 사업명 '(18) 디지털배움터(세종)(1945-304)' = JSON name/code 일치",
+   "classification_verdict": "wrong",
+   "classification_detail": "ai_domains=['LLM/언어모델']은 근거 없음. 근거법이 지능정보화기본법 제45조(정보격차 해소)·제50조(정보격차해소교육)이며 내용은 전 국민 AI·디지털 교육·디지털포용. '교육/인재'(디지털포용/정보격차)가 타당",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "AI·디지털에 어려움을 느끼는 국민 대상 키오스크·스마트폰~생성형AI 교육 제공, 성과지표 '취약계층 디지털 정보화 수준', 소관 디지털포용정책팀. 직업훈련·학위과정은 아니나 전 국민 대상 AI 리터러시 교육훈련 사업"
+  },
+  {
+   "id": 121,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.960 총괄표: -,-,-,38,121,38,121,38,121,순증. JSON과 일치. change_rate null 타당('순증')",
+   "name_match": true,
+   "name_detail": "'(1) 디지털배움터(자율)(1945-302)' 일치. 시행주체 15개 광역시·도(세종·제주 제외)",
+   "classification_verdict": "wrong",
+   "classification_detail": "'LLM/언어모델' 부적절. 실제는 디지털포용·정보격차해소 AI·디지털 교육 → '교육/인재' 도메인이 핵심",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "전 국민 AI·디지털 교육 제공 및 AI 리터러시 역량 강화(지능정보화기본법 제50조 정보격차해소교육). 교육훈련 성격 확정"
+  },
+  {
+   "id": 122,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.966 총괄표: -,-,-,2,169,2,169,2,169,순증. JSON과 일치",
+   "name_match": true,
+   "name_detail": "'(1) 디지털배움터(제주)(1945-302)' 일치. 시행주체 제주특별자치도",
+   "classification_verdict": "wrong",
+   "classification_detail": "'LLM/언어모델' 부적절. '교육/인재'(디지털포용·정보격차해소 교육) 누락",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "120·121과 동일 사업설명(전 국민 AI·디지털 교육, 취약계층 디지털 정보화 수준 성과지표). 교육훈련 사업 확정"
+  },
+  {
+   "id": 128,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1021 총괄표: -,-,-,3,500,3,500,순증,순증. JSON change_amount/change_rate null은 PDF '순증' 표기 대응이므로 허용",
+   "name_match": true,
+   "name_detail": "PDF 표제는 '(28) 디지털헬스케어기반 AI 융합혁신 허브 조성(2232-305)'로 JSON명('…센터 구축')과 표기 차이. 다만 사업코드 체계 명칭란은 '디지털헬스케어기반 AI 융합혁신 센터 구축'으로 동일 사업 확인",
+   "classification_verdict": "partial",
+   "classification_detail": "의료/바이오·피지컬AI/디바이스·로봇은 타당하나 단위사업이 'SW융합인력양성(균특)'이고 핵심이 버티컬AI·피지컬AI 통합 '교육'이므로 '교육/인재' 누락. 'AI반도체'는 GPU·NPU 실습환경 언급 정도로 근거 약함",
+   "ai_relevance": "core",
+   "talent_related": true,
+   "talent_note": "단위사업 SW융합인력양성(균특), 성과지표 '실무/심층인력 양성인원 150명', 'AI융합혁신센터 교육과정 수료생수', 지역 인재 육성 명시 → 인력양성 사업 확정"
+  },
+  {
+   "id": 131,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1050 총괄표: -,-,-,6,400,6,400,6,400,순증. JSON과 일치",
+   "name_match": true,
+   "name_detail": "'(68) 민관협력 기반 AI 휴머노이드 원천기술 고도화(R&D)(1159-447)' 일치",
+   "classification_verdict": "wrong",
+   "classification_detail": "ai_domains=['LLM/언어모델'] 오류. 체화AI 휴머노이드, VHLA(시각-촉각-언어-행동) 모델, 국가첨단전략기술 '로봇' 분야 지정 → '로봇'/'피지컬AI/디바이스'가 타당. ai_tech '피지컬/휴머노이드'는 적절",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "원천기술 개발·현장 실증 R&D. 인력양성·교육 요소 없음(수혜자: 대학·출연연·기업)"
+  },
+  {
+   "id": 132,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1056 총괄표: 304,292 / 361,072 / 361,072 / 434,276 / 442,976 / 81,904 / 22.7. JSON 7개 필드 모두 일치",
+   "name_match": true,
+   "name_detail": "'바이오·의료기술개발(R&D)(1138-401)' 일치. 다만 sub_projects 파싱 오류('바이오·의료기술'/'개발(R&D)'로 분절, 실제 내역은 차세대바이오·인공지능바이오·뇌과학 등 19개)",
+   "classification_verdict": "wrong",
+   "classification_detail": "ai_domains=['교육/인재']는 명백한 오분류. '의료/바이오'가 핵심이며 내역 ②인공지능바이오(60,923백만원) 고려 시 '데이터'/AI 융합 추가 타당",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "19개 내역 중 ⑫바이오혁신기반조성에 '디지털바이오 융합인력양성 및 인력교류', ⑭첨단바이오글로벌역량강화의 인력교류 네트워크가 포함되나 부수적 구성요소. 사업 전체 성격은 바이오·의료 원천기술 R&D이므로 talent 사업 아님"
+  },
+  {
+   "id": 138,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1105 총괄표: 45,075 / 42,860 / 42,860 / 42,860 / 42,860 / - / -. 증감액·증감률이 '-'이므로 JSON null 타당. 내역(AI학습능력개선 17,701, AI활용성개선 25,159)도 일치",
+   "name_match": true,
+   "name_detail": "'사람중심인공지능핵심원천기술개발(R&D)(2601-312)' 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'교육/인재'는 부적절(소관과가 디지털인재양성과일 뿐 사업 내용은 AI 학습능력·활용성 개선 핵심원천기술개발). '데이터'/'데이터·MLOps'는 부분 타당하나 핵심은 AI 원천기술(기초연구)",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "32개 AI과제에 출연금 지원하는 원천기술 R&D. 소관 부서명만 '디지털인재양성과'이며 인력양성 내역·성과지표 없음"
+  },
+  {
+   "id": 154,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1225 총괄표: 85,922 / 90,160 / 97,660 / 126,289 / 126,289 / 36,129 / 40.1. JSON 7개 필드 모두 일치(2025 추경 97,660은 AI 국가대표 양성 InnoCORE 7,500 추경 반영분)",
+   "name_match": true,
+   "name_detail": "'울산과학기술원 연구 운영비 지원(R&D)(2231-403)' 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "'R&D 지원'(기관운영비·기관고유사업비 출연)은 타당하나, 2026년 증액의 주요 원인이 AI 국가대표 양성(InnoCORE) 26,250백만원 및 신규 AI 전사양성사업(AI거점대학) 2,650백만원이므로 '교육/인재' 도메인 누락",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "과기원 학사사업비(20,042백만원) 포함 고급과학기술인재 양성이 설립목적이며, AI 국가대표 양성(InnoCORE)·AI 전사양성사업·AI대학원·AI 인재양성 등 명시. 대학지원+인재양성 성격 확정"
+  },
+  {
+   "id": 163,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.1306 총괄표: 10,500 / 13,500 / - / 21,000 / 21,000 / 7,500 / 55.5. JSON 7개 필드 일치. 내역(인공지능융합혁신인재양성 6,000 + 인공지능혁신인재양성 15,000 = 21,000)도 일치",
+   "name_match": true,
+   "name_detail": "'인공지능융합혁신인재양성(R&D)(2232-302)' 일치",
+   "classification_verdict": "partial",
+   "classification_detail": "핵심 도메인 '교육/인재' 누락. 'AI혁신(AX: AI Transformation) 고급인재' 표현 때문에 디지털전환(AX)만 표기된 것으로 보이나 사업 본질은 산학 공동 AI 인재양성",
+   "ai_relevance": "core",
+   "talent_related": true,
+   "talent_note": "근거법이 정보통신진흥·융합활성화특별법 제11조(국내 전문인력 양성), 방송통신발전기본법 제21조(전문인력 양성). 산·학 공동 AI융합프로젝트 및 대학-기업 AI Core/AI융합 특화 교육으로 실전형 고급인재 집중 양성"
+  },
+  {
+   "id": 164,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.1313 총괄표: 7,000 / 6,300 / 6,300 / 6,000 / 6,000 / △300 / △4.8%. JSON change_amount=-300은 일치하나 change_rate가 null로 누락(정답 -4.8). 나머지 6개 필드는 일치",
+   "name_match": false,
+   "name_detail": "JSON name='인공지능첨단유망기술개발(R&D)'이나 PDF 총괄표 사업명은 '인공지능첨단원천유망기술개발(R&D)'로 '원천' 누락. 코드 2601-347은 동일하므로 동일 사업이나 명칭 표기 불일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "AI 기반 과학·공공·산업 난제해결 원천 R&D로 'R&D 지원' 분류 타당",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "AI 원천기술 확보 R&D. 인재양성·교육훈련 요소 없음"
+  },
+  {
+   "id": 170,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.1362 '가. 지출계획 총괄표': 107,570 / 99,335 / 99,335 / 107,415 / 107,415 / 8,080 / 8.1%. JSON change_rate가 null로 누락(정답 8.1). 나머지 6개 필드 및 4개 내역사업 금액 모두 일치",
+   "name_match": true,
+   "name_detail": "JSON '정보보호핵심원천기술개발(R&D,정보화)'(2331-304), PDF 총괄표는 '정보보호핵심원천기술개발사업'. 실질 동일",
+   "classification_verdict": "partial",
+   "classification_detail": "'보안/사이버'는 정확. '디지털전환(AX)'은 내역(데이터·네트워크보호, 취약점 대응·신산업 융합보호, 공공서비스 보호강화, 사이버보안 국제협력)에 직접 근거가 없어 과잉 부여",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "정보보호 원천기술 R&D. 인력양성 내역사업 없음"
+  },
+  {
+   "id": 174,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.1421 총괄표: 3,900 / 3,900 / - / 3,360 / 3,360 / △540 / △13.8%. JSON change_amount=-540은 일치하나 change_rate가 null로 누락(정답 -13.8). 2025 추경 '-' → null도 일치",
+   "name_match": true,
+   "name_detail": "'지능형 홈 산업 육성'(2033-378) 일치. 내역(실증확산 1,960 / 기반조성 1,400)도 일치",
+   "classification_verdict": "appropriate",
+   "classification_detail": "홈 IoT 기기 연결·AI 기반 고체감 홈서비스, 디바이스 기업 글로벌 진출 지원 → '피지컬AI/디바이스' 타당",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "실증·표준·인증 기반조성 사업. 교육훈련·인력양성 요소 없음"
+  }
+ ]
+}

@@ -1,0 +1,366 @@
+{
+  "results": [
+    {
+      "id": 201,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": false,
+      "ai_relevance_note": "기초과학·분석과학 연구장비 중심 출연금, AI 언급 없음"
+    },
+    {
+      "id": 202,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "KBRI Brain Brand 사업 - 대표과학자 육성 및 신진인재 확보"
+    },
+    {
+      "id": 203,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "core",
+      "talent_related": false
+    },
+    {
+      "id": 204,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "classification_detail": "AI 활용 하이브리드 치료제 전략연구 등 바이오/의료 도메인 추가 여지"
+    },
+    {
+      "id": 205,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false
+    },
+    {
+      "id": 206,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "classification_detail": "AI 기반 식품공정 자동화 등 농업/식품 도메인 추가 여지"
+    },
+    {
+      "id": 207,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "classification_detail": "국산 언어모델 기반 자율운전 AI 에이전트 내역사업 존재, 에너지 도메인 추가 여지"
+    },
+    {
+      "id": 208,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "원자력 인재육성 내역사업 - 국내외 원자력 교육과정 개발·운영, 전문 인재육성"
+    },
+    {
+      "id": 209,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "classification_detail": "금속소재 초거대 AI 서비스 개발 전략연구사업 포함"
+    },
+    {
+      "id": 210,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "classification_detail": "AI·로보틱스, AI반도체 등 핵심원천기술 비중 큼"
+    },
+    {
+      "id": 211,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": false
+    },
+    {
+      "id": 212,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "classification_detail": "인공지능 기반 열차자율주행·지능형 감지 포함, 모빌리티 도메인 추가 여지"
+    },
+    {
+      "id": 213,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": false
+    },
+    {
+      "id": 214,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": false
+    },
+    {
+      "id": 215,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "classification_detail": "AI·로봇 기반 자율 실험 시스템 사업 포함"
+    },
+    {
+      "id": 216,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "budget_detail": "증감률은 PDF상 '순증' 표기, JSON null 처리 타당"
+    },
+    {
+      "id": 217,
+      "budget_verdict": "match",
+      "name_match": false,
+      "name_detail": "JSON '해킹바이러스 대응체계 고도화(정보화,출연)' vs PDF '해킹바이러스 대응체계 고도화' - (정보화,출연) 접미어 추가",
+      "classification_verdict": "partial",
+      "classification_detail": "디지털전환(AX)은 근거 부족, 보안/사이버가 핵심",
+      "ai_relevance": "none",
+      "talent_related": false
+    },
+    {
+      "id": 218,
+      "budget_verdict": "match",
+      "name_match": false,
+      "name_detail": "JSON project_name이 '…'로 절단됨. PDF 정식명 '협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성(R&D)'",
+      "classification_verdict": "appropriate",
+      "ai_relevance": "core",
+      "talent_related": false,
+      "budget_detail": "증감·증감률 PDF 모두 '순증', JSON null 처리 타당"
+    },
+    {
+      "id": 219,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "wrong",
+      "classification_detail": "'통신/네트워크'는 부적절. 관세행정 정보시스템 운영·유지관리로 '행정/전자정부'가 핵심 도메인",
+      "ai_relevance": "none",
+      "talent_related": false
+    },
+    {
+      "id": 220,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": true,
+      "talent_note": "학문후속세대 양성·대학원 교육 내실화, 이공 우수인재 성장경로 지원(장학금)"
+    },
+    {
+      "id": 221,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "core",
+      "talent_related": true,
+      "talent_note": "방송대 AI 기반 원격교육 플랫폼 구축으로 고등·평생교육 질 제고 및 전국민 역량 강화"
+    },
+    {
+      "id": 222,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "partial",
+      "classification_detail": "'문화/콘텐츠'는 학습콘텐츠 의미로 오분류 소지, VR/AR 중심이며 AI 요소는 27년 이후 학습분석 단계",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "가상실험실습 학습콘텐츠 공유로 맞춤형 인재양성·전 국민 학습권 향상 도모"
+    },
+    {
+      "id": 223,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "AI 거점대학 내역사업으로 AI/AI+X 학사·석박사 인재 양성, 융합 인재양성"
+    },
+    {
+      "id": 224,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "core",
+      "talent_related": true,
+      "talent_note": "대학 AI 기본교육과정·교원양성기관 AI 교육과정 개발 지원"
+    },
+    {
+      "id": 225,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "partial",
+      "classification_detail": "'교육/인재'보다 데이터/행정(정보공시 시스템 운영)이 실질에 가까움",
+      "ai_relevance": "none",
+      "talent_related": false
+    },
+    {
+      "id": 226,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "첨단산업 인재양성 부트캠프·특성화대학·인턴십 등 인재양성이 사업 핵심"
+    },
+    {
+      "id": 227,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": true,
+      "talent_note": "초·중등 SW·AI 교육 강화로 디지털 인공지능 교육 기반 마련",
+      "budget_detail": "증감·증감률 PDF 모두 '-', JSON null 처리 타당"
+    },
+    {
+      "id": 228,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": true,
+      "talent_note": "국비유학생 선발·파견(장학금 지급), 한일교육교류 인재양성"
+    },
+    {
+      "id": 229,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": true,
+      "talent_note": "학자금대출·국가장학제도 운영(장학 성격)"
+    },
+    {
+      "id": 230,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": true,
+      "talent_note": "K-MOOC 온라인 공개강좌 및 성인 디지털 역량 강화 교육과정 운영"
+    },
+    {
+      "id": 231,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "classification_detail": "AI가 읽을 수 있는 통계메타데이터 구축 내역 포함"
+    },
+    {
+      "id": 232,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "partial",
+      "classification_detail": "통계전문교육 사업이므로 '교육/인재' 누락",
+      "ai_relevance": "none",
+      "talent_related": true,
+      "talent_note": "통계인재개발원 교육과정 운영·이러닝 교육·통계교육활성화"
+    },
+    {
+      "id": 233,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "partial",
+      "classification_detail": "'LLM/언어모델'은 PDF 근거 없음. 데이터·보안(AI기반 정보보호 신기술)만 확인됨",
+      "ai_relevance": "partial",
+      "talent_related": false
+    },
+    {
+      "id": 234,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "partial",
+      "classification_detail": "통계인재개발원 교육시설(AI·디지털 학습관) 운영이므로 '교육/인재' 누락",
+      "ai_relevance": "none",
+      "talent_related": true,
+      "talent_note": "통계센터 및 AI·디지털 학습관 등 교육시설 운영"
+    },
+    {
+      "id": 235,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": false
+    },
+    {
+      "id": 236,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "partial",
+      "classification_detail": "'건설/스마트시티'는 부적절, 국가유산 보존이므로 문화/콘텐츠가 적합",
+      "ai_relevance": "core",
+      "talent_related": false,
+      "budget_detail": "증감률 PDF '순증', JSON null 처리 타당"
+    },
+    {
+      "id": 237,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false,
+      "classification_detail": "AI기반 국민권익 플랫폼 구축(449백만원) 내역 신설"
+    },
+    {
+      "id": 238,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "partial",
+      "classification_detail": "'농업/식품','LLM/언어모델'은 근거 부족(부처 협의회 표의 타부처 언급뿐). 국방/안보·AX가 핵심",
+      "ai_relevance": "core",
+      "talent_related": false
+    },
+    {
+      "id": 239,
+      "budget_verdict": "match",
+      "name_match": true,
+      "classification_verdict": "appropriate",
+      "ai_relevance": "none",
+      "talent_related": true,
+      "talent_note": "군 간부 실무위탁·병과·연수교육 및 국내외 학위과정 지원(교육훈련 사업)"
+    },
+    {
+      "id": 240,
+      "budget_verdict": "mismatch",
+      "budget_detail": "PDF 총괄표 컬럼(2024결산 -, 2025본예산 1,000, 2026요구 12,011, 2026조정 6,651, 증감 5,651, 증감률 565.1) 대비 JSON이 한 칸씩 밀림. 2025_supplementary: 12011 vs 해당없음 / 2026_request: 6651 vs 12011 / 2026_budget: 5651 vs 6651 / change_amount: 565.1 vs 5651 / change_rate: null vs 565.1",
+      "name_match": true,
+      "name_detail": "PDF 사업명은 '국방ICT혁신기술'(총괄표 행 라벨만 '정보통신기반체계구축'으로 오기)",
+      "classification_verdict": "appropriate",
+      "ai_relevance": "partial",
+      "talent_related": false
+    }
+  ]
+}

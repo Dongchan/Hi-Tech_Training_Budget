@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "id": 87,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p691 예산총괄표: 2024결산 공란(신규), 2025본예산 15,000 / 추경 15,000 / 2026요구 60,000 / 2026본예산 60,000 / 증감 45,000 / 300%. JSON은 change_rate=null (PDF 300%)만 불일치. 나머지 6개 필드 및 2024결산 null 표기는 일치.",
+   "name_match": true,
+   "name_detail": "JSON '과학기술정보통신부_공공AX 프로젝트' = PDF '(321) 공공AX 프로젝트 (2602-364)'. 코드 2602-364 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "공공부문 AI 접목·공공서비스 혁신·AI 대전환(AX) 가속화 → ai_domains '행정/전자정부','디지털전환(AX)' 타당. is_rnd=false도 출연 방식 보급·실증 사업 성격에 부합.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "사업목적·산출근거(계속과제 20개, 신규 소형4·중형4) 어디에도 인재양성·교육훈련·장학·대학지원 내역 없음. 수혜자도 AI·ICT 기업/기관."
+  },
+  {
+   "id": 88,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p699 예산총괄표: 7,047 / 11,324 / 11,324 / 11,054 / 9,804 / △1,520 / △13.4%. JSON은 change_rate=null만 불일치(나머지 6개 필드 및 change_amount -1520 일치).",
+   "name_match": true,
+   "name_detail": "JSON '공공행정서비스혁신기술개발(R&D)' = PDF '(104) 공공행정서비스혁신기술개발(R&D) (1531-430)'.",
+   "classification_verdict": "partial",
+   "classification_detail": "사업목적은 '치안, 관세, 경호 등 공공행정 서비스 첨단화' R&D. ai_domains의 '법률/치안','재난/안전'은 타당하나 '통신/네트워크'는 근거 없음(내역사업 어디에도 통신·네트워크 기술개발 없음). '행정/전자정부' 누락. rnd_stage '실증/시범'은 현장적용 R&D 성격상 수용 가능.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "'전문인력 양성' 문구는 과학치안진흥법·관세법 등 법령 인용문에만 등장하며, 내역사업(폴리스랩3.0, 미래치안 도전기술, 관세행정, 경호, 지능형유무인복합경비, 재범징후)은 모두 기술개발·실증 과제로 인재양성 예산 없음."
+  },
+  {
+   "id": 93,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p754 예산총괄표: 93,124 / 97,634 / 101,384 / 117,461 / 120,610 / 22,976 / 23.5 — JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '광주과학기술원 연구 운영비 지원(R&D)' = PDF '(187) 광주과학기술원 연구운영비 지원(R&D) (2231-405)' (띄어쓰기 차이만).",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains가 'R&D 지원' 단독인데, 기관고유사업비 37,222 중 학사사업비 23,852이 최대 항목이고 사업목적이 '고급 과학기술인재 양성', 소관도 미래인재정책국 미래인재양성과 → '교육/인재' 도메인 누락. AI 도메인도 AI국가대표양성·AI전사양성·AI분야 신규교원 반영분이 있어 일부 누락.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "PDF: 사업목적 '첨단 과학기술의 혁신을 선도할 고급 과학기술인재 양성', '인재양성 및 연구개발을 통한 국가 과학기술 발전'; 내역 학사사업비 23,852백만원, AI 국가대표 양성사업, AI 전사 양성사업(AI거점대학 프로그램), '25 추경 사유가 'AI 해외인재 유출 방지 및 인재양성을 위한 AI국가대표양성 3,750백만원'."
+  },
+  {
+   "id": 98,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p788 예산총괄표: 194,792 / 247,439 / 247,439 / 370,614 / 360,849 / 113,410 / 45.8 — JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '국가과학기술연구회 연구 운영비 지원(R&D)' = PDF '국가과학기술연구회 연구운영비지원(R&D) (2241-401)'.",
+   "classification_verdict": "partial",
+   "classification_detail": "'R&D 지원'만으로는 불충분. 2026 산출근거에 출연(연) 인재생태계 조성사업 14,880(미래인재 양성 8,760 + 인재혁신 지원 6,120 신규) → '교육/인재' 누락. 또 국가 과학AI 연구지원센터(NAIS) 설립 40,000 신규 반영으로 AI 인프라/컴퓨팅 도메인도 누락. rnd_stage '사업화/확산'은 융합연구·글로벌TOP전략연구단 중심 구성과 어긋나는 편.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "PDF: '(출연(연) 인재생태계조성사업) 우수인재가 출연(연)에 유입되어 지속 성장·정착할 수 있는 선순환적 전주기 통합 인재생태계 조성', 2026 예산 14,880백만원(미래인재 양성 8,760 + 인재혁신 지원 6,120), 별도 '출연(연) 맞춤형 인력양성사업'도 명시."
+  },
+  {
+   "id": 99,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p794 예산총괄표: 10,668 / 11,369 / 11,369 / 13,216 / 13,216 / 1,847 / 16.2 — JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '국가수리과학연구소 연구 운영비 지원(R&D)' = PDF '국가수리과학연구소 연구운영비 지원(R&D) (2231-416)'.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "출연연 기관운영비(6,849)+주요사업비(6,367) 구조의 운영비 지원사업으로 'R&D 지원' 분류 타당. 다만 주요사업비에 '포스트 딥러닝과 사회적 인공지능 개발'이 명시돼 AI 도메인 1개 추가 여지는 있음.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "1차 판정(true)을 뒤집음. '전문 인력을 양성'은 국제과학비즈니스벨트법 제37조의2의 연구소 설립 목적 인용문에만 등장하고, 2026 산출근거(인건비 5,287, 경상경비 1,562, 주요사업비 6,367=산업수학 연구·정보시스템·수학문화 콘텐츠·장비)에 인재양성·교육훈련 예산 항목이 없음. 초·중·고 수학문화 체험(928명)은 대중 과학문화 확산에 가까움."
+  },
+  {
+   "id": 105,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p834 예산총괄표: 223,048 / 300,436 / 300,436 / 330,746 / 330,746 / 30,310 / 10.1 — JSON 7개 필드 전부 일치. (sub_projects는 '(R&D)' 1.5 등 파싱 오류가 있으나 총괄표 필드는 정확)",
+   "name_match": true,
+   "name_detail": "JSON '나노·소재기술개발(R&D)' = PDF '(1) 나노·소재기술개발(R&D) (1139-301)'.",
+   "classification_verdict": "partial",
+   "classification_detail": "내역사업이 글로벌공급망첨단소재, 국가전략기술미래소재, 소재글로벌영커넥트, 나노미래소재원천, 기반구축(나노팹)으로 구성된 소재·나노 원천기술 R&D. ai_domains '제조/스마트팩토리'는 부정확하며 실제로는 '소재/부품' 또는 'R&D 지원' 계열이 맞음. AI 도메인 해당 없음.",
+   "ai_relevance": "none",
+   "talent_related": true,
+   "talent_note": "내역사업 '소재글로벌영커넥트'(2025 15,900 → 2026 22,725백만원)가 '만 40세 이하 또는 박사학위 취득 후 7년 이내 신진연구자'의 국가전략기술분야 미래소재 연구를 지원하는 신진연구인력 육성 트랙. 다만 교육훈련·학위과정이 아닌 연구비 지원 형태라 인재양성 성격은 제한적."
+  },
+  {
+   "id": 106,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p167(블록 내) 예산총괄표: 16,101 / 14,150 / 14,150 / 10,742 / 11,707 / △2,443 / △17.3 — JSON 7개 필드 전부 일치(음수 표기 △ 확인).",
+   "name_match": true,
+   "name_detail": "JSON '대구경북과학기술원 시설 지원(R&D)' = PDF '대구경북과학기술원 시설 지원(R&D) (2231-425)'.",
+   "classification_verdict": "partial",
+   "classification_detail": "사업 본질은 '교육·연구시설의 유지보수 및 건축비'(SafeCampus, 시설보수, D-센서실험시설 증축, 도심형캠퍼스, 차세대대학정보시스템). ai_domains '디지털전환(AX)'는 산업AX혁신허브구축(965) 및 AI·클라우드 기반 차세대통합정보시스템(4,074)에만 국한되어 사업 전체를 대표하지 못함. '교육/인재' 또는 '시설/인프라' 도메인 누락.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "사업목적이 '첨단과학기술의 혁신을 선도할 고급과학기술인재를 양성', 시설비 정의도 '교육·연구시설'. 2026 내역 중 도심형캠퍼스구축(3,435)은 'AI, SW 교육 및 인재 양성을 위한 교육 캠퍼스 및 연구 캠퍼스(DGIST 글로벌 캠퍼스) 조성'으로 명시. 단 지출 성격은 건축·시설비."
+  },
+  {
+   "id": 107,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p146(블록 내) 예산총괄표: 88,701 / 97,697 / 101,447 / 115,367 / 116,367 / 14,920 / 14.7 — JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "JSON '대구경북과학기술원 연구 운영비지원(R&D)' = PDF '대구경북과학기술원 연구운영비 지원(R&D) (2231-402)'.",
+   "classification_verdict": "partial",
+   "classification_detail": "'R&D 지원' 단독 분류는 불충분. 2026 산출근거상 학사사업비 18,372(학사지원비 4,000, 과학기술 콘텐츠·정보전산 4,026, 창업인재 양성 등), AI국가대표양성(InnoCORE) 13,125, AI 전사 양성사업 1,610 → '교육/인재' 도메인 누락, AI 도메인도 누락.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "PDF: 사업목적 '고급과학기술인재 양성 및 기초·응용과학 연구수행 등 기관 고유목적 달성을 위한 교육·연구 사업비'; 'AI국가대표양성(InnoCORE) 13,125백만원 — 박사후연수연구원 중심 국내 포닥 양성 생태계 선도', 'AI 전사 양성사업 1,610백만원 — 학부생 대상 AI+X 특화교육으로 Global-Standard AI 인재 양성'; '25 추경 사유도 InnoCORE 3,750백만원."
+  },
+  {
+   "id": 110,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p875 지출계획 총괄표: 2,850 / 2,615 / 2,615 / 1,277 / 1,277 / △1,338 / △51.2 — JSON 7개 필드 전부 일치(음수 △ 표기 확인).",
+   "name_match": true,
+   "name_detail": "JSON '데이터 활용확산 정책지원' = PDF '(39) 데이터 활용확산 정책지원 (2601-303)'.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "데이터 가치평가·품질인증·표준계약서 등 데이터산업법 제도 운영 사업으로 ai_domains '데이터' 적정. 다만 내역 '데이터 산업제도 기반 활성화'(210백만원)가 데이터거래사 양성이므로 '교육/인재' 보조 태그를 붙일 여지는 있음.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "PDF 사업목적: '(데이터 산업제도 기반 활성화) 데이터 경제 활성화를 위한 데이터 거래 전문인력 양성 및 데이터사업자 신고·등록 제도 운영', 근거법 데이터산업법 제23조(데이터거래사 양성 지원). 2026 해당 내역 210백만원(한국데이터산업협회 민간위탁)으로 사업 전체 1,277 중 16% 수준."
+  },
+  {
+   "id": 111,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p882 지출계획 총괄표: 84,615 / 46,714 / 46,714 / 33,511 / 33,511 / △13,203 / △28.3%. JSON은 change_rate=null만 불일치(나머지 6개 필드 및 change_amount -13,203 일치).",
+   "name_match": true,
+   "name_detail": "JSON '데이터경제인프라구축' = PDF '(44) 데이터경제인프라구축 (2604-301)'. 단 JSON code '2604-301'은 정보통신진흥기금 사업으로 id=112(방송통신발전기금 데이터기반산업경쟁력강화)와 코드가 중복 기재됨 — 원문상 두 사업 모두 '2604-301'로 표기되어 있어 PDF 자체 표기와는 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "국가데이터인프라 구축·확산, AI 허브 운영(학습용데이터 통합제공), 위원회 운영지원, 데이터산업 동향분석 → '데이터' 적정. '디지털전환(AX)'은 다소 느슨하나 수용 범위.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "4개 내역(국가데이터인프라 2,880 / AI허브 30,000 / 위원회 250 / 동향분석 381) 모두 인프라·제도·데이터 구축 사업으로 인재양성·교육훈련 예산 없음."
+  },
+  {
+   "id": 112,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p893 지출계획 총괄표는 2개 행: 민간경상보조 11,960/10,467/10,467/9,119/9,119/△1,348/△12.9, 사업출연금 3,080/1,330/1,330/1,280/1,280/△50/△3.8. JSON은 '사업출연금' 행만 반영. 사업 전체 합계(기능별 분류 합계)는 2024 15,040, 2025 11,797, 2026 10,399. 따라서 2024_settlement(3,080 vs 15,040), 2025_original·supplementary(1,330 vs 11,797), 2026_request·budget(1,280 vs 10,399), change_amount(△50 vs △1,398) 모두 과소. 또 sub_projects의 '민간경상보조 b2026=12.9'는 증감률(△12.9)을 금액으로 오파싱한 것.",
+   "name_match": true,
+   "name_detail": "JSON '데이터기반산업경쟁력강화' = PDF '(31) 데이터기반산업경쟁력강화 (2604-301)'.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "데이터 문제해결은행, 마이데이터 기반조성, 데이터 안심구역, 데이터·AI 활용지원 인프라 → ai_domains '데이터' 적정. 다만 내역사업명 파싱이 '민간경상보조' 하나뿐이어서 실제 내역(데이터 유통·활용 생태계 조성 / 데이터 선도 및 활성화 기반구축)이 누락된 구조적 결함 있음.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "1차 판정(false)을 조정. PDF 실적: '데이터·AI 기반 분석활용·가명처리 실습교육 22회 진행(1,197명 수료)'(2024), '실습교육 진행(1,436명 수료)'(2025), '데이터 분석 우수 인재 발굴 빅매칭 캠프·빅콘테스트' 등이 '데이터 선도 및 활성화 기반 구축'(2026 1,280백만원, 데이터·AI 활용지원 인프라 운영 및 확충)에 포함. 다만 사업 주된 목적은 인프라·제도이고 교육훈련은 부수적."
+  },
+  {
+   "id": 118,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p941 예산총괄표: 4,000 / 6,000 / 6,000 / 5,600 / 5,600 / △400 / △6.7%. JSON은 change_rate=null만 불일치(나머지 6개 필드 및 change_amount -400 일치).",
+   "name_match": true,
+   "name_detail": "JSON '디지털 혁신 기술 기반 K-CareNetwork' = PDF '(301) 디지털 혁신 기술 기반 K-CareNetwork'. 단 JSON code '2233-336'은 PDF 사업명 헤더 표기와 같으나 PDF 사업코드 정보표에는 프로그램2600-단위2601-세부374(AI기술개발(일반))로 기재되어 원문 내부에서도 불일치 — JSON은 헤더 표기를 따랐으므로 name/코드 표기 자체는 원문 재현.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'개인 라이프로그·의료 데이터를 활용한 AI기술기반 개인별 맞춤형 디지털치료기기 개발·실증' → ai_domains '의료/바이오' 및 ai_tech '신약/의료AI' 적정. '디지털전환(AX)'는 부수적이나 허용 범위. 내역사업 단일(디지털치료기기 개발·실증)로 rnd_stage '실증/시범' 타당(is_rnd=false 표기는 사업명에 R&D 미표기·일반회계 보급실증 성격이라 수용).",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "디지털치료기기 개발·실증 단일 내역으로 인재양성·교육훈련 요소 없음."
+  }
+ ]
+}

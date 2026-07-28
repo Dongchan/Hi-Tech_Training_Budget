@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "id": 3,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.38 총괄표(7열: 2024결산/2025본예산/추경(A)/2026요구안/본예산(B)/증감(B-A)/(B-A)/A) = -, 1,500, 1,500, 2,660, 2,660, 1,160, 77.3. JSON 7개 필드 전부 일치.",
+   "name_match": true,
+   "name_detail": "PDF 사업명 '(9) 신뢰기반의 AI 개인정보 보호·활용 기술개발(R&D) (1033-305)' 및 코드 1033-305, 소관 개인정보보호위원회 모두 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "ai_domains ['보안/사이버','교육/인재'] 중 '교육/인재'는 근거 없음. PDF에서 '전문인력의 양성'은 개인정보 보호법 제7조의8 제7호 소관사무 조문 인용에만 등장하며, 내역사업(AI 대응 개인정보보호 강화기술 개발 2,560, 기평비 100)에 인력양성 예산·과업이 전혀 없음. '보안/사이버'는 타당하고 '데이터'(가명·프라이버시) 추가 여지 있음.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "인재양성 요소 없음. 유일한 언급은 법령 조문(개인정보 보호법 제7조의8 제7호 '전문인력의 양성') 인용이며, 사업내용·산출근거(계속과제 2개 × 1,280백만원)는 전부 기술개발 R&D."
+  },
+  {
+   "id": 4,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.46 총괄표(7열) = 3,328 / 3,564 / 3,564 / 6,456 / 6,456 / 2,892 / 81.1. JSON 7개 필드 전부 일치. 내역 3건(가명정보 제도운영 314, 인프라 운영 5,742, 시스템 운영 400)도 일치.",
+   "name_match": true,
+   "name_detail": "PDF '(6) 안전한 데이터 활용 지원 (1032-302)' 코드·소관 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "ai_domains ['데이터']는 가명정보 제도·인프라·플랫폼 운영이라는 사업 실체와 정확히 부합.",
+   "ai_relevance": "none",
+   "talent_related": true,
+   "talent_note": "부수적이나 근거 있음: 사업목적에 '(가명정보 활용 지원 인프라 운영) … 전문인력 공급 지원'이 명시되고, 가명정보 활용 지원센터(2026년 727백만원) 주요 지원기능에 '교육·실습'이 포함, 가명정보 전문가 풀 운영(77백만원) 중 '역량강화 16,000천원'이 편성됨. 다만 독립된 인재양성·직업훈련 사업은 아니며 전체 예산 대비 비중이 매우 작음."
+  },
+  {
+   "id": 7,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.73 총괄표는 추경란이 없는 6열 구조(2024결산 / 2025 본예산(A) / 2026 요구 / 2026 조정(B) / 증감(B-A) / (B-A)/A) = 1,092 / 1,976 / 1,976 / 1,976 / - / -. JSON의 2025_supplementary=1976은 PDF에 존재하지 않는 값(추경란 자체 없음)으로 허위 생성. 나머지(2024=1092, 2025원=1976, 2026요구=1976, 2026예산=1976, 증감액 null, 증감률 null)는 PDF와 부합.",
+   "name_match": true,
+   "name_detail": "PDF '과학기술기반군중밀집관리기술개발(R&D) (4431-720)', 소관 경찰청 미래치안정책국 — 일치.",
+   "classification_verdict": "wrong",
+   "classification_detail": "ai_domains ['국방/안보']는 근거 없음. 법령근거가 '국가경찰과 자치경찰의 조직 및 운영에 관한 법률 제33조', '재난 및 안전관리 기본법 제71조'이고 내용은 경찰 인파(군중밀집) 관리·혼잡위험도 예측·지자체(용산구청) 테스트베드이므로 '법률/치안' 및 '재난/안전'이 핵심 도메인. 국방 요소 전무.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "인재양성·교육훈련 요소 없음. 내역은 기술개발 1,900 + 기획평가관리비 76뿐."
+  },
+  {
+   "id": 9,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.85 총괄표는 추경란 없는 6열 = 7,476 / 4,529(본예산A) / 3,068(요구) / 3,068(조정B) / △1,461 / △32.3. JSON은 한 칸씩 밀림: 2025_supplementary=3068(PDF에 추경란 없음), 2026_budget=-1461(정답 3,068), change_amount=-32.3(정답 -1,461), change_rate=null(정답 -32.3). 2024=7,476, 2025원=4,529, 2026요구=3,068만 일치. 음수는 PDF에서 '△' 표기로 확인.",
+   "name_match": true,
+   "name_detail": "PDF '과학적범죄수사고도화기술개발(R&D) (4431-631)' 코드·소관 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'법률/치안' 타당. 다만 내역이 법곤충 감정기법(1,150), 인공지능 기반 위해기체 고속분석 플랫폼(1,800), 기평비(118)로 구성되어 '과학수사/바이오·화학 분석' 성격도 있음.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "인재양성 요소 없음. 수행기관은 고려대·경찰대·중앙대 등이나 연구수행기관일 뿐 대학지원·양성사업 아님."
+  },
+  {
+   "id": 10,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.94 총괄표는 추경란 없는 6열 = 500 / 1,500(본예산A) / 4,932(요구) / 4,932(조정B) / 3,432 / 222.8. JSON 한 칸 밀림: 2025_supplementary=4932(추경란 없음), 2026_budget=3432(정답 4,932), change_amount=222.8(정답 3,432), change_rate=null(정답 222.8).",
+   "name_match": true,
+   "name_detail": "PDF '불법마약류대응을위한현장기술개발(R&D) (4431-718)' 코드·소관 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'법률/치안' 타당. 다크웹·가상자산 추적 내역(1,800)을 감안하면 '보안/사이버' 병기가 더 정확하나 주 도메인 라벨로서 문제 없음.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "인재양성·교육훈련 예산 없음. 내역은 현장기술개발 1,442 / 다크웹·가상자산 1,800 / 복합센서 AI 1,500 / 기평비 190."
+  },
+  {
+   "id": 11,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.104 총괄표는 추경란 없는 6열 = - / 3,640(본예산A) / 6,136(요구) / 6,136(조정B) / 2,496 / 68.6. JSON 한 칸 밀림: 2025_supplementary=6136(추경란 없음), 2026_budget=2496(정답 6,136), change_amount=68.6(정답 2,496), change_rate=null(정답 68.6).",
+   "name_match": true,
+   "name_detail": "PDF '사이버범죄수사단서통합분석및추론시스템개발(R&D) (4431-726)' 코드·소관 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'보안/사이버'+'법률/치안' 조합이 사업 실체(사이버범죄 대응 기술 5,900 + 기평비 236)와 부합.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "인재양성 요소 없음."
+  },
+  {
+   "id": 12,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.110 총괄표는 추경란 없는 6열 = 1,897 / 5,304(본예산A) / 8,736(요구) / 8,736(조정B) / 3,432 / 64.7. JSON 한 칸 밀림: 2025_supplementary=8736(추경란 없음), 2026_budget=3432(정답 8,736), change_amount=64.7(정답 3,432), change_rate=null(정답 64.7).",
+   "name_match": true,
+   "name_detail": "PDF '사이버수사지원기술개발(R&D) (4431-710)' 코드·소관 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "'보안/사이버'는 타당하나 '법률/치안' 누락. 사업은 경찰 수사(디지털성범죄 위장수사용 가상인물 생성 2,800, 허위조작 콘텐츠(딥페이크·딥보이스) 진위판별 3,600, 로컬환경 인공지능 모델 포렌식)로 치안·수사 도메인이 명백. 동일 성격의 id=11에는 '법률/치안'이 부여되어 있어 라벨링 일관성도 결여.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "인재양성 요소 없음."
+  },
+  {
+   "id": 13,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.118 총괄표는 추경란 없는 6열 = - / 692(본예산A) / 3,465(요구) / 3,465(조정B) / 2,773 / 400.7. JSON 한 칸 밀림: 2025_supplementary=3465(추경란 없음), 2026_budget=2773(정답 3,465), change_amount=400.7(정답 2,773), change_rate=null(정답 400.7).",
+   "name_match": true,
+   "name_detail": "PDF '차세대지능형순찰플랫폼개발(R&D) (4431-724)' 코드·소관 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'법률/치안' 타당(순찰·치안현장 대응 지원). 'AI/자율주행·로보틱스' 성격도 있으나 주 도메인 라벨로 문제 없음.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "인재양성 요소 없음. 법령근거 제33조 제1항에 '전문인력 양성' 문구가 조문 인용으로 포함될 뿐, 내역은 플랫폼 개발 3,332 + 기평비 133."
+  },
+  {
+   "id": 14,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.125 총괄표는 추경란 없는 6열 = - / -(2025 본예산A) / 3,120(요구) / 1,560(조정B) / 1,560(증감) / 순증. JSON: 2025_supplementary=3120(추경란 없음, 실제로는 2026 요구액), 2026_request=1560(정답 3,120), 2026_budget=1560(우연히 일치), change_amount=null(정답 1,560), change_rate=null(PDF는 '순증' 표기).",
+   "name_match": true,
+   "name_detail": "PDF '치안데이터활용기술개발(R&D) (4431-730)' 코드·소관 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "'법률/치안'은 타당하나 사업 본질인 '데이터' 및 '보안/사이버(암호화 컴퓨팅)' 누락. 내역은 치안 비정형 데이터 암호화 컴퓨팅 기술개발 1,500(암호화 컴퓨팅 알고리즘·데이터 처리기술 900 + 암호화 데이터 친화적 AI 알고리즘 600) + 기평비 60.",
+   "ai_relevance": "core",
+   "talent_related": false,
+   "talent_note": "인재양성 요소 없음. 성과물은 암호화알고리즘 5종, 암호화 데이터 DBMS 1식, 암호화 데이터 친화적 AI 알고리즘 3종(영상·음성·텍스트)."
+  },
+  {
+   "id": 15,
+   "budget_verdict": "match",
+   "budget_detail": "PDF p.132 총괄표(7열: 2024결산/2025본예산(A)/추경/2026요구/조정(B)/증감/증감률) = 24,120 / 19,660 / 19,660 / 21,570 / 19,620 / ▵40 / ▵0.2. JSON 7개 필드 전부 일치(음수 -40, -0.2는 PDF '▵' 표기와 부합).",
+   "name_match": true,
+   "name_detail": "PDF '형사･교통･여성청소년범죄 수사역량강화 (1231-313)' 코드·소관 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "'법률/치안' 도메인 라벨 자체는 타당. 다만 AI 사업이 아니며 수사장비·교육·피해자지원 중심의 일반 수사역량 사업.",
+   "ai_relevance": "none",
+   "talent_related": true,
+   "talent_note": "교육훈련 성격 확인됨: ①여청수사관 교육경비 222백만원(2026 전년동), ②교통수사 전문성강화 534백만원(과학분석장비 사용법 교육 포함), ③진술분석전문가 교육(2025년 내부교육→전문기관 위탁교육으로 세목변경 99백만원). 단, AI 요소인 'AI 음성인식 기술활용 피해조서 작성시스템'은 2025년 319백만원에서 2026년 0백만원으로 순감되어 2026 예산상 AI 지출은 없음."
+  },
+  {
+   "id": 16,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.141 총괄표는 추경란 없는 6열(2024결산 / 2025 본예산(A) / 2026 정부안 / 확정(B) / 증감(B-A) / (B-A)/A) = 22,378 / 21,701 / 23,739 / 23,739 / 2,038 / 9.4. JSON 한 칸 밀림: 2025_supplementary=23739(추경란 없음), 2026_budget=2038(정답 23,739), change_amount=9.4(정답 2,038), change_rate=null(정답 9.4).",
+   "name_match": true,
+   "name_detail": "PDF '고용노동행정(정보화) (7034-500)' 코드·소관 고용노동부 일치.",
+   "classification_verdict": "partial",
+   "classification_detail": "핵심 도메인인 '행정/전자정부'가 누락. 사업내용은 고용노동정보시스템(홈페이지·전자민원·내부업무포털·근로감독행정) 구축·운영. '보안/사이버'(보안관제 위탁운영, 해킹메일 대응훈련)와 '통신/네트워크'(본부·48개 지청·15개 위원회 정보통신망)는 근거 있으나 '데이터'는 근거 약함.",
+   "ai_relevance": "partial",
+   "talent_related": false,
+   "talent_note": "인재양성 사업 아님. 'AI노동법 상담' 1,967백만원(순증, AI API 이용료 367 + GPU(H100 16장) 임차료 792 + 전문작업비 808)이 AI 요소이나 전체 23,739 대비 약 8%이며 대국민 상담 서비스로 교육훈련과 무관. '해킹메일 대응훈련'은 내부 보안 성과지표일 뿐 인력양성 아님."
+  },
+  {
+   "id": 26,
+   "budget_verdict": "mismatch",
+   "budget_detail": "PDF p.219 총괄표(7열) = - / 15,989(본예산A) / 15,989(추경) / 14,795(정부안) / 25,345(확정B) / 9,356 / 58.5%. JSON은 change_rate만 null(정답 58.5). 나머지 6개 필드는 일치.",
+   "name_match": true,
+   "name_detail": "PDF '취약노동자지원 (2031-303)' 코드·소관 고용노동부 일치.",
+   "classification_verdict": "appropriate",
+   "classification_detail": "사업 전체가 특고·플랫폼·프리랜서 등 권익보호(이음센터, 타운홀미팅, 미수금회수, 일터개선, 노동단체 지원 15,780 등)로 구성되어 '기타' 라벨 수용 가능. 다만 '노동/고용' 또는 '행정' 라벨이 더 서술적임.",
+   "ai_relevance": "partial",
+   "talent_related": true,
+   "talent_note": "교육 요소 확인됨: 근로자 이음센터의 특화 고충해결·교육(1,950백만원), '취약노동자 교육 및 법률구조상담 지원'(취약노동자 보호 3,292백만원 내역), 노동단체·노사관계 비영리법인의 교육·상담 지원(15,780백만원 내역). 다만 직업훈련·인재양성이 아니라 권익보호형 노동자 교육·상담. 또한 1차 판정과 달리 AI 무관 사업이 아님 — '취약노동자 보호' 내역에 'AI 기반 영세사업장 노동법 준수 자율점검'(AI 대화형 자율점검 서비스 개발·실증·시범운영)이 명시되어 있어 ai_relevance는 none이 아닌 partial로 정정."
+  }
+ ]
+}

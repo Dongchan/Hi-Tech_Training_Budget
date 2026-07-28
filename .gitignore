@@ -1,0 +1,20 @@
+# 원본 대용량 PDF (116MB, GitHub 100MB 제한 초과) — 로컬 보관
+Original_data/
+
+# 외부 저장소 클론 — https://github.com/hollobit/KAIB2026 참조
+KAIB2026/
+
+# 파생 대용량 산출물 (scripts/phase2_extract.py 등으로 재생성 가능)
+extracted/
+analysis/batches/
+analysis/pjson/
+
+# 내부 메일 원문 (개인 정보 포함 — 퍼블릭 제외)
+Mail_contents.txt
+
+# 테스트 잔여물
+.playwright-mcp/
+dashboard-*.png
+
+# 공유용 압축본 (폴더 원본과 중복 — 로컬 보관)
+Dash_board.zip
