@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-07-28 10:59 — GitHub 퍼블릭 레포 생성 + Pages 배포 완료 (소요 약 8분)
+- 레포: **https://github.com/Dongchan/Hi-Tech_Training_Budget** (퍼블릭, main, 66개 파일, 커밋 93b6b38)
+- **대시보드 배포: https://dongchan.github.io/Hi-Tech_Training_Budget/Dash_board/** (GitHub Pages, main 루트 legacy 빌드, HTTP 200·렌더링 확인)
+- 레포 설명·홈페이지 필드에 대시보드 바로가기 설정
+- 퍼블릭 제외(.gitignore, 로컬 보관): 원본 PDF(116MB, GitHub 100MB 제한), KAIB2026 클론, extracted/·analysis/batches/·analysis/pjson/(파생 대용량), **Mail_contents.txt(내부 인명 포함)**, Dash_board.zip(중복)
+
 ## 2026-07-28 10:29 — ✅ 1차 작업 완료 (총 소요 약 1시간, 09:32~10:29)
 - **범위**: Plan_26.07.28_v1.0 전 단계(Phase 0~5) + Dash_board 구축 (추가 요청)
 - **핵심 결과**
