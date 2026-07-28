@@ -1,0 +1,161 @@
+[
+ {
+  "id": 1,
+  "name": "전산운영경비(정보화)",
+  "prior_detail": "사이버보안센터는 보안/사이버 타당하나 핵심(감사행정 정보시스템 구축·운영)인 '행정/전자정부'가 누락, '통신/네트워크'는 근거 약함",
+  "current_domains": [
+   "보안/사이버",
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\1.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\001_전산운영경비(정보화).txt"
+ },
+ {
+  "id": 2,
+  "name": "개인정보 안전활용 선도기술 개발(R&D)",
+  "prior_detail": "'데이터'는 타당하나 개인정보보호 기술개발이 핵심이므로 '보안/사이버(프라이버시)' 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\2.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\002_개인정보 안전활용 선도기술 개발(R&D).txt"
+ },
+ {
+  "id": 3,
+  "name": "신뢰기반의 AI 개인정보 보호·활용 기술개발(R&D)",
+  "prior_detail": "ai_domains ['보안/사이버','교육/인재'] 중 '교육/인재'는 근거 없음. PDF에서 '전문인력의 양성'은 개인정보 보호법 제7조의8 제7호 소관사무 조문 인용에만 등장하며, 내역사업(AI 대응 개인정보보호 강화기술 개발 2,560, 기평비 100)에 인력양성 예산·과업이 전혀 없음. '보안/사이버'는 타당하고 '데이터'(가명·프라이버시) 추가 여지 있음.",
+  "current_domains": [
+   "보안/사이버",
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\3.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\003_신뢰기반의 AI 개인정보 보호·활용 기술개발(R&D).txt"
+ },
+ {
+  "id": 6,
+  "name": "경찰정보화기반고도화(정보화)",
+  "prior_detail": "'행정/전자정부'는 타당하나 사이버보안관제센터 운영 비중 고려 시 '보안/사이버' 누락",
+  "current_domains": [
+   "행정/전자정부"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\6.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\006_경찰정보화기반고도화(정보화).txt"
+ },
+ {
+  "id": 7,
+  "name": "과학기술 기반 군중밀집 관리 기술 개발(R&D)",
+  "prior_detail": "ai_domains ['국방/안보']는 근거 없음. 법령근거가 '국가경찰과 자치경찰의 조직 및 운영에 관한 법률 제33조', '재난 및 안전관리 기본법 제71조'이고 내용은 경찰 인파(군중밀집) 관리·혼잡위험도 예측·지자체(용산구청) 테스트베드이므로 '법률/치안' 및 '재난/안전'이 핵심 도메인. 국방 요소 전무.",
+  "current_domains": [
+   "국방/안보"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\7.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\007_과학기술 기반 군중밀집 관리 기술 개발(R&D).txt"
+ },
+ {
+  "id": 12,
+  "name": "사이버수사 지원기술 개발(R&D)",
+  "prior_detail": "'보안/사이버'는 타당하나 '법률/치안' 누락. 사업은 경찰 수사(디지털성범죄 위장수사용 가상인물 생성 2,800, 허위조작 콘텐츠(딥페이크·딥보이스) 진위판별 3,600, 로컬환경 인공지능 모델 포렌식)로 치안·수사 도메인이 명백. 동일 성격의 id=11에는 '법률/치안'이 부여되어 있어 라벨링 일관성도 결여.",
+  "current_domains": [
+   "보안/사이버"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\12.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\012_사이버수사 지원기술 개발(R&D).txt"
+ },
+ {
+  "id": 14,
+  "name": "치안데이터활용기술개발(R&D)",
+  "prior_detail": "'법률/치안'은 타당하나 사업 본질인 '데이터' 및 '보안/사이버(암호화 컴퓨팅)' 누락. 내역은 치안 비정형 데이터 암호화 컴퓨팅 기술개발 1,500(암호화 컴퓨팅 알고리즘·데이터 처리기술 900 + 암호화 데이터 친화적 AI 알고리즘 600) + 기평비 60.",
+  "current_domains": [
+   "법률/치안"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\14.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\014_치안데이터활용기술개발(R&D).txt"
+ },
+ {
+  "id": 16,
+  "name": "고용노동행정(정보화)",
+  "prior_detail": "핵심 도메인인 '행정/전자정부'가 누락. 사업내용은 고용노동정보시스템(홈페이지·전자민원·내부업무포털·근로감독행정) 구축·운영. '보안/사이버'(보안관제 위탁운영, 해킹메일 대응훈련)와 '통신/네트워크'(본부·48개 지청·15개 위원회 정보통신망)는 근거 있으나 '데이터'는 근거 약함.",
+  "current_domains": [
+   "데이터",
+   "보안/사이버",
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\16.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\016_고용노동행정(정보화).txt"
+ },
+ {
+  "id": 20,
+  "name": "디지털 기반의 고용서비스 인프라 지원(정보화)",
+  "prior_detail": "고용24·고용행정 포털 운영이 핵심이므로 '행정/전자정부(또는 고용/노동)' 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\20.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\020_디지털 기반의 고용서비스 인프라 지원(정보화).txt"
+ },
+ {
+  "id": 23,
+  "name": "일자리정보플랫폼 기반 AI 고용서비스 지원(정보화)",
+  "prior_detail": "AI 기반 맞춤형 고용서비스가 핵심인데 '데이터'만 부여, 고용/노동 및 AI 서비스 도메인 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\23.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\023_일자리정보플랫폼 기반 AI 고용서비스 지원(정보화).txt"
+ },
+ {
+  "id": 28,
+  "name": "AGI 준비 프로젝트",
+  "prior_detail": "사업내용은 차세대 AI 연구조직 설립 기획·초기투자로 'LLM/언어모델' 라벨 근거가 약함",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\28.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\028_AGI 준비 프로젝트.txt"
+ },
+ {
+  "id": 30,
+  "name": "AI 공간 컴퓨팅 창업 생태계 활성화",
+  "prior_detail": "내역이 로봇 기반 창업지원이라 '로봇'은 타당하나 공간컴퓨팅/창업생태계 도메인 누락",
+  "current_domains": [
+   "로봇"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\30.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\030_AI 공간 컴퓨팅 창업 생태계 활성화.txt"
+ },
+ {
+  "id": 32,
+  "name": "AI 기반 민군 유·무인복합체계 주파수 공동사용 및 운용 기술 개발",
+  "prior_detail": "민·군 유·무인복합체계 대상이므로 '국방/안보' 누락",
+  "current_domains": [
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\32.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\032_AI 기반 민군 유무인 복합체계 주파수 공동사용 및 운용….txt"
+ },
+ {
+  "id": 33,
+  "name": "AI 기반 주파수 간섭분석 및 전파 예측기술 개발(R&D)",
+  "prior_detail": "'통신/네트워크'는 핵심, '교통/모빌리티'는 자율주행차·UAM 3차원 이동체 전파예측이라는 직접 근거 있음. '디지털전환(AX)'은 국정과제 인용문 외 사업내용상 근거가 없어 과잉 부여",
+  "current_domains": [
+   "교통/모빌리티",
+   "통신/네트워크",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\33.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\033_AI 기반 주파수 간섭분석 및 전파 예측기술 개발(R&D).txt"
+ },
+ {
+  "id": 34,
+  "name": "AI 반도체 실증 지원",
+  "prior_detail": "'AI반도체'·'피지컬AI/디바이스'(온디바이스AI, AX디바이스)·'디지털전환(AX)'(AX실증지원)은 근거 있음. '데이터'는 사업목적·내역 어디에도 근거 없는 과잉 부여",
+  "current_domains": [
+   "AI반도체",
+   "데이터",
+   "디지털전환(AX)",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\34.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\034_AI 반도체 실증 지원.txt"
+ }
+]

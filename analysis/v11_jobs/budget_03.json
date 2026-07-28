@@ -1,0 +1,72 @@
+[
+ {
+  "id": 242,
+  "name": "국방부_전투발전연구",
+  "prior_detail": "PDF p.2021 총괄표는 추경 컬럼이 없는 6칸 구조(2024결산 5,907 / 2025본예산(A) 7,617 / 2026요구안 9,831 / 2026조정안(B) 9,177 / 증감(B-A) 1,560 / 증감률 20.5). JSON이 한 칸씩 밀림: 2025_supplementary=9831(실제 해당없음), 2026_request=9177(실제 9,831), 2026_budget=1560(실제 9,177), change_amount=20.5(실제 1,560), change_rate=null(실제 20.5). p.2024 '전투발전연구 : (25) 7,617 → (26) 9,177백만원 +1,560백만원(+20.5%)'로 명확히 교차 확인. 1차 판정 그대로 확인.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\242.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\242_전투발전연구.txt"
+ },
+ {
+  "id": 243,
+  "name": "국방부_정보체계개발유지(정보화)",
+  "prior_detail": "PDF p.2032 총괄표는 추경 컬럼이 없는 6칸 구조(2024결산 184,408 / 2025본예산(A) 187,774 / 2026요구 210,446 / 2026조정(B) 183,056 / 증감(B-A) △4,718 / 증감률 △2.5). JSON이 한 칸씩 밀림: 2025_supplementary=210446(실제 해당없음), 2026_request=183056(실제 210,446), 2026_budget=-4718(실제 183,056), change_amount=-2.5(실제 △4,718), change_rate=null(실제 △2.5). 2026_budget이 음수인 것은 △4,718을 잘못 옮긴 결과이며, PDF 최근5년 사업비표의 '2026 = 183,056'과 sub_project b2026=2.5로도 밀림 확인. 1차 판정 그대로 확인.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\243.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\243_정보체계개발유지(정보화).txt"
+ },
+ {
+  "id": 255,
+  "name": "국토교통부_건설산업정보시스템 구축 및 운영 (정보화)",
+  "prior_detail": "PDF p.2163 총괄표: 3,039 / 3,151 / 3,151 / 4,305 / 4,305 / 1,154 / 36.6%. JSON change_rate가 null로 PDF의 36.6% 미반영(단일 필드 불일치). 나머지 6개 필드는 일치.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\255.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\255_건설산업정보시스템구축및운영(정보화).txt"
+ },
+ {
+  "id": 257,
+  "name": "국토교통부_공간지식추론엔진기술개발(R&D)",
+  "prior_detail": "PDF p.2194 총괄표: 1,037 / 2,128 / 2,128 / 3,807 / 3,807 / 1,679 / 78.9%. JSON change_rate null로 PDF 78.9% 미반영. 나머지 6개 필드 일치.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\257.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\257_공간지식추론엔진기술개발(R&D).txt"
+ },
+ {
+  "id": 281,
+  "name": "국토교통부_자율주행글로벌혁신클러스터연구개발사업(R&D)",
+  "prior_detail": "PDF p.2443 총괄표는 신규('26~'29)로 증감률이 '순증'이며, 최근5년 사업비표에서 2022~2025 전부 '-', 2026 3,400으로 확인. 따라서 2025년 본예산(A)은 '-'가 맞고 JSON의 2025_original=3,400은 오배정(요구안/확정 열 값이 앞으로 밀림). 올바른 값: -, -, -, 3,400(정부안), 3,400(확정), 3,400(증감), 순증.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\281.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\281_자율주행글로벌혁신클러스터연구개발사업(R&D).txt"
+ },
+ {
+  "id": 290,
+  "name": "금융위원회_신용정보(정보화)",
+  "prior_detail": "PDF p.2514 지출계획 총괄표: 1,364 / 2,034 / 2,034(추경A) / 4,911(요구안) / 2,244(본예산B) / 210 / 10.3%. JSON change_rate null로 PDF 10.3% 미반영. 참고로 sub_projects의 b2025=4,911도 오류(내역표상 2025년은 2,034).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\290.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\290_신용정보(정보화).txt"
+ },
+ {
+  "id": 316,
+  "name": "기후에너지환경부_세라믹분야 스마트그린 제조혁신 지원사업(R&D)",
+  "prior_detail": "PDF p.2823 지출계획 총괄표: 2024결산 '(1,233)' / 2025당초(A) 1,233 / 수정 1,233 / 2026정부안 2,052 / 확정(B) 2,052 / 증감 819 / 66.4. JSON 2024_settlement=null이 PDF의 (1,233) 표기와 불일치. 최근5년 사업비표에도 2023 (2,000), 2024 (1,233)로 기재되어 2024 실적치 존재. 나머지 필드는 일치.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\316.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\316_세라믹분야 스마트그린 제조혁신 지원사업(R&D).txt"
+ },
+ {
+  "id": 336,
+  "name": "농림축산식품부_스마트팜다부처패키지혁신기술개발(R&D)",
+  "prior_detail": "PDF p.2999 총괄표는 추경 열이 없는 6열 구조: 2024결산 15,779 / 2025본예산(A) 16,636 / 2026요구안 17,808 / 2026본예산(B) 17,808 / 증감(B-A) 1,172 / 7.0. JSON은 열이 한 칸씩 밀림 - 2025_supplementary 17,808(실제 해당 열 없음), 2026_budget 1,172(실제 17,808), change_amount 7(실제 1,172), change_rate null(실제 7.0). 4개 필드 오류.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\336.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\336_스마트팜다부처패키지혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 337,
+  "name": "농촌진흥청_AI기반작물모니터링및진단플랫폼개발(R&D)",
+  "prior_detail": "PDF p.3013 예산총괄표(6열: 2024결산/2025본예산(A)/2026요구/2026조정(B)/증감(B-A)/(B-A)/A) = -, -, 7,800, 7,800, 7,800, 순증. JSON은 한 칸씩 밀림: 2025_supplementary=7800(PDF에는 추경열 자체가 없음 → null이어야), change_amount=null(→7,800). 2026_request/2026_budget 7,800은 일치.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\337.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\337_AI기반작물모니터링및진단플랫폼개발(R&D).txt"
+ },
+ {
+  "id": 338,
+  "name": "농촌진흥청_국경 이동성 해충의 국제 발생 예측 및 방제기술 개발(R&D)",
+  "prior_detail": "PDF p.3023 예산총괄표 = -, -(2025본예산A), 2,000(2026요구), 2,000(조정B), 2,000(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=2000(→null), change_amount=null(→2,000). 2026_request/2026_budget 2,000은 일치.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\338.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\338_국경이동성해충의국제발생예측및방제기술개발(R&D).txt"
+ }
+]

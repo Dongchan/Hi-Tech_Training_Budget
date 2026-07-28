@@ -1,0 +1,166 @@
+[
+ {
+  "id": 340,
+  "name": "농작업안전관리기술및웨어러블편이장비개발(R&D)",
+  "prior_detail": "ai_domains가 '재난/안전' 단독. PDF 사업내용상 '농업/식품' 누락이며 '행동 예측 기반 농작업 보조 웨어러블 로봇 개발'·'웨어러블 로봇 농업적용 협의체 구성·운영'이 명시되어 로봇/피지컬AI 계열도 누락.",
+  "current_domains": [
+   "재난/안전"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\340.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\340_농작업안전관리기술및웨어러블편이장비개발(R&D).txt"
+ },
+ {
+  "id": 341,
+  "name": "데이터기반농업관측을위한위성영상활용기술개발(R&D)",
+  "prior_detail": "ai_tech '컴퓨터비전'은 PDF 본문 근거 없음(위성영상 활용 작황 모니터링·농경지 이용변화 탐지 서술뿐). ai_domains에 '농업/식품' 누락(데이터·우주/위성만 부여). rnd_stage '응용연구'는 수용 가능.",
+  "current_domains": [
+   "데이터",
+   "우주/위성"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\341.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\341_데이터기반농업관측을위한위성영상활용기술개발(R&D).txt"
+ },
+ {
+  "id": 342,
+  "name": "스마트팜다부처 패키지혁신기술개발(R&D)",
+  "prior_detail": "is_rnd/rnd_stage(실증·고도화) 타당하나 ai_domains가 '농업/식품' 단독. PDF에 '자율주행 기반 무인화 로봇', '수확 로봇', '무인 주행형 방제 로봇', '생성형 AI 축우/양돈 개체관리' 등이 다수여서 로봇/피지컬AI·LLM 계열 누락.",
+  "current_domains": [
+   "농업/식품"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\342.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\342_스마트팜다부처패키지혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 345,
+  "name": "등기업무전산화(정보화)",
+  "prior_detail": "'보안/사이버' 단독은 부적절, '행정/전자정부' 누락",
+  "current_domains": [
+   "보안/사이버"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\345.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\345_등기업무전산화(정보화).txt"
+ },
+ {
+  "id": 348,
+  "name": "AI기반 관광 혁신 기술개발(R&D)",
+  "prior_detail": "관광(문화/콘텐츠) 도메인 누락",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\348.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\348_AI기반 관광 혁신 기술개발(R&D).txt"
+ },
+ {
+  "id": 349,
+  "name": "개인운동기록 활용 기술개발(R&D)",
+  "prior_detail": "ai_tech '신약/의료AI' 부적절(스포츠 데이터·운동기록 AX)",
+  "current_domains": [
+   "데이터",
+   "의료/바이오",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\349.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\349_개인운동기록 활용 기술개발(R&D).txt"
+ },
+ {
+  "id": 350,
+  "name": "국학진흥 정책기반 조성",
+  "prior_detail": "'문화/콘텐츠(전통문화)' 도메인 누락, '교육/인재' 단독 부여는 불충분",
+  "current_domains": [
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\350.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\350_국학진흥 정책기반 조성.txt"
+ },
+ {
+  "id": 351,
+  "name": "문화공간 AX 전환을 위한 차세대 Culture Tech 기술개…",
+  "prior_detail": "'문화/콘텐츠' 도메인 누락, ai_tech '제조/산업AI' 부적절",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\351.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\351_문화공간 AX 전환을 위한 차세대 Culture Tech 기술개….txt"
+ },
+ {
+  "id": 355,
+  "name": "인공지능 기반 공연예술 안전환경 구축 핵심기술개발(R&D)",
+  "prior_detail": "'재난/안전' 도메인 누락(공연장 안전사고 예측·관리)",
+  "current_domains": [
+   "문화/콘텐츠"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\355.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\355_인공지능 기반 공연예술 안전환경 구축 핵심기술개발(R&D).txt"
+ },
+ {
+  "id": 356,
+  "name": "저작권 및 AI 산업 상생협력 지원",
+  "prior_detail": "'교육/인재' 도메인 부적절 — PDF의 '학습데이터'는 AI 모델 학습용 데이터(공공저작물 AI 학습데이터 개방, 저작권 권리정보 유통 플랫폼)이지 사람 교육이 아님. 데이터·문화/콘텐츠(저작권)가 타당.",
+  "current_domains": [
+   "데이터",
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\356.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\356_저작권 및 AI 산업 상생협력 지원.txt"
+ },
+ {
+  "id": 357,
+  "name": "저작권 보호활동 활성화",
+  "prior_detail": "'LLM/언어모델', '디지털전환(AX)' 과잉(생성형 AI 활용은 일부 내역에 한정)",
+  "current_domains": [
+   "LLM/언어모델",
+   "보안/사이버",
+   "법률/치안",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\357.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\357_저작권보호활동 활성화.txt"
+ },
+ {
+  "id": 360,
+  "name": "방송콘텐츠 진흥",
+  "prior_detail": "ai_domains가 '디지털전환(AX)' 단독. 방송·크리에이터 미디어 콘텐츠 제작지원이 본류이므로 '문화/콘텐츠' 누락, 신설 내역사업 'AI·디지털 기반 미디어 융합인재'(1,792)와 '지역 방송 제작역량 강화'(AI 제작 기술교육)로 '교육/인재'도 누락. 또한 is_rnd=false인데 rnd_stage='실증/시범'이 남아 내부 불일치.",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\360.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\360_방송콘텐츠 진흥.txt"
+ },
+ {
+  "id": 361,
+  "name": "안전한 AI 활용 기반 조성",
+  "prior_detail": "핵심은 AI 역기능·이용자보호(AI안전/신뢰)인데 ai_domains의 '디지털전환(AX)'은 근거 약함",
+  "current_domains": [
+   "LLM/언어모델",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\361.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\361_안전한 AI 활용 기반 조성.txt"
+ },
+ {
+  "id": 362,
+  "name": "지능정보사회 이용자보호 환경조성",
+  "prior_detail": "'문화/콘텐츠'는 근거 약함. 실제는 AI·메타버스 이용자보호 정책연구",
+  "current_domains": [
+   "문화/콘텐츠",
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\362.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\362_지능정보사회 이용자보호 환경조성.txt"
+ },
+ {
+  "id": 366,
+  "name": "법무행정정보화(정보화)",
+  "prior_detail": "'피지컬AI/디바이스'는 PC·전산장비 구입을 오분류한 것으로 부적절",
+  "current_domains": [
+   "데이터",
+   "보안/사이버",
+   "행정/전자정부",
+   "통신/네트워크",
+   "법률/치안",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\366.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\366_법무행정정보화(정보화).txt"
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "id": 339,
+  "name": "농촌진흥청_농업기술정보화(정보화)",
+  "prior_detail": "PDF p.3033 예산총괄표 = 7,974(2024결산) / 7,273(2025본예산A) / 7,050(2026요구) / 6,823(조정B) / △450(증감) / △6.2(%). JSON은 앞 2필드만 정확하고 이후 한 칸 밀림: 2025_supplementary=7050(→2026요구), 2026_request=6823(→조정B), 2026_budget=-450(→증감액), change_amount=-6.2(→증감률), change_rate=null. 음수 부호 자체는 PDF △ 표기와 정합하나 필드 위치가 전부 어긋남. sub_projects도 사업명이 잘려('농업기술정보화'/'(정보화)') 실제 내역사업(맞춤형 농업기술콘텐츠 확충 220, 농업과학기술정보플랫폼 운영 620, 농업 데이터 플랫폼 운영 1,001 등)과 무관.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\339.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\339_농업기술정보화(정보화).txt"
+ },
+ {
+  "id": 340,
+  "name": "농촌진흥청_농작업안전관리기술및웨어러블편이장비개발(R&D)",
+  "prior_detail": "PDF 예산총괄표 = -, -, 3,000(요구), 3,000(조정B), 3,000(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=3000(→null), change_amount=null(→3,000).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\340.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\340_농작업안전관리기술및웨어러블편이장비개발(R&D).txt"
+ },
+ {
+  "id": 341,
+  "name": "농촌진흥청_데이터기반농업관측을위한위성영상활용기술개발(R&D)",
+  "prior_detail": "PDF 예산총괄표 = -, -, 1,770(요구), 1,770(조정B), 1,770(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=1770(→null), change_amount=null(→1,770).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\341.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\341_데이터기반농업관측을위한위성영상활용기술개발(R&D).txt"
+ },
+ {
+  "id": 342,
+  "name": "농촌진흥청_스마트팜다부처 패키지혁신기술개발(R&D)",
+  "prior_detail": "PDF 예산총괄표 = 16,643(2024결산) / 18,180(2025본예산A) / 18,708(2026요구) / 18,708(조정B) / 528(증감) / 2.9(%). JSON 한 칸 밀림: 2025_supplementary=18708(→null), 2026_request=18708(우연 일치), 2026_budget=528(→18,708), change_amount=2.9(→528), change_rate=null(→2.9). sub_projects도 사업명 파편('패키지혁신기술개발'/'(R&D)' 각 264)으로 오추출 — 실제 내역사업은 '스마트팜 실증·고도화 연구'(2024 7,641) 등.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\342.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\342_스마트팜다부처패키지혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 343,
+  "name": "농촌진흥청_지능형농업로봇핵심기반기술개발(R&D)",
+  "prior_detail": "PDF 예산총괄표 = -, -, 2,950(요구), 2,950(조정B), 2,950(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=2950(→null), change_amount=null(→2,950).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\343.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\343_지능형농업로봇핵심기반기술개발(R&D).txt"
+ },
+ {
+  "id": 344,
+  "name": "농촌진흥청_특용작물유래천연활성바이오소재생산및활용기술개발(R&D)",
+  "prior_detail": "PDF 예산총괄표 = -, -, 7,500(요구), 7,500(조정B), 7,500(증감), 순증. JSON 한 칸 밀림: 2025_supplementary=7500(→null), change_amount=null(→7,500). 내역사업 4,200/3,300은 PDF와 일치.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\344.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\344_특용작물유래천연활성바이오소재생산및활용기술개발(R&D).txt"
+ },
+ {
+  "id": 346,
+  "name": "대법원_사법업무 전산화(정보화)",
+  "prior_detail": "PDF 예산총괄표 = 48,598(2024결산) / 72,740(2025본예산A) / 112,938(2026요구) / 82,846(조정B) / 10,106(증감) / 13.9(%). JSON 한 칸 밀림: 2025_supplementary=112938(→null, PDF에 추경열 없음), 2026_request=82846(→112,938), 2026_budget=10106(→82,846), change_amount=13.9(→10,106), change_rate=null(→13.9). sub_projects 값도 동일하게 밀림.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\346.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\346_사법업무 전산화(정보화).txt"
+ },
+ {
+  "id": 403,
+  "name": "산업통상부_AI자율제조SDM플랫폼기술개발사업(R&D)",
+  "prior_detail": "PDF 총괄표: -/9,200/9,200/10,000/7,500/∆1,700/∆18.5. JSON은 change_amount=null, change_rate=null로 두 필드 누락(△ 표기 파싱 실패 추정). 나머지 5개 필드 일치",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\403.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\403_AI자율제조SDM플랫폼기술개발사업(R&D).txt"
+ },
+ {
+  "id": 413,
+  "name": "산업통상부_기계장비산업기술개발(R&D)",
+  "prior_detail": "PDF 총괄표: 158,854/158,244/158,244/219,989/219,989/61,745/39.0%. JSON change_rate=null 누락('%' 부착으로 파싱 실패 추정). 나머지 6개 필드 일치",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\413.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\413_기계장비산업기술개발(R&D).txt"
+ },
+ {
+  "id": 414,
+  "name": "산업통상부_대한무역투자진흥공사",
+  "prior_detail": "PDF 총괄표: 320,892/329,290/334,606/340,129/341,429/12,139/3.7%. JSON change_rate=null 누락. 나머지 6개 필드 일치",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\414.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\414_대한무역투자진흥공사.txt"
+ }
+]

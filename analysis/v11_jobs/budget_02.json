@@ -1,0 +1,72 @@
+[
+ {
+  "id": 66,
+  "name": "과학기술정보통신부_AI통합바우처",
+  "prior_detail": "PDF p.534 지출계획 총괄표는 2행: 사업출연금 -/-/-/80,425/80,425/80,425/순증, 민간경상보조 -/-/-/9,350/9,350/9,350/순증 (합 89,775). JSON은 민간경상보조(데이터바우처) 1행만 담아 2026_request·2026_budget·change_amount 모두 9,350 → 사업규모 대폭 과소. 기능별 합계(2024 113,150/2025 103,591/2026 89,775) 및 내역합(18,000+30,000+27,625+4,800+9,350)도 미반영. sub_projects 2026값(2,092.6/3,487.7/3,211.6/558)은 PDF의 18,000/30,000/27,625/4,800과 불일치",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\66.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\066_AI통합바우처.txt"
+ },
+ {
+  "id": 87,
+  "name": "과학기술정보통신부_공공AX 프로젝트",
+  "prior_detail": "PDF p691 예산총괄표: 2024결산 공란(신규), 2025본예산 15,000 / 추경 15,000 / 2026요구 60,000 / 2026본예산 60,000 / 증감 45,000 / 300%. JSON은 change_rate=null (PDF 300%)만 불일치. 나머지 6개 필드 및 2024결산 null 표기는 일치.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\87.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\087_공공AX프로젝트.txt"
+ },
+ {
+  "id": 88,
+  "name": "과학기술정보통신부_공공행정서비스혁신기술개발(R&D)",
+  "prior_detail": "PDF p699 예산총괄표: 7,047 / 11,324 / 11,324 / 11,054 / 9,804 / △1,520 / △13.4%. JSON은 change_rate=null만 불일치(나머지 6개 필드 및 change_amount -1520 일치).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\88.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\088_공공행정서비스혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 111,
+  "name": "과학기술정보통신부_데이터경제인프라구축",
+  "prior_detail": "PDF p882 지출계획 총괄표: 84,615 / 46,714 / 46,714 / 33,511 / 33,511 / △13,203 / △28.3%. JSON은 change_rate=null만 불일치(나머지 6개 필드 및 change_amount -13,203 일치).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\111.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\111_데이터경제인프라구축.txt"
+ },
+ {
+  "id": 112,
+  "name": "과학기술정보통신부_데이터기반산업경쟁력강화",
+  "prior_detail": "PDF p893 지출계획 총괄표는 2개 행: 민간경상보조 11,960/10,467/10,467/9,119/9,119/△1,348/△12.9, 사업출연금 3,080/1,330/1,330/1,280/1,280/△50/△3.8. JSON은 '사업출연금' 행만 반영. 사업 전체 합계는 2024 15,040, 2025 11,797, 2026 10,399. 따라서 2024_settlement(3,080 vs 15,040), 2025_original·supplementary(1,330 vs 11,797), 2026_request·budget(1,280 vs 10,399), change_amount(△50 vs △1,398) 모두 과소. sub_projects의 '민간경상보조 b2026=12.9'는 증감률(△12.9)을 금액으로 오파싱.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\112.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\112_데이터기반산업경쟁력강화.txt"
+ },
+ {
+  "id": 118,
+  "name": "과학기술정보통신부_디지털 혁신 기술 기반 K-CareNetwork",
+  "prior_detail": "PDF p941 예산총괄표: 4,000 / 6,000 / 6,000 / 5,600 / 5,600 / △400 / △6.7%. JSON은 change_rate=null만 불일치(나머지 6개 필드 및 change_amount -400 일치).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\118.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\118_디지털 혁신 기술 기반 K-CareNetwork.txt"
+ },
+ {
+  "id": 164,
+  "name": "과학기술정보통신부_인공지능첨단유망기술개발(R&D)",
+  "prior_detail": "PDF p.1313 총괄표: 7,000 / 6,300 / 6,300 / 6,000 / 6,000 / △300 / △4.8%. JSON change_amount=-300은 일치하나 change_rate가 null로 누락(정답 -4.8). 나머지 6개 필드는 일치",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\164.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\164_인공지능첨단유망기술개발(R&D).txt"
+ },
+ {
+  "id": 170,
+  "name": "과학기술정보통신부_정보보호핵심원천기술개발(R&D,정보화)",
+  "prior_detail": "PDF p.1362 '가. 지출계획 총괄표': 107,570 / 99,335 / 99,335 / 107,415 / 107,415 / 8,080 / 8.1%. JSON change_rate가 null로 누락(정답 8.1). 나머지 6개 필드 및 4개 내역사업 금액 모두 일치",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\170.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\170_정보보호핵심원천기술개발(R&D,정보화).txt"
+ },
+ {
+  "id": 174,
+  "name": "과학기술정보통신부_지능형 홈 산업 육성",
+  "prior_detail": "PDF p.1421 총괄표: 3,900 / 3,900 / - / 3,360 / 3,360 / △540 / △13.8%. JSON change_amount=-540은 일치하나 change_rate가 null로 누락(정답 -13.8). 2025 추경 '-' → null도 일치",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\174.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\174_지능형 홈 산업 육성.txt"
+ },
+ {
+  "id": 240,
+  "name": "국방부_국방ICT혁신기술",
+  "prior_detail": "PDF p.2006 총괄표는 추경 컬럼이 없는 6칸 구조(2024결산 '-' / 2025본예산(A) 1,000 / 2026요구 12,011 / 2026조정(B) 6,651 / 증감(B-A) 5,651 / 증감률 565.1). JSON이 한 칸씩 밀림: 2025_supplementary=12011(실제 해당없음), 2026_request=6651(실제 12,011), 2026_budget=5651(실제 6,651), change_amount=565.1(실제 5,651), change_rate=null(실제 565.1). 2024_settlement=null, 2025_original=1000만 정확. 사업개요의 '2026 사업비 6,651'과 sub_project b2026=5,651 불일치로도 교차 확인됨. 1차 판정 그대로 확인.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\240.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\240_국방ICT혁신기술.txt"
+ }
+]

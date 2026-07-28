@@ -1,0 +1,171 @@
+[
+ {
+  "id": 369,
+  "name": "법제업무정보화추진(정보화)",
+  "prior_detail": "'LLM/언어모델'은 생성형 AI 법령검색(법령특화 AI 모델 1,656백만, 학습데이터 수집·분석 870백만 등 총 3,344백만원)으로 근거 충분. 다만 기술분류가 ai_domains에 들어가고 ai_tech는 null이어서 필드 배치가 어긋나며, 사업 본질(국가법령정보·정부입법지원 등 행정 정보시스템)에 대한 '행정/전자정부' 도메인 누락(동일 성격 id 346에는 부여됨).",
+  "current_domains": [
+   "LLM/언어모델",
+   "보안/사이버"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\369.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\369_법제업무정보화추진(정보화).txt"
+ },
+ {
+  "id": 374,
+  "name": "AI응용제품 신속 상용화 지원(복지)",
+  "prior_detail": "복지·돌봄 도메인 누락(RAG 상담솔루션·고독사 예방 등 핵심 내용 미반영)",
+  "current_domains": [
+   "로봇",
+   "디지털전환(AX)",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\374.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\374_AI응용제품 신속 상용화 지원(복지).txt"
+ },
+ {
+  "id": 378,
+  "name": "다기관-멀티모달 연합학습 기반 의료 인공지능 기술 시범모델…",
+  "prior_detail": "ai_domains의 '교육/인재'는 근거 없음(연합'학습'을 교육으로 오인). 실제 내용은 의료기관 간 데이터 비공유 연합학습 플랫폼·멀티모달 파운데이션 모델. '의료/바이오','LLM/언어모델'은 타당. 또한 명백한 R&D 사업인데 is_rnd=false로 잘못 표기됨",
+  "current_domains": [
+   "LLM/언어모델",
+   "의료/바이오",
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\378.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\378_다기관-멀티모달 연합학습 기반 의료 인공지능 기술 시범모델….txt"
+ },
+ {
+  "id": 382,
+  "name": "사회보장정보시스템 구축 및 운영(정보화)",
+  "prior_detail": "ai_domains=['의료/바이오']는 오분류. 소관 사회복지정책실 복지행정지원관, 분야 080 사회복지·부문 089 사회복지일반, 내용은 복지로/복지멤버십/사각지대 발굴·차세대 사회보장정보시스템 구축. '행정/전자정부' 또는 '복지/사회서비스','데이터'가 적합",
+  "current_domains": [
+   "의료/바이오"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\382.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\382_사회보장정보시스템 구축 및 운영(정보화).txt"
+ },
+ {
+  "id": 384,
+  "name": "의료 인공지능 특화 융합인재 양성 사업(R&D)",
+  "prior_detail": "'의료/바이오'+'신약/의료AI'는 맞으나 사업 본질인 '교육/인재' 도메인 누락. 학·석·박사 학위과정(마이크로디그리, 의료인공지능학 세부전공교실, PBL 실습) 운영 지원이 사업 전부",
+  "current_domains": [
+   "의료/바이오"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\384.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\384_의료 인공지능 특화 융합인재 양성 사업(R&D).txt"
+ },
+ {
+  "id": 386,
+  "name": "지역거점 AX혁신 기술개발(R&D)",
+  "prior_detail": "보건복지부 소관 바이오 특화 AX 사업인데 '의료/바이오' 도메인 누락",
+  "current_domains": [
+   "로봇",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\386.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\386_지역거점AX혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 388,
+  "name": "치매전주기 데이터수집 및 빅데이터 통합시스템 구축사업(R&D)",
+  "prior_detail": "ai_domains의 '데이터'·'의료/바이오'는 타당하나, ai_tech의 '신약/의료AI'는 원문 근거 없음 — 사업내용은 치매극복연구개발사업 레지스트리 환자의 2년 간격 추적 종적데이터·시료 수집·분양에 국한되며 AI 모델 개발·활용 언급이 전무",
+  "current_domains": [
+   "데이터",
+   "의료/바이오"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\388.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\388_치매전주기 데이터수집 및 빅데이터 통합시스템 구축사업(R&D).txt"
+ },
+ {
+  "id": 392,
+  "name": "고성능 목재수확 기계장비 개발(R&D)",
+  "prior_detail": "'농업/식품'은 부적절(임업기계 개발). 로봇·피지컬AI 계열이 더 적합",
+  "current_domains": [
+   "농업/식품",
+   "산림/생태"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\392.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\392_고성능 목재수확 기계장비 개발(R&D).txt"
+ },
+ {
+  "id": 399,
+  "name": "스마트 산림재해 대응(정보화)",
+  "prior_detail": "'농업/식품'은 근거 없음(산림재난 대응 사업). 2026 신규 '저궤도 위성통신 장비 구입' 1,800백만원이 최대 증액 항목이므로 '통신/네트워크' 누락이 문제. '우주/위성','재난/안전','산림/생태','데이터'는 타당",
+  "current_domains": [
+   "데이터",
+   "농업/식품",
+   "우주/위성",
+   "재난/안전",
+   "산림/생태"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\399.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\399_스마트 산림재해 대응(정보화).txt"
+ },
+ {
+  "id": 409,
+  "name": "SDV용AI가속기반도체기술개발(R&D)",
+  "prior_detail": "AI반도체 도메인 누락(SDV용 AI가속기 반도체 국산화가 핵심)",
+  "current_domains": [
+   "교통/모빌리티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\409.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\409_SDV용AI가속기반도체기술개발(R&D).txt"
+ },
+ {
+  "id": 411,
+  "name": "국가로봇테스트필드사업(R&D)",
+  "prior_detail": "건설/스마트시티는 근거 약함(로봇 실증 인프라 구축 사업)",
+  "current_domains": [
+   "로봇",
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\411.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\411_국가로봇테스트필드사업(R&D).txt"
+ },
+ {
+  "id": 413,
+  "name": "기계장비산업기술개발(R&D)",
+  "prior_detail": "'제조/스마트팩토리','로봇' 도메인은 타당하나 사업목적이 '업종별 특화 제조AI 기술확보'인데 ai_tech가 null로 '제조/산업AI'가 누락됨",
+  "current_domains": [
+   "로봇",
+   "제조/스마트팩토리"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\413.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\413_기계장비산업기술개발(R&D).txt"
+ },
+ {
+  "id": 415,
+  "name": "로봇산업기술개발(R&D)",
+  "prior_detail": "LLM/언어모델은 근거 없음(로봇·제조AI 중심)",
+  "current_domains": [
+   "LLM/언어모델",
+   "데이터",
+   "로봇",
+   "제조/스마트팩토리",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\415.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\415_로봇산업기술개발(R&D).txt"
+ },
+ {
+  "id": 418,
+  "name": "민관공동투자반도체고급인력양성(R&D)",
+  "prior_detail": "AI반도체는 근거 약함(반도체 전영역 고급인력 양성 R&D)",
+  "current_domains": [
+   "AI반도체",
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\418.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\418_민관공동투자반도체고급인력양성(R&D).txt"
+ },
+ {
+  "id": 420,
+  "name": "바이오산업개방형 생태계 조성 촉진",
+  "prior_detail": "의료/바이오 도메인 누락, 교육/인재만 표기됨",
+  "current_domains": [
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\420.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\420_바이오산업개방형생태계조성촉진.txt"
+ }
+]

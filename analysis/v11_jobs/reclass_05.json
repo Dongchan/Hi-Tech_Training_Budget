@@ -1,0 +1,164 @@
+[
+ {
+  "id": 160,
+  "name": "인간지향적차세대도전형AI기술개발(R&D)",
+  "prior_detail": "'LLM/언어모델'은 부정확(AGI 지향 차세대 범용 AI 도전형 R&D)",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\160.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\160_인간지향적차세대도전형AI기술개발(R&D).txt"
+ },
+ {
+  "id": 163,
+  "name": "인공지능융합혁신인재양성(R&D)",
+  "prior_detail": "핵심 도메인 '교육/인재' 누락. 'AI혁신(AX: AI Transformation) 고급인재' 표현 때문에 디지털전환(AX)만 표기된 것으로 보이나 사업 본질은 산학 공동 AI 인재양성",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\163.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\163_인공지능융합혁신인재양성(R&D).txt"
+ },
+ {
+  "id": 170,
+  "name": "정보보호핵심원천기술개발(R&D,정보화)",
+  "prior_detail": "'보안/사이버'는 정확. '디지털전환(AX)'은 내역(데이터·네트워크보호, 취약점 대응·신산업 융합보호, 공공서비스 보호강화, 사이버보안 국제협력)에 직접 근거가 없어 과잉 부여",
+  "current_domains": [
+   "보안/사이버",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\170.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\170_정보보호핵심원천기술개발(R&D,정보화).txt"
+ },
+ {
+  "id": 173,
+  "name": "제조업 AI융합 기반 조성",
+  "prior_detail": "'제조/스마트팩토리' 도메인 누락(제조데이터 기반 AI융합 솔루션 개발·실증)",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\173.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\173_제조업 AI융합 기반 조성.txt"
+ },
+ {
+  "id": 175,
+  "name": "지속가능한 데이터센터 산업 발전 지원",
+  "prior_detail": "'데이터'보다 클라우드/컴퓨팅(인프라)이 적합",
+  "current_domains": [
+   "데이터",
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\175.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\175_지속가능한 데이터센터 산업 발전 지원.txt"
+ },
+ {
+  "id": 176,
+  "name": "지역거점 AX혁신기술개발(R&D)",
+  "prior_detail": "'LLM/언어모델','문화/콘텐츠'는 근거 없음(AX 전략분야는 완전자율로봇·바이오헬스케어)",
+  "current_domains": [
+   "LLM/언어모델",
+   "의료/바이오",
+   "로봇",
+   "문화/콘텐츠",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\176.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\176_지역거점AX혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 177,
+  "name": "지역디지털 인재양성",
+  "prior_detail": "'피지컬AI/디바이스'는 부적절(초중등~취창업 SW·AI 교육 사업)",
+  "current_domains": [
+   "교육/인재",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\177.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\177_지역디지털인재양성.txt"
+ },
+ {
+  "id": 178,
+  "name": "지역특화 AI 공간컴퓨팅 육성사업",
+  "prior_detail": "'교통/모빌리티'는 근거 약함; AR·디지털콘텐츠(공간컴퓨팅) 도메인이 적합",
+  "current_domains": [
+   "교통/모빌리티",
+   "로봇"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\178.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\178_지역특화 AI 공간컴퓨팅 육성사업.txt"
+ },
+ {
+  "id": 198,
+  "name": "한국과학기술원 연구 운영비 지원(R&D)",
+  "prior_detail": "ai_domains가 'R&D 지원' 단독. 그러나 소관이 미래인재정책국 미래인재양성과이고, 학사사업비 42,351·창의적인재양성 특성화교육 15,371·AI 국가대표 양성(InnoCORE) 52,500·AI 전사양성사업 4,450·InnoCORE Link KAIST 1,950·충북 AI BIO 과학영재학교 152 등 인재양성 비중이 매우 큼 → '교육/인재' 누락. 1차 판정과 동일.",
+  "current_domains": [
+   "R&D 지원"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\198.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\198_한국과학기술원 연구 운영비 지원(R&D).txt"
+ },
+ {
+  "id": 202,
+  "name": "한국뇌연구원 연구운영비 지원(R&D)",
+  "prior_detail": "ai_domains 'R&D 지원' 단독. 실질은 뇌신경망·뇌질환 중점연구, 뇌발달질환 진단·치료기기 개발(2,652), 브레인 리부팅 치료제 개발(1,821) 등 명백한 의료·바이오 영역이므로 '의료/바이오' 누락. (1차 'appropriate'에서 하향)",
+  "current_domains": [
+   "R&D 지원"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\202.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\202_한국뇌연구원 연구운영비 지원(R&D).txt"
+ },
+ {
+  "id": 208,
+  "name": "한국원자력연구원 연구 운영비 지원(R&D)",
+  "prior_detail": "ai_domains 'R&D 지원' 단독. 선진원자로·핵연료·방사성폐기물·SMR 상용화 등 실질이 원자력 에너지 영역이므로 '에너지' 누락(부수적으로 '교육/인재'도 해당). (1차 'appropriate'에서 하향)",
+  "current_domains": [
+   "R&D 지원"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\208.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\208_한국원자력연구원 연구 운영비 지원(R&D).txt"
+ },
+ {
+  "id": 217,
+  "name": "해킹바이러스 대응체계 고도화(정보화,출연)",
+  "prior_detail": "디지털전환(AX)은 근거 부족, 보안/사이버가 핵심",
+  "current_domains": [
+   "보안/사이버",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\217.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\217_해킹바이러스대응체계고도화(정보화,출연).txt"
+ },
+ {
+  "id": 219,
+  "name": "관세행정 정보관리(정보화)",
+  "prior_detail": "1차의 'wrong'은 과함. 최대 내역이 '국가관세망 노후장비 교체'(19,315, 임차료 중심)로 통신망 인프라 성격이 일부 있어 '통신/네트워크'가 완전히 틀리지는 않음. 다만 사업 실질(관세정보시스템 운영·유지관리, 행정정보시스템 유지관리, 세관 정보화 지원, 전자통관)은 '행정/전자정부'가 핵심 도메인이며 이것이 누락 → partial.",
+  "current_domains": [
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\219.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\219_관세행정정보관리(정보화).txt"
+ },
+ {
+  "id": 222,
+  "name": "가상실험실습 학습콘텐츠 공유 플랫폼 구축(정보화)",
+  "prior_detail": "'문화/콘텐츠'는 학습콘텐츠 의미로 오분류 소지, VR/AR 중심이며 AI 요소는 '27년 이후 학습분석 단계",
+  "current_domains": [
+   "데이터",
+   "교육/인재",
+   "문화/콘텐츠",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\222.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\222_가상실험실습 학습콘텐츠 공유 플랫폼 구축(정보화).txt"
+ },
+ {
+  "id": 225,
+  "name": "대학정보공시 제도 운영(정보화)",
+  "prior_detail": "'교육/인재'는 고등교육 분야(고등·평생교육 지원특별회계, 프로그램 '대학교육 역량강화')라는 점에서 부분 타당하나, 사업 실질은 대학정보공시 데이터 조사·검증과 차세대 통합시스템 구축·운영(2026 9,187/10,531)이므로 '데이터' 및 '행정/전자정부'가 더 정확. 1차 판단과 동일 취지.",
+  "current_domains": [
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\225.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\225_대학정보공시 제도 운영(정보화).txt"
+ }
+]

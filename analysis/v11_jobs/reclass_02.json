@@ -1,0 +1,156 @@
+[
+ {
+  "id": 35,
+  "name": "AI 반도체 지원플랫폼",
+  "prior_detail": "유일 내역이 'AI반도체 기술인재 공급 플랫폼'(2,250, 100%)이고 목적이 인력난 극복·인재 공급체계 구축이므로 '교육/인재(인력공급·채용연계)' 도메인 누락. 현재 'AI반도체' 단독",
+  "current_domains": [
+   "AI반도체"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\35.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\035_AI 반도체 지원플랫폼.txt"
+ },
+ {
+  "id": 36,
+  "name": "AI 분야 오픈소스 생태계 조성",
+  "prior_detail": "'LLM/언어모델' 단독. 오픈소스 대상에 'SW, LLM 등'이 있어 완전 오류는 아니나 SW/오픈소스 도메인과 '교육/인재'(단위사업 'SW융합인력양성', 커뮤니티 활성화 1,000 중 700이 인재양성) 누락, ai_tech도 null",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\36.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\036_AI 분야 오픈소스 생태계 조성.txt"
+ },
+ {
+  "id": 38,
+  "name": "AI+S&T 혁신 기술 개발(R&D)",
+  "prior_detail": "연구 분야별 특화 AI 모델 개발이 핵심이므로 'R&D 지원'만으로는 부족",
+  "current_domains": [
+   "R&D 지원"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\38.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\038_AI+S&T 혁신 기술 개발(R&D).txt"
+ },
+ {
+  "id": 39,
+  "name": "AI-RAN 글로벌 선도 프로젝트(R&D)",
+  "prior_detail": "'통신/네트워크'는 정확. '교육/인재'는 p.350 기대효과의 '융합인재 양성' 한 줄뿐이라 도메인 부여는 과함 → 제거 권고. rnd_stage '사업화/확산'도 부적절(연구 플랫폼 구축 단계)",
+  "current_domains": [
+   "교육/인재",
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\39.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\039_AI-RAN 글로벌 선도 프로젝트(R&D).txt"
+ },
+ {
+  "id": 40,
+  "name": "AI-네이티브 첨단바이오 자율실험실(R&D)",
+  "prior_detail": "첨단바이오 자율실험실 사업이므로 '의료/바이오(첨단바이오)' 도메인 누락",
+  "current_domains": [
+   "로봇",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\40.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\040_AI-네이티브 첨단바이오 자율실험실(R&D).txt"
+ },
+ {
+  "id": 41,
+  "name": "AIxBio 혁신 연구거점 조성 시범사업(R&D)",
+  "prior_detail": "'의료/바이오'는 정확하나, 사업목적이 '기술축적·인재양성·산업확산 선순환 생태계 조성'이고 성과지표에 '석박사급 융합인재 양성 수(명)'가 별도 설정되어 '교육/인재' 누락. ai_tech null도 보완 필요. 1차 appropriate를 partial로 하향",
+  "current_domains": [
+   "의료/바이오"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\41.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\041_AIxBio 혁신 연구거점 조성 시범사업(R&D).txt"
+ },
+ {
+  "id": 43,
+  "name": "AI·블록체인 융합 기반 자율형 고신뢰 핵심기술 개발(R&D)",
+  "prior_detail": "'LLM/언어모델'은 근거 전무. 실체는 AI-블록체인 융합 고신뢰 디지털 인프라·분산형 AI(DAI)·데이터 신뢰성으로, 블록체인/분산원장·보안(사이버)·데이터·AI신뢰안전이 적정. 또한 sub_projects 2번째 항목은 국정과제 서술문 오파싱이며 실제 내역사업 아님",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\43.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\043_AI·블록체인 융합 기반 자율형 고신뢰 핵심기술 개발(R….txt"
+ },
+ {
+  "id": 44,
+  "name": "AI기반 개방형 자율 디지털트윈 핵심기술 개발(R&D)",
+  "prior_detail": "산업현장 디지털트윈 자동화·자율운영 사업으로 '건설/스마트시티'보다 제조/산업·디지털전환(AX)이 적절",
+  "current_domains": [
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\44.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\044_AI기반 개방형 자율 디지털트윈 핵심기술 개발(R&D).txt"
+ },
+ {
+  "id": 46,
+  "name": "AI기반 안전 관리분야 디지털 트윈 선도",
+  "prior_detail": "질병·생활·산업 안전 디지털트윈 사업으로 '건설/스마트시티'는 부분적, 안전/재난·디지털전환(AX) 성격 누락",
+  "current_domains": [
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\46.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\046_AI기반 안전 관리분야 디지털 트윈 선도.txt"
+ },
+ {
+  "id": 47,
+  "name": "AI기반 어장 공간정보 빅데이터 플랫폼 구축 및 활용",
+  "prior_detail": "수산양식(김·전복) 대상 사업으로 '해양/수산' 도메인 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\47.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\047_AI기반 어장 공간정보 빅데이터 플랫폼 구축 및 활용.txt"
+ },
+ {
+  "id": 49,
+  "name": "AI기반가상융합산업육성",
+  "prior_detail": "생산·물류 산업혁신 및 생활밀착형 AI가상융합 서비스로 '디지털전환(AX)' 누락",
+  "current_domains": [
+   "문화/콘텐츠"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\49.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\049_AI기반가상융합산업육성.txt"
+ },
+ {
+  "id": 60,
+  "name": "AI 응용제품 신속 상용화 지원사업(보안‧네트워크‧생활 등)",
+  "prior_detail": "내역에 'AI 기반 차세대 보안 제품 상용화 지원'이 있어 '보안/사이버', 네트워크 도메인 누락",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\60.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\060_AI응용제품 신속상용화 지원사업(보안·네트워크·생활 등).txt"
+ },
+ {
+  "id": 61,
+  "name": "AI일상화 확산",
+  "prior_detail": "2026 잔존 내역은 보건의료(6,636)·심리케어돌봄(1,660) 둘뿐. 'LLM/언어모델'·'의료/바이오'는 타당하나 '디지털전환(AX)'은 근거 약하고 '사회·복지/돌봄'(AI 기본사회, 심리케어) 누락. 종료 내역 기준 라벨이 혼재",
+  "current_domains": [
+   "LLM/언어모델",
+   "의료/바이오",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\61.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\061_AI일상화확산.txt"
+ },
+ {
+  "id": 67,
+  "name": "AI혁신을 위한 데이터 안전 활용 지원 사업",
+  "prior_detail": "데이터안심구역 확산 사업으로 '데이터' 도메인 누락, 보안/사이버 단독 분류는 불충분",
+  "current_domains": [
+   "보안/사이버"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\67.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\067_AI혁신을 위한 데이터 안전 활용 지원 사업.txt"
+ },
+ {
+  "id": 68,
+  "name": "AI활용 미인증 기자재 온라인 모니터링 시스템 구축",
+  "prior_detail": "전파 적합성평가(KC인증) 단속·모니터링 시스템으로 '행정/전자정부' 성격이 더 적절",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\68.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\068_AI활용 미인증 기자재 온라인 모니터링 시스템 구축.txt"
+ }
+]

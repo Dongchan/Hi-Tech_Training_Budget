@@ -1,0 +1,157 @@
+[
+ {
+  "id": 460,
+  "name": "컴퓨터모델링 기반 의료기기 평가체계 구축(R&D)",
+  "prior_detail": "'건설/스마트시티' 부적절(디지털트윈 언급 오인 추정)",
+  "current_domains": [
+   "LLM/언어모델",
+   "의료/바이오",
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\460.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\460_컴퓨터모델링 기반 의료기기 평가체계 구축(R&D).txt"
+ },
+ {
+  "id": 462,
+  "name": "국제 거대전파망원경 건설 사업(R&D)",
+  "prior_detail": "'우주/위성(천문)' 누락, '디지털전환(AX)' 근거 약함",
+  "current_domains": [
+   "데이터",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\462.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\462_국제 거대전파망원경 건설 사업(R&D).txt"
+ },
+ {
+  "id": 463,
+  "name": "우주전파재난 위험분석 및 대응기술 개발(R&D)",
+  "prior_detail": "'재난/안전' 누락(우주전파재난 예·경보 대응)",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\463.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\463_우주전파재난 위험분석 및 대응기술 개발(R&D).txt"
+ },
+ {
+  "id": 465,
+  "name": "항공AI 안전성 확보를 위한 자율임무 신뢰성 보증기술 개발(R&D)",
+  "prior_detail": "'우주/위성'보다 항공·자율비행(교통/모빌리티) 도메인이 적절",
+  "current_domains": [
+   "우주/위성"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\465.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\465_항공AI 안전성 확보를 위한 자율임무 신뢰성 보증기술 개발(R….txt"
+ },
+ {
+  "id": 466,
+  "name": "국가인재개발 지능형 오픈 플랫폼 운영(정보화)",
+  "prior_detail": "ai_domains가 '데이터' 단독 — 사업 자체가 공무원 인재개발 학습플랫폼이므로 '교육/인재' 및 '행정/전자정부' 누락. AI·빅데이터 기반 맞춤형 학습 추천이 핵심 기능인데 ai_tech도 null",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\466.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\466_국가인재개발 지능형 오픈 플랫폼 운영(정보화).txt"
+ },
+ {
+  "id": 467,
+  "name": "전자인사관리시스템운영(정보화)",
+  "prior_detail": "ai_domains '디지털전환(AX)' 단독. 국가 인사행정 정보시스템(e-사람) 운영 사업이므로 '행정/전자정부' 누락이 명백",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\467.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\467_전자인사관리시스템운영(정보화).txt"
+ },
+ {
+  "id": 468,
+  "name": "조달정보화(정보화)",
+  "prior_detail": "'행정/전자정부' 누락, '보안/사이버' 단독은 부분적 근거",
+  "current_domains": [
+   "보안/사이버"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\468.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\468_조달정보화(정보화).txt"
+ },
+ {
+  "id": 472,
+  "name": "신성장기반자금(융자)",
+  "prior_detail": "'에너지'는 Net-Zero 내역만 근거, 사업 전체는 중소기업 정책융자",
+  "current_domains": [
+   "에너지"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\472.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\472_신성장기반자금(융자).txt"
+ },
+ {
+  "id": 473,
+  "name": "재도약촉진",
+  "prior_detail": "'지역 주도형 AI 대전환' 내역(49,000)이 있어 '디지털전환(AX)' 부여가 타당, '기타' 단독은 과소",
+  "current_domains": [
+   "기타"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\473.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\473_재도약촉진.txt"
+ },
+ {
+  "id": 476,
+  "name": "중소벤처행정정보화(정보화)",
+  "prior_detail": "'행정/전자정부' 누락(대민정보시스템·행정정보시스템 운영이 주 내용)",
+  "current_domains": [
+   "보안/사이버"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\476.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\476_중소벤처행정정보화(정보화).txt"
+ },
+ {
+  "id": 478,
+  "name": "지역특화 제조데이터 활성화",
+  "prior_detail": "'데이터' 누락(제조데이터 활성화·제조AI센터가 핵심)",
+  "current_domains": [
+   "제조/스마트팩토리"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\478.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\478_지역특화 제조데이터 활성화.txt"
+ },
+ {
+  "id": 479,
+  "name": "창업사업화지원",
+  "prior_detail": "ai_domains '교육/인재' 단독은 부적절. 실제 내용은 창업패키지(195,187)·초격차 스타트업(145,622) 등 창업 사업화 자금 지원이 주. 창업중심대학(88,250, 19%)도 사업화지원 61,432 + 프로그램 운영 중심이며 인재양성 교육사업이 아님. '창업/벤처' 성격 도메인 누락",
+  "current_domains": [
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\479.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\479_창업사업화지원.txt"
+ },
+ {
+  "id": 485,
+  "name": "지식재산 활용(사업화, 거래, 평가) 지원",
+  "prior_detail": "1차의 'wrong'은 과도. 내역사업 '지식재산활용 확산 인프라 구축'이 'AI 기반 IP거래·이전용 통합DB 구축 및 데이터 학습을 통한 AI 기반 IP가치평가 시스템 구축'으로 명시돼 '디지털전환(AX)' 라벨에 최소한의 근거는 있음. 다만 해당 내역은 '26년 예산 0원(740→0)으로 종료되고 나머지는 IP 사업화·거래·평가 자금 지원이라 단독 라벨로는 대표성이 약함",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\485.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\485_지식재산 활용(사업화, 거래, 평가) 지원.txt"
+ },
+ {
+  "id": 488,
+  "name": "국가통합바이오빅데이터구축사업Ⅱ(R&D)",
+  "prior_detail": "실제 내용은 인체유래물 바이오뱅크 저장시설 증축(자산취득비 18,700)으로 '데이터' 라벨 근거 약함",
+  "current_domains": [
+   "데이터",
+   "의료/바이오"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\488.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\488_국가통합바이오빅데이터구축사업Ⅱ(R&D).txt"
+ },
+ {
+  "id": 489,
+  "name": "헬스케어 이종데이터 활용체계 및 인공지능 개발(R&D)",
+  "prior_detail": "AI가 사업명·내역(인공지능 연구지원)의 핵심인데 AI 관련 도메인 명시 없음",
+  "current_domains": [
+   "데이터",
+   "의료/바이오"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\489.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\489_헬스케어 이종데이터 활용체계 및 인공지능 개발(R&D).txt"
+ }
+]

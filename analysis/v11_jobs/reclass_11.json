@@ -1,0 +1,170 @@
+[
+ {
+  "id": 421,
+  "name": "반도체 첨단 패키징 선도기술개발 사업(R&D)",
+  "prior_detail": "AI반도체로 표기했으나 사업 본문은 반도체 첨단 패키징 일반",
+  "current_domains": [
+   "AI반도체"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\421.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\421_반도체 첨단 패키징 선도기술개발 사업(R&D).txt"
+ },
+ {
+  "id": 423,
+  "name": "뿌리산업경쟁력강화지원",
+  "prior_detail": "에너지 도메인은 근거 약함(에너지효율화 언급 수준)",
+  "current_domains": [
+   "에너지",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\423.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\423_뿌리산업경쟁력강화지원.txt"
+ },
+ {
+  "id": 429,
+  "name": "산업용무기·유기화합물제형물성예측AI파운데이션모델개발(R&D)",
+  "prior_detail": "LLM/언어모델은 부적절(물성예측용 AI 파운데이션 모델)",
+  "current_domains": [
+   "LLM/언어모델",
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\429.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\429_산업용무기·유기화합물제형물성예측AI파운데이션모델개발(R….txt"
+ },
+ {
+  "id": 433,
+  "name": "섬유패션산업활성화기반마련",
+  "prior_detail": "교육/인재만 표기, 섬유패션 산업기반(기타) 성격이 주된 내용",
+  "current_domains": [
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\433.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\433_섬유패션산업활성화기반마련.txt"
+ },
+ {
+  "id": 435,
+  "name": "소재부품산업기술개발기반구축(R&D)",
+  "prior_detail": "is_rnd=true, rnd_stage='사업화/확산'은 타당(연구시설·장비 구축→소재개발·신뢰성향상·시제품제작→사업화 전주기, 양산성능평가 TRL7~8). 그러나 ai_domains=['데이터'] 단독 표기는 대표성이 약함. 실제 주 도메인은 소재·부품·장비 제조 인프라이며 '데이터'는 내내역 '가상공학플랫폼구축'(소재데이터 AI모델·데이터 표준화/축적/활용, ’25년 300억/2,151억 ≈14%)과 '소부장통계구축' EWS(빅데이터·AI)에서만 근거 확인. 1차 판정(partial)에 동의.",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\435.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\435_소재부품산업기술개발기반구축(R&D).txt"
+ },
+ {
+  "id": 436,
+  "name": "열공정특화제조AI파운데이션모델개발(R&D)",
+  "prior_detail": "LLM/언어모델은 부적절(열공정 특화 제조 AI 파운데이션 모델)",
+  "current_domains": [
+   "LLM/언어모델",
+   "제조/스마트팩토리",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\436.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\436_열공정특화제조AI파운데이션모델개발(R&D).txt"
+ },
+ {
+  "id": 442,
+  "name": "제조데이터표준·인공지능활용제품전주기탄소중립지원기술개…",
+  "prior_detail": "'제조/스마트팩토리' 누락(AAS 기반 제조데이터·공정 탄소저감)",
+  "current_domains": [
+   "데이터",
+   "에너지"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\442.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\442_제조데이터표준·인공지능활용제품전주기탄소중립지원기술개….txt"
+ },
+ {
+  "id": 445,
+  "name": "지식서비스산업기술개발(R&D)",
+  "prior_detail": "'제조/스마트팩토리' 단독 라벨은 근거 약함(지식서비스·제조서비스 융합 R&D)",
+  "current_domains": [
+   "제조/스마트팩토리"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\445.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\445_지식서비스산업기술개발(R&D).txt"
+ },
+ {
+  "id": 446,
+  "name": "지역거점AX혁신기술개발(R&D)",
+  "prior_detail": "'AI반도체','LLM/언어모델','교통/모빌리티'는 배경 서술 수준으로 과다 부여(핵심은 로봇·AX·피지컬AI)",
+  "current_domains": [
+   "AI반도체",
+   "LLM/언어모델",
+   "교통/모빌리티",
+   "로봇",
+   "디지털전환(AX)",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\446.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\446_지역거점AX혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 447,
+  "name": "지역전략산업기반고도화(R&D)",
+  "prior_detail": "사업내용은 DX·GX 인프라 고도화로 AI 언급 없음, 'AX' 라벨 근거 약함",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\447.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\447_지역전략산업기반고도화(R&D).txt"
+ },
+ {
+  "id": 448,
+  "name": "철강·금속 인공지능전환(AX) 실증센터 구축",
+  "prior_detail": "'건설/스마트시티' 부적절, '제조/스마트팩토리' 누락",
+  "current_domains": [
+   "건설/스마트시티",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\448.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\448_철강·금속 인공지능전환(AX) 실증센터 구축.txt"
+ },
+ {
+  "id": 450,
+  "name": "첨단민군융합기술개발(R&D)",
+  "prior_detail": "ai_domains '국방/안보'는 타당하나, 사업 전체가 '인공지능(AI) 기반 제어기술 개발'이고 내역에 인공지능 기반 스마트 통합함교체계·엣지AI 엔진 최적화가 명시되는데 ai_tech가 null로 비어 있음",
+  "current_domains": [
+   "국방/안보"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\450.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\450_첨단민군융합기술개발(R&D).txt"
+ },
+ {
+  "id": 451,
+  "name": "한국형Manufacturing-X플랫폼표준모델개발및실증(R&D)",
+  "prior_detail": "'건설/스마트시티' 부적절, 핵심인 '제조/스마트팩토리' 누락",
+  "current_domains": [
+   "데이터",
+   "에너지",
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\451.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\451_한국형Manufacturing-X플랫폼표준모델개발및실증(R&D).txt"
+ },
+ {
+  "id": 452,
+  "name": "119빅데이터 분석운영",
+  "prior_detail": "'데이터'·'재난/안전'·'행정/전자정부'는 타당. '피지컬AI/디바이스'는 소방안전 빅데이터 플랫폼의 '소방 IoT' 데이터 수집 언급 수준이라 근거 약함. 또한 공공 AI·데이터 역량강화 교육 내역이 있음에도 '교육/인재' 누락",
+  "current_domains": [
+   "데이터",
+   "행정/전자정부",
+   "재난/안전",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\452.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\452_119빅데이터 분석운영.txt"
+ },
+ {
+  "id": 457,
+  "name": "식의약품 안전정보체계 선진화(정보화)",
+  "prior_detail": "'데이터·보안/사이버·의료/바이오'는 타당하나, 최대 내역(의약품 AI 심사 및 산업지원 체계 구축 8,010백만원, 전체의 45%)에서 생성형 AI·문자인식·의약품 특화 AI 모델·AI검색모델이 명시되는데 ai_tech가 null. 규제과학인재원 운영 플랫폼 ISP가 있어 '교육/인재' 도메인도 누락",
+  "current_domains": [
+   "데이터",
+   "보안/사이버",
+   "의료/바이오"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\457.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\457_식의약품 안전정보체계 선진화(정보화).txt"
+ }
+]

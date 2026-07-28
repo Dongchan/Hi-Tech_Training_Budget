@@ -1,0 +1,72 @@
+[
+ {
+  "id": 7,
+  "name": "경찰청_과학기술 기반 군중밀집 관리 기술 개발(R&D)",
+  "prior_detail": "PDF p.73 총괄표는 추경란이 없는 6열 구조(2024결산 / 2025 본예산(A) / 2026 요구 / 2026 조정(B) / 증감(B-A) / (B-A)/A) = 1,092 / 1,976 / 1,976 / 1,976 / - / -. JSON의 2025_supplementary=1976은 PDF에 존재하지 않는 값(추경란 자체 없음)으로 허위 생성. 나머지(2024=1092, 2025원=1976, 2026요구=1976, 2026예산=1976, 증감액 null, 증감률 null)는 PDF와 부합.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\7.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\007_과학기술 기반 군중밀집 관리 기술 개발(R&D).txt"
+ },
+ {
+  "id": 9,
+  "name": "경찰청_과학적 범죄수사 고도화 기술 개발(R&D)",
+  "prior_detail": "PDF p.85 총괄표는 추경란 없는 6열 = 7,476 / 4,529(본예산A) / 3,068(요구) / 3,068(조정B) / △1,461 / △32.3. JSON은 한 칸씩 밀림: 2025_supplementary=3068(PDF에 추경란 없음), 2026_budget=-1461(정답 3,068), change_amount=-32.3(정답 -1,461), change_rate=null(정답 -32.3). 2024=7,476, 2025원=4,529, 2026요구=3,068만 일치. 음수는 PDF에서 '△' 표기로 확인.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\9.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\009_과학적 범죄수사 고도화 기술 개발(R&D).txt"
+ },
+ {
+  "id": 10,
+  "name": "경찰청_불법 마약류 대응을 위한 현장기술 개발(R&D)",
+  "prior_detail": "PDF p.94 총괄표는 추경란 없는 6열 = 500 / 1,500(본예산A) / 4,932(요구) / 4,932(조정B) / 3,432 / 222.8. JSON 한 칸 밀림: 2025_supplementary=4932(추경란 없음), 2026_budget=3432(정답 4,932), change_amount=222.8(정답 3,432), change_rate=null(정답 222.8).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\10.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\010_불법 마약류 대응을 위한 현장기술 개발(R&D).txt"
+ },
+ {
+  "id": 11,
+  "name": "경찰청_사이버범죄수사단서통합분석및추론시스템개발(R&D)",
+  "prior_detail": "PDF p.104 총괄표는 추경란 없는 6열 = - / 3,640(본예산A) / 6,136(요구) / 6,136(조정B) / 2,496 / 68.6. JSON 한 칸 밀림: 2025_supplementary=6136(추경란 없음), 2026_budget=2496(정답 6,136), change_amount=68.6(정답 2,496), change_rate=null(정답 68.6).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\11.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\011_사이버범죄수사단서통합분석및추론시스템개발(R&D).txt"
+ },
+ {
+  "id": 12,
+  "name": "경찰청_사이버수사 지원기술 개발(R&D)",
+  "prior_detail": "PDF p.110 총괄표는 추경란 없는 6열 = 1,897 / 5,304(본예산A) / 8,736(요구) / 8,736(조정B) / 3,432 / 64.7. JSON 한 칸 밀림: 2025_supplementary=8736(추경란 없음), 2026_budget=3432(정답 8,736), change_amount=64.7(정답 3,432), change_rate=null(정답 64.7).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\12.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\012_사이버수사 지원기술 개발(R&D).txt"
+ },
+ {
+  "id": 13,
+  "name": "경찰청_차세대지능형순찰플랫폼개발(R&D)",
+  "prior_detail": "PDF p.118 총괄표는 추경란 없는 6열 = - / 692(본예산A) / 3,465(요구) / 3,465(조정B) / 2,773 / 400.7. JSON 한 칸 밀림: 2025_supplementary=3465(추경란 없음), 2026_budget=2773(정답 3,465), change_amount=400.7(정답 2,773), change_rate=null(정답 400.7).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\13.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\013_차세대지능형순찰플랫폼개발(R&D).txt"
+ },
+ {
+  "id": 14,
+  "name": "경찰청_치안데이터활용기술개발(R&D)",
+  "prior_detail": "PDF p.125 총괄표는 추경란 없는 6열 = - / -(2025 본예산A) / 3,120(요구) / 1,560(조정B) / 1,560(증감) / 순증. JSON: 2025_supplementary=3120(추경란 없음, 실제로는 2026 요구액), 2026_request=1560(정답 3,120), 2026_budget=1560(우연히 일치), change_amount=null(정답 1,560), change_rate=null(PDF는 '순증' 표기).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\14.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\014_치안데이터활용기술개발(R&D).txt"
+ },
+ {
+  "id": 16,
+  "name": "고용노동부_고용노동행정(정보화)",
+  "prior_detail": "PDF p.141 총괄표는 추경란 없는 6열(2024결산 / 2025 본예산(A) / 2026 정부안 / 확정(B) / 증감(B-A) / (B-A)/A) = 22,378 / 21,701 / 23,739 / 23,739 / 2,038 / 9.4. JSON 한 칸 밀림: 2025_supplementary=23739(추경란 없음), 2026_budget=2038(정답 23,739), change_amount=9.4(정답 2,038), change_rate=null(정답 9.4).",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\16.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\016_고용노동행정(정보화).txt"
+ },
+ {
+  "id": 26,
+  "name": "고용노동부_취약노동자지원",
+  "prior_detail": "PDF p.219 총괄표(7열) = - / 15,989(본예산A) / 15,989(추경) / 14,795(정부안) / 25,345(확정B) / 9,356 / 58.5%. JSON은 change_rate만 null(정답 58.5). 나머지 6개 필드는 일치.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\26.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\026_취약노동자지원.txt"
+ },
+ {
+  "id": 34,
+  "name": "과학기술정보통신부_AI 반도체 실증 지원",
+  "prior_detail": "PDF p.310 예산총괄표: 18,813 / 24,370 / 98,370 / 102,370 / 113,370 / 15,000 / 15.2%. JSON은 앞 6개 항목 일치하나 change_rate가 null(=15.2 누락) → mismatch.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\34.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\034_AI 반도체 실증 지원.txt"
+ }
+]

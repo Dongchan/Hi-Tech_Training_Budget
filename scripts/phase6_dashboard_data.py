@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""Dash_board 데이터 자산 생성
-- data/*.csv (UTF-8 BOM, 엑셀 호환): raw 전수 + 내역사업 + 인재양성 + 검증이슈 + 집계 2종
-- data/data.js: 대시보드용 (file:// 환경에서 fetch 불가 → script 로드)
-- 예산 보정: 검증 확정 8건은 corrected(b26c) 값 병기, 차트는 보정값 사용
+"""Dash_board 데이터 자산 생성 (v1.1)
+- data/*.csv (UTF-8 BOM) + data/data.js
+- v1.1 보정 반영: analysis/budget_corrections_v11.json (49건 7필드 확정값),
+  analysis/ai_domains_revised.json (195건 재분류) — 파일이 있으면 자동 적용
 """
 import csv
 import json
@@ -24,9 +24,12 @@ projects = db["projects"]
 verdict = {r["id"]: r for r in vr["results"]}
 talent = {t["id"]: t for t in tf["projects"]}
 
-# PDF 실측 확정 보정값 (2026 확정예산, 백만원)
-CORR26 = {9: 3068, 112: 10399, 242: 9177, 243: 183056, 339: 6823, 452: 1705, 466: 1918, 467: 7487}
-CORR_NOTE = "6열 시프트/다행 총괄표 파싱 오류 — PDF 실측값으로 보정"
+# ---- v1.1 보정 파일 ----
+fix_path = BASE / "analysis" / "budget_corrections_v11.json"
+rev_path = BASE / "analysis" / "ai_domains_revised.json"
+FIX = {int(k): v for k, v in json.load(open(fix_path, encoding="utf-8"))["corrections"].items()} if fix_path.exists() else {}
+REV = {int(k): v for k, v in json.load(open(rev_path, encoding="utf-8"))["revisions"].items()} if rev_path.exists() else {}
+print(f"보정 적용: 예산 {len(FIX)}건 / 도메인 재분류 {len(REV)}건")
 
 
 def num(x):
@@ -37,14 +40,37 @@ def j(lst):
     return ";".join(lst or [])
 
 
+def corr_field(pid, key, fallback):
+    """보정값이 있으면 사용, null이면 fallback 유지 여부: 예산 필드는 보정 파일이 정답이므로 null도 존중"""
+    if pid in FIX and key in FIX[pid]:
+        return FIX[pid][key]
+    return fallback
+
+
+def vals(p):
+    b = p.get("budget") or {}
+    pid = p["id"]
+    raw26 = num(b.get("2026_budget"))
+    if pid in FIX:
+        f = FIX[pid]
+        return {"b24": f.get("b2024"), "b25": f.get("b2025_original"),
+                "b26": raw26, "b26c": f["b2026_budget"], "corr": abs((f["b2026_budget"] or 0) - (raw26 or 0)) > 2,
+                "note": f.get("note", "")}
+    return {"b24": num(b.get("2024_settlement")), "b25": num(b.get("2025_original")),
+            "b26": raw26, "b26c": raw26, "corr": False, "note": ""}
+
+
+def dom_of(p):
+    return REV[p["id"]]["revised_domains"] if p["id"] in REV else (p.get("ai_domains") or [])
+
+
 # ---------------- CSV 1: 전체 사업 raw ----------------
 rows = []
 for p in projects:
     b = p.get("budget") or {}
     v = verdict.get(p["id"], {})
     t = talent.get(p["id"])
-    b26 = num(b.get("2026_budget"))
-    b26c = CORR26.get(p["id"], b26)
+    w = vals(p)
     rows.append({
         "id": p["id"], "name": p["name"], "project_name": p["project_name"],
         "department": p["department"], "division": p.get("division"),
@@ -56,12 +82,16 @@ for p in projects:
         "implementing_agency": p.get("implementing_agency"),
         "is_rnd": p.get("is_rnd"), "is_informatization": p.get("is_informatization"),
         "rnd_stage": p.get("rnd_stage"), "ai_domains": j(p.get("ai_domains")),
+        "ai_domains_revised_v11": j(REV[p["id"]]["revised_domains"]) if p["id"] in REV else "",
         "ai_tech": j(p.get("ai_tech")), "keywords": j(p.get("keywords")),
-        "b2024_settlement": num(b.get("2024_settlement")), "b2025_original": num(b.get("2025_original")),
-        "b2025_supplementary": num(b.get("2025_supplementary")), "b2026_request": num(b.get("2026_request")),
-        "b2026_budget": b26, "b2026_corrected": b26c,
-        "correction_note": CORR_NOTE if p["id"] in CORR26 else "",
-        "change_amount": num(b.get("change_amount")), "change_rate": num(b.get("change_rate")),
+        "b2024_settlement": num(b.get("2024_settlement")), "b2024_corrected": w["b24"],
+        "b2025_original": num(b.get("2025_original")), "b2025_corrected": w["b25"],
+        "b2025_supplementary": num(b.get("2025_supplementary")),
+        "b2026_request": num(b.get("2026_request")),
+        "b2026_budget": w["b26"], "b2026_corrected": w["b26c"],
+        "correction_note": w["note"],
+        "change_amount": corr_field(p["id"], "change_amount", num(b.get("change_amount"))),
+        "change_rate": corr_field(p["id"], "change_rate", num(b.get("change_rate"))),
         "project_period": (p.get("project_period") or {}).get("raw"),
         "total_cost": (p.get("total_cost") or {}).get("raw"),
         "page_start": p.get("page_start"), "page_end": p.get("page_end"),
@@ -110,22 +140,20 @@ for r in vr["results"]:
     p = next(x for x in projects if x["id"] == r["id"])
     irows.append({"id": r["id"], "department": p["department"], "project_name": p["project_name"],
                   "budget_verdict": r["budget_verdict"], "budget_detail": r.get("budget_detail", ""),
+                  "corrected_v11": "Y" if r["id"] in FIX else "",
                   "classification_verdict": r["classification_verdict"],
                   "classification_detail": r.get("classification_detail", ""),
+                  "reclassified_v11": "Y" if r["id"] in REV else "",
                   "name_match": r.get("name_match"), "name_detail": r.get("name_detail", ""),
                   "ai_relevance": r["ai_relevance"], "source": r.get("source")})
 write_csv(DATA / "verification_issues.csv", irows)
 
 # ---------------- 집계 ----------------
-def b26c_of(p):
-    return CORR26.get(p["id"], num((p.get("budget") or {}).get("2026_budget")) or 0)
-
-
 by_dept = defaultdict(lambda: {"count": 0, "b2026": 0.0, "talent_core": 0.0, "talent_partial": 0.0})
 for p in projects:
     d = by_dept[p["department"]]
     d["count"] += 1
-    d["b2026"] += b26c_of(p)
+    d["b2026"] += vals(p)["b26c"] or 0
     t = talent.get(p["id"])
     if t:
         d["talent_" + t["category"]] += t["b2026"] or 0
@@ -135,9 +163,9 @@ write_csv(DATA / "by_department.csv", drows)
 
 by_dom = defaultdict(lambda: {"count": 0, "b2026": 0.0})
 for p in projects:
-    for d in (p.get("ai_domains") or []):
+    for d in dom_of(p):
         by_dom[d]["count"] += 1
-        by_dom[d]["b2026"] += b26c_of(p)
+        by_dom[d]["b2026"] += vals(p)["b26c"] or 0
 domrows = [{"domain": k, "count": v["count"], "b2026": round(v["b2026"], 1)}
            for k, v in sorted(by_dom.items(), key=lambda x: -x[1]["b2026"])]
 write_csv(DATA / "by_domain.csv", domrows)
@@ -145,15 +173,14 @@ write_csv(DATA / "by_domain.csv", domrows)
 # ---------------- data.js ----------------
 slim = []
 for p in projects:
-    b = p.get("budget") or {}
     v = verdict.get(p["id"], {})
     t = talent.get(p["id"])
+    w = vals(p)
     slim.append({
         "id": p["id"], "dept": p["department"], "name": p["project_name"],
-        "b24": num(b.get("2024_settlement")), "b25": num(b.get("2025_original")),
-        "b26": num(b.get("2026_budget")), "b26c": CORR26.get(p["id"], num(b.get("2026_budget"))),
-        "corr": p["id"] in CORR26,
-        "dom": p.get("ai_domains") or [], "rnd": bool(p.get("is_rnd")), "info": bool(p.get("is_informatization")),
+        "b24": w["b24"], "b25": w["b25"], "b26": w["b26"], "b26c": w["b26c"], "corr": w["corr"],
+        "dom": dom_of(p), "rev": p["id"] in REV,
+        "rnd": bool(p.get("is_rnd")), "info": bool(p.get("is_informatization")),
         "ai": v.get("ai_relevance"), "bv": v.get("budget_verdict"), "cv": v.get("classification_verdict"),
         "tal": (t["category"] if t else None),
     })
@@ -189,9 +216,10 @@ dup_groups = [{"n": len(g["all_ids"]),
                "names": [f'{talent[i]["department"]} · {talent[i]["project_name"]}' for i in g["talent_ids"]]}
               for g in tf["duplicate_groups"]]
 
+n_b26_changed = sum(1 for x in slim if x["corr"])
 payload = {
-    "meta": {"generated": "2026-07-28", "source": "AI_예산사업_통합_설명자료.pdf (5,296p) / KAIB2026 파싱 데이터 전수 검증",
-             "unit": "백만원", "corrections": len(CORR26), "tot26_raw": tot26_raw},
+    "meta": {"generated": "2026-07-28 (v1.1)", "source": "AI_예산사업_통합_설명자료.pdf (5,296p) / KAIB2026 파싱 데이터 전수 검증·보정",
+             "unit": "백만원", "corrections": n_b26_changed, "reclassified": len(REV), "tot26_raw": tot26_raw},
     "totals": {"projects": 533, "departments": 41, "b2024": tot24, "b2025": tot25, "b2026": tot26},
     "ai_relevance": {"sum": ai_sum, "count": ai_cnt},
     "verify": {"budget": vr["stats"]["budget_verdict"],
@@ -213,9 +241,17 @@ payload = {
     "projects": slim,
 }
 
-js = "// 자동 생성: scripts/phase6_dashboard_data.py (2026-07-28)\nconst DATA = " + \
+js = "// 자동 생성: scripts/phase6_dashboard_data.py v1.1 (2026-07-28)\nconst DATA = " + \
      json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n"
 (DATA / "data.js").write_text(js, encoding="utf-8")
 print(f"data.js: {(DATA/'data.js').stat().st_size/1024:.0f}KB")
+print(f"2026 확정예산 변경 {n_b26_changed}건 반영")
 print("합계(보정): 2024", f"{tot24:,.0f}", "/ 2025", f"{tot25:,.0f}", "/ 2026", f"{tot26:,.0f}",
-      f"(미보정 {tot26_raw:,.0f})")
+      f"(미보정 {tot26_raw:,.0f}, 차이 {tot26-tot26_raw:+,.0f})")
+
+# 인재양성 예산 정합 체크 (talent_final의 보정값 vs v1.1 확정값)
+warn = []
+for pid, t in talent.items():
+    if pid in FIX and abs((FIX[pid]["b2026_budget"] or 0) - (t["b2026"] or 0)) > 2:
+        warn.append((pid, t["b2026"], FIX[pid]["b2026_budget"]))
+print("인재양성 예산 정합 경고:", warn if warn else "없음 (talent_final과 v1.1 확정값 일치)")

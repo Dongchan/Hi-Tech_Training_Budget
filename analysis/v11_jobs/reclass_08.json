@@ -1,0 +1,174 @@
+[
+ {
+  "id": 312,
+  "name": "블록체인 기반 살생물제 정보 지능형 공정관리기술 개…",
+  "prior_detail": "'제조/스마트팩토리'만 부여, 화학물질 안전관리 성격의 '환경/기후'·'재난/안전' 누락. PDF상 R&D 사업이나 is_rnd=false",
+  "current_domains": [
+   "제조/스마트팩토리"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\312.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\312_블록체인 기반 살생물제 정보 지능형 공정관리기술 개….txt"
+ },
+ {
+  "id": 313,
+  "name": "사업장 미세먼지 관리사업",
+  "prior_detail": "'피지컬AI/디바이스'는 IoT·첨단감시장비 내역만으로 근거 약함",
+  "current_domains": [
+   "환경/기후",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\313.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\313_사업장 미세먼지 관리사업.txt"
+ },
+ {
+  "id": 317,
+  "name": "수문조사시설 설치 및 개선",
+  "prior_detail": "'데이터'만 부여, 실제 핵심인 '환경/기후'·'재난/안전'(AI홍수예보·강우레이더) 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\317.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\317_수문조사시설 설치 및 개선.txt"
+ },
+ {
+  "id": 320,
+  "name": "장거리 고압수소 배관망 고안전성 확보 및 AI기반 안전관리 기술개발",
+  "prior_detail": "'AI반도체'·'건설/스마트시티'는 과대, 핵심인 '에너지'(수소)·'재난/안전' 누락",
+  "current_domains": [
+   "AI반도체",
+   "건설/스마트시티",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\320.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\320_장거리고압수소배관망고안전성확보및AI기반안전관리….txt"
+ },
+ {
+  "id": 321,
+  "name": "전력망물리기반AI모델개발및실증(R&D)",
+  "prior_detail": "'건설/스마트시티' 부적절(전력망 EMS AI 사업)",
+  "current_domains": [
+   "데이터",
+   "에너지",
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\321.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\321_전력망물리기반AI모델개발및실증(R&D).txt"
+ },
+ {
+  "id": 322,
+  "name": "차세대 해양·극지의 환경 및 생태계에 관한 기후예측시…",
+  "prior_detail": "ai_tech '예측/분석AI' 근거 없음(PDF는 해양기후 예측모델 개발, AI 언급 없음)",
+  "current_domains": [
+   "환경/기후"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\322.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\322_차세대 해양·극지의 환경 및 생태계에 관한 기후예측시….txt"
+ },
+ {
+  "id": 323,
+  "name": "폐의류 문제해결 플래그십 재활용 기술개발사업(R&D)",
+  "prior_detail": "'제조/스마트팩토리'는 폐의류 자동 분리·선별 맥락에서 약함, AI 근거 없음",
+  "current_domains": [
+   "제조/스마트팩토리"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\323.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\323_폐의류 문제해결 플래그십 재활용 기술개발사업(R&D).txt"
+ },
+ {
+  "id": 326,
+  "name": "환경정보화기반구축(정보화)",
+  "prior_detail": "'건설/스마트시티', '재난/안전' 과잉 부여(내용은 환경공간정보 구축·정보보안)",
+  "current_domains": [
+   "보안/사이버",
+   "환경/기후",
+   "행정/전자정부",
+   "건설/스마트시티",
+   "재난/안전"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\326.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\326_환경정보화기반구축(정보화).txt"
+ },
+ {
+  "id": 327,
+  "name": "환경행정 정보서비스 구축(정보화)",
+  "prior_detail": "'데이터', '디지털전환(AX)'는 근거 약함(행정정보시스템 유지관리·기능개선 중심)",
+  "current_domains": [
+   "데이터",
+   "보안/사이버",
+   "환경/기후",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\327.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\327_환경행정 정보서비스 구축(정보화).txt"
+ },
+ {
+  "id": 331,
+  "name": "검역본부정보화(정보화)",
+  "prior_detail": "'의료/바이오' 부적절, '행정/전자정부'가 더 타당(검역업무 정보시스템 운영)",
+  "current_domains": [
+   "의료/바이오",
+   "농업/식품"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\331.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\331_검역본부정보화(정보화).txt"
+ },
+ {
+  "id": 332,
+  "name": "고부가가치 식품기술개발(R&D)",
+  "prior_detail": "'농업/식품'은 핵심, '로봇'은 물류유통 자동화(자율주행 로봇)·커스텀푸드(ICT·AI·로봇 융합)로 근거 확실. '통신/네트워크'는 '5G기반 식품안전생산기술개발' 근거가 있으나 '26년 예산 0(종료 내역)이라 부여 부적절. '교통/모빌리티'는 물류센터 자동화의 확대 해석, '의료/바이오'는 '질환 관리식' 한 문구에 기댄 과잉 부여",
+  "current_domains": [
+   "의료/바이오",
+   "교통/모빌리티",
+   "로봇",
+   "농업/식품",
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\332.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\332_고부가가치 식품기술개발(R&D).txt"
+ },
+ {
+  "id": 334,
+  "name": "농업농촌국민체감AX전환기술개발(R&D)",
+  "prior_detail": "ai_tech '제조/산업AI' 부적절(농촌 생활편의 서비스 모델 개발)",
+  "current_domains": [
+   "농업/식품",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\334.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\334_농업농촌국민체감AX전환기술개발(R&D).txt"
+ },
+ {
+  "id": 336,
+  "name": "스마트팜다부처패키지혁신기술개발(R&D)",
+  "prior_detail": "'농업/식품' 도메인은 타당. 다만 실제 내역사업은 '스마트팜 실증·고도화 연구'(8,879)와 '차세대 융합·원천기술 연구'(8,929)인데 JSON sub_projects가 '패키지혁신기술개발'/'(R&D)' 각 586백만원으로 파싱 오류 상태이며, 국정과제 'AI 활용 확대' 연계 및 스마트팜 지능화 성격을 반영한 데이터·자동화 도메인 표기가 없음.",
+  "current_domains": [
+   "농업/식품"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\336.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\336_스마트팜다부처패키지혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 338,
+  "name": "국경 이동성 해충의 국제 발생 예측 및 방제기술 개발(R&D)",
+  "prior_detail": "is_rnd/rnd_stage/ai_domains(농업/식품)는 타당하나 PDF p.3026에 명시된 총사업비 127억이 JSON total_cost=null로 누락.",
+  "current_domains": [
+   "농업/식품"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\338.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\338_국경이동성해충의국제발생예측및방제기술개발(R&D).txt"
+ },
+ {
+  "id": 339,
+  "name": "농업기술정보화(정보화)",
+  "prior_detail": "'로봇'은 PDF의 '소프트웨어 프로그램(로봇) 기반 자동화 서비스'(RPA) 오독으로 부적절, '산림/생태'는 근거 없음, '피지컬AI/디바이스'도 사물인터넷 작물정밀관리 수준으로 과도. 데이터·농업/식품·행정(정보시스템 운영)이 타당.",
+  "current_domains": [
+   "데이터",
+   "로봇",
+   "농업/식품",
+   "산림/생태",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\339.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\339_농업기술정보화(정보화).txt"
+ }
+]

@@ -1,0 +1,169 @@
+[
+ {
+  "id": 71,
+  "name": "ICT 전략융합 R%26D 바우처 지원(R&D)",
+  "prior_detail": "ICT 전략기술 전반 R&D 바우처로 AI 특정 도메인 근거 부족",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\71.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\071_ICT 전략융합 R%26D 바우처 지원(R&D).txt"
+ },
+ {
+  "id": 72,
+  "name": "ICT기반 디지털서비스 탄소중립 혁신기술개발(R&D)",
+  "prior_detail": "디지털 탄소중립 핵심기술 사업으로 '건설/스마트시티'는 근거 부족, 환경/탄소 성격이 핵심",
+  "current_domains": [
+   "데이터",
+   "에너지",
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\72.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\072_ICT기반 디지털서비스 탄소중립 혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 77,
+  "name": "SW컴퓨팅산업원천기술개발(R&D,정보화)",
+  "prior_detail": "'데이터'(빅데이터핵심기술 12,916)·'클라우드/컴퓨팅'(컴퓨팅핵심기술 33,985) 정확. 'AI반도체'는 2024년 종료 내역(2025~26 0원) 기준이라 2026엔 근거 소멸, '디지털전환(AX)'도 약함. SW/오픈소스(단위사업 'SW·디지털콘텐츠기술개발', 성과지표 '공개SW 개발 활성화')와 '교육/인재'(SW스타랩·글로벌AI프론티어랩) 누락",
+  "current_domains": [
+   "AI반도체",
+   "데이터",
+   "클라우드/컴퓨팅",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\77.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\077_SW컴퓨팅산업원천기술개발(R&D,정보화).txt"
+ },
+ {
+  "id": 78,
+  "name": "World Best LLM 데이터 활용 지원",
+  "prior_detail": "'LLM/언어모델'·'데이터' 및 ai_tech는 정확. '교육/인재'는 근거 없음 — 2개 내역 모두 데이터 공급·가공과 평가·검증(리더보드). 상위 정책 인용문의 'GPU·데이터·인재 패키지'는 본 사업 내역이 아님. AI안전/신뢰(안전성 검증·AI안전연구소 협약) 보완 여지",
+  "current_domains": [
+   "LLM/언어모델",
+   "데이터",
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\78.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\078_World Best LLM 데이터 활용 지원.txt"
+ },
+ {
+  "id": 79,
+  "name": "가상융합기반피지컬AI핵심기술개발(R&D)",
+  "prior_detail": "피지컬AI 학습용 합성데이터 원천기술 개발로 '문화/콘텐츠'는 소관과 기준일 뿐 내용상 근거 약함",
+  "current_domains": [
+   "데이터",
+   "문화/콘텐츠",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\79.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\079_가상융합기반피지컬AI핵심기술개발(R&D).txt"
+ },
+ {
+  "id": 81,
+  "name": "강원 의료 AX 산업 실증 허브 조성",
+  "prior_detail": "'AI반도체'는 사업내용(의료 AX 실증)과 무관하여 부적절",
+  "current_domains": [
+   "AI반도체",
+   "의료/바이오",
+   "디지털전환(AX)",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\81.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\081_강원 의료 AX 산업 실증 허브 조성.txt"
+ },
+ {
+  "id": 83,
+  "name": "건전정보문화조성(정보화)",
+  "prior_detail": "'문화/콘텐츠'는 사업명에서 기계적으로 유도된 라벨. 실체는 과의존 예방·해소(5,901)·디지털스트레스 진단대응(1,000)·AI역기능 대응 실증(3,000)이고 정보문화의 달은 256(2.5%)뿐 → 'AI안전/신뢰·역기능', '디지털포용/사회'(소관 디지털포용정책팀) 누락. 다만 '건전정보문화확산' 내역이 실재하므로 wrong까지는 아님",
+  "current_domains": [
+   "문화/콘텐츠"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\83.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\083_건전정보문화조성(정보화).txt"
+ },
+ {
+  "id": 86,
+  "name": "고성능 AI(Hyper-AI) 네트워크 기반조성 사업",
+  "prior_detail": "'교육/인재'는 근거 전무한 오분류. 프로그램/단위사업이 '통신정책지원 - 네트워크기반조성(일반)'이고 내용은 AI 워크로드 지원 선도망 구축(파일럿 8,000+생태계 협력 300), 수혜자는 이통사·AI 산업체. 적정 도메인은 통신/네트워크(주), 클라우드/컴퓨팅, 피지컬AI/디바이스(로봇·자율차·드론 실증)",
+  "current_domains": [
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\86.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\086_고성능 AI(Hyper-AI) 네트워크 기반조성 사업.txt"
+ },
+ {
+  "id": 88,
+  "name": "공공행정서비스혁신기술개발(R&D)",
+  "prior_detail": "사업목적은 '치안, 관세, 경호 등 공공행정 서비스 첨단화' R&D. ai_domains의 '법률/치안','재난/안전'은 타당하나 '통신/네트워크'는 근거 없음(내역사업 어디에도 통신·네트워크 기술개발 없음). '행정/전자정부' 누락. rnd_stage '실증/시범'은 현장적용 R&D 성격상 수용 가능.",
+  "current_domains": [
+   "통신/네트워크",
+   "법률/치안",
+   "재난/안전"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\88.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\088_공공행정서비스혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 90,
+  "name": "과학기술혁신인재양성(R&D)",
+  "prior_detail": "내역이 양자·원자력·이차전지·합성생물학·가속기 등 AI 무관 분야 다수로 'AI반도체·피지컬AI' 라벨은 과대",
+  "current_domains": [
+   "AI반도체",
+   "의료/바이오",
+   "교육/인재",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\90.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\090_과학기술혁신인재양성(R&D).txt"
+ },
+ {
+  "id": 93,
+  "name": "광주과학기술원 연구 운영비 지원(R&D)",
+  "prior_detail": "ai_domains가 'R&D 지원' 단독인데, 기관고유사업비 37,222 중 학사사업비 23,852이 최대 항목이고 사업목적이 '고급 과학기술인재 양성', 소관도 미래인재정책국 미래인재양성과 → '교육/인재' 도메인 누락. AI 도메인도 AI국가대표양성·AI전사양성·AI분야 신규교원 반영분이 있어 일부 누락.",
+  "current_domains": [
+   "R&D 지원"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\93.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\093_광주과학기술원 연구 운영비 지원(R&D).txt"
+ },
+ {
+  "id": 98,
+  "name": "국가과학기술연구회 연구 운영비 지원(R&D)",
+  "prior_detail": "'R&D 지원'만으로는 불충분. 2026 산출근거에 출연(연) 인재생태계 조성사업 14,880(미래인재 양성 8,760 + 인재혁신 지원 6,120 신규) → '교육/인재' 누락. 또 국가 과학AI 연구지원센터(NAIS) 설립 40,000 신규 반영으로 AI 인프라/컴퓨팅 도메인도 누락. rnd_stage '사업화/확산'은 융합연구·글로벌TOP전략연구단 중심 구성과 어긋나는 편.",
+  "current_domains": [
+   "R&D 지원"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\98.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\098_국가과학기술연구회 연구 운영비 지원(R&D).txt"
+ },
+ {
+  "id": 105,
+  "name": "나노·소재기술개발(R&D)",
+  "prior_detail": "내역사업이 글로벌공급망첨단소재, 국가전략기술미래소재, 소재글로벌영커넥트, 나노미래소재원천, 기반구축(나노팹)으로 구성된 소재·나노 원천기술 R&D. ai_domains '제조/스마트팩토리'는 부정확하며 실제로는 '소재/부품' 또는 'R&D 지원' 계열이 맞음. AI 도메인 해당 없음.",
+  "current_domains": [
+   "제조/스마트팩토리"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\105.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\105_나노·소재기술개발(R&D).txt"
+ },
+ {
+  "id": 106,
+  "name": "대구경북과학기술원 시설 지원(R&D)",
+  "prior_detail": "사업 본질은 '교육·연구시설의 유지보수 및 건축비'(SafeCampus, 시설보수, D-센서실험시설 증축, 도심형캠퍼스, 차세대대학정보시스템). ai_domains '디지털전환(AX)'는 산업AX혁신허브구축(965) 및 AI·클라우드 기반 차세대통합정보시스템(4,074)에만 국한되어 사업 전체를 대표하지 못함. '교육/인재' 또는 '시설/인프라' 도메인 누락.",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\106.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\106_대구경북과학기술원 시설 지원(R&D).txt"
+ },
+ {
+  "id": 107,
+  "name": "대구경북과학기술원 연구 운영비지원(R&D)",
+  "prior_detail": "'R&D 지원' 단독 분류는 불충분. 2026 산출근거상 학사사업비 18,372(학사지원비 4,000, 과학기술 콘텐츠·정보전산 4,026, 창업인재 양성 등), AI국가대표양성(InnoCORE) 13,125, AI 전사 양성사업 1,610 → '교육/인재' 도메인 누락, AI 도메인도 누락.",
+  "current_domains": [
+   "R&D 지원"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\107.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\107_대구경북과학기술원 연구 운영비지원(R&D).txt"
+ }
+]

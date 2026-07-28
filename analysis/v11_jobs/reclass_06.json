@@ -1,0 +1,162 @@
+[
+ {
+  "id": 232,
+  "name": "통계교육지원",
+  "prior_detail": "ai_domains '데이터' 단독. 통계법 제8조·공무원인재개발법 제4조 근거의 전문교육훈련 사업(집합 99개 157회, 이러닝 127개)이므로 '교육/인재' 누락. 1차 판정과 동일.",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\232.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\232_통계교육지원.txt"
+ },
+ {
+  "id": 233,
+  "name": "통계데이터 분석 및 활용 지원(정보화)",
+  "prior_detail": "'LLM/언어모델'은 PDF 근거 없음. 데이터·보안(AI기반 정보보호 신기술)만 확인됨",
+  "current_domains": [
+   "LLM/언어모델",
+   "데이터",
+   "보안/사이버"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\233.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\233_통계데이터 분석 및 활용 지원(정보화).txt"
+ },
+ {
+  "id": 234,
+  "name": "통계센터 및 교육시설 운영",
+  "prior_detail": "ai_domains '데이터' 단독. 통계인재개발원의 교육시설(통계센터 임차·관리 5,840, AI·디지털 학습관 983, 제주분원 119) 운영 사업이므로 '교육/인재' 누락. 1차 판정과 동일.",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\234.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\234_통계센터 및 교육시설 운영.txt"
+ },
+ {
+  "id": 236,
+  "name": "국가유산 지능형 첨단보존 기술개발(R&D)",
+  "prior_detail": "'건설/스마트시티'는 부적절, 국가유산 보존이므로 문화/콘텐츠가 적합",
+  "current_domains": [
+   "건설/스마트시티",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\236.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\236_국가유산 지능형 첨단보존 기술개발(R&D).txt"
+ },
+ {
+  "id": 238,
+  "name": "AI응용제품 신속 상용화 지원사업(국방)",
+  "prior_detail": "'국방/안보'(감시정찰·정보분석·군수지원)와 '디지털전환(AX)'(AX-Sprint, 인공지능전환 명시)은 정확. 그러나 '농업/식품'은 AX-Sprint 관계부처 협의회 표의 타부처 분담분야(농림·해수) 언급을 잘못 귀속한 것이고, 'LLM/언어모델'은 원문 근거 전무(AGI 각주 1회뿐). ai_tech 컴퓨터비전도 명시 근거 없이 추정",
+  "current_domains": [
+   "LLM/언어모델",
+   "국방/안보",
+   "농업/식품",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\238.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\238_AI응용제품 신속 상용화 지원사업(국방).txt"
+ },
+ {
+  "id": 242,
+  "name": "전투발전연구",
+  "prior_detail": "'국방/안보'는 타당하나, 프로그램/단위사업이 '군 인사 및 교육훈련 / 훈련 및 교육지원'이고 내역이 전투실험 및 연구·교리교범연구·해외교리장교 운영으로 군 교육훈련 체계 발전이 목적이므로 '교육/인재' 누락.",
+  "current_domains": [
+   "국방/안보"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\242.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\242_전투발전연구.txt"
+ },
+ {
+  "id": 243,
+  "name": "정보체계개발유지(정보화)",
+  "prior_detail": "'국방/안보'는 소관 기준으로 타당하나, 사업 실질은 기획·재정, 인사·동원, 군수·시설, 전자행정 등 국방자원관리 응용체계 개발과 유지보수·상용SW 도입(근거법에 전자정부법 명시)이므로 '행정/전자정부' 누락. (1차는 appropriate로 두고 detail에서만 지적)",
+  "current_domains": [
+   "국방/안보"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\243.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\243_정보체계개발유지(정보화).txt"
+ },
+ {
+  "id": 246,
+  "name": "국세행정지원시스템 운영(정보화)",
+  "prior_detail": "ai_domains가 ['보안/사이버','통신/네트워크']뿐. 실제는 국세행정 전반의 정보시스템 운영(홈택스·e민원·온나라·국세법령정보 등)이므로 '행정/전자정부'가 핵심 누락. 또한 AI 전화상담(1,015백만원)·가상자산 통합분석시스템(2,600백만원)을 반영한 도메인도 없음.",
+  "current_domains": [
+   "보안/사이버",
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\246.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\246_국세행정지원시스템 운영(정보화).txt"
+ },
+ {
+  "id": 248,
+  "name": "AIXR기반비행장원격관제운용기술개발(R&D)",
+  "prior_detail": "'문화/콘텐츠' 부적절(XR을 콘텐츠로 오분류), 항공·관제 성격 반영 필요",
+  "current_domains": [
+   "교통/모빌리티",
+   "문화/콘텐츠"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\248.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\248_AIXR기반비행장원격관제운용기술개발(R&D).txt"
+ },
+ {
+  "id": 250,
+  "name": "AI 모빌리티 시범도시 조성",
+  "prior_detail": "'교통/모빌리티' 타당, '건설/스마트시티'도 대도시 단위 실증도시 조성 성격상 수용 가능. 그러나 '교육/인재'는 부적절 - 내역사업 '자율주행 AI 학습센터'(720백만원)는 GPU 확보·정보화사업 ISP 등 모델 학습 인프라 설계이지 인재양성이 아님. 반면 '데이터'(주행데이터 수집·비식별화·라벨링 2,000백만원) 도메인은 누락.",
+  "current_domains": [
+   "교통/모빌리티",
+   "교육/인재",
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\250.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\250_AI모빌리티 시범도시 조성.txt"
+ },
+ {
+  "id": 255,
+  "name": "건설산업정보시스템 구축 및 운영 (정보화)",
+  "prior_detail": "'건설/스마트시티'는 소관 산업 기준으로는 타당하나, 실체는 건설업 등록·행정처분·공사대장 등 행정정보 종합관리 시스템 운영(민간위탁사업비 100%)이므로 '행정/전자정부' 누락. AI 관련 도메인·기술이 없는 것은 정상.",
+  "current_domains": [
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\255.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\255_건설산업정보시스템구축및운영(정보화).txt"
+ },
+ {
+  "id": 256,
+  "name": "건축정보시스템 구축 및 운영(정보화)",
+  "prior_detail": "건축행정(세움터) 시스템 운영이므로 '데이터'보다 '행정/전자정부'가 적절",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\256.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\256_건축정보시스템구축및운영(정보화).txt"
+ },
+ {
+  "id": 259,
+  "name": "공항조류탐지및 한국형조류관리 핵심기술개발 (R&D)",
+  "prior_detail": "공항 조류충돌 탐지·예방으로 '재난/안전'(항공안전) 도메인 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\259.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\259_공항조류탐지및한국형조류관리핵심기술개발(R&D).txt"
+ },
+ {
+  "id": 269,
+  "name": "디지털도로기반클라우드형AI-ITS센터플랫폼운영관리기술개…",
+  "prior_detail": "AI-ITS(도로교통 관제) 사업이므로 '교통/모빌리티'가 핵심인데 '건설/스마트시티'만 부여",
+  "current_domains": [
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\269.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\269_디지털도로기반클라우드형AI-ITS센터플랫폼운영관리기술개….txt"
+ },
+ {
+  "id": 271,
+  "name": "디지털트윈기반GTX환승안전및혁신기술 개발사업(R&D)",
+  "prior_detail": "GTX 환승센터 대상으로 '교통/모빌리티' 누락",
+  "current_domains": [
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\271.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\271_디지털트윈기반GTX환승안전및혁신기술개발사업(R&D).txt"
+ }
+]

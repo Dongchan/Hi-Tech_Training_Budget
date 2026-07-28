@@ -4,6 +4,15 @@
 
 ---
 
+## 2026-07-28 14:23 — ✅ v1.1 후속작업 완료: 오류 전량 보정 (소요 약 13분, 14:10~14:23)
+- 계획: `Plans\Plan_26.07.28_v1.1.md` | 수행: 보정 Workflow (Opus 5 medium × 18, 1.1M 토큰, 3.7분, 오류 0)
+- **예산 49건 확정값 재추출 완료**: 수치 변경 19건, 2026 총계 **27,079,917 → 27,548,563 (+4,686억, 27.55조)**. 음수 예산 6건 전량 해소. 산술 자기검증 48/49 통과(1건은 PDF 자체가 본예산 기준 증감 기재 — 정상)
+- **ai_domains 195건 재분류 완료**: 28종 체계 위반 0. '교육/인재' 66 → 78건(7.11조) — 인재양성 주력(core)과 정확히 일치
+- **리더 판정 2건**: id 133 '교육/인재' 제거 승인(core→partial 재구분), id 519 '교육/인재' 추가 기각(부수 요소 — 동일 기준 일관 적용)
+- 인재양성 96건 core/partial 재계산: **core 78건 7.11조 / partial 18건 0.76조** (합계 7.87조 불변, 승격 19·강등 1)
+- 산출물 갱신: `analysis\budget_corrections_v11.json`·`ai_domains_revised.json`(신규), talent_final·CSV 6종·data.js 재생성, 대시보드 헤드라인 27.5조 반영(Playwright 재검증, 콘솔 에러 0), 인재양성 현황보고서 v1.1 재발행, `Reports\데이터_보정결과_v1.1_26.07.28.md` 신규
+- 다음: 커밋·푸시 (Pages 자동 재배포)
+
 ## 2026-07-28 10:59 — GitHub 퍼블릭 레포 생성 + Pages 배포 완료 (소요 약 8분)
 - 레포: **https://github.com/Dongchan/Hi-Tech_Training_Budget** (퍼블릭, main, 66개 파일, 커밋 93b6b38)
 - **대시보드 배포: https://dongchan.github.io/Hi-Tech_Training_Budget/Dash_board/** (GitHub Pages, main 루트 legacy 빌드, HTTP 200·렌더링 확인)

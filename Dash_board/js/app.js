@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ---------- 히어로 ---------- */
   document.getElementById("hero-band-chart").innerHTML = "";
   const bandCard = card(document.getElementById("hero-band-chart"), {
-    title: "27.3조원의 구성 — AI 관련성 전수 판정",
+    title: `${(T.b2026 / 1e6).toFixed(1)}조원의 구성 — AI 관련성 전수 판정`,
     sub: "에이전트 팀이 533개 사업 전부를 PDF 원문 기준으로 판정 (예산은 검증 보정값)",
     file: "AI관련성_구성밴드",
     span2: true,
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const kpis = [
     { label: "AI 재정사업", v: "533", unit: "개", sub: "41개 부처 · PDF 5,296p에서 추출" },
     { label: "2026 확정예산(보정)", v: (T.b2026 / 1e6).toFixed(2), unit: "조원", sub: `파싱 오류 보정 ${DATA.meta.corrections}건 반영 (+${((T.b2026 - DATA.meta.tot26_raw) / 100).toLocaleString(undefined, { maximumFractionDigits: 0 })}억)` },
-    { label: "인재양성 사업", v: "96", unit: "개", sub: `2026년 ${(TAL.all.b2026 / 1e6).toFixed(2)}조원 · 주력 60 + 요소 36`, accent: true },
+    { label: "인재양성 사업", v: "96", unit: "개", sub: `2026년 ${(TAL.all.b2026 / 1e6).toFixed(2)}조원 · 주력 ${TAL.core.count} + 요소 ${TAL.partial.count}`, accent: true },
     { label: "검증 발견 오류", v: "49", unit: "건", sub: "예산 필드 오류 (분류 부적절 195건 별도)" },
   ];
   document.getElementById("kpis").innerHTML = kpis.map(k => `
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
         color: d.domain === "교육/인재" ? C.talentCore : C.indigo,
       })),
     ], { title: "도메인별 예산" }),
-    note: "'교육/인재'(오렌지)는 라벨 기준 66건. 검증 확정 인재양성 96건과 다름 — 위 인재양성 섹션 참조.",
+    note: "도메인은 v1.1 재분류(195건) 반영. '교육/인재'(오렌지) 78건은 인재양성 주력(core)과 일치 — 요소 포함 18건은 별도(위 인재양성 섹션).",
   });
 
   card(gDept, {

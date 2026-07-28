@@ -1,0 +1,165 @@
+[
+ {
+  "id": 490,
+  "name": "AI기반 해상 긴급상황접수및대응체계개발(R&D)",
+  "prior_detail": "해상 조난 신고접수·대응 AI로 '재난/안전'이 핵심, '통신/네트워크' 단독은 부적절",
+  "current_domains": [
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\490.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\490_AI기반해상긴급상황접수및대응체계개발(R&D).txt"
+ },
+ {
+  "id": 494,
+  "name": "해양안전시스템구축관리(정보화)",
+  "prior_detail": "함정 데이터 수집·정보통신 인프라 구축으로 '법률/치안'보다 데이터·디지털전환(AX)이 적합",
+  "current_domains": [
+   "법률/치안"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\494.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\494_해양안전시스템구축관리(정보화).txt"
+ },
+ {
+  "id": 495,
+  "name": "AI 기반 스마트 어업관리 시스템 개발(R&D)",
+  "prior_detail": "어업관리·어선안전 AI 사업으로 '해양/수산' 도메인 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\495.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\495_AI 기반 스마트 어업관리 시스템 개발(R&D).txt"
+ },
+ {
+  "id": 499,
+  "name": "국제사회 IUU어업예방을 위한 원양어선 전자모니터링 기술개발(R&D)",
+  "prior_detail": "원양어선 EM 영상 AI 분석 사업으로 '해양/수산'이 핵심, '클라우드/컴퓨팅' 단독은 부적절",
+  "current_domains": [
+   "클라우드/컴퓨팅"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\499.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\499_국제사회IUU어업 예방을 위한 원양어선전자모니터링기술개….txt"
+ },
+ {
+  "id": 503,
+  "name": "민군경 AI 기반 해양영상 융복합 분석기술 개발(R&D)",
+  "prior_detail": "해상물체 탐지·식별 AI로 '해양/수산'·'국방/치안'이 핵심, 'AI반도체'는 근거 약함",
+  "current_domains": [
+   "AI반도체",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\503.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\503_민군경 AI 기반 해양영상 융복합 분석기술 개발(R&D).txt"
+ },
+ {
+  "id": 511,
+  "name": "유수식 디지털양식 혁신기술개발(R&D)",
+  "prior_detail": "양식 사업으로 '해양/수산' 도메인 누락(데이터만 부여)",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\511.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\511_유수식 디지털양식 혁신기술개발(R&D).txt"
+ },
+ {
+  "id": 514,
+  "name": "탄소제로 수중데이터센터 표준모델 개발(R&D)",
+  "prior_detail": "AI 데이터센터 인프라 개발로 '클라우드/컴퓨팅'이 더 적합, '데이터' 라벨은 부정확",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\514.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\514_탄소제로 수중데이터센터 표준모델 개발(R&D).txt"
+ },
+ {
+  "id": 516,
+  "name": "한국형 연안재해 발생요인 예측기술 개발(R&D)",
+  "prior_detail": "연안재해 예측 사업으로 '재난/안전'·'환경/기후' 누락",
+  "current_domains": [
+   "클라우드/컴퓨팅"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\516.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\516_한국형 연안재해 발생요인 예측기술 개발(R&D).txt"
+ },
+ {
+  "id": 517,
+  "name": "해양공간 디지털트윈 적용 및 활용 기술개발(R&D)",
+  "prior_detail": "해양공간 디지털트윈 사업으로 '건설/스마트시티'는 부적절, '해양/수산'·'데이터'가 적합",
+  "current_domains": [
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\517.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\517_해양공간 디지털트윈 적용 및 활용 기술개발(R&D).txt"
+ },
+ {
+  "id": 519,
+  "name": "해양수산 신산업 육성 및 기업투자유치 지원(지원)",
+  "prior_detail": "대부분 투자유치·바이오 인프라 건립 내역으로 '데이터'·'제조/스마트팩토리' 근거 약함(해양·항만 AX실증센터 358백만원만 해당)",
+  "current_domains": [
+   "데이터",
+   "제조/스마트팩토리",
+   "해양/수산",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\519.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\519_해양수산 신산업 육성 및 기업투자유치 지원(지원).txt"
+ },
+ {
+  "id": 524,
+  "name": "과학수사감정지원",
+  "prior_detail": "'법률/치안·의료/바이오·재난/안전'은 타당. '에너지'는 부적절 — 내역 '방사선 안전관리'(36백만원, 감정장비 방사선 안전관리)를 에너지 분야로 오인한 것으로 판단. 또한 '딥페이크 탐지 AI시스템 도입'(900백만원, '26 신규)이 있음에도 ai_tech가 null",
+  "current_domains": [
+   "의료/바이오",
+   "에너지",
+   "법률/치안",
+   "재난/안전"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\524.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\524_과학수사감정지원.txt"
+ },
+ {
+  "id": 525,
+  "name": "데이터기반행정활성화(정보화)",
+  "prior_detail": "'데이터·디지털전환(AX)'은 타당하나 '교육/인재' 및 '행정/전자정부' 누락. 특히 내역사업 '데이터기반행정 역량지원'(1,479백만원)의 대부분이 AI인재양성 교육과정 개발·운영(1,105백만원)",
+  "current_domains": [
+   "데이터",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\525.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\525_데이터기반행정활성화(정보화).txt"
+ },
+ {
+  "id": 527,
+  "name": "범정부 인공지능 공통기반 구현(정보화)",
+  "prior_detail": "'LLM/언어모델'은 타당(범정부 초거대AI 공통기반 구현·운영). 다만 각 기관이 특화 데이터로 초거대 AI 서비스를 구현·운영하도록 지원하는 범정부 공통기반 사업이므로 '행정/전자정부' 도메인 누락, ai_tech도 null",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\527.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\527_범정부 인공지능 공통기반 구현(정보화).txt"
+ },
+ {
+  "id": 528,
+  "name": "재난 및 안전관리 연구개발(R&D)",
+  "prior_detail": "'교통/모빌리티'는 안전사고 R&D 중 교통사고 분야 언급뿐으로 근거 약함, 핵심은 재난/안전",
+  "current_domains": [
+   "교통/모빌리티",
+   "재난/안전"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\528.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\528_재난및안전관리연구개발(R&D).txt"
+ },
+ {
+  "id": 529,
+  "name": "재난안전 AI 관제체계 및 데이터 구축(정보화)",
+  "prior_detail": "핵심은 '데이터'와 '재난/안전'. '교육/인재'는 AI 학습용데이터를 오인한 것으로 부적절(인재양성 내용 전무). '보안/사이버'도 근거 없음. '법률/치안'은 지자체 CCTV 통합관제라는 간접 근거만 존재. ai_tech(컴퓨터비전·데이터/MLOps)는 타당",
+  "current_domains": [
+   "데이터",
+   "보안/사이버",
+   "교육/인재",
+   "법률/치안",
+   "재난/안전"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\529.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\529_재난안전 AI 관제체계 및 데이터 구축(정보화).txt"
+ }
+]

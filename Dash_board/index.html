@@ -22,11 +22,11 @@
 
 <header class="hero wrap" id="overview">
   <div class="eyebrow">2026 AI 재정사업 통합 설명자료 <span class="dot">●</span> 533개 사업 전수 검증 <span class="dot">●</span> 2026-07-28</div>
-  <h1>AI 예산 27.3조원,<br>인재양성은 <span class="accent">7.9조원</span>입니다</h1>
+  <h1>AI 예산 27.5조원,<br>인재양성은 <span class="accent">7.9조원</span>입니다</h1>
   <p class="lede">
-    5,296페이지 원본 PDF와 파싱 데이터를 <strong>전수 대조</strong>해 예산 오류 49건을 바로잡고,
-    분류 라벨에 가려져 있던 인재양성 사업 <strong>96개</strong>를 확정했습니다.
-    모든 수치는 검증·보정을 거친 값이며, 원자료는 CSV로 내려받을 수 있습니다.
+    5,296페이지 원본 PDF와 파싱 데이터를 <strong>전수 대조</strong>해 예산 오류 49건을 확정값으로
+    보정하고(총 +4,686억원), AI 도메인 195건을 재분류했으며, 분류 라벨에 가려져 있던
+    인재양성 사업 <strong>96개</strong>를 확정했습니다. 모든 수치는 v1.1 보정값이며, 원자료는 CSV로 내려받을 수 있습니다.
   </p>
   <div id="kpis" class="kpis"></div>
   <div id="hero-band-chart" class="grid" style="margin-top:16px"></div>
@@ -37,7 +37,7 @@
   <section id="talent">
     <div class="sec-head">
       <h2>첨단분야 인재양성 현황</h2>
-      <span class="sec-note">주력 60개 + 요소 포함 36개 · 2026년 7.87조원</span>
+      <span class="sec-note">주력 78개 + 요소 포함 18개 · 2026년 7.87조원 (v1.1)</span>
     </div>
     <hr class="sec-rule">
     <div class="grid" id="grid-talent"></div>
@@ -93,7 +93,7 @@
       </div>
     </div>
     <p style="font-size:12.5px;color:var(--muted);margin-top:8px">
-      단위: 백만원 · <span class="corr-mark">*</span> 표시는 검증에서 확인된 파싱 오류를 PDF 실측값으로 보정한 사업(8건) · 열 머리글 클릭으로 정렬
+      단위: 백만원 · <span class="corr-mark">*</span> 표시는 검증에서 확인된 파싱 오류를 PDF 실측값으로 보정한 사업(v1.1, 수치 변경 19건) · 열 머리글 클릭으로 정렬
     </p>
 
     <h3 style="margin:28px 0 12px;font-size:18px;color:var(--ink)">원자료 CSV (UTF-8, 엑셀 호환)</h3>
@@ -109,7 +109,7 @@
       <p>
         원본: AI_예산사업_통합_설명자료.pdf (5,296p) · 파싱 데이터: <a href="https://github.com/hollobit/KAIB2026">hollobit/KAIB2026</a> (MIT)<br>
         검증: 파이썬 전수 검사 + 에이전트 팀(리더 Fable 5, 팀원 Opus 5 × 25) 2단계 PDF 원문 대조 · 2026-07-28<br>
-        <span class="mutedf">예산 수치는 검증 확정 보정값(8건 교정) 기준. 상세 근거는 프로젝트의 Reports 폴더 참조.</span>
+        <span class="mutedf">예산 수치는 v1.1 확정 보정값(49건 재추출, 19건 수치 변경) · AI 도메인은 195건 재분류 반영. 상세 근거는 프로젝트의 Reports 폴더 참조.</span>
       </p>
     </div>
     <div>

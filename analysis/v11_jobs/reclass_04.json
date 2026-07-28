@@ -1,0 +1,167 @@
+[
+ {
+  "id": 113,
+  "name": "데이터센터 네트워크인프라 기술 선도사업(R&D)",
+  "prior_detail": "'LLM/언어모델'은 부적절, '통신/네트워크' 누락(데이터센터 AI 네트워킹 인프라 기술)",
+  "current_domains": [
+   "LLM/언어모델",
+   "데이터",
+   "클라우드/컴퓨팅"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\113.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\113_데이터센터네트워크인프라기술선도사업(R&D).txt"
+ },
+ {
+  "id": 117,
+  "name": "디지털 질서 기반 구축 및 글로벌 확산 지원",
+  "prior_detail": "'AI안전/신뢰' 도메인 누락(안전한 AI활용 기반조성 10,100, AI신뢰성 기반 조성 2,096)",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\117.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\117_디지털 질서 기반 구축 및 글로벌 확산 지원.txt"
+ },
+ {
+  "id": 120,
+  "name": "디지털배움터(세종)",
+  "prior_detail": "ai_domains=['LLM/언어모델']은 근거 없음. 근거법이 지능정보화기본법 제45조(정보격차 해소)·제50조(정보격차해소교육)이며 내용은 전 국민 AI·디지털 교육·디지털포용. '교육/인재'(디지털포용/정보격차)가 타당",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\120.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\120_디지털배움터(세종).txt"
+ },
+ {
+  "id": 121,
+  "name": "디지털배움터(자율)",
+  "prior_detail": "'LLM/언어모델' 부적절. 실제는 디지털포용·정보격차해소 AI·디지털 교육 → '교육/인재' 도메인이 핵심",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\121.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\121_디지털배움터(자율).txt"
+ },
+ {
+  "id": 122,
+  "name": "디지털배움터(제주)",
+  "prior_detail": "'LLM/언어모델' 부적절. '교육/인재'(디지털포용·정보격차해소 교육) 누락",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\122.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\122_디지털배움터(제주).txt"
+ },
+ {
+  "id": 124,
+  "name": "디지털선도기술 핵심인재양성(R&D)",
+  "prior_detail": "'통신/네트워크'는 사업 내용(ICT 석·박사 인재양성)과 직접 연관 약함",
+  "current_domains": [
+   "교육/인재",
+   "통신/네트워크"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\124.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\124_디지털선도기술 핵심인재양성(R&D).txt"
+ },
+ {
+  "id": 127,
+  "name": "디지털트윈 융합 의료혁신 선도사업",
+  "prior_detail": "'건설/스마트시티' 부적절(의료기기 디지털트윈 기반구축 사업)",
+  "current_domains": [
+   "의료/바이오",
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\127.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\127_디지털트윈 융합 의료혁신 선도사업.txt"
+ },
+ {
+  "id": 128,
+  "name": "디지털헬스케어 기반 AI 융합혁신 센터 구축",
+  "prior_detail": "의료/바이오·피지컬AI/디바이스·로봇은 타당하나 단위사업이 'SW융합인력양성(균특)'이고 핵심이 버티컬AI·피지컬AI 통합 '교육'이므로 '교육/인재' 누락. 'AI반도체'는 GPU·NPU 실습환경 언급 정도로 근거 약함",
+  "current_domains": [
+   "AI반도체",
+   "의료/바이오",
+   "로봇",
+   "디지털전환(AX)",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\128.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\128_디지털헬스케어 기반 AI 융합혁신 센터 구축.txt"
+ },
+ {
+  "id": 131,
+  "name": "민관협력 기반 AI휴머노이드 원천기술고도화(R&D)",
+  "prior_detail": "ai_domains=['LLM/언어모델'] 오류. 체화AI 휴머노이드, VHLA(시각-촉각-언어-행동) 모델, 국가첨단전략기술 '로봇' 분야 지정 → '로봇'/'피지컬AI/디바이스'가 타당. ai_tech '피지컬/휴머노이드'는 적절",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\131.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\131_민관협력기반AI휴머노이드원천기술고도화(R&D).txt"
+ },
+ {
+  "id": 132,
+  "name": "바이오.의료기술개발(R&D)",
+  "prior_detail": "ai_domains=['교육/인재']는 명백한 오분류. '의료/바이오'가 핵심이며 내역 ②인공지능바이오(60,923백만원) 고려 시 '데이터'/AI 융합 추가 타당",
+  "current_domains": [
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\132.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\132_바이오.의료기술개발(R&D).txt"
+ },
+ {
+  "id": 133,
+  "name": "반도체원천기술개발사업(R&D)",
+  "prior_detail": "'교육/인재'는 부수적 내용에 불과, 반도체 소재·공정·패키징 원천기술이 본체",
+  "current_domains": [
+   "AI반도체",
+   "교육/인재"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\133.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\133_반도체원천기술개발사업(R&D).txt"
+ },
+ {
+  "id": 138,
+  "name": "사람중심인공지능핵심원천기술개발(R&D)",
+  "prior_detail": "'교육/인재'는 부적절(소관과가 디지털인재양성과일 뿐 사업 내용은 AI 학습능력·활용성 개선 핵심원천기술개발). '데이터'/'데이터·MLOps'는 부분 타당하나 핵심은 AI 원천기술(기초연구)",
+  "current_domains": [
+   "데이터",
+   "교육/인재",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\138.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\138_사람중심인공지능핵심원천기술개발(R&D).txt"
+ },
+ {
+  "id": 154,
+  "name": "울산과학기술원 연구 운영비 지원(R&D)",
+  "prior_detail": "'R&D 지원'(기관운영비·기관고유사업비 출연)은 타당하나, 2026년 증액의 주요 원인이 AI 국가대표 양성(InnoCORE) 26,250백만원 및 신규 AI 전사양성사업(AI거점대학) 2,650백만원이므로 '교육/인재' 도메인 누락",
+  "current_domains": [
+   "R&D 지원"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\154.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\154_울산과학기술원 연구 운영비 지원(R&D).txt"
+ },
+ {
+  "id": 155,
+  "name": "융합서비스 글로벌시장 진출지원",
+  "prior_detail": "'문화/콘텐츠', '제조/스마트팩토리'는 발췌된 내역사업(해외실증·바우처·파트너십)과 직접 연관 약함",
+  "current_domains": [
+   "AI반도체",
+   "데이터",
+   "제조/스마트팩토리",
+   "문화/콘텐츠",
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\155.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\155_융합서비스 글로벌시장 진출지원.txt"
+ },
+ {
+  "id": 159,
+  "name": "인간인지기반 AI 핵심원천기술개발(R&D)",
+  "prior_detail": "'LLM/언어모델'은 부정확(뇌 인지구조 모사 차세대 AI 원천기술로 AGI/범용AI에 해당)",
+  "current_domains": [
+   "LLM/언어모델"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\159.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\159_인간인지기반 AI 핵심원천기술개발(R&D).txt"
+ }
+]

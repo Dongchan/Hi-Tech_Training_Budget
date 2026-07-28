@@ -1,0 +1,160 @@
+[
+ {
+  "id": 273,
+  "name": "빅데이터기반 인공지능도시계획 기술개발(R&D)",
+  "prior_detail": "도시계획 대상이므로 '건설/스마트시티' 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\273.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\273_빅데이터기반인공지능도시계획기술개발(R&D).txt"
+ },
+ {
+  "id": 274,
+  "name": "빅데이터기반철도네트워크설계및운영기술개발(R&D)",
+  "prior_detail": "철도 네트워크 설계·운영이므로 '교통/모빌리티' 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\274.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\274_빅데이터기반철도네트워크설계및운영기술개발(R&D).txt"
+ },
+ {
+  "id": 275,
+  "name": "스마트+빌딩 핵심기술 개발(R&D)",
+  "prior_detail": "로봇 친화형 건축물 설계·시공 사업으로 '건설/스마트시티' 누락",
+  "current_domains": [
+   "로봇"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\275.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\275_스마트 빌딩핵심기술개발(R&D).txt"
+ },
+ {
+  "id": 281,
+  "name": "자율주행글로벌혁신클러스터연구개발사업(R&D)",
+  "prior_detail": "'교통/모빌리티'는 타당하나 ai_tech '강화학습/최적화'는 PDF에 근거 없음(내용은 정기검사 시나리오·통합시스템 개발, 데이터 공유 통합플랫폼 구축·검증, 글로벌 상호호환 표준 개발). '데이터'(자율주행 빅데이터 취합·학습·공유·거래 통합플랫폼) 도메인 누락.",
+  "current_domains": [
+   "교통/모빌리티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\281.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\281_자율주행글로벌혁신클러스터연구개발사업(R&D).txt"
+ },
+ {
+  "id": 284,
+  "name": "철도차량차륜자동검사시스템기술개발(R&D)",
+  "prior_detail": "ai_domains ['건설/스마트시티']는 사업 실체와 무관. 실제는 철도차량 차륜 초음파 정밀탐상·AI 상태예측 자동검사(철도국 철도운영과, 철도기술연구)로 '교통/모빌리티(철도)'·'재난/안전'(열차탈선 등 대형사고 예방)·'제조/로봇'(차륜 로봇설비 자동검사)이 맞음. 또한 'AI 알고리즘·모델 개발 및 학습'(1,419백만원)이 예산의 65%인데 ai_tech가 null.",
+  "current_domains": [
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\284.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\284_철도차량차륜자동검사시스템기술개발(R&D).txt"
+ },
+ {
+  "id": 287,
+  "name": "초연결지능도시핵심기반기술개발(R&D)",
+  "prior_detail": "핵심인 '건설/스마트시티'(초연결 지능도시) 누락, '법률/치안'은 CCTV 분석 일부에 불과",
+  "current_domains": [
+   "LLM/언어모델",
+   "데이터",
+   "법률/치안",
+   "피지컬AI/디바이스"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\287.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\287_초연결지능도시핵심기반기술개발(R&D).txt"
+ },
+ {
+  "id": 289,
+  "name": "국민성장펀드",
+  "prior_detail": "'금융' 라벨은 무리 없으나 산업은행 출자(펀드)로 AI 사업 아님",
+  "current_domains": [
+   "금융"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\289.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\289_국민성장펀드.txt"
+ },
+ {
+  "id": 290,
+  "name": "신용정보(정보화)",
+  "prior_detail": "'데이터'(기업 빅데이터 플랫폼 BASA 구축·운영, 데이터 가치평가기관 지정)는 타당. 다만 신용보증기금 소관 금융·신용정보 사업이므로 '금융' 도메인 누락.",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\290.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\290_신용정보(정보화).txt"
+ },
+ {
+  "id": 291,
+  "name": "기상업무지원기술개발연구(R&D)",
+  "prior_detail": "'환경/기후'는 타당하나 '농업/식품'·'에너지'는 PDF 근거 미약",
+  "current_domains": [
+   "농업/식품",
+   "에너지",
+   "환경/기후"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\291.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\291_기상업무지원기술개발연구(R&D).txt"
+ },
+ {
+  "id": 295,
+  "name": "AI 기반 분산전력망 산업 육성",
+  "prior_detail": "핵심 도메인 '에너지'(분산전력망·ESS) 누락, '디지털전환(AX)'만으로 부족",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\295.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\295_AI기반 분산전력망 산업육성.txt"
+ },
+ {
+  "id": 297,
+  "name": "AI기반분산·예비전력안전관리통합플랫폼개발및실증(R&D)",
+  "prior_detail": "'데이터'만 부여, 핵심인 '에너지'·'재난/안전' 누락",
+  "current_domains": [
+   "데이터"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\297.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\297_AI기반분산·예비전력안전관리통합플랫폼개발및실증(R….txt"
+ },
+ {
+  "id": 299,
+  "name": "K-그리드 인재·창업 밸리",
+  "prior_detail": "ai_domains ['건설/스마트시티']는 근거 없음. 실체는 한국에너지공대 중심 차세대 분산전력망(VPP·디지털트윈 실증 14,500백만원) + 인재양성 인턴십(1,000) + 벤처유치·글로벌 공동연구(2,350) + 창업지원(1,650) + 고전력반도체 실증 인프라(5,000)이므로 '에너지', '교육/인재', '반도체'가 맞음.",
+  "current_domains": [
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\299.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\299_K-그리드 인재·창업 밸리.txt"
+ },
+ {
+  "id": 300,
+  "name": "광역상수도 안정화",
+  "prior_detail": "노후관 개량·복선화 등 시설사업으로 '로봇' 도메인 근거 없음",
+  "current_domains": [
+   "로봇",
+   "환경/기후",
+   "건설/스마트시티"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\300.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\300_광역상수도 안정화.txt"
+ },
+ {
+  "id": 307,
+  "name": "데이터센터탄소중립을위한열관리기술개발(R&D)",
+  "prior_detail": "'에너지'는 타당하나 '데이터'/ai_tech 'GPU/클라우드'는 냉각·열관리 기술과 연결 약함",
+  "current_domains": [
+   "데이터",
+   "에너지"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\307.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\307_데이터센터탄소중립을위한열관리기술개발(R&D).txt"
+ },
+ {
+  "id": 308,
+  "name": "디지털 담수화 플랜트 농축수 자원화 기술 개발사업(R&D)",
+  "prior_detail": "'디지털전환(AX)'만 부여, 물·환경 도메인('환경/기후') 누락",
+  "current_domains": [
+   "디지털전환(AX)"
+  ],
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\308.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\308_디지털 담수화 플랜트 농축수 자원화 기술 개발사업(R….txt"
+ }
+]

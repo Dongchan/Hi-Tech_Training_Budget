@@ -33,9 +33,10 @@ def row(t):
 
 
 L = []
-L.append("# 첨단분야 인재양성 예산 현황 (2026년 AI 재정사업 기준)")
+L.append("# 첨단분야 인재양성 예산 현황 (2026년 AI 재정사업 기준) — v1.1")
 L.append("")
-L.append("- 작성일: 2026-07-28 | 근거: `AI_예산사업_통합_설명자료.pdf`(5,296p) 파싱 데이터(KAIB2026)의 전수 검증 결과")
+L.append("- 작성일: 2026-07-28 (v1.1 개정: 예산 49건 확정값 보정 + 도메인 195건 재분류 반영, core/partial 재계산)")
+L.append("- 근거: `AI_예산사업_통합_설명자료.pdf`(5,296p) 파싱 데이터(KAIB2026)의 전수 검증·보정 결과")
 L.append("- 목적: 메일 5번 항목 — 첨단분야 인재양성/인재수요 현황 파악용 데이터 정리 (기본계획 수립·인재지도 구축 활용)")
 L.append("- 단위: 백만원. 2024=결산, 2025=본예산, 2026=확정예산")
 L.append("")
@@ -43,7 +44,7 @@ L.append("## 1. 요약")
 L.append("")
 L.append("| 구분 | 사업 수 | 2026 확정예산 |")
 L.append("|---|---:|---:|")
-L.append(f"| **주력 인재양성(core)** — 교육/인재 도메인 또는 사업명상 인재양성 | {s['core']['count']} | {fmt(s['core']['b2026'])} |")
+L.append(f"| **주력 인재양성(core)** — 교육/인재 도메인(v1.1 개정 기준) 또는 사업명상 인재양성 | {s['core']['count']} | {fmt(s['core']['b2026'])} |")
 L.append(f"| **요소 포함(partial)** — 사업 내 인재양성 활동 포함 | {s['partial']['count']} | {fmt(s['partial']['b2026'])} |")
 L.append(f"| **합계** | {s['total_talent_projects']} | {fmt(s['all']['b2026'])} |")
 L.append("")
@@ -58,19 +59,19 @@ L.append("|---|---:|---:|")
 for k, v in tf["by_department"].items():
     L.append(f"| {k} | {v['count']} | {fmt(v['b2026'])} |")
 L.append("")
-L.append("## 3. 주력 인재양성 사업 목록 (core, 60건)")
+L.append(f"## 3. 주력 인재양성 사업 목록 (core, {len(core)}건)")
 L.append("")
 L.append("| id | 부처 | 사업명 | 2024 | 2025 | 2026 | 비고 |")
 L.append("|---:|---|---|---:|---:|---:|---|")
 for t in core:
     L.append(row(t))
 L.append("")
-L.append("예산보정 상세:")
-for k, v in s["corrections_applied"].items():
-    d, n = pname[int(k)]
-    L.append(f"- id {k} ({d} {n}): {v['why']}")
+L.append("예산보정 상세 (v1.1 확정값 적용 건):")
+for t in tf["projects"]:
+    if t.get("corrected"):
+        L.append(f"- id {t['id']} ({t['department']} {t['project_name']}): {t.get('correction_note') or ''}")
 L.append("")
-L.append("## 4. 인재양성 요소 포함 사업 (partial, 36건)")
+L.append(f"## 4. 인재양성 요소 포함 사업 (partial, {len(part)}건)")
 L.append("")
 L.append("사업의 주목적은 다른 분야이나 PDF 원문상 인재양성·교육훈련 활동(내역)을 포함하는 사업.")
 L.append("")

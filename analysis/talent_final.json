@@ -2,14 +2,14 @@
  "summary": {
   "total_talent_projects": 96,
   "core": {
-   "count": 60,
-   "b2024": 5190537.0,
-   "b2025": 4785269.0,
-   "b2026": 5793094.0
+   "count": 78,
+   "b2024": 6128515.0,
+   "b2025": 5781879.0,
+   "b2026": 7111920.0
   },
   "partial": {
-   "count": 36,
-   "b2026": 2079702.0
+   "count": 18,
+   "b2026": 760876.0
   },
   "all": {
    "b2026": 7872796.0
@@ -95,7 +95,8 @@
     "2026": 1918,
     "why": "6열 시프트: JSON 2026_budget=-70(증감) → PDF 확정(B)로 보정"
    }
-  }
+  },
+  "version": "v1.1 (2026-07-28): 예산 확정값 반영, core/partial을 개정 도메인 기준 재계산"
  },
  "by_department": {
   "과학기술정보통신부": {
@@ -545,6 +546,50 @@
    }
   },
   {
+   "id": 98,
+   "department": "과학기술정보통신부",
+   "project_name": "국가과학기술연구회 연구 운영비 지원(R&D)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "R&D 지원"
+   ],
+   "is_rnd": true,
+   "b2024": 194792.0,
+   "b2025": 247439.0,
+   "b2026": 360849.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "PDF: '(출연(연) 인재생태계조성사업) 우수인재가 출연(연)에 유입되어 지속 성장·정착할 수 있는 선순환적 전주기 통합 인재생태계 조성', 2026 예산 14,880백만원(미래인재 양성 8,760 + 인재혁신 지원 6,120), 별도 '출연(연) 맞춤형 인력양성사업'도 명시.",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
+   "id": 198,
+   "department": "과학기술정보통신부",
+   "project_name": "한국과학기술원 연구 운영비 지원(R&D)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "R&D 지원"
+   ],
+   "is_rnd": true,
+   "b2024": 207269.0,
+   "b2025": 218356.0,
+   "b2026": 297077.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "KAIST 기관운영·연구비 사업이나 2026년 신규·계속 내역 중 AI 국가대표 양성(InnoCORE) 52,500백만원, AI 전사양성사업 4,450백만원, 창의적 인재양성 특성화교육 15,371백만원 등 총 297,077 중 약 20%가 명시적 인재양성 사업. 1971년 설립 근거 자체가 '고급과학기술 인력양성'.",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
    "id": 226,
    "department": "교육부",
    "project_name": "산학연협력 고도화 지원",
@@ -638,6 +683,28 @@
    }
   },
   {
+   "id": 208,
+   "department": "과학기술정보통신부",
+   "project_name": "한국원자력연구원 연구 운영비 지원(R&D)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "R&D 지원"
+   ],
+   "is_rnd": true,
+   "b2024": 140717.0,
+   "b2025": 154061.0,
+   "b2026": 171326.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "내역사업 '원자력 인재육성·정책 및 글로벌협력 지원'에 '국내·외 원자력 교육과정 개발 및 운영을 통한 글로벌 원자력 전문 인재육성'이 명시. 다만 사업 전체(171,326)에서 차지하는 비중은 제한적.",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
    "id": 172,
    "department": "과학기술정보통신부",
    "project_name": "정보통신방송혁신인재양성(R&D)",
@@ -665,6 +732,50 @@
    }
   },
   {
+   "id": 154,
+   "department": "과학기술정보통신부",
+   "project_name": "울산과학기술원 연구 운영비 지원(R&D)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "R&D 지원"
+   ],
+   "is_rnd": true,
+   "b2024": 85922.0,
+   "b2025": 90160.0,
+   "b2026": 126289.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "과기원 학사사업비(20,042백만원) 포함 고급과학기술인재 양성이 설립목적이며, AI 국가대표 양성(InnoCORE)·AI 전사양성사업·AI대학원·AI 인재양성 등 명시. 대학지원+인재양성 성격 확정",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
+   "id": 93,
+   "department": "과학기술정보통신부",
+   "project_name": "광주과학기술원 연구 운영비 지원(R&D)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "R&D 지원"
+   ],
+   "is_rnd": true,
+   "b2024": 93124.0,
+   "b2025": 97634.0,
+   "b2026": 120610.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "PDF: 사업목적 '첨단 과학기술의 혁신을 선도할 고급 과학기술인재 양성', '인재양성 및 연구개발을 통한 국가 과학기술 발전'; 내역 학사사업비 23,852백만원, AI 국가대표 양성사업, AI 전사 양성사업(AI거점대학 프로그램), '25 추경 사유가 'AI 해외인재 유출 방지 및 인재양성을 위한 AI국가대표양성 3,750백만원'.",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
    "id": 42,
    "department": "과학기술정보통신부",
    "project_name": "AI·SW 중심대학",
@@ -686,6 +797,28 @@
    "verification": {
     "budget": "match",
     "classification": "appropriate"
+   }
+  },
+  {
+   "id": 107,
+   "department": "과학기술정보통신부",
+   "project_name": "대구경북과학기술원 연구 운영비지원(R&D)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "R&D 지원"
+   ],
+   "is_rnd": true,
+   "b2024": 88701.0,
+   "b2025": 97697.0,
+   "b2026": 116367.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "PDF: 사업목적 '고급과학기술인재 양성 및 기초·응용과학 연구수행 등 기관 고유목적 달성을 위한 교육·연구 사업비'; 'AI국가대표양성(InnoCORE) 13,125백만원 — 박사후연수연구원 중심 국내 포닥 양성 생태계 선도', 'AI 전사 양성사업 1,610백만원 — 학부생 대상 AI+X 특화교육으로 Global-Standard AI 인재 양성'; '25 추경 사유도 InnoCORE 3,750백만원.",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
    }
   },
   {
@@ -763,6 +896,31 @@
    }
   },
   {
+   "id": 77,
+   "department": "과학기술정보통신부",
+   "project_name": "SW컴퓨팅산업원천기술개발(R&D,정보화)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "AI반도체",
+    "데이터",
+    "클라우드/컴퓨팅",
+    "디지털전환(AX)"
+   ],
+   "is_rnd": true,
+   "b2024": 111814.0,
+   "b2025": 94695.0,
+   "b2026": 77201.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "SW스타랩 11,400백만원(38개)= '대학 연구거점 구축, 실전적 SW 연구개발 지원' 고급인력 육성 성격. 글로벌AI프론티어랩 10,000백만원의 소관이 '인공지능정책기획관 디지털인재양성과'(p.619). 다만 형식은 R&D 과제지원이며 학위·훈련과정 지원사업은 아님",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
    "id": 302,
    "department": "기후에너지환경부",
    "project_name": "국립생태원 출연",
@@ -835,29 +993,6 @@
    "corrected": false,
    "correction_note": null,
    "talent_note": "ICT이노베이션스퀘어·광주인공지능사관학교·SW마이스터고 등 전면 교육훈련 사업",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 133,
-   "department": "과학기술정보통신부",
-   "project_name": "반도체원천기술개발사업(R&D)",
-   "category": "core",
-   "in_edu_domain": true,
-   "name_keywords": [],
-   "ai_domains": [
-    "AI반도체",
-    "교육/인재"
-   ],
-   "is_rnd": true,
-   "b2024": 40707.0,
-   "b2025": 65011.0,
-   "b2026": 68808.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "대학 반도체 연구실 역량강화, 학생 설계·검증 서비스, 대학(원)생 인턴십 등 인력양성 요소 일부 포함",
    "verification": {
     "budget": "match",
     "classification": "partial"
@@ -960,6 +1095,28 @@
    }
   },
   {
+   "id": 121,
+   "department": "과학기술정보통신부",
+   "project_name": "디지털배움터(자율)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "LLM/언어모델"
+   ],
+   "is_rnd": false,
+   "b2024": null,
+   "b2025": null,
+   "b2026": 38121.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "전 국민 AI·디지털 교육 제공 및 AI 리터러시 역량 강화(지능정보화기본법 제50조 정보격차해소교육). 교육훈련 성격 확정",
+   "verification": {
+    "budget": "match",
+    "classification": "wrong"
+   }
+  },
+  {
    "id": 63,
    "department": "과학기술정보통신부",
    "project_name": "AI최고급신진연구자지원사업(R&D)",
@@ -1035,7 +1192,7 @@
    "department": "기후에너지환경부",
    "project_name": "K-그리드 인재·창업 밸리",
    "category": "core",
-   "in_edu_domain": false,
+   "in_edu_domain": true,
    "name_keywords": [
     "인재"
    ],
@@ -1129,7 +1286,7 @@
    "department": "과학기술정보통신부",
    "project_name": "인공지능융합혁신인재양성(R&D)",
    "category": "core",
-   "in_edu_domain": false,
+   "in_edu_domain": true,
    "name_keywords": [
     "인재",
     "양성"
@@ -1192,6 +1349,28 @@
    "corrected": false,
    "correction_note": null,
    "talent_note": "기업수요형 R&D로 석·박사 고급전문인력 양성이 사업 목적",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
+   "id": 360,
+   "department": "방송미디어통신위원회",
+   "project_name": "방송콘텐츠 진흥",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "디지털전환(AX)"
+   ],
+   "is_rnd": false,
+   "b2024": 17914.0,
+   "b2025": 19397.0,
+   "b2026": 16792.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "확정. PDF: '(AI·디지털 기반 미디어 융합인재) 전주기 방송인력 대상 AI·신기술 기반의 수요 맞춤형 교육을 통한 핵심 AI 융합인재 양성'(’26 신설 1,792백만원), 근거법 방송법 제94조(방송전문인력의 양성), 방송통신발전기본법 제21조. '지역 방송 제작역량 강화'도 지역 융합인재 양성·AI 제작 기술교육, '크리에이터미디어 산업기반 조성'은 신직군 이론·실무·현장교육 및 취업 지원 포함.",
    "verification": {
     "budget": "match",
     "classification": "partial"
@@ -1346,6 +1525,28 @@
    }
   },
   {
+   "id": 106,
+   "department": "과학기술정보통신부",
+   "project_name": "대구경북과학기술원 시설 지원(R&D)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "디지털전환(AX)"
+   ],
+   "is_rnd": true,
+   "b2024": 16101.0,
+   "b2025": 14150.0,
+   "b2026": 11707.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "사업목적이 '첨단과학기술의 혁신을 선도할 고급과학기술인재를 양성', 시설비 정의도 '교육·연구시설'. 2026 내역 중 도심형캠퍼스구축(3,435)은 'AI, SW 교육 및 인재 양성을 위한 교육 캠퍼스 및 연구 캠퍼스(DGIST 글로벌 캠퍼스) 조성'으로 명시. 단 지출 성격은 건축·시설비.",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
    "id": 350,
    "department": "문화체육관광부",
    "project_name": "국학진흥 정책기반 조성",
@@ -1362,6 +1563,73 @@
    "corrected": false,
    "correction_note": null,
    "talent_note": "국역 및 국학전문인력 양성, 퇴계학 학문 후속세대 양성, 청년·실버 일자리 창출 내역 포함",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
+   "id": 36,
+   "department": "과학기술정보통신부",
+   "project_name": "AI 분야 오픈소스 생태계 조성",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "LLM/언어모델"
+   ],
+   "is_rnd": false,
+   "b2024": null,
+   "b2025": null,
+   "b2026": 11000.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "단위사업 2232 'SW융합인력양성'. 목적에 '인재 양성' 명시, 내역 '오픈소스 AI·SW 커뮤니티 활성화 = 글로벌 리더급 개발자 육성 인재양성 프로그램', 산출근거 인재양성 700백만원, 기대효과 '핵심 인력 연 250명 이상 양성'",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
+   "id": 525,
+   "department": "행정안전부",
+   "project_name": "데이터기반행정활성화(정보화)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "데이터",
+    "디지털전환(AX)"
+   ],
+   "is_rnd": false,
+   "b2024": 14664.0,
+   "b2025": 15008.0,
+   "b2026": 10478.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "사업목적에 'AI·데이터 중심 대상별·수준별 교육과정 개발, 행정·공공기관 직원 AI리터러시 역량 제고, 내부 실무인재 육성' 명시. '26 예산 산출근거 'AI·데이터 인재 양성·리터러시 강화 1,105백만원 = AI인재양성 교육과정 개발·운영'. 추진경위에도 '전문인재 양성과정 계획 수립 및 운영('24.1~)' 기재",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
+   "id": 41,
+   "department": "과학기술정보통신부",
+   "project_name": "AIxBio 혁신 연구거점 조성 시범사업(R&D)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "의료/바이오"
+   ],
+   "is_rnd": true,
+   "b2024": null,
+   "b2025": null,
+   "b2026": 10200.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "p.359 목적·p.361 산출근거에 '기술 축적·인재양성·산업확산' 명시. p.362 성과지표 '석박사급 융합인재 양성 수 = 공동지도학위 프로그램 참여 또는 융합 교육 프로그램 이수 연구자 수', 기대효과 '석박사급 융합인재 누계 50명 이상 양성'",
    "verification": {
     "budget": "match",
     "classification": "partial"
@@ -1414,6 +1682,28 @@
    "verification": {
     "budget": "match",
     "classification": "appropriate"
+   }
+  },
+  {
+   "id": 242,
+   "department": "국방부",
+   "project_name": "전투발전연구",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "국방/안보"
+   ],
+   "is_rnd": false,
+   "b2024": 5907,
+   "b2025": 7617,
+   "b2026": 9177,
+   "corrected": true,
+   "correction_note": "v1.1 확정값: p.2021 가.예산총괄표 6열(2024결산/2025본예산(A)/2026요구안/조정안(B)/증감(B-A)/(B-A)/A), 추경열 없음; 9,177-7,617=1,560 검산 일치",
+   "talent_note": "군 교육훈련 발전을 위한 전투실험·교리교범 연구 사업이며, 성과지표가 '군 위탁교육 이수인원(전문학위 석·박사 위탁교육 + 국외군사교육)'으로 설정되어 '연간 위탁교육을 통한 인재양성 규모 확인'이라 명시. 해외교리장교 9명 해외 파견 운영(540백만원) 포함. 다만 직접적 인력양성 예산이라기보다 교육훈련 기반 연구 성격.",
+   "verification": {
+    "budget": "mismatch",
+    "classification": "partial"
    }
   },
   {
@@ -1470,7 +1760,7 @@
    "department": "국가데이터처",
    "project_name": "통계센터 및 교육시설 운영",
    "category": "core",
-   "in_edu_domain": false,
+   "in_edu_domain": true,
    "name_keywords": [
     "교육"
    ],
@@ -1544,7 +1834,7 @@
    "department": "보건복지부",
    "project_name": "의료 인공지능 특화 융합인재 양성 사업(R&D)",
    "category": "core",
-   "in_edu_domain": false,
+   "in_edu_domain": true,
    "name_keywords": [
     "인재",
     "양성"
@@ -1640,6 +1930,32 @@
    }
   },
   {
+   "id": 128,
+   "department": "과학기술정보통신부",
+   "project_name": "디지털헬스케어 기반 AI 융합혁신 센터 구축",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "AI반도체",
+    "의료/바이오",
+    "로봇",
+    "디지털전환(AX)",
+    "피지컬AI/디바이스"
+   ],
+   "is_rnd": false,
+   "b2024": null,
+   "b2025": null,
+   "b2026": 3500.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "단위사업 SW융합인력양성(균특), 성과지표 '실무/심층인력 양성인원 150명', 'AI융합혁신센터 교육과정 수료생수', 지역 인재 육성 명시 → 인력양성 사업 확정",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
    "id": 142,
    "department": "과학기술정보통신부",
    "project_name": "소프트웨어인재키움",
@@ -1712,11 +2028,55 @@
    }
   },
   {
+   "id": 35,
+   "department": "과학기술정보통신부",
+   "project_name": "AI 반도체 지원플랫폼",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "AI반도체"
+   ],
+   "is_rnd": false,
+   "b2024": null,
+   "b2025": 3500.0,
+   "b2026": 2250.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "p.321 목적: '국내·외 인재 공급체계 구축하여 AI반도체 기업이 즉시 활용 가능한 인력 지원'. p.324 실적: AI칩 콘(30개팀 88명), AI칩 캠프 199명 역량진단, 채용연계 167건·채용확정 61건",
+   "verification": {
+    "budget": "match",
+    "classification": "partial"
+   }
+  },
+  {
+   "id": 122,
+   "department": "과학기술정보통신부",
+   "project_name": "디지털배움터(제주)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "LLM/언어모델"
+   ],
+   "is_rnd": false,
+   "b2024": null,
+   "b2025": null,
+   "b2026": 2169.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "120·121과 동일 사업설명(전 국민 AI·디지털 교육, 취약계층 디지털 정보화 수준 성과지표). 교육훈련 사업 확정",
+   "verification": {
+    "budget": "match",
+    "classification": "wrong"
+   }
+  },
+  {
    "id": 232,
    "department": "국가데이터처",
    "project_name": "통계교육지원",
    "category": "core",
-   "in_edu_domain": false,
+   "in_edu_domain": true,
    "name_keywords": [
     "교육"
    ],
@@ -1790,7 +2150,7 @@
    "department": "인사혁신처",
    "project_name": "국가인재개발 지능형 오픈 플랫폼 운영(정보화)",
    "category": "core",
-   "in_edu_domain": false,
+   "in_edu_domain": true,
    "name_keywords": [
     "인재"
    ],
@@ -1798,12 +2158,37 @@
     "데이터"
    ],
    "is_rnd": false,
-   "b2024": 1890.0,
-   "b2025": 1988.0,
+   "b2024": 1890,
+   "b2025": 1988,
    "b2026": 1918,
    "corrected": true,
-   "correction_note": "6열 시프트: JSON 2026_budget=-70(증감) → PDF 확정(B)로 보정",
+   "correction_note": "v1.1 확정값: p.4667 가.예산총괄표 6열(2024결산/2025본예산A/2026요구안/확정B/증감/증감률) — 추경 열 없음; 1,918-1,988=-70 산술 일치",
    "talent_note": "사업목적: '정부·민간 학습 콘텐츠 통합 제공, AI·빅데이터 기반 개인별 맞춤형 학습 추천으로 공무원 역량개발 지원'. 근거법령 「공무원 인재개발법」 제2조 및 시행령 제14조의4(지능형인재개발플랫폼 운영) — 명백한 교육훈련 인프라 사업",
+   "verification": {
+    "budget": "mismatch",
+    "classification": "partial"
+   }
+  },
+  {
+   "id": 452,
+   "department": "소방청",
+   "project_name": "119빅데이터 분석운영",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "데이터",
+    "행정/전자정부",
+    "재난/안전",
+    "피지컬AI/디바이스"
+   ],
+   "is_rnd": false,
+   "b2024": 1760,
+   "b2025": 1907,
+   "b2026": 1705,
+   "corrected": true,
+   "correction_note": "v1.1 확정값: p.4454 가.예산총괄표 6열(2024결산/2025본예산A/추경/2026예산B/증감/증감률) — 2026 요구안 열 없음; 1,705-1,907=-202 산술 일치",
+   "talent_note": "'빅데이터 운영' 내역에 공공 AI·데이터 역량강화 교육 운영, 데이터교육 1.2백만원×24명×1주=29백만원, 중앙소방학교·KISTI 빅데이터 실무교육(총 125명 수료) 명시. 다만 전체 예산(1,705백만원) 대비 소액 부수요소",
    "verification": {
     "budget": "mismatch",
     "classification": "partial"
@@ -1835,6 +2220,28 @@
    }
   },
   {
+   "id": 120,
+   "department": "과학기술정보통신부",
+   "project_name": "디지털배움터(세종)",
+   "category": "core",
+   "in_edu_domain": true,
+   "name_keywords": [],
+   "ai_domains": [
+    "LLM/언어모델"
+   ],
+   "is_rnd": false,
+   "b2024": null,
+   "b2025": null,
+   "b2026": 816.0,
+   "corrected": false,
+   "correction_note": null,
+   "talent_note": "AI·디지털에 어려움을 느끼는 국민 대상 키오스크·스마트폰~생성형AI 교육 제공, 성과지표 '취약계층 디지털 정보화 수준', 소관 디지털포용정책팀. 직업훈련·학위과정은 아니나 전 국민 대상 AI 리터러시 교육훈련 사업",
+   "verification": {
+    "budget": "match",
+    "classification": "wrong"
+   }
+  },
+  {
    "id": 221,
    "department": "교육부",
    "project_name": "AI 디지털 유니버시티 혁신교육 플랫폼 구축(정보화)",
@@ -1859,28 +2266,6 @@
    }
   },
   {
-   "id": 98,
-   "department": "과학기술정보통신부",
-   "project_name": "국가과학기술연구회 연구 운영비 지원(R&D)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "R&D 지원"
-   ],
-   "is_rnd": true,
-   "b2024": 194792.0,
-   "b2025": 247439.0,
-   "b2026": 360849.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "PDF: '(출연(연) 인재생태계조성사업) 우수인재가 출연(연)에 유입되어 지속 성장·정착할 수 있는 선순환적 전주기 통합 인재생태계 조성', 2026 예산 14,880백만원(미래인재 양성 8,760 + 인재혁신 지원 6,120), 별도 '출연(연) 맞춤형 인력양성사업'도 명시.",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
    "id": 105,
    "department": "과학기술정보통신부",
    "project_name": "나노·소재기술개발(R&D)",
@@ -1897,116 +2282,6 @@
    "corrected": false,
    "correction_note": null,
    "talent_note": "내역사업 '소재글로벌영커넥트'(2025 15,900 → 2026 22,725백만원)가 '만 40세 이하 또는 박사학위 취득 후 7년 이내 신진연구자'의 국가전략기술분야 미래소재 연구를 지원하는 신진연구인력 육성 트랙. 다만 교육훈련·학위과정이 아닌 연구비 지원 형태라 인재양성 성격은 제한적.",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 198,
-   "department": "과학기술정보통신부",
-   "project_name": "한국과학기술원 연구 운영비 지원(R&D)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "R&D 지원"
-   ],
-   "is_rnd": true,
-   "b2024": 207269.0,
-   "b2025": 218356.0,
-   "b2026": 297077.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "KAIST 기관운영·연구비 사업이나 2026년 신규·계속 내역 중 AI 국가대표 양성(InnoCORE) 52,500백만원, AI 전사양성사업 4,450백만원, 창의적 인재양성 특성화교육 15,371백만원 등 총 297,077 중 약 20%가 명시적 인재양성 사업. 1971년 설립 근거 자체가 '고급과학기술 인력양성'.",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 208,
-   "department": "과학기술정보통신부",
-   "project_name": "한국원자력연구원 연구 운영비 지원(R&D)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "R&D 지원"
-   ],
-   "is_rnd": true,
-   "b2024": 140717.0,
-   "b2025": 154061.0,
-   "b2026": 171326.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "내역사업 '원자력 인재육성·정책 및 글로벌협력 지원'에 '국내·외 원자력 교육과정 개발 및 운영을 통한 글로벌 원자력 전문 인재육성'이 명시. 다만 사업 전체(171,326)에서 차지하는 비중은 제한적.",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 154,
-   "department": "과학기술정보통신부",
-   "project_name": "울산과학기술원 연구 운영비 지원(R&D)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "R&D 지원"
-   ],
-   "is_rnd": true,
-   "b2024": 85922.0,
-   "b2025": 90160.0,
-   "b2026": 126289.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "과기원 학사사업비(20,042백만원) 포함 고급과학기술인재 양성이 설립목적이며, AI 국가대표 양성(InnoCORE)·AI 전사양성사업·AI대학원·AI 인재양성 등 명시. 대학지원+인재양성 성격 확정",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 93,
-   "department": "과학기술정보통신부",
-   "project_name": "광주과학기술원 연구 운영비 지원(R&D)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "R&D 지원"
-   ],
-   "is_rnd": true,
-   "b2024": 93124.0,
-   "b2025": 97634.0,
-   "b2026": 120610.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "PDF: 사업목적 '첨단 과학기술의 혁신을 선도할 고급 과학기술인재 양성', '인재양성 및 연구개발을 통한 국가 과학기술 발전'; 내역 학사사업비 23,852백만원, AI 국가대표 양성사업, AI 전사 양성사업(AI거점대학 프로그램), '25 추경 사유가 'AI 해외인재 유출 방지 및 인재양성을 위한 AI국가대표양성 3,750백만원'.",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 107,
-   "department": "과학기술정보통신부",
-   "project_name": "대구경북과학기술원 연구 운영비지원(R&D)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "R&D 지원"
-   ],
-   "is_rnd": true,
-   "b2024": 88701.0,
-   "b2025": 97697.0,
-   "b2026": 116367.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "PDF: 사업목적 '고급과학기술인재 양성 및 기초·응용과학 연구수행 등 기관 고유목적 달성을 위한 교육·연구 사업비'; 'AI국가대표양성(InnoCORE) 13,125백만원 — 박사후연수연구원 중심 국내 포닥 양성 생태계 선도', 'AI 전사 양성사업 1,610백만원 — 학부생 대상 AI+X 특화교육으로 Global-Standard AI 인재 양성'; '25 추경 사유도 InnoCORE 3,750백만원.",
    "verification": {
     "budget": "match",
     "classification": "partial"
@@ -2038,25 +2313,23 @@
    }
   },
   {
-   "id": 77,
+   "id": 133,
    "department": "과학기술정보통신부",
-   "project_name": "SW컴퓨팅산업원천기술개발(R&D,정보화)",
+   "project_name": "반도체원천기술개발사업(R&D)",
    "category": "partial",
    "in_edu_domain": false,
    "name_keywords": [],
    "ai_domains": [
     "AI반도체",
-    "데이터",
-    "클라우드/컴퓨팅",
-    "디지털전환(AX)"
+    "교육/인재"
    ],
    "is_rnd": true,
-   "b2024": 111814.0,
-   "b2025": 94695.0,
-   "b2026": 77201.0,
+   "b2024": 40707.0,
+   "b2025": 65011.0,
+   "b2026": 68808.0,
    "corrected": false,
    "correction_note": null,
-   "talent_note": "SW스타랩 11,400백만원(38개)= '대학 연구거점 구축, 실전적 SW 연구개발 지원' 고급인력 육성 성격. 글로벌AI프론티어랩 10,000백만원의 소관이 '인공지능정책기획관 디지털인재양성과'(p.619). 다만 형식은 R&D 과제지원이며 학위·훈련과정 지원사업은 아님",
+   "talent_note": "대학 반도체 연구실 역량강화, 학생 설계·검증 서비스, 대학(원)생 인턴십 등 인력양성 요소 일부 포함",
    "verification": {
     "budget": "match",
     "classification": "partial"
@@ -2108,28 +2381,6 @@
    }
   },
   {
-   "id": 121,
-   "department": "과학기술정보통신부",
-   "project_name": "디지털배움터(자율)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "LLM/언어모델"
-   ],
-   "is_rnd": false,
-   "b2024": null,
-   "b2025": null,
-   "b2026": 38121.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "전 국민 AI·디지털 교육 제공 및 AI 리터러시 역량 강화(지능정보화기본법 제50조 정보격차해소교육). 교육훈련 성격 확정",
-   "verification": {
-    "budget": "match",
-    "classification": "wrong"
-   }
-  },
-  {
    "id": 26,
    "department": "고용노동부",
    "project_name": "취약노동자지원",
@@ -2141,10 +2392,10 @@
    ],
    "is_rnd": false,
    "b2024": null,
-   "b2025": 15989.0,
-   "b2026": 25345.0,
-   "corrected": false,
-   "correction_note": null,
+   "b2025": 15989,
+   "b2026": 25345,
+   "corrected": true,
+   "correction_note": "v1.1 확정값: PDF p.248 총괄표 7열(2024결산/2025 본예산(A)·추경/2026 정부안·확정(B)/증감/(B-A)/A), 단일행. 2024결산 '-'=null. 25,345-15,9",
    "talent_note": "교육 요소 확인됨: 근로자 이음센터의 특화 고충해결·교육(1,950백만원), '취약노동자 교육 및 법률구조상담 지원'(취약노동자 보호 3,292백만원 내역), 노동단체·노사관계 비영리법인의 교육·상담 지원(15,780백만원 내역). 다만 직업훈련·인재양성이 아니라 권익보호형 노동자 교육·상담. 또한 1차 판정과 달리 AI 무관 사업이 아님 — '취약노동자 보호' 내역에 'AI 기반 영세사업장 노동법 준수 자율점검'(AI 대화형 자율점검 서비스 개발·실증·시범운영)이 명시되어 있어 ai_relevance는 none이 아닌 partial로 정정.",
    "verification": {
     "budget": "mismatch",
@@ -2271,28 +2522,6 @@
    }
   },
   {
-   "id": 360,
-   "department": "방송미디어통신위원회",
-   "project_name": "방송콘텐츠 진흥",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "디지털전환(AX)"
-   ],
-   "is_rnd": false,
-   "b2024": 17914.0,
-   "b2025": 19397.0,
-   "b2026": 16792.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "확정. PDF: '(AI·디지털 기반 미디어 융합인재) 전주기 방송인력 대상 AI·신기술 기반의 수요 맞춤형 교육을 통한 핵심 AI 융합인재 양성'(’26 신설 1,792백만원), 근거법 방송법 제94조(방송전문인력의 양성), 방송통신발전기본법 제21조. '지역 방송 제작역량 강화'도 지역 융합인재 양성·AI 제작 기술교육, '크리에이터미디어 산업기반 조성'은 신직군 이론·실무·현장교육 및 취업 지원 포함.",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
    "id": 194,
    "department": "과학기술정보통신부",
    "project_name": "클라우드컴퓨팅산업육성(정보화)",
@@ -2341,73 +2570,6 @@
    }
   },
   {
-   "id": 106,
-   "department": "과학기술정보통신부",
-   "project_name": "대구경북과학기술원 시설 지원(R&D)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "디지털전환(AX)"
-   ],
-   "is_rnd": true,
-   "b2024": 16101.0,
-   "b2025": 14150.0,
-   "b2026": 11707.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "사업목적이 '첨단과학기술의 혁신을 선도할 고급과학기술인재를 양성', 시설비 정의도 '교육·연구시설'. 2026 내역 중 도심형캠퍼스구축(3,435)은 'AI, SW 교육 및 인재 양성을 위한 교육 캠퍼스 및 연구 캠퍼스(DGIST 글로벌 캠퍼스) 조성'으로 명시. 단 지출 성격은 건축·시설비.",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 36,
-   "department": "과학기술정보통신부",
-   "project_name": "AI 분야 오픈소스 생태계 조성",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "LLM/언어모델"
-   ],
-   "is_rnd": false,
-   "b2024": null,
-   "b2025": null,
-   "b2026": 11000.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "단위사업 2232 'SW융합인력양성'. 목적에 '인재 양성' 명시, 내역 '오픈소스 AI·SW 커뮤니티 활성화 = 글로벌 리더급 개발자 육성 인재양성 프로그램', 산출근거 인재양성 700백만원, 기대효과 '핵심 인력 연 250명 이상 양성'",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 525,
-   "department": "행정안전부",
-   "project_name": "데이터기반행정활성화(정보화)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "데이터",
-    "디지털전환(AX)"
-   ],
-   "is_rnd": false,
-   "b2024": 14664.0,
-   "b2025": 15008.0,
-   "b2026": 10478.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "사업목적에 'AI·데이터 중심 대상별·수준별 교육과정 개발, 행정·공공기관 직원 AI리터러시 역량 제고, 내부 실무인재 육성' 명시. '26 예산 산출근거 'AI·데이터 인재 양성·리터러시 강화 1,105백만원 = AI인재양성 교육과정 개발·운영'. 추진경위에도 '전문인재 양성과정 계획 수립 및 운영('24.1~)' 기재",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
    "id": 112,
    "department": "과학기술정보통신부",
    "project_name": "데이터기반산업경쟁력강화",
@@ -2422,33 +2584,11 @@
    "b2025": 11797,
    "b2026": 10399,
    "corrected": true,
-   "correction_note": "2행 총괄표 중 사업출연금 행만 파싱됨 → 전체 합산값으로 보정",
+   "correction_note": "v1.1 확정값: p.893 '가. 지출계획 총괄표' 7열 2행(민간경상보조 11,960/10,467/10,467/9,119/9,119/△1,348/△12.9 + 사업출연금 3,080/1,330/1",
    "talent_note": "1차 판정(false) 조정. PDF 실적: '데이터·AI 기반 분석활용·가명처리 실습교육 22회 진행(1,197명 수료)'(2024), '실습교육 진행(1,436명 수료)'(2025), '데이터 분석 우수 인재 발굴 빅매칭 캠프·빅콘테스트' 등이 '데이터 선도 및 활성화 기반 구축'(2026 1,280백만원)에 포함. 다만 주된 목적은 인프라·제도이고 교육훈련은 부수적.",
    "verification": {
     "budget": "mismatch",
     "classification": "appropriate"
-   }
-  },
-  {
-   "id": 41,
-   "department": "과학기술정보통신부",
-   "project_name": "AIxBio 혁신 연구거점 조성 시범사업(R&D)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "의료/바이오"
-   ],
-   "is_rnd": true,
-   "b2024": null,
-   "b2025": null,
-   "b2026": 10200.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "p.359 목적·p.361 산출근거에 '기술 축적·인재양성·산업확산' 명시. p.362 성과지표 '석박사급 융합인재 양성 수 = 공동지도학위 프로그램 참여 또는 융합 교육 프로그램 이수 연구자 수', 기대효과 '석박사급 융합인재 누계 50명 이상 양성'",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
    }
   },
   {
@@ -2470,28 +2610,6 @@
    "talent_note": "과의존 예방·해소(5,901)가 전국 어린이집·유치원·초중고·대학 대상 예방교육(31,500개소, 생애주기별 36만명)과 전문상담(스마트쉼센터 상담사 56명 인건비 3,001)으로 구성 — 교육훈련 성격 실재. 근거법 지능정보화기본법 제53조(전문인력 양성)·제54조(교육). 단 AI·디지털 전문인재 양성이 아닌 대국민 리터러시/예방교육이며 '스마트폰 과의존 전문인력 양성'은 2026 종료(△33백만원)",
    "verification": {
     "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 242,
-   "department": "국방부",
-   "project_name": "전투발전연구",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "국방/안보"
-   ],
-   "is_rnd": false,
-   "b2024": 5907.0,
-   "b2025": 7617.0,
-   "b2026": 9177,
-   "corrected": true,
-   "correction_note": "6열 시프트: JSON 2026_budget=증감액 → PDF 조정안(B)로 보정",
-   "talent_note": "군 교육훈련 발전을 위한 전투실험·교리교범 연구 사업이며, 성과지표가 '군 위탁교육 이수인원(전문학위 석·박사 위탁교육 + 국외군사교육)'으로 설정되어 '연간 위탁교육을 통한 인재양성 규모 확인'이라 명시. 해외교리장교 9명 해외 파견 운영(540백만원) 포함. 다만 직접적 인력양성 예산이라기보다 교육훈련 기반 연구 성격.",
-   "verification": {
-    "budget": "mismatch",
     "classification": "partial"
    }
   },
@@ -2542,101 +2660,6 @@
    }
   },
   {
-   "id": 128,
-   "department": "과학기술정보통신부",
-   "project_name": "디지털헬스케어 기반 AI 융합혁신 센터 구축",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "AI반도체",
-    "의료/바이오",
-    "로봇",
-    "디지털전환(AX)",
-    "피지컬AI/디바이스"
-   ],
-   "is_rnd": false,
-   "b2024": null,
-   "b2025": null,
-   "b2026": 3500.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "단위사업 SW융합인력양성(균특), 성과지표 '실무/심층인력 양성인원 150명', 'AI융합혁신센터 교육과정 수료생수', 지역 인재 육성 명시 → 인력양성 사업 확정",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 35,
-   "department": "과학기술정보통신부",
-   "project_name": "AI 반도체 지원플랫폼",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "AI반도체"
-   ],
-   "is_rnd": false,
-   "b2024": null,
-   "b2025": 3500.0,
-   "b2026": 2250.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "p.321 목적: '국내·외 인재 공급체계 구축하여 AI반도체 기업이 즉시 활용 가능한 인력 지원'. p.324 실적: AI칩 콘(30개팀 88명), AI칩 캠프 199명 역량진단, 채용연계 167건·채용확정 61건",
-   "verification": {
-    "budget": "match",
-    "classification": "partial"
-   }
-  },
-  {
-   "id": 122,
-   "department": "과학기술정보통신부",
-   "project_name": "디지털배움터(제주)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "LLM/언어모델"
-   ],
-   "is_rnd": false,
-   "b2024": null,
-   "b2025": null,
-   "b2026": 2169.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "120·121과 동일 사업설명(전 국민 AI·디지털 교육, 취약계층 디지털 정보화 수준 성과지표). 교육훈련 사업 확정",
-   "verification": {
-    "budget": "match",
-    "classification": "wrong"
-   }
-  },
-  {
-   "id": 452,
-   "department": "소방청",
-   "project_name": "119빅데이터 분석운영",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "데이터",
-    "행정/전자정부",
-    "재난/안전",
-    "피지컬AI/디바이스"
-   ],
-   "is_rnd": false,
-   "b2024": 1760.0,
-   "b2025": 1907.0,
-   "b2026": 1705,
-   "corrected": true,
-   "correction_note": "6열 시프트: JSON 2026_budget=-202(증감) → PDF 2026예산(B)로 보정",
-   "talent_note": "'빅데이터 운영' 내역에 공공 AI·데이터 역량강화 교육 운영, 데이터교육 1.2백만원×24명×1주=29백만원, 중앙소방학교·KISTI 빅데이터 실무교육(총 125명 수료) 명시. 다만 전체 예산(1,705백만원) 대비 소액 부수요소",
-   "verification": {
-    "budget": "mismatch",
-    "classification": "partial"
-   }
-  },
-  {
    "id": 110,
    "department": "과학기술정보통신부",
    "project_name": "데이터 활용확산 정책지원",
@@ -2656,28 +2679,6 @@
    "verification": {
     "budget": "match",
     "classification": "appropriate"
-   }
-  },
-  {
-   "id": 120,
-   "department": "과학기술정보통신부",
-   "project_name": "디지털배움터(세종)",
-   "category": "partial",
-   "in_edu_domain": false,
-   "name_keywords": [],
-   "ai_domains": [
-    "LLM/언어모델"
-   ],
-   "is_rnd": false,
-   "b2024": null,
-   "b2025": null,
-   "b2026": 816.0,
-   "corrected": false,
-   "correction_note": null,
-   "talent_note": "AI·디지털에 어려움을 느끼는 국민 대상 키오스크·스마트폰~생성형AI 교육 제공, 성과지표 '취약계층 디지털 정보화 수준', 소관 디지털포용정책팀. 직업훈련·학위과정은 아니나 전 국민 대상 AI 리터러시 교육훈련 사업",
-   "verification": {
-    "budget": "match",
-    "classification": "wrong"
    }
   }
  ]

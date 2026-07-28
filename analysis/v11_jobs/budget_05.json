@@ -1,0 +1,65 @@
+[
+ {
+  "id": 430,
+  "name": "산업통상부_산업혁신기반구축(R&D)",
+  "prior_detail": "PDF p.4099 총괄표: 190,992/240,845/240,845/258,501/268,484/27,639/11.5%. JSON change_rate=null 누락. 나머지 6개 필드 일치",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\430.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\430_산업혁신기반구축(R&D).txt"
+ },
+ {
+  "id": 438,
+  "name": "산업통상부_자동차산업기술개발(R&D)",
+  "prior_detail": "1차 uncertain 해소. PDF p.4251 총괄표: 348,493/390,424/390,424/337,751/339,711/△50,713/△13.0%. JSON change_amount=-50713은 일치하나 change_rate=null 누락 → mismatch",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\438.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\438_자동차산업기술개발(R&D).txt"
+ },
+ {
+  "id": 444,
+  "name": "산업통상부_조선해양산업기술개발(R&D)",
+  "prior_detail": "PDF 총괄표(p.4330): 77,225 / 119,165 / 119,165 / 178,562 / 194,412 / 75,247 / 63.1%. JSON은 앞 6개 필드 일치하나 change_rate가 null(PDF 63.1%) — 1차 판정과 동일하게 확인됨.",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\444.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\444_조선해양산업기술개발(R&D).txt"
+ },
+ {
+  "id": 450,
+  "name": "산업통상부_첨단민군융합기술개발(R&D)",
+  "prior_detail": "PDF 총괄표(p.4429): 4,800 / 4,800 / 추경 '-' / 10,287 / 10,287 / 5,487 / 114.3%. JSON은 2025_supplementary null(PDF '-'와 일치), 그러나 change_rate가 null(PDF 114.3%) → mismatch 확정",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\450.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\450_첨단민군융합기술개발(R&D).txt"
+ },
+ {
+  "id": 452,
+  "name": "소방청_119빅데이터 분석운영",
+  "prior_detail": "PDF 총괄표(p.4454)는 2026 '요구안' 열이 없고 2026 예산(B)만 존재: 1,760 / 1,907(본예산A) / 1,907(추경) / 1,705(2026예산B) / △202 / △10.6. JSON은 한 칸씩 밀려 2026_request 1,705, 2026_budget -202, change_amount -10.6, change_rate null → mismatch 확정",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\452.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\452_119빅데이터 분석운영.txt"
+ },
+ {
+  "id": 453,
+  "name": "소방청_소방정보시스템구축(정보화)",
+  "prior_detail": "PDF 총괄표(p.4454~5)에 2026 '요구안' 열 없음: 8,703 / 13,337(본예산A) / 13,337(추경) / 15,310(2026예산B) / 1,973 / 14.8. JSON은 한 칸 밀려 2026_budget 1,973, change_amount 14.8, change_rate null → mismatch 확정",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\453.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\453_소방정보시스템구축(정보화).txt"
+ },
+ {
+  "id": 466,
+  "name": "인사혁신처_국가인재개발 지능형 오픈 플랫폼 운영(정보화)",
+  "prior_detail": "PDF 총괄표(p.4667)에 추경 열 없음. 열 구성: 2024결산 1,890 / 2025본예산(A) 1,988 / 2026요구안 1,988 / 확정(B) 1,918 / 증감 △70 / 증감률 △3.5. JSON은 2025_supplementary 1,988, 2026_request 1,918, 2026_budget -70, change_amount -3.5, change_rate null로 한 칸씩 밀림 → mismatch 확정",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\466.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\466_국가인재개발 지능형 오픈 플랫폼 운영(정보화).txt"
+ },
+ {
+  "id": 467,
+  "name": "인사혁신처_전자인사관리시스템운영(정보화)",
+  "prior_detail": "PDF 총괄표(p.4649경)에 추경 열 없음: 2024결산 8,394 / 2025본예산(A) 13,284 / 2026요구안 9,344 / 확정(B) 7,487 / 증감 △5,797 / 증감률 △43.6. JSON은 2025_supplementary 9,344, 2026_request 7,487, 2026_budget -5,797, change_amount -43.6, change_rate null로 한 칸씩 밀림 → mismatch 확정",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\467.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\467_전자인사관리시스템운영(정보화).txt"
+ },
+ {
+  "id": 527,
+  "name": "행정안전부_범정부 인공지능 공통기반 구현(정보화)",
+  "prior_detail": "리더 판정(PDF p.5214 실측): 2026확정 7,371은 정확(기능별 합계 일치). change_amount=7371→정답 1,979, change_rate=1979→정답 36.7% (텍스트 추출 순서 오류)",
+  "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\527.json",
+  "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\527_범정부 인공지능 공통기반 구현(정보화).txt"
+ }
+]
