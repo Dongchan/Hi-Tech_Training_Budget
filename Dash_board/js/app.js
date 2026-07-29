@@ -293,11 +293,17 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   const dcount = (v) => DATA.talent.dups.filter(g => g.verdict === v).length;
 
+  const dupTalN = DATA.talent.dups.reduce((s, g) => s + g.names.length, 0);
+  const dupAllN = DATA.talent.dups.reduce((s, g) => s + g.n, 0);
   htmlCard(gDup, {
-    title: "판정 분포",
+    title: "무엇을 검토했나 · 판정 분포",
     sub: "그룹 전체가 중복인 사례는 없음. 8개 그룹에서 일부 사업 간 겹치는 부분 확인",
     span2: true,
-    body: `<div class="mini-tiles">${[
+    body: `<div class="d-body" style="margin-bottom:10px;font-size:13.5px;line-height:1.55">
+      검토 대상: 인재양성 96개 사업 중 다른 사업과 내용이 비슷해 보이는 <strong>${dupTalN}개</strong>.
+      이들이 속한 묶음 13개에는 비교를 위해 인재양성이 아닌 사업 ${dupAllN - dupTalN}개도 포함(합계 ${dupAllN}개).
+      나머지 인재양성 ${96 - dupTalN}개는 비슷한 사업이 없어 이 검토에 해당 없음</div>
+    <div class="mini-tiles">${[
       [dcount("duplicate") + "개", "중복 소지 (그룹 전체가 겹침)"],
       [dcount("mixed") + "개", "일부 중복 소지 (일부 사업만 겹침) · 심각도 상 " + DATA.talent.dups.filter(g => g.severity === "high").length + "개 포함"],
       [dcount("complementary") + "개", "보완·분담 (대상·역할이 나뉨)"],
