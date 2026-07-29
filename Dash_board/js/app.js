@@ -131,8 +131,24 @@ document.addEventListener("DOMContentLoaded", () => {
     render: (elc) => hBar(elc, DATA.talent.top.map(t => ({
       label: `${t.name}`, sub: t.dept, value: t.b26,
       color: t.cat === "core" ? C.talentCore : C.talentPart,
-    })), { labelW: 300, labelMax: 26, title: "인재양성 상위" }),
-    note: "'교육/인재' 도메인 라벨 기준(66건 6.82조)에 검증 결과를 반영해 42건 추가·12건 제외한 최종 96건, 7.87조원.",
+      note: DATA.talent.notes[String(t.id)] || "",
+    })), {
+      labelW: 300, labelMax: 26, title: "인재양성 상위",
+      tipFmt: r => `${Math.round(r.value).toLocaleString()} 백만원${r.note ? `<br><span class="t-muted">${r.note}</span>` : ""}`,
+    }),
+    note: "'교육/인재' 도메인 라벨 기준(66건 6.82조)에 검증 결과를 반영해 42건 추가·12건 제외한 최종 96건, 7.87조원. 막대에 마우스를 올리면 인재양성 판정 근거가 표시됩니다.",
+  });
+
+  htmlCard(gTal, {
+    title: "요소 포함 18개 사업 — 어떤 인재양성 요소가 있나",
+    sub: "주목적은 다른 분야지만 PDF 원문상 인재양성 활동을 포함하는 사업 (판정 근거는 원문 기반)",
+    span2: true,
+    body: `<div class="dup-list">${DATA.talent.partial_list.map(t => `
+      <div class="dup-item">
+        <div class="d-head">${t.dept} · ${t.name}
+          <span style="color:var(--muted);font-weight:500">— 2026년 ${fmtKR(t.b26)}원</span></div>
+        <div class="d-body">${t.note || "판정 근거 미기재 — talent_projects.csv 참조"}</div>
+      </div>`).join("")}</div>`,
   });
 
   htmlCard(gTal, {
@@ -359,7 +375,13 @@ function renderTable() {
   if (th) th.textContent = dir === 1 ? "▲" : "▼";
 
   const aiChip = { core: '<span class="chip ok">core</span>', partial: '<span class="chip warnc">partial</span>', none: '<span class="chip mutedc">none</span>' };
-  const talChip = { core: '<span class="chip core">주력</span>', partial: '<span class="chip partial">요소</span>' };
+  const talChip = (p) => {
+    if (!p.tal) return "";
+    const note = (DATA.talent.notes[String(p.id)] || "").replace(/"/g, "'");
+    const cls = p.tal === "core" ? "core" : "partial";
+    const label = p.tal === "core" ? "주력" : "요소";
+    return `<span class="chip ${cls}"${note ? ` title="${note}"` : ""}>${label}</span>`;
+  };
   const bvChip = { match: '<span class="chip ok">✓ 일치</span>', mismatch: '<span class="chip badc">✕ 불일치</span>', uncertain: '<span class="chip mutedc">미확정</span>' };
 
   document.querySelector("#dtable tbody").innerHTML = rows.map(p => `<tr>
@@ -370,7 +392,7 @@ function renderTable() {
     <td class="num">${p.b25 == null ? "-" : Math.round(p.b25).toLocaleString()}</td>
     <td class="num">${p.b26c == null ? "-" : Math.round(p.b26c).toLocaleString()}</td>
     <td>${aiChip[p.ai] || "-"}</td>
-    <td>${talChip[p.tal] || ""}</td>
+    <td>${talChip(p)}</td>
     <td>${bvChip[p.bv] || "-"}</td>
     <td style="max-width:200px">${p.dom.join(", ")}</td>
   </tr>`).join("");

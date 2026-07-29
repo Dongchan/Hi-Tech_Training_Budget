@@ -240,6 +240,11 @@ payload = {
                "agreement": vr["stats"]["recheck_agreement"],
                "name_mismatch": vr["stats"]["name_match_false"]},
     "talent": {"summary": tf["summary"], "yearly": tal_year,
+               "notes": {str(t["id"]): (t.get("talent_note") or "") for t in tf["projects"]},
+               "partial_list": sorted(([{"id": t["id"], "dept": t["department"], "name": t["project_name"],
+                                          "b26": t["b2026"] or 0, "note": t.get("talent_note") or ""}
+                                         for t in tf["projects"] if t["category"] == "partial"]),
+                                       key=lambda x: -x["b26"]),
                "by_dept": [{"dept": r["department"], "core": r["talent_core"], "partial": r["talent_partial"]}
                             for r in drows if r["talent_core"] + r["talent_partial"] > 0],
                "top": sorted(([{"id": t["id"], "dept": t["department"], "name": t["project_name"],
