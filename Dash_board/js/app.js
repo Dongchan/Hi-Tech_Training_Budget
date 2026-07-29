@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const restCount = T.projects - TAL.total_talent_projects;
   const restBudget = T.b2026 - TAL.all.b2026;
   const bandCard = card(document.getElementById("hero-band-chart"), {
-    title: `2026 AI 예산 ${(T.b2026 / 1e6).toFixed(1)}조원 안에서 인재양성의 위치`,
+    title: `2026 AI 예산 ${(T.b2026 / 1e6).toFixed(1)}조원 중 인재양성 사업 규모`,
     sub: "인재양성 96개 사업(주목적 + 일부 포함)과 그 외 AI 재정사업의 규모 비교",
     file: "인재양성_구성밴드",
     span2: true,
