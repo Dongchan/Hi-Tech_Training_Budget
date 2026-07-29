@@ -168,13 +168,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   htmlCard(gTal, {
     title: "부처 간 중복·유사 의심 그룹",
-    sub: `인재양성 사업이 2건 이상 걸린 유사도 그룹 ${DATA.talent.dups.length}개 · 분산 편성 검토 대상`,
+    sub: `인재양성 사업이 2건 이상 걸린 유사도 그룹 ${DATA.talent.dups.length}개 · 분산 편성 검토 후보`,
     span2: true,
     body: `<div class="dup-list">${DATA.talent.dups.map((g, i) => `
       <div class="dup-item">
         <div class="d-head">그룹 ${i + 1} <span style="color:var(--muted);font-weight:500">· 전체 ${g.n}개 사업 중 인재양성 ${g.names.length}건</span></div>
         <div class="d-body">${g.names.join(" · ")}</div>
-      </div>`).join("")}</div>`,
+      </div>`).join("")}</div>
+    <div class="foot-note" style="margin-top:8px">원 데이터(KAIB2026)의 사업명·내용 유사도 분석에서 나온 검토 후보로, 실제 중복 여부를 확정한 것은 아님. 사업 통합·조정 판단은 별도의 내용 검토가 필요한 정책 사안</div>`,
   });
 
   /* ---------- 부처 · 적용 분야 ---------- */
@@ -357,6 +358,27 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </div>
     <div class="foot-note" style="margin-top:8px">상세 과정과 단계별 지표는 Reports 폴더의 정합성 검증보고서에 기재</div>`,
+  });
+
+  htmlCard(gVer, {
+    title: "인재양성 사업 96개의 판정 방법",
+    sub: "무엇을 근거로 인재양성 사업으로 분류했는가",
+    span2: true,
+    body: `<div class="dup-list">
+      <div class="dup-item">
+        <div class="d-head">1 · 전수 판정</div>
+        <div class="d-body">533개 사업 전부에 대해 PDF 원문의 사업목적·내용·내역에서 인재양성 활동(교육훈련·인력양성·장학·대학지원 등) 여부를 판정하고, 사업별 근거 문장을 기록</div>
+      </div>
+      <div class="dup-item">
+        <div class="d-head">2 · 교차 확인 후 확정</div>
+        <div class="d-body">기존 '교육/인재' 분류(66개)·사업명 키워드와 대조. 분류에 빠져 있던 42개를 추가하고 잘못 분류된 12개를 제외하여 96개 확정. 경계 사례는 원문 전체 기반 2차 판정으로 확정</div>
+      </div>
+      <div class="dup-item">
+        <div class="d-head">3 · 구분 부여</div>
+        <div class="d-body">'교육/인재' 분류(v1.1 개정) 또는 사업명 기준으로 인재양성 주목적 78개, 나머지 18개는 인재양성 일부 포함으로 구분</div>
+      </div>
+    </div>
+    <div class="foot-note" style="margin-top:8px">사업별 판정 근거 원문: 인재양성 섹션의 '일부 포함 18개 사업' 목록, 표의 주목적/일부 칩에 마우스 올리기, talent_projects.csv의 talent_note 열</div>`,
   });
 
   /* ---------- 데이터 테이블 ---------- */
