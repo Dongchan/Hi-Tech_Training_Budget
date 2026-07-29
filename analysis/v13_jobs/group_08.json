@@ -1,0 +1,316 @@
+{
+ "group_id": 8,
+ "member_count": 31,
+ "members": [
+  {
+   "id": 72,
+   "department": "과학기술정보통신부",
+   "project_name": "ICT기반 디지털서비스 탄소중립 혁신기술개발(R&D)",
+   "b2026": 5625.0,
+   "is_talent": false,
+   "purpose": "- (사업목적) 국제사회의 탄소규제 강화 대응 및 탄소중립 디지털서비스 기술 경쟁력 \n강화를 위한 탄소 데이터 자동 정보화·지식화 및 전주기 탄소발자국 핵심기술 개발\n- (내용) 동 사업은 빅데이터·AI·디지털트윈 등의 ICT 기반 탄소 데이터 자동화 수집,\n데이터 분석, 예측, 의사결정 등을 전주기 분석 지원하는 실질적이고 체계적인 디지털 \n탄소중립 핵심기술 개발 및 디지털 서비스 산업 연계·실증 추진을 목표로 함\n2024\n2025(2025.7월말)\n2026\n예산안\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n5",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\72.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\072_ICT기반 디지털서비스 탄소중립 혁신기술개발(R&D).txt"
+  },
+  {
+   "id": 236,
+   "department": "국가유산청",
+   "project_name": "국가유산 지능형 첨단보존 기술개발(R&D)",
+   "b2026": 4420.0,
+   "is_talent": false,
+   "purpose": "- (국가유산 스마트 고도화 기술개발) 자동 진단·복원, 실시간 모니터링, 무인자율 탐사,\n표준화를 통해 지능형 보존관리 체계를 구축하고 국가유산 보호의 디지털 전환 촉진\n- (국가유산 디지털  보존영역 확대 및 표준화) AI 기반 분석·예측, 블록체인 인증,\n디지털트윈 융합, 지능형 복원 우선순위 최적화로 체계적인 보존·관리 시스템 확립과\n데이터 중심 지능형 관리체계 구축하여 국가유산 보호의 과학적 기반 강화\n- (연구개발사업관리) 연구개발사업의 기획 관리 평가 등을 위한 사업관리  \n2024\n2025\n2026예\n산안\n예산액\n(추경)\n예산\n현액\n집행액\n이월액\n불용액\n예산액\n(추경)\n예산\n현액\n집행액\n이월\n예상액\n불용\n예상액\n○기능별 분류(합계)\n4,420\n․국가유산 스마트 \n고도화 기술개발\n2,929\n․국",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\236.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\236_국가유산 지능형 첨단보존 기술개발(R&D).txt"
+  },
+  {
+   "id": 257,
+   "department": "국토교통부",
+   "project_name": "공간지식추론엔진기술개발(R&D)",
+   "b2026": 3807,
+   "is_talent": false,
+   "purpose": "- (공간 지식추론 엔진 기술개발) 공공 정보시스템 고도화, 민간의 혁신적인 스타트업 육성 기반을\n마련하기 위해 공간정보에 특화된 공간 지식추론 엔진(공간정보AI*) 기술개발을 지원하는 것임\n* 공간검색, 공간분석, 공간묻고·답하기등에특화된인공지능엔진으로챗GPT가대답하지못하는공간영역의\n전문지식을학습해대화를통한질의-응답을지원하는기술\n‧ (공간정보 AI 프레임워크 구현) 공간토픽 모델링, 로직 프로세서, DB 시스템 구현 등 \n그래프 DB 시스템 기반 공간 인공지능 시스템의 기본 프레임워크 개발\n‧ (공간 빅데이터 융합 기술) 공간정보AI 연동형 대규모 공간·속성 데이터 수집, 구축, 분석,\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\257.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\257_공간지식추론엔진기술개발(R&D).txt"
+  },
+  {
+   "id": 263,
+   "department": "국토교통부",
+   "project_name": "국토교통 DNA플러스융합기술대학원 육성사업(R&D)",
+   "b2026": 6720.0,
+   "is_talent": true,
+   "purpose": "-\n(국토교통 DNA플러스 융합기술대학원 육성)\n미래산업 핵심기술인 DATA,\nNETWORK, AI를 국토교통 신산업과 연계한 기술개발 지원을 통한 대학의 혁신역\n량 향상 및 융ㆍ복합 전문인력 양성\n2024\n2025(2025.12월말 기준)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n5,950\n5,950\n5,950\n[5,950]\n-\n-\n6,000\n6,000\n6,000\n6,000\n6,000\n[6,000]\n-\n-\n6,720\n․국토교통DNA플\n러스융합기술대\n학원육성\n5,950\n5,950\n5,950\n[5,950]\n-\n-\n6,000\n6,000\n6,0",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\263.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\263_국토교통DNA플러스융합기술대학원육성사업(R&D).txt"
+  },
+  {
+   "id": 267,
+   "department": "국토교통부",
+   "project_name": "데이터기반철도시스템안전평가\u0000예측기술개발(R&D)",
+   "b2026": 5300.0,
+   "is_talent": false,
+   "purpose": "- (데이터 기반 철도시스템 안전 평가·예측 기술 개발) 사고전조 데이터 기반 철도 \n시스템 안전 평가·예측 기술 개발을 통해 예방형 철도안전관리 체계 구현\n2024\n2025(2025.12월말 기준)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n[-]\n-\n-\n1,500\n1,500\n1,500\n[1,500]\n1,500\n1,500\n[1,500]\n-\n-\n5,300\n․데이터기반철도 \n시스템안전평가·\n예측기술개발\n-\n-\n-\n[-]\n-\n-\n1,500\n1,500\n1,500\n[1,500]\n1,500\n1,500\n[1,500]\n-\n-\n5,300\n○비목",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\267.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\267_데이터기반철도시스템안전평가_예측기술개발(R&D).txt"
+  },
+  {
+   "id": 273,
+   "department": "국토교통부",
+   "project_name": "빅데이터기반 인공지능도시계획 기술개발(R&D)",
+   "b2026": 6016.0,
+   "is_talent": false,
+   "purpose": "- (빅데이터 기반 인공지능 도시계획 기술개발)미래 사회변화에 대응하기 위해 빅데이터\n기반의 과학적이고 객관적인 인공지능 도시계획(기본 및 관리계획) 기술개발\n· 인공지능 활용을 위한 빅데이터 기반의 도시 진단지표확대\n· 도시계획 수립지원을 위한 빅데이터, AI알고리즘, 활용서비스 등이 탑재된 플랫폼 개발\n· 도시계획 혁신 프레임워크 개발, 진단-계획 모니터링체계 및 실증\n2024\n2025(2025.12월말 기준)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n2,679\n2,679\n2,679\n[2,679]\n-\n-\n3,626\n3,626\n3,626",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\273.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\273_빅데이터기반인공지능도시계획기술개발(R&D).txt"
+  },
+  {
+   "id": 276,
+   "department": "국토교통부",
+   "project_name": "스마트시티 인프라AIoT핵심기술개발(R&D)",
+   "b2026": 6000.0,
+   "is_talent": false,
+   "purpose": "- (스마트시티 인프라 AIoT 핵심 기술개발) 다양한 도시데이터의 실시간 분석·처리를 위한 인\n공지능 및 사물인터넷 기반의 스마트시티 AIoT(AI+IoT) 핵심기술* 확보 및 지자체 실증**\n      * Massive IoT(센서) + AI(인공지능) + Network(통신) = 스마트시티 AIoT 인프라\n     ** 통합 실증을 통한 기술 상용화 및 제품화 등 시장성 사례 확보   \n2024\n2025(2025.12월말 기준)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n2,921\n2,921\n2,921\n-\n-\n6,.038\n6,.038\n",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\276.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\276_스마트시티인프라AIoT핵심기술개발(R&D).txt"
+  },
+  {
+   "id": 287,
+   "department": "국토교통부",
+   "project_name": "초연결지능도시핵심기반기술개발(R&D)",
+   "b2026": 4000.0,
+   "is_talent": false,
+   "purpose": "- (초연결 지능도시 핵심 기반기술 개발) 인공지능을 활용한 고도화된 지능도시 구현 \n및 인프라 조성을 위하여 도시데이터 표준화 및 초연결 지능도시 플랫폼 핵심기술*\n개발과 지자체 실·검증\n* (주요 개발 핵심기술) 초연결 지능도시 플랫폼, 도시데이터 표준 모델, 다종 다해상도 \nCCTV 영상 분석･상황인지 AI 모듈, 이종･다종 초대규모 IoT 데이터 경량화 처리 AI\nEdge 시스템, LLM 기반 도시데이터 분석 및 시각화 생성형 AI, 우수 서비스･솔루션 표준\n모델, 지능형 도시서비스･솔루션 등\n2024\n2025(2025.12월말 기준)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\287.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\287_초연결지능도시핵심기반기술개발(R&D).txt"
+  },
+  {
+   "id": 296,
+   "department": "기후에너지환경부",
+   "project_name": "AI기반무탄소에너지활용화학기술개발(R&D)",
+   "b2026": 3400.0,
+   "is_talent": false,
+   "purpose": "- 미래 순환자원(바이오매스 및 폐플라스틱) 활용 고부가 화학 원료 제조를 위한 \nAI 기반 무탄소 에너지(CFE) 활용 에너지 저감형 화학원료 제조기술 및 AI자원\n목명\n2024년 \n결산\n2025년 계획\n2026년\n증감\n(B-A)\n당초(A)\n수정\n정부안\n확정(B)\n(B-A)/\nA\nAI기반무탄\n소에너지활용\n화학기술개발\n(R&D)\n-\n-\n-\n3,400\n3,400\n3,400\n순증\n2024\n2025\n2026\n계획\n계획액\n(수정\n)\n계획\n현액\n집행액\n[실집\n행액]\n이월액불용액\n계획액\n계획\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n당초\n수정\n계획\n현액\n집행액\n[실집\n행액]\n○\n기능별 \n분류(합\n계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n3,400\n․AI기반무탄소에\n너지핵심기술",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\296.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\296_AI기반무탄소에너지활용화학기술개발(R&D).txt"
+  },
+  {
+   "id": 303,
+   "department": "기후에너지환경부",
+   "project_name": "극한지스마트광역탐사를위한로봇-ICT융합기술개발(R&D)",
+   "b2026": 3500.0,
+   "is_talent": false,
+   "purpose": "o (극한지 스마트 광역탐사를 위한 로봇-ICT 융합기술 개발) 첨단 로봇과 ICT 기술을\n융합하여 극지(남극) 대륙 탐사 및 연구과정에서 발생하는 고비용, 성능제약 및인\n목명\n2024년 \n결산\n2025년 계획\n2026년\n증감\n(B-A)\n당초(A)\n수정\n정부안\n확정(B)\n(B-A)/A\n극한지스마트\n광역탐사를위한\n로봇-ICT융합\n기술개발(R&D)\n-\n-\n-\n3,500\n3,500\n3,500\n순증\n2024\n2025\n2026\n계획\n계획액\n(수정)\n계획\n현액\n집행액\n[실집\n행액]\n이월액불용액\n계획액\n계획\n현액\n집행액\n[실집행\n액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n당초\n수정\n계획\n현액\n집행액\n[실집행\n액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n3,500\n․극한지 스마트 \n광",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\303.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\303_극한지스마트광역탐사를위한로봇-ICT융합기술개발(R….txt"
+  },
+  {
+   "id": 305,
+   "department": "기후에너지환경부",
+   "project_name": "기후변화 적응을 위한 생태계 복원 및 관리 기술개발사…",
+   "b2026": 5900.0,
+   "is_talent": false,
+   "purpose": "- (기후변화 적응을 위한 생태계 복원 및 관리 기술) 기후변화 적응을 위한 자연생태계 \n복원 및 관리 기술 개발로 국토의 생태적 지속가능성 확보  \n2024\n2025\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n[-]\n-\n-\n-\n-\n-\n[-]\n-\n-\n[-]\n-\n-\n5,900\n․기후변화 \n적응 \n생태계 복원 및 \n관리 기술\n-\n-\n-\n[-]\n-\n-\n-\n-\n-\n[-]\n-\n-\n[-]\n-\n-\n5,900\n○비목별 분류(합계)\n-\n-\n-\n[-]\n-\n-\n-\n-\n-\n[-]\n-\n-\n[-]\n-\n-\n5,900\n․연구개발활동비\n등(360-05)\n-\n-",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\305.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\305_기후변화 적응을 위한 생태계 복원 및 관리 기술개발사….txt"
+  },
+  {
+   "id": 307,
+   "department": "기후에너지환경부",
+   "project_name": "데이터센터탄소중립을위한열관리기술개발(R&D)",
+   "b2026": 1600.0,
+   "is_talent": false,
+   "purpose": "- 데이터센터의 에너지 절감 및 탄소중립 실현을 위해 고효율 인랙 냉각시스템,\n초박형 슬림팬, 광센싱 기반 AI 열관리 시스템 핵심 기술의 조기확보\n2024\n2025\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n1,600\n․데이터센터탄소\n중립을위한열관리\n기술개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n1,600\n○비목별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n1,600\n․연구개발활동비등\n(360-05)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n1,600\n- 2704 -",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\307.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\307_데이터센터탄소중립을위한열관리기술개발(R&D).txt"
+  },
+  {
+   "id": 323,
+   "department": "기후에너지환경부",
+   "project_name": "폐의류 문제해결 플래그십 재활용 기술개발사업(R&D)",
+   "b2026": 3500.0,
+   "is_talent": false,
+   "purpose": "- (사업목적) 폐의류의 순환경제 체계 구축을 위해 분리·선별 자동화 및 물질재활용 등 \n순환이용 기술개발\n- (주요 내용) 1개 내역사업으로 폐의류의 “자동 분리·선별→전처리(오염제거 등)→재활용\n(재생섬유화)”까지 폐의류 전주기 관리 및 순환이용성 향상 기술개발\n2024\n2025\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n3,500\n․폐의류 문제해결 \n플래그십 재활용 \n기술개발사업\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n3,500\n○비목별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\323.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\323_폐의류 문제해결 플래그십 재활용 기술개발사업(R&D).txt"
+  },
+  {
+   "id": 338,
+   "department": "농촌진흥청",
+   "project_name": "국경 이동성 해충의 국제 발생 예측 및 방제기술 개발(R&D)",
+   "b2026": 2000,
+   "is_talent": false,
+   "purpose": "- (국경 이동성 해충의 국제 발생 예측 및 방제기술 개발) 국경 이동성 해충의 국내 \n유입 가능성 평가 및 선제적 방제 기술 기반 구축을 위해 국제 표준화된 예찰, 국가\n간 이동 예측 및 국내 유입 위험도가 높은 해충에 대한 방제 기술 개발\n2024\n2025\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n불용\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n2,000\n․국경 이동성 해충의 \n국제 발생 예측 및 \n방제기술 개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n2,000\n○비목별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n2,000\n․시험연구비(2",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\338.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\338_국경이동성해충의국제발생예측및방제기술개발(R&D).txt"
+  },
+  {
+   "id": 341,
+   "department": "농촌진흥청",
+   "project_name": "데이터기반농업관측을위한위성영상활용기술개발(R&D)",
+   "b2026": 1770,
+   "is_talent": false,
+   "purpose": "- (데이터기반농업관측을위한위성영상활용기술개발) 기후위기 대응 광역적·과학적 농\n작물 작황 및 농업재해 대응 분석, 농업환경자원 상시 관측 등 농산물 안정 생산 및 \n수급 조절, 식량 안보를 위한 농업분야 위성정보 산출물 생산 및 공공 서비스 제고\n- (위성기반농업관측기술개발) 위성영상을 활용한 작황 모니터링, 농경지 변화 감시,\n재해 대응, 해외 작황 분석을 포함한 핵심 기술 개발\n2024\n2025\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n불용\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n1,770\n․위성기반농업관측\n기술개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\341.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\341_데이터기반농업관측을위한위성영상활용기술개발(R&D).txt"
+  },
+  {
+   "id": 406,
+   "department": "산업통상부",
+   "project_name": "K-치안수요기반피지컬AI조명핵심기술개발및실증(R&D)",
+   "b2026": 5000.0,
+   "is_talent": false,
+   "purpose": "- 치안, 안전 등 공공수요가 높은 드론용 조명에 인공지능 기술을 접목한 피지컬\nAI조명 핵심기술개발 및 실증 추진\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n5,000\n․K-치안수요기반피\n지컬AI조명핵심기술\n개발및실증\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n5,000\n○비목별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n5,000\n․연구개발활\n동\n비\n등\n(360-05)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n5,000\n- 3730 -",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\406.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\406_K-치안수요기반피지컬AI조명핵심기술개발및실증(R&D).txt"
+  },
+  {
+   "id": 418,
+   "department": "산업통상부",
+   "project_name": "민관공동투자반도체고급인력양성(R&D)",
+   "b2026": 17332.0,
+   "is_talent": true,
+   "purpose": "ㅇ (민관공동투자반도체고급인력양성) 기업수요형 R&D 수행으로 고급전문 인력을 \n양성하여 반도체 글로벌 경쟁력 및 안정적 반도체 산업기반 확보\n- 메모리와 시스템 반도체 개발 및 반도체 소재부터 장비까지 全영역 원천기술 확보 \n및 고급 인력 양성\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계) 11,974 11,974\n11,974\n[11,974]\n-\n-\n16,529\n16,529\n16,529\n[16,529] 16,529\n16,529\n[16,529]\n-\n- 17,332\n․민관공동투자반도체\n고급인력양성\n11,974",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\418.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\418_민관공동투자반도체고급인력양성(R&D).txt"
+  },
+  {
+   "id": 426,
+   "department": "산업통상부",
+   "project_name": "산업AI용데이터전처리자동화기술개발(R&D)",
+   "b2026": 6325.0,
+   "is_talent": false,
+   "purpose": "- (목적) 공정별・유형별 산업데이터를 인공지능(AI)이 학습 가능하도록 가공하는 전처리 \n자동화 기술 강화를 통한 AI 내재화 촉진\n- (내용) 산업데이터를 인공지능이 학습 가능 하도록 가공하는 산업데이터 전처리 자동화 \n플랫폼 개발 및 기업이 참조 가능한 공종별 라이브러리 개발\n․ (자동화 플랫폼 개발) 로코드, 노코드 기반으로 데이터 전처리 자동화를 위한 프로\n세스 모델러, 전처리 자동 수행기능 등 필요 기능 개발\n․ (공종별 라이브러리 개발) 기업이 참조하여 활용 가능하도록 산업에 수요가 높은 \n공종별(안전, 설비, 품질, 에너지환경, 공정물류) 전처리 라이브러리 개발\n․ (실증 및 확산) 산업데이터 전처리 자동화 솔루션을 신규 데이터를 통해 실증하고 \n유사 분야 AI를 필요로 하는 기업에 확산\n20",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\426.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\426_산업AI용데이터전처리자동화기술개발(R&D).txt"
+  },
+  {
+   "id": 434,
+   "department": "산업통상부",
+   "project_name": "세포및유전자치료제제조공정고도화기술개발(R&D)",
+   "b2026": 6400.0,
+   "is_talent": false,
+   "purpose": "- (세포및유전자치료제 제조공정 고도화 기술개발사업) 차세대 모달리티 의약품인 세\n포및유전자치료제의 고품질 제조공정 핵심시스템 개발 및 GMP 내 검증 등을 통\n한 국내 첨단바이오기업들의 글로벌 제조경쟁력 확보 및 시장 진출 유도\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n6,400\n․맞춤형 제조공정 \n고도화 기술개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n3,050\n․품질관리 시스템 \n최적화 기술개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n3,350\n○",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\434.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\434_세포및유전자치료제제조공정고도화기술개발(R&D).txt"
+  },
+  {
+   "id": 442,
+   "department": "산업통상부",
+   "project_name": "제조데이터표준·인공지능활용제품전주기탄소중립지원기술개…",
+   "b2026": 7212.0,
+   "is_talent": false,
+   "purpose": "- (목적) 글로벌 공급망 규제 관련 핵심산업 대상 제품 전주기 MCF 플랫폼 개발 및 \n제조데이터 표준(AAS*) 기반 핵심공정 탄소 저감기술 개발\n* (AAS, Asset Administration Shell) 현실 세계의 물리적 자산을 가상 세계의 디지털 자산으로 구현\n하기 위한 표준 기반 인터페이스(통신, 데이터 모델, 자산의 사양 및 기능) 모델링 체계\n- (내용) AAS 표준 기반 상호 호환·연계되는 제조데이터를 기반으로, 공정 운영 全\n과정에서 발생하는 탄소 배출관리 통합 플랫폼 및 탄소 저감 AI 솔루션 개발\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\442.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\442_제조데이터표준·인공지능활용제품전주기탄소중립지원기술개….txt"
+  },
+  {
+   "id": 445,
+   "department": "산업통상부",
+   "project_name": "지식서비스산업기술개발(R&D)",
+   "b2026": 12550.0,
+   "is_talent": false,
+   "purpose": "- (세부사업 : 지식서비스산업기술개발) 지식서비스산업 핵심기술개발을 통해 제조업이\n직면한 문제를 해결하고 제조-서비스 융합기술 개발을 통한 新서비스산업 창출\n- (내역사업 1 : 서비스핵심기술개발) 서비스요소기술을 기반으로 수요자 관점의 제조\n전환, 제조업이 직면한 문제(생산성·효율성 감소, 숙련기술 단절 등) 해결 등 고부가\n가치를 창출하여 제조 기술경쟁력 및 시장경쟁력 회복\n- (내역사업 2 : 서비스산업융합고도화) 첨단기술을 활용한 기존서비스 고도화 및 산업·\n기술간 융합 서비스 모델 발굴, 新서비스 수요급증에 대응한 서비스 개발 지원\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\445.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\445_지식서비스산업기술개발(R&D).txt"
+  },
+  {
+   "id": 451,
+   "department": "산업통상부",
+   "project_name": "한국형Manufacturing-X플랫폼표준모델개발및실증(R&D)",
+   "b2026": 5250.0,
+   "is_talent": false,
+   "purpose": "- (목적) 전 산업의 다양한 주체가 자유롭게 참여하고, 데이터를 안전하게 연결·공유\n할 수 있는 한국형 Manufacturing-X 플랫폼 표준모델 설계·구현 및 실증 지원 \n- (내용) M-X 플랫폼 요소기술 및 표준모델 5종 개발, 국제상호인정 및 실증 추진\n․(공통 기술 개발) 유럽의 표준 데이터 스페이스 기술을 기반으로, 국내 제조 산업\n데이터의 연계 및 활용 촉진을 위한 공통 요소 및 서비스 기술 개발\n․(M-X 모델 개발) M-X 기반에서 AI 서비스 개발에 활용할 수 있는 5대 AI 기반 핵심 공통 모델* 개발\n        * ①공급망수요관리, ②디지털트윈연계, ③자동화‧예지보전, ④품질검사‧불량예측, ⑤에너지최적화‧탄소저감\n․(표준개발·인정) 시스템 및 데이터 표준 개발 및 보급, 국제상호",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\451.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\451_한국형Manufacturing-X플랫폼표준모델개발및실증(R&D).txt"
+  },
+  {
+   "id": 496,
+   "department": "해양수산부",
+   "project_name": "AI 완전자율운항선박 기술개발사업(R&D)",
+   "b2026": 6344.0,
+   "is_talent": false,
+   "purpose": "- (AI 완전자율운항선박 기술개발) 완전자율운항 기술 확보를 통한 IMO Lv.4 달성 \n및 글로벌 자율운항선박 시장·기술 선도\n· 무인 항해 시스템, 기관 자동화 시스템, 원격운용 기술, 검인증 및 실증 기술 등 \n완전자율운항선박 핵심기술 개발\n2024\n2025(2025.12월말)\n2026\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n6,344\n․AI 완전자율운항선박 \n기술개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n6,344\n○비목별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n6,344\n․연구",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\496.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\496_AI 완전자율운항선박 기술개발사업(R&D).txt"
+  },
+  {
+   "id": 499,
+   "department": "해양수산부",
+   "project_name": "국제사회 IUU어업예방을 위한 원양어선 전자모니터링 기술개발(R&D)",
+   "b2026": 5400.0,
+   "is_talent": false,
+   "purpose": "ㅇ (국제사회 IUU어업 예방을 위한 원양어선 전자모니터링 기술개발사업)\n   - 국제사회 IUU어업 근절 강화 기조 대비 원양어선에 대한 조업활동감시(기술) 강화와\n한국형 EM 시스템 개발을 통한 상용화 및 국제표준 선도\n사업명\n2024년\n결산\n2025년 예산\n2026년\n증감\n(B-A)\n본예산(A)\n추경\n정부안\n확정(B)\n(B-A)/A\n국제사회 IUU어업\n예방을 위한 \n원양어선 \n전자모니터링 \n기술개발(R&D)\n-\n3,000\n3,000\n5,400\n5,400\n2,400\n80.0\n2024\n2025(2025.12월말)\n2026\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 ",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\499.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\499_국제사회IUU어업 예방을 위한 원양어선전자모니터링기술개….txt"
+  },
+  {
+   "id": 509,
+   "department": "해양수산부",
+   "project_name": "아열대 해양환경 적응 시나리오 개발  대응책 및 활용 체계 구…",
+   "b2026": 2300.0,
+   "is_talent": false,
+   "purpose": "- 기후변화에 따른 해양환경-생태계 변동에 대응하기 위한 기존 자료 표준화 및 활용을\n위한 데이터 수집·분석기술 개발, 아열대 해양환경 적응 시나리오 모형 개발·검증,\n아열대 생물 종 관리 대응 매뉴얼·적응 대책 수립과 해양생태-환경 자료 활용 체계 구축\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n2,000\n2,000\n2,000\n2,000\n2,000\n-\n-\n2,300\n․아열대 해양환경 \n적응 \n시나리오 \n개발 대응책 및 \n활용 체계 구축\n(R&D)\n-\n-\n-\n-\n-\n2,000\n2,000",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\509.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\509_아열대 해양환경 적응 시나리오 개발  대응책 및 활용 체계 구….txt"
+  },
+  {
+   "id": 510,
+   "department": "해양수산부",
+   "project_name": "양식생물 생물보안체계 구축을 위한 기술 개발(R&D)",
+   "b2026": 1600.0,
+   "is_talent": false,
+   "purpose": "◦(양식생물 생물보안체계 구축을 위한 기술 개발) 양식산업 경쟁력 강화를 위한 \n차세대 수산 질병 안전관리 체계 구축 및 생물보안 기반 질병예방 기술개발  \n- (양식생물 주요질병 신속·다중 진단고도화 기술개발) 수산 주요질병의 진단법 고도\n화를 통한 수산생물질병 조기·신속진단 시스템 구축\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n1,600\n․양식생물 주요질병\n신속·다중 \n진단\n고도화 기술개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n300\n․양식어류 \n신규",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\510.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\510_양식생물 생물보안체계 구축을 위한 기술개발(R&D).txt"
+  },
+  {
+   "id": 512,
+   "department": "해양수산부",
+   "project_name": "자율주행차 해상 수출입 서비스 기술개발(R&D)",
+   "b2026": 1400.0,
+   "is_talent": false,
+   "purpose": "- (자율주행차 해상 수출입 서비스 기술개발) 수출입 자율주행차량 자동하역지원시스템의 \n요소기술을 현장에 통합 적용하고 검증함으로써 자율주행차 해상 수출입 서비스 플랫폼 \n글로벌 시장을 선점하기 위한 실용화 기술개발\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n1,400\n․자율주행차 해상 \n수출입 \n서비스 \n기술개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n1,400\n○비목별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n1,400\n․연구개발활동비\n등(",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\512.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\512_자율주행차 해상수출입서비스 기술개발(R&D).txt"
+  },
+  {
+   "id": 514,
+   "department": "해양수산부",
+   "project_name": "탄소제로 수중데이터센터 표준모델 개발(R&D)",
+   "b2026": 6400.0,
+   "is_talent": false,
+   "purpose": "- (탄소제로 수중데이터센터 표준모델 개발) AI개발 핵심인 데이터센터 확충 및 데\n이터센터 시장 선도를 위하여, 육상대비 30%의 소비전력 절감이 가능한 수중데\n이터의 표준모델 개발\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n6,400\n․탄소제로 수중데\n이터센터 \n표준\n모델 개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n6,400\n○비목별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n6,400\n․연구개발출연금\n(360-05)\n-\n-\n-\n-\n-\n-\n",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\514.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\514_탄소제로 수중데이터센터 표준모델 개발(R&D).txt"
+  },
+  {
+   "id": 518,
+   "department": "해양수산부",
+   "project_name": "해양배터리 특화 데이터 허브 플랫폼 구축 기술 개발(R&D)",
+   "b2026": 2000.0,
+   "is_talent": false,
+   "purpose": "- (목적) 해양배터리 실운용 데이터 기반 메타데이터 허브 구축 및 국제표준 대응 \n데이터 관리·분석을 위한 해양배터리 특화 데이터 허브 플랫폼 구축 기술 개발\n* 해양환경 특화 해양배터리 데이터 수집·진단 장치·데이터 관리·분석 시스템 각 1식 구축\n* 해양배터리 운용·환경·상태 데이터 기반 분석용 데이터 항목 체계 및 시나리오 기반 분석 \n모델 1식 이상 도출 \n* 전주기 관점의 해양배터리 메타데이터 허브 시스템 1식 구축\n* IALA, ISO/IEC, IMO연계 국제표준 제안 1건 이상, 국내표준(안)/가이드라인 1건 이상\n2024\n2025(2025.12월)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\518.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\518_해양배터리 특화 데이터 허브 플랫폼 구축 기술 개발(R&D).txt"
+  },
+  {
+   "id": 520,
+   "department": "해양수산부",
+   "project_name": "해양수산 융합형 전문인력양성사업(R&D)",
+   "b2026": 3700.0,
+   "is_talent": true,
+   "purpose": "- (해양수산 융합형 전문인력양성사업) 해양수산업의 산업 경쟁력 강화를 위해 지역\n기반 연구 및 현장 중심의 기술개발을 촉진하고, 신진연구자* 및 융복합연구자**\n중심의 전문인력 양성 추진\n* 신진연구자: 해양･수산분야의10년이내교수임용연구자\n** 융복합연구자: 대학중심의연구자및현장･지역･연구연계중심의지역수요자\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n3,700\n․ 씨그랜트( S e a\nGrant)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n2,000\n․수산업",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\520.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\520_해양수산 융합형 전문인력양성사업(R&D).txt"
+  },
+  {
+   "id": 521,
+   "department": "해양수산부",
+   "project_name": "해양자원 탐사를 위한 무인체계 기술개발(R&D)",
+   "b2026": 2100.0,
+   "is_talent": false,
+   "purpose": "(해양자원탐사를 위한 무인체계 기술개발)\n- (목적) 국가전략금속의 장기·안정적 확보를 위한 해저자원 고신뢰 자원량 산출 및 \n환경영향평가에 필요한 무인탐사체계 개발\n2024\n2025(2025.12월말)\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n[실집\n행액]\n이월액불용액본예산\n예산\n현액\n집행액\n[실집\n행액]\n전년도 이월액 \n제외\n이월\n예상액\n불용\n예상액\n예산\n현액\n집행액\n[실집\n행액]\n○기능별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n2,100\n․해양자원탐사를 \n위한 무인체계 \n기술개발\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n2,100\n○비목별 분류(합계)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n2,100\n․연구개발활동비\n등(360-05)\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\521.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\521_해양자원 탐사를 위한 무인체계 기술개발(R&D).txt"
+  }
+ ]
+}

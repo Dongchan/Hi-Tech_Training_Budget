@@ -1,0 +1,36 @@
+{
+ "group_id": 2,
+ "member_count": 3,
+ "members": [
+  {
+   "id": 42,
+   "department": "과학기술정보통신부",
+   "project_name": "AI·SW 중심대학",
+   "b2026": 117960.0,
+   "is_talent": true,
+   "purpose": "- (AI·SW중심대학) 대학 교육체계를 AI·SW 중심으로 혁신하여 디지털 경쟁력을 이끌\n핵심인재 및 디지털 전 산업에 가치를 창출할 융합인재를 양성하는 중심대학 사업\n- (AI중심대학) 대학(학부) 교육을 AI 중심으로 혁신하여 우리 사회 전반의 AI 경쟁력을\n강화하고 AI를 가장 잘 활용하는 국가로 도약하는 모두의 AI 기반 마련\n- (SW중심대학) 산업현장의 요구를 반영하여 SW 중심으로 대학 교육체계를 혁신하고\nAI 등 신기술 수요에 부합하는 SW 전문·융합인재 양성",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\42.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\042_AI·SW 중심대학.txt"
+  },
+  {
+   "id": 220,
+   "department": "교육부",
+   "project_name": "4단계 두뇌한국21 사업",
+   "b2026": 541546.0,
+   "is_talent": true,
+   "purpose": "◦4단계 두뇌한국21\n- 기초‧핵심 학문분야 및 혁신성장 선도 분야의 연구역량 제고, 학문후속세대 양성\n- 연구중심대학으로서의 대학원 교육 내실화 및 연구 환경 개선을 위한 대학원 체제 혁신 지원\n◦이공 우수인재 성장경로 지원\n- 유망 이공계 학생을 조기 선발하여 학부-대학원-박사후까지 전 주기 성장경로를 \n국가가 책임지는 전략적 엘리트 육성\n- 두뇌한국21·장려금 등 기존 제도와 연계하여 장학금 등을 지급하고 박사후 과정생\n(연구생)에 대한 인센티브 제공\n2024\n2025\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n이월액\n불용액\n예산액\n(추경)\n예산\n현액\n집행액\n이월액불용액\n○기능별 분류(합계) 524,684 524,684 524,684\n-\n-\n522,478\n(523,764)\n523,764\n393,1",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\220.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\220_4단계 두뇌한국21 사업.txt"
+  },
+  {
+   "id": 360,
+   "department": "방송미디어통신위원회",
+   "project_name": "방송콘텐츠 진흥",
+   "b2026": 16792.0,
+   "is_talent": true,
+   "purpose": "- (AI·디지털 기반 방송프로그램 제작지원) 국내 방송 산업의 글로벌 경쟁력 강화를 \n위해 AI·디지털 기반의 방송 全단계(기획-제작-송출-수신) 지원\n- (크리에이터미디어 산업기반 조성) 창작자 육성→콘텐츠 제작→해외진출에 이르는 \n전주기 지원을 통한 청년 일자리 창출 및 ‘크리에이터 이코노미’ 실현\n- (지역 방송 제작역량 강화) 지역 융합인재 양성 및 AI 제작 환경 기반 조성을 위해 \n검증된 AI 솔루션을 활용한 AI제작 기술교육 및 실증 지원\n- (AI·디지털 기반 미디어 융합인재) 전주기 방송인력 대상 AI·신기술 기반의 수요 \n맞춤형 교육을 통한 핵심 AI 융합인재 양성\n- 3254 -",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\360.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\360_방송콘텐츠 진흥.txt"
+  }
+ ]
+}

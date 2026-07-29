@@ -166,18 +166,6 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>`).join("")}</div>`,
   });
 
-  htmlCard(gTal, {
-    title: "부처 간 중복·유사 의심 그룹",
-    sub: `인재양성 사업이 2건 이상 걸린 유사도 그룹 ${DATA.talent.dups.length}개 · 분산 편성 검토 후보`,
-    span2: true,
-    body: `<div class="dup-list">${DATA.talent.dups.map((g, i) => `
-      <div class="dup-item">
-        <div class="d-head">그룹 ${i + 1} <span style="color:var(--muted);font-weight:500">· 전체 ${g.n}개 사업 중 인재양성 ${g.names.length}건</span></div>
-        <div class="d-body">${g.names.join(" · ")}</div>
-      </div>`).join("")}</div>
-    <div class="foot-note" style="margin-top:8px">원 데이터(KAIB2026)의 사업명·내용 유사도 분석에서 나온 검토 후보로, 실제 중복 여부를 확정한 것은 아님. 사업 통합·조정 판단은 별도의 내용 검토가 필요한 정책 사안</div>`,
-  });
-
   /* ---------- 부처 · 적용 분야 ---------- */
   const gDept = document.getElementById("grid-dept");
 
@@ -290,6 +278,44 @@ document.addEventListener("DOMContentLoaded", () => {
       [`${DATA.trend_stats.down.count}개`, `감액 사업 · −${(DATA.trend_stats.down.sum / 1e6).toFixed(2)}조원`],
     ].map(([v, l]) => `<div class="mini"><div class="m-v">${v}</div><div class="m-l">${l}</div></div>`).join("")}</div>
     <div class="foot-note" style="margin-top:8px">사업별 증감 상위 목록은 '부처별 · 분야별 사업 현황' 섹션의 증감 차트 참조. 인재양성 사업의 연도별 추이는 '인재양성 사업 현황' 섹션에 별도 표시</div>`,
+  });
+
+  /* ---------- 중복·유사 사업 검토 (v1.3) ---------- */
+  const gDup = document.getElementById("grid-dup");
+  const dupChip = (g) => {
+    if (!g.verdict) return "";
+    const m = {
+      duplicate: ["중복 소지", "badc"], mixed: ["일부 중복 소지", "warnc"],
+      complementary: ["보완·분담", "ok"], unrelated: ["무관", "mutedc"],
+    }[g.verdict];
+    const sev = { high: "상", medium: "중", low: "하" }[g.severity] || "";
+    return `<span class="chip ${m[1]}">${m[0]}${g.verdict === "duplicate" || g.verdict === "mixed" ? " · " + sev : ""}</span>`;
+  };
+  const dcount = (v) => DATA.talent.dups.filter(g => g.verdict === v).length;
+
+  htmlCard(gDup, {
+    title: "판정 분포",
+    sub: "그룹 전체가 중복인 사례는 없음. 8개 그룹에서 특정 사업 쌍의 내역 단위 중복 소지 확인",
+    span2: true,
+    body: `<div class="mini-tiles">${[
+      [dcount("duplicate") + "개", "중복 소지 (그룹 전체)"],
+      [dcount("mixed") + "개", "일부 중복 소지 (특정 쌍) · 심각도 상 " + DATA.talent.dups.filter(g => g.severity === "high").length + "개 포함"],
+      [dcount("complementary") + "개", "보완·분담 (역할 구분됨)"],
+      [dcount("unrelated") + "개", "무관 (명칭 유사일 뿐)"],
+    ].map(([v, l]) => `<div class="mini"><div class="m-v">${v}</div><div class="m-l">${l}</div></div>`).join("")}</div>`,
+  });
+
+  htmlCard(gDup, {
+    title: "그룹별 판정 결과",
+    sub: "인재양성 사업이 2건 이상 걸린 유사도 그룹 13개 · 구성 사업의 원문(사업목적·내용·내역) 비교 기준",
+    span2: true,
+    body: `<div class="dup-list" style="max-height:560px">${DATA.talent.dups.map((g, i) => `
+      <div class="dup-item">
+        <div class="d-head">그룹 ${i + 1} ${dupChip(g)} <span style="color:var(--muted);font-weight:500">· 전체 ${g.n}개 사업 중 인재양성 ${g.names.length}건</span></div>
+        <div class="d-body">${g.names.join(" · ")}</div>
+        ${g.summary ? `<div class="d-body" style="color:var(--muted);margin-top:3px">판정: ${g.summary}</div>` : ""}
+      </div>`).join("")}</div>
+    <div class="foot-note" style="margin-top:8px">겹침 지점·사업별 역할·제언은 Reports 폴더의 중복성 검토 보고서(v1.3)에 기재. 실제 통합·조정 판단은 정책 검토 사안</div>`,
   });
 
   /* ---------- 데이터 신뢰성 (검증·보정) ---------- */

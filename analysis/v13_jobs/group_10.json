@@ -1,0 +1,26 @@
+{
+ "group_id": 10,
+ "member_count": 2,
+ "members": [
+  {
+   "id": 90,
+   "department": "과학기술정보통신부",
+   "project_name": "과학기술혁신인재양성(R&D)",
+   "b2026": 76881.0,
+   "is_talent": true,
+   "purpose": "○(목적) 미래 첨단기술 및 국가 전략 과학기술 분야 인력수요에 대응한 고급 \nR&D인재 육성 지원\n- (시스템반도체융합전문인력육성) 인공지능, 사물인터넷, 바이오메디컬 등 유망 新산업\n분야의 차세대 시스템반도체제품 개발 및 시장 선점을 이끌 고급 융합전문인력 양성\n- (양자정보과학 인적기반 조성) 폭발적 파급 잠재력을 지닌 양자정보과학 분야에 우수\n인재가 유입되고 고급인력으로 커 나갈 수 있도록 성장경로 구축 및 연구저변 확대\n- (육해공 무인이동체 혁신인재양성) 임무 기반 융·복합 무인이동체 시스템 설계·제작·\n실증 교육을 개발 및 운영하여 혁신적 고등전문인력 및 실무형 산업현장 인력양성\n- (감염병 연구전문인력양성) 국내 연구 및 산업 현장에서 신‧변종 감염병 분야 연구를\n수행할 전문연구 인력 및 생물",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\90.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\090_과학기술혁신인재양성(R&D).txt"
+  },
+  {
+   "id": 352,
+   "department": "문화체육관광부",
+   "project_name": "문화기술 전문인력양성(R&D)",
+   "b2026": 6900.0,
+   "is_talent": true,
+   "purpose": "- (문화기술 전문인력 양성(R&D)) 콘텐츠 장르(게임, 영화·애니, 방송·OTT, 음악, 공연,\n전시 등)와 첨단기술을 결합한 교육(과정) 운영 지원 및 R&D 인력 교류 체계 마련을\n통한 미래 콘텐츠 산업을 선도하는 융복합 R&D 전문 인재 양성\n- (장르별 문화기술 전문인력 양성) 문화콘텐츠 장르(게임, 영화·애니, 방송·OTT)와 최첨단\n기술을 결합한 다학제 교육과정 및 기술개발 지원(산·학·연 R&D 관련 기관)",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\352.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\352_문화기술 전문인력양성(R&D).txt"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "group_id": 6,
+ "member_count": 2,
+ "members": [
+  {
+   "id": 156,
+   "department": "과학기술정보통신부",
+   "project_name": "의료 AI 반도체 전문인력 양성센터 구축",
+   "b2026": 4078.0,
+   "is_talent": true,
+   "purpose": "- (의료 AI반도체 전문인력 양성센터 구축사업) 강원지역 내 지능형 의료기기산업 생태계 \n조성 및 AI·반도체·데이터 등 국가전략기술 산업 맞춤형 핵심인력 양성\n    ∙ (의료 AI반도체 전후방 엔지니어 육성) 맞춤형 교육과정 개발 및 운영, 산학연 공동 \n협업 프로젝트 운영, 취・창업 지원 등을 통한 의료 AI반도체 전·후방 엔지니어 육성\n- 1258 -\n\n    ∙ (의료 AI반도체 교육 연구 플랫폼 구축) 의료 AI반도체 관련 교육·연구 지원 및 \n의료 AI반도체 분야 관련 기업의 플랫폼 활용․개발 지원 등을 위한 의료 AI반도체 \n교육·연구용 인프라 구축",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\156.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\156_의료 AI 반도체 전문인력 양성센터 구축.txt"
+  },
+  {
+   "id": 379,
+   "department": "보건복지부",
+   "project_name": "바이오헬스산업 육성 지원",
+   "b2026": 233770.0,
+   "is_talent": true,
+   "purpose": "ㅇ (바이오헬스산업 육성지원)\n- (의료기기산업 경쟁력 강화)\n- (화장품 산업 경쟁력 강화)\n- (바이오헬스산업 전문인력 양성)\n- (바이오헬스산업 글로벌진출 지원)",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\379.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\379_바이오헬스산업 육성 지원.txt"
+  }
+ ]
+}

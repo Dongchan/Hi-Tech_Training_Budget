@@ -1,0 +1,26 @@
+{
+ "group_id": 9,
+ "member_count": 2,
+ "members": [
+  {
+   "id": 126,
+   "department": "과학기술정보통신부",
+   "project_name": "디지털전문·융합인재양성",
+   "b2026": 91188.0,
+   "is_talent": true,
+   "purpose": "- (디지털전문·융합인재양성) AX 가속화로 全산업에 AI·SW전문인재 수요가 확대됨에\n따라 전공자뿐만 아니라 비전공자, 미취업자, 재직자 등 대상으로 창의·혁신적 교육\n과정 운영을 통해 AI·SW인재를 지속적으로 유입·발굴하고, AI활용역량 강화를 통해\n미래산업을 선도할 AI·SW전문인재로 성장 지원\n- (대학·기업 협력형 SW아카데미) 현장수요에 맞는 교육과정을 기업·대학이 공동 설계\n하고, 기업 주도 집중교육을 통해 산업체에서 즉시 활용 가능한 인력 적기 공급\n- (채용연계형 SW전문인재양성) 기업 수요가 높은 실무형 인재양성을 위해 기업과 \n연계한 교육과정 운영으로 현장에 즉시 투입 가능한 청년인재 양성 및 채용연계 지원\n- (이노베이션아카데미) 지속적인 혁신성장을 위해 국내·외 잠재력 있는 인재를 ",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\126.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\126_디지털전문·융합인재양성.txt"
+  },
+  {
+   "id": 224,
+   "department": "교육부",
+   "project_name": "대학생 AI 기본 교육 지원",
+   "b2026": 8840.0,
+   "is_talent": true,
+   "purpose": "◦(대학 AI 기본 교육과정 개발 지원) 대학생들이 윤리적 AI 활용, AI 정보의 비판적 평가 \n역량, AI를 이용한 실질적 문제해결력을 갖추 수 있도록 기본 교육 지원\n◦(교원양성기관 교육과정 개발 지원) 초·중등 AI 교육의 핵심인 교원이 관련 역량을\n함양할 수 있도록 교원양성기관 내 AI 교육과정 개발·지원",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\224.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\224_대학생 AI 기본 교육 지원.txt"
+  }
+ ]
+}

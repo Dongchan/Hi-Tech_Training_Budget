@@ -1,0 +1,26 @@
+{
+ "group_id": 1,
+ "member_count": 2,
+ "members": [
+  {
+   "id": 124,
+   "department": "과학기술정보통신부",
+   "project_name": "디지털선도기술 핵심인재양성(R&D)",
+   "b2026": 59529.0,
+   "is_talent": true,
+   "purpose": "- (디지털선도기술핵심인재양성) 대학, 기업, 지역 등 ICT융합 학ž석ž박사 교육연계를 통해\n석·박사급 인재 양성 지원 및 글로벌 네트워크 기반 조성 \n· (교육훈련) AI 대전환 시대를 견인하기 위해 대학, 기업, 지역 등이 연계하여 융합인재,\n지역인재, 글로벌인재 등 ICT 유망·핵심기술 분야의 석·박사 인재 양성\n- 980 -",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\124.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\124_디지털선도기술 핵심인재양성(R&D).txt"
+  },
+  {
+   "id": 223,
+   "department": "교육부",
+   "project_name": "국립대학육성사업",
+   "b2026": 873550.0,
+   "is_talent": true,
+   "purpose": "- (거점국립대육성) 거점국립대를 5극 3특 성장엔진과 연계한 지산학연 협력기반 연구\n대학으로 육성하여 국가균형성장을 뒷받침하는 핵심 융합 인재양성\n- (일반국립대육성) 국가중심국립대와 교대는 지역에 더욱 밀착하는 특성화 대학으로 성장\n하도록 지속 지원하여 국가균형발전에 기여하도록 유도\n- (AI 거점대학) AI 단과대학·전공 등을 운영하여 AI/AI+X 분야 학사 및 석·박사급 \n인재를 체계적으로양성하고 지역의 AI 교육·연구 거점 역할을 수행할 수 있도록 지원",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\223.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\223_국립대학육성사업.txt"
+  }
+ ]
+}

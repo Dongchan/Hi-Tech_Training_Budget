@@ -1,0 +1,66 @@
+{
+ "group_id": 12,
+ "member_count": 6,
+ "members": [
+  {
+   "id": 130,
+   "department": "과학기술정보통신부",
+   "project_name": "미래디지털인재양성및 저변확대",
+   "b2026": 23924.0,
+   "is_talent": true,
+   "purpose": "○(미래 디지털인재양성 및 저변확대) 디지털 심화 시대 SW･AI 등 디지털 역량의\n중요성이 강조되고 있는 가운데 어린 시절부터 디지털 역량을 배양할 수 있는 지\n원체계 마련 및 인재 양성에 기여\n- (미래세대 SW･AI교육 활성화) 청소년의 디지털 문제 해결력 함양을 위해 ▲디\n지털인재양성 선도기업 등과 협력하여 교육 프로그램을 제공하고,\n▲청소년들에게 \n데모데이·해커톤 및 국제대회 출전 등 다양한 도전 기회를 통해 실전형 디지털 \n- 1037 -\n\n문제해결자로성장할 수 있도록 지원하며, ▲전국민 누구나 AI를 이해하고, 체험\n하며, 도전·활용할 수 있는 AI 활용의 실천적 기회 제공 및 확산 캠페인 운영\n- (예비교원 SW역량 강화) 예비교원(교육대학 및 사범대학 재학생, 교직이수자 등)의\nSW·AI 교",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\130.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\130_미래디지털인재양성및저변확대.txt"
+  },
+  {
+   "id": 222,
+   "department": "교육부",
+   "project_name": "가상실험실습 학습콘텐츠 공유 플랫폼 구축(정보화)",
+   "b2026": 2064.0,
+   "is_talent": true,
+   "purpose": "- (개요) 대학 및 기관 등에서 개별 서비스 중인 가상실험실습 학습콘텐츠를 한 곳에 모아 \n학습자와 교수자 간 학습서비스를 제공하는 공공 활용 플랫폼의 구축을 통해, 예산의 중복\n투자를 방지하고 맞춤형 인재양성 및 전 국민 학습권·학습복지 향상 도모\n     ※ (플랫폼명) OpenVLab    (‘24년도) ISPžISMP 수립    (‘25년도) 플랫폼1차구축(‘25.6.~‘26.2.)\n     ※ (가상실험실습 학습콘텐츠) 가상현실(VR), 증강현실(AR) 등 가상 환경에서의 몰입형·주도적 학습환경을 \n통해 기존 동영상 기반 실습수업의 한계를 극복하고 고위험, 고비용, 특수환경 실험·실습 수업을 보완\n2024\n2025\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n이월액\n불용액\n예산액\n(추경)\n예산",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\222.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\222_가상실험실습 학습콘텐츠 공유 플랫폼 구축(정보화).txt"
+  },
+  {
+   "id": 227,
+   "department": "교육부",
+   "project_name": "소프트웨어인재양성기반구축",
+   "b2026": 1962.0,
+   "is_talent": true,
+   "purpose": "- (초·중등 SW융합교육 강화) 동 사업은 미래 소프트웨어(SW) 인재양성에 대한 국가\n사회적 요구와 초‧중등 정보교육에 대한 국가 책무성 증대에 따라 초‧중등학교 \nSW‧AI 교육을 강화하여 체계적인 디지털 인공지능 교육 기반 마련하는 것임",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\227.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\227_소프트웨어인재양성기반구축.txt"
+  },
+  {
+   "id": 228,
+   "department": "교육부",
+   "project_name": "학생교육 교류 지원",
+   "b2026": 13682.0,
+   "is_talent": true,
+   "purpose": "- (국비유학생선발파견) 국가발전에 필요한 전략분야 인재양성, 모든 학문분야의 균형 있는\n발전 도모, 사회적 취약계층 국외유학 기회 제공을 위한 해외 석·박사과정 등 지원\n- (한일교육교류협력사업)\n<한일공동고등교육유학생교류사업> 일본 학생들에게 한국 대학에서 석·박사과정,\n학부 1년, 학부 단기(2~5주)의 수학 기회를 제공하여 양국 가교역할을 할 친한·지\n한 인재 양성\n<한일청년인재양성> 일본 학생을 초청하여 ①(전문)학사 학위과정 ②직업계고 학\n생 단기 연수 실시 및 ③상대국 대학에서 1학기 교육과정 이수를 통해 양국 간 \n교육 교류 활성화\n- (한국유학홍보) 해외한국유학 홍보를 통한 우수 외국인 유치 활성화\n- (청소년 교류지원)\n2024\n2025\n2026\n예산\n예산액\n(추경)\n예산\n현액\n집행액\n이월",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\228.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\228_학생교육 교류 지원.txt"
+  },
+  {
+   "id": 230,
+   "department": "교육부",
+   "project_name": "한국형 온라인 공개강좌 콘텐츠 개발 및 활용 활성화",
+   "b2026": 19810.0,
+   "is_talent": true,
+   "purpose": "- (한국형 온라인 공개강좌(K-MOOC) 운영) 대학 등의 우수강좌를 온라인으로 온 국민에게 \n제공하여 평생교육 수요 확대에 부응 및 대학의 교수ㆍ학습 혁신촉진\n- (성인의 디지털 역량 강화 지원) 성인의 디지털 분야 재교육·향상교육을 통한 역량 함양을\n위해 온라인 기반 교육과정 개발 및 운영",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\230.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\230_한국형 온라인 공개강좌 콘텐츠개발 및 활용 활성화.txt"
+  },
+  {
+   "id": 232,
+   "department": "국가데이터처",
+   "project_name": "통계교육지원",
+   "b2026": 2148.0,
+   "is_talent": true,
+   "purpose": "ㅇ (통계교육지원) 국가데이터처, 통계작성기관 등 통계인력의 통계전문역량 향상 교육 \n및 미래세대 통계 소양 강화를 위한 학생 실용 통계교육 등 통계전문교육 실시\n※ ‘25년 교육훈련계획 기준 집합과정(99개, 157회), 이러닝과정(127개), 수시 과정 등 운영 \n- (교육과정운영) 국가데이터처 및 통계작성기관, 일반인 등을 위한 통계전문 및 통계소양 \n교육, 공무원의 기본역량 및 직무역량 향상 등을 위한 교육프로그램 개발 및 운영\n- (이러닝교육) 디지털환경 일반화, 모바일 보편화로 학습자가 스마트기기를 활용하여\n다양한 학습을 할 수 있도록 이러닝 컨텐츠 개선ㆍ개발\n- (통계교육 활성화) 학생 실용 통계교육 강화를 위해 학생교육, 교사 통계연수, 통계\n교육용 소프트웨어 보급, 통계교육 선도학교 등 운영",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\232.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\232_통계교육지원.txt"
+  }
+ ]
+}

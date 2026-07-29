@@ -1,0 +1,36 @@
+{
+ "group_id": 13,
+ "member_count": 3,
+ "members": [
+  {
+   "id": 4,
+   "department": "개인정보보호위원회",
+   "project_name": "안전한 데이터 활용 지원",
+   "b2026": 6456.0,
+   "is_talent": true,
+   "purpose": "- (가명정보 제도 운영) 안정적 제도 운영을 위한 모니터링, 가명정보 결합전문기관 \n관리·감독, 제도‧기술 표준 선점을 위한 연구 등\n- (가명정보 활용 지원 인프라 운영) 가명정보 처리 지원 및 안전성 검증, 전문인력 \n공급 지원, 개인정보가 포함된 데이터 분석을 위한 시설‧분석도구 지원 등\n- (가명정보 활용 지원 시스템 운영) 온라인 채널로서 각종 정보(제도, 기술, 국제동향,\n사례, 법령해석 등) 제공, 가명처리 소프트웨어 지원 등",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\4.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\004_안전한 데이터 활용 지원.txt"
+  },
+  {
+   "id": 68,
+   "department": "과학기술정보통신부",
+   "project_name": "AI활용 미인증 기자재 온라인 모니터링 시스템 구축",
+   "b2026": 76.0,
+   "is_talent": false,
+   "purpose": "- (AI 활용 미인증 기자재 온라인 모니터링 시스템 구축)\n①사업 목적: 적합성평가(KC인증)를 받지 않고 유통되는 전기⋅전자⋅통신 제품들에 \n대해 주된 유통 경로인 온라인 플랫폼 대상 모니터링을 위해 AI 도입⋅활용 추진  \n②사업 내용: 적합성평가 관련 법령(고시), 방송통신기자재 적합성평가 및 민원 처리 \n현황 등의 데이터를 기반으로 AI를 학습시키고, 온라인상의 판매 글에서 인증 \n관련 정보를 AI가 스스로 수집⋅분석하여 인증 여부를 판단하는 모니터링 시스템 \n구축을 위한 ISP 수립\n- 554 -",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\68.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\068_AI활용 미인증 기자재 온라인 모니터링 시스템 구축.txt"
+  },
+  {
+   "id": 112,
+   "department": "과학기술정보통신부",
+   "project_name": "데이터기반산업경쟁력강화",
+   "b2026": 10399,
+   "is_talent": true,
+   "purpose": "- (데이터기반산업경쟁력강화) 데이터 수집·가공·활용 기반 강화를 통한 AI·데이터 \n경제 가속화 등을 위해 ‘데이터 유통·활용 생태계 조성’, ‘데이터 선도 및 활성화 \n기반 구축’ 등 추진\n· (데이터 유통·활용 생태계 조성) 데이터 문제해결은행 운영으로 민간 주도 데이터·AI\n활용을 지원하고, 마이데이터 기반 조성, 데이터 안심구역 운영 등 안전하고 신뢰할 수\n있는 데이터 이용·활용 환경 조성\n· (데이터 선도 및 활성화 기반 구축) 데이터·AI 기반 중소기업·스타트업 중심의 데이터\n분석·개발 인프라 및 실습 지원을 통해 데이터 활용을 촉진하고 가명정보 결합전문 \n기관 기반의 안전한 데이터 이용 환경 조성\n- 893 -",
+   "pjson": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\analysis\\pjson\\112.json",
+   "extracted": "D:\\AI_Work\\Claude\\Hi-Tech_Training_Budget\\extracted\\112_데이터기반산업경쟁력강화.txt"
+  }
+ ]
+}

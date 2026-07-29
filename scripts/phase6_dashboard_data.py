@@ -259,9 +259,21 @@ type_cnt = {
     "일반": sum(1 for x in slim if not x["rnd"] and not x["info"]),
 }
 
-dup_groups = [{"n": len(g["all_ids"]),
-               "names": [f'{talent[i]["department"]} · {talent[i]["project_name"]}' for i in g["talent_ids"]]}
-              for g in tf["duplicate_groups"]]
+dup_review_path = BASE / "analysis" / "duplication_review_v13.json"
+DUPREV = (json.load(open(dup_review_path, encoding="utf-8"))["groups"]
+          if dup_review_path.exists() else {})
+dup_groups = []
+for gi, g in enumerate(tf["duplicate_groups"], 1):
+    entry = {"n": len(g["all_ids"]),
+             "names": [f'{talent[i]["department"]} · {talent[i]["project_name"]}' for i in g["talent_ids"]]}
+    r = DUPREV.get(str(gi))
+    if r:
+        entry["verdict"] = r["verdict"]
+        entry["severity"] = r["severity"]
+        entry["summary"] = clean_note(r.get("summary", ""))
+    dup_groups.append(entry)
+if DUPREV:
+    print(f"  중복성 판정(v1.3) 반영: {len(DUPREV)}개 그룹")
 
 n_b26_changed = sum(1 for x in slim if x["corr"])
 payload = {
