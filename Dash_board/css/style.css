@@ -96,6 +96,22 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .hero .lede { font-size: 19px; line-height: 1.4; color: var(--body); max-width: 780px; word-break: keep-all; }
 .hero .lede strong { font-weight: 600; color: var(--ink); }
 
+/* 용어 정의 카드 (주력 / 요소 포함) */
+.defs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+.def-card {
+  border: 1px solid var(--line); border-radius: 5px;
+  background: var(--bg-alt); padding: 14px 16px;
+}
+.def-card .d-title {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 15px; font-weight: 600; color: var(--ink);
+}
+.def-card .d-title .sw { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+.def-card .d-title .d-stat { margin-left: auto; font-size: 13.5px; font-weight: 600; color: var(--body); font-variant-numeric: tabular-nums; }
+.def-card .d-desc { font-size: 13px; color: var(--body); line-height: 1.5; margin-top: 6px; word-break: keep-all; }
+.def-card .d-crit { font-size: 12px; color: var(--muted); line-height: 1.5; margin-top: 4px; }
+@media (max-width: 640px) { .defs { grid-template-columns: 1fr; } }
+
 /* 시그니처: AI 관련성 세그먼트 밴드 */
 .band-card { margin-top: 36px; }
 

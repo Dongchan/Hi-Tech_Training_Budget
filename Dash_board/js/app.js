@@ -90,6 +90,21 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="k-sub">${k.sub}</div>
     </div>`).join("");
 
+  /* ---------- 용어 정의: 주력 / 요소 포함 ---------- */
+  document.getElementById("defs").innerHTML = `
+    <div class="def-card">
+      <div class="d-title"><span class="sw" style="background:${C.talentCore}"></span>주력 인재양성 (core)
+        <span class="d-stat">${TAL.core.count}개 · ${(TAL.core.b2026 / 1e6).toFixed(2)}조원</span></div>
+      <div class="d-desc">인재양성이 사업의 주된 성격인 사업. AI·SW중심대학, 내일배움카드, 두뇌한국21 등.</div>
+      <div class="d-crit">판정 기준: '교육/인재' 도메인(v1.1 개정 분류) 보유 또는 사업명에 인재·양성·교육·훈련 등 키워드 포함</div>
+    </div>
+    <div class="def-card">
+      <div class="d-title"><span class="sw" style="background:${C.talentPart}"></span>요소 포함 (partial)
+        <span class="d-stat">${TAL.partial.count}개 · ${(TAL.partial.b2026 / 1e6).toFixed(2)}조원</span></div>
+      <div class="d-desc">주된 목적은 다른 분야이나 사업 내역에 인재양성 활동(교육훈련·인턴십·장학·역량교육 등)을 포함하는 사업. 표시 예산은 사업 전체 기준.</div>
+      <div class="d-crit">판정 기준: PDF 원문 사업내용 판정. 사업별 근거는 인재양성 섹션 목록과 표의 칩 호버에 표시</div>
+    </div>`;
+
   /* ---------- 인재양성 ---------- */
   const gTal = document.getElementById("grid-talent");
 
