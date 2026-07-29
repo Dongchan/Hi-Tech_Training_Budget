@@ -274,23 +274,23 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   htmlCard(gVer, {
-    title: "검증 절차: 3단계 전수 대조",
-    sub: "판단이 갈린 건은 전부 원문 재확인으로 해소 후 최종 데이터에 반영. 미해결 0건",
+    title: "이 수치가 만들어진 과정",
+    sub: "원본 PDF(5,296페이지)와 파싱 데이터를 사업 단위로 전수 비교하여 산출",
     body: `<div class="dup-list">
       <div class="dup-item">
-        <div class="d-head">1단계 · 파이썬 자동 전수 검사 (533건)</div>
-        <div class="d-body">페이지 매핑·사업 계층·산술(합계·증감 역산) 전수 점검. 이상 후보 선별</div>
+        <div class="d-head">1 · 원본과 비교 준비</div>
+        <div class="d-body">원본 PDF에서 533개 사업별 원문을 추출하고, 페이지 위치·사업 체계·금액 합계를 자동 점검</div>
       </div>
       <div class="dup-item">
-        <div class="d-head">2단계 · 에이전트 1차 전수 대조 (533건)</div>
-        <div class="d-body">사업별 PDF 원문 발췌 ↔ 데이터의 예산 7필드·분류·인재양성 성격 대조 판정</div>
+        <div class="d-head">2 · 전수 비교</div>
+        <div class="d-body">533개 사업 전부에 대해 원문과 데이터의 예산 수치·분류·인재양성 성격을 하나씩 비교</div>
       </div>
       <div class="dup-item">
-        <div class="d-head">3단계 · 2차 재검·확정 (문제 판정 112건 + 정상 표본 전량)</div>
-        <div class="d-body">별도 에이전트가 원문 전체 기반으로 독립 재판정. 판단이 갈린 건은 2차 판정과 리더의 원문 실측으로 확정. 발견 오류는 v1.1·v1.2에서 전량 보정</div>
+        <div class="d-head">3 · 재확인 후 보정</div>
+        <div class="d-body">차이가 발견된 사업은 원문 전체를 다시 읽어 확인하고, 확인된 값으로 데이터를 교체 (예산 49건, 분류 195건, 내역사업 165건)</div>
       </div>
     </div>
-    <div class="foot-note" style="margin-top:8px">단계별 상세 지표(1·2차 판정 간 일치율 등)는 Reports 폴더의 정합성 검증보고서에 기재</div>`,
+    <div class="foot-note" style="margin-top:8px">상세 과정과 단계별 지표는 Reports 폴더의 정합성 검증보고서에 기재</div>`,
   });
 
   /* ---------- 데이터 테이블 ---------- */
