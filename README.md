@@ -1,6 +1,6 @@
 # Hi-Tech Training Budget: AI 분야 인재양성 예산 현황
 
-2026년 AI 재정사업 통합 설명자료(5,296p)를 파싱한 [KAIB2026](https://github.com/hollobit/KAIB2026) 데이터를 **원본 PDF와 전수 대조 검증**하고, AI 분야 인재양성 예산 현황을 정리한 프로젝트 (첨단분야 전체가 아닌 AI 재정사업 범위의 집계).
+2026년 AI 재정사업 통합 설명자료(5,296p)를 파싱한 [KAIB2026](https://github.com/hollobit/KAIB2026) 데이터를 **원본 PDF와 전수 대조 검증**하고, AI 분야 인재양성 예산 현황을 정리한 프로젝트.
 
 ## 🔗 대시보드 바로가기
 
