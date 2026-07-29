@@ -295,19 +295,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
   htmlCard(gDup, {
     title: "판정 분포",
-    sub: "그룹 전체가 중복인 사례는 없음. 8개 그룹에서 특정 사업 쌍의 내역 단위 중복 소지 확인",
+    sub: "그룹 전체가 중복인 사례는 없음. 8개 그룹에서 일부 사업 간 겹치는 부분 확인",
     span2: true,
     body: `<div class="mini-tiles">${[
-      [dcount("duplicate") + "개", "중복 소지 (그룹 전체)"],
-      [dcount("mixed") + "개", "일부 중복 소지 (특정 쌍) · 심각도 상 " + DATA.talent.dups.filter(g => g.severity === "high").length + "개 포함"],
-      [dcount("complementary") + "개", "보완·분담 (역할 구분됨)"],
-      [dcount("unrelated") + "개", "무관 (명칭 유사일 뿐)"],
-    ].map(([v, l]) => `<div class="mini"><div class="m-v">${v}</div><div class="m-l">${l}</div></div>`).join("")}</div>`,
+      [dcount("duplicate") + "개", "중복 소지 (그룹 전체가 겹침)"],
+      [dcount("mixed") + "개", "일부 중복 소지 (일부 사업만 겹침) · 심각도 상 " + DATA.talent.dups.filter(g => g.severity === "high").length + "개 포함"],
+      [dcount("complementary") + "개", "보완·분담 (대상·역할이 나뉨)"],
+      [dcount("unrelated") + "개", "무관 (이름만 비슷함)"],
+    ].map(([v, l]) => `<div class="mini"><div class="m-v">${v}</div><div class="m-l">${l}</div></div>`).join("")}</div>
+    <div class="foot-note" style="margin-top:8px"><strong style="color:var(--ink)">예산 합계와의 관계</strong>:
+    인재양성 96개 사업 7.87조원은 각 사업의 예산을 한 번씩 더한 값. 겹침 판정이 나온 사업도 실제로 각각 편성된 예산이므로
+    합계에서 빼지 않음. 이 판정은 비슷한 사업이 부처를 달리해 따로 편성되어 있는지 보여주는 검토 참고 자료</div>`,
   });
 
   htmlCard(gDup, {
     title: "그룹별 판정 결과",
-    sub: "인재양성 사업이 2건 이상 걸린 유사도 그룹 13개 · 구성 사업의 원문(사업목적·내용·내역) 비교 기준",
+    sub: "내용이 비슷해 보여 함께 묶인 사업 그룹 13개 · 각 사업의 원문(목적·내용·세부 구성)을 비교해 판정",
     span2: true,
     body: `<div class="dup-list" style="max-height:560px">${DATA.talent.dups.map((g, i) => `
       <div class="dup-item">
