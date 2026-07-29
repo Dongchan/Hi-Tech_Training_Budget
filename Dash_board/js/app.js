@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
       { label: "그 외 AI 재정사업 437건 · 19.68조", color: C.other },
     ],
     render: (elc) => segBand(elc, [
-      { key: "인재양성 주목적", count: TAL.core.count, value: TAL.core.b2026, color: C.talentCore, desc: "교육/인재 도메인 또는 사업명상 인재양성" },
+      { key: "인재양성 주목적", count: TAL.core.count, value: TAL.core.b2026, color: C.talentCore, desc: "교육/인재 적용 분야 또는 사업명상 인재양성" },
       { key: "인재양성 일부 포함", count: TAL.partial.count, value: TAL.partial.b2026, color: C.talentPart, desc: "사업 내 인재양성 활동 포함" },
       { key: "그 외 AI 재정사업", count: restCount, value: restBudget, color: C.other, dark: true, desc: "인재양성 성격이 없는 AI 사업" },
     ], { title: "인재양성 구성" }),
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="d-title"><span class="sw" style="background:${C.talentCore}"></span>인재양성 주목적 (core)
         <span class="d-stat">${TAL.core.count}개 · ${(TAL.core.b2026 / 1e6).toFixed(2)}조원</span></div>
       <div class="d-desc">인재양성이 사업의 주된 목적인 사업. AI·SW중심대학, 내일배움카드, 두뇌한국21 등.</div>
-      <div class="d-crit">판정 기준: '교육/인재' 도메인(v1.1 개정 분류) 보유 또는 사업명에 인재·양성·교육·훈련 등 키워드 포함</div>
+      <div class="d-crit">판정 기준: '교육/인재' 적용 분야(v1.1 개정 분류) 보유 또는 사업명에 인재·양성·교육·훈련 등 키워드 포함</div>
     </div>
     <div class="def-card">
       <div class="d-title"><span class="sw" style="background:${C.talentPart}"></span>인재양성 일부 포함 (partial)
@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
       labelW: 300, labelMax: 26, title: "인재양성 상위",
       tipFmt: r => `${Math.round(r.value).toLocaleString()} 백만원${r.note ? `<br><span class="t-muted">${r.note}</span>` : ""}`,
     }),
-    note: "'교육/인재' 도메인 라벨 기준(66건 6.82조)에 검증 결과를 반영해 42건 추가·12건 제외, 최종 96건 7.87조원으로 조사됨. 막대에 마우스를 올리면 판정 근거 표시.",
+    note: "'교육/인재' 적용 분야 라벨 기준(66건 6.82조)에 검증 결과를 반영해 42건 추가·12건 제외, 최종 96건 7.87조원으로 조사됨. 막대에 마우스를 올리면 판정 근거 표시.",
   });
 
   htmlCard(gTal, {
@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>`).join("")}</div>`,
   });
 
-  /* ---------- 부처 · 도메인 ---------- */
+  /* ---------- 부처 · 적용 분야 ---------- */
   const gDept = document.getElementById("grid-dept");
 
   card(gDept, {
@@ -190,16 +190,16 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   card(gDept, {
-    title: "AI 도메인별 예산 상위 14",
-    sub: "사업당 도메인 복수 부여로 합계는 총예산을 초과함",
-    file: "도메인별_2026예산",
+    title: "AI 적용 분야별 예산 상위 14",
+    sub: "사업당 적용 분야 복수 부여로 합계는 총예산을 초과함",
+    file: "적용분야별_2026예산",
     render: (elc) => hBar(elc, [
       ...DATA.by_domain.slice(0, 14).map(d => ({
         label: d.domain, value: d.b2026, sub: d.count + "건",
         color: d.domain === "교육/인재" ? C.talentCore : C.indigo,
       })),
-    ], { title: "도메인별 예산" }),
-    note: "도메인은 v1.1 재분류(195건) 반영. '교육/인재'(오렌지) 78건은 인재양성 주목적(core)과 일치하며, 일부 포함 18건은 별도(위 인재양성 섹션).",
+    ], { title: "적용 분야별 예산" }),
+    note: "적용 분야은 v1.1 재분류(195건) 반영. '교육/인재'(오렌지) 78건은 인재양성 주목적(core)과 일치하며, 일부 포함 18건은 별도(위 인재양성 섹션).",
   });
 
   card(gDept, {
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   card(gVer, {
-    title: "AI 도메인 분류 판정 (533건)",
+    title: "AI 적용 분야 분류 판정 (533건)",
     sub: "ai_domains 라벨의 PDF 내용 부합 여부. 부적절·누락 195건은 v1.1에서 재분류 완료",
     file: "검증_분류판정",
     render: (elc) => hBar(elc, [
@@ -270,7 +270,7 @@ document.addEventListener("DOMContentLoaded", () => {
       { label: "△ 일부 부적절·누락", value: DATA.verify.classification.partial, color: C.warn },
       { label: "✕ 핵심 오류 (wrong)", value: DATA.verify.classification.wrong, color: C.bad },
     ], { fmt: v => v + "건", labelW: 200, labelMax: 18, tipFmt: r => r.value + "건", title: "분류 판정" }),
-    note: "36.6%가 부적절·누락으로 조사됨. 도메인 기반 집계는 오차 전제 필요. 사업명 불일치 " + DATA.verify.name_mismatch + "건 별도.",
+    note: "36.6%가 부적절·누락으로 조사됨. 적용 분야 기반 집계는 오차 전제 필요. 사업명 불일치 " + DATA.verify.name_mismatch + "건 별도.",
   });
 
   htmlCard(gVer, {
@@ -298,12 +298,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------- CSV 파일 카드 ---------- */
   const files = [
-    ["projects_raw.csv", "전체 533개 사업 원자료", "식별·계층·예산 7필드·v1.1 보정값·개정 도메인·검증 판정 포함 (48개 열)"],
+    ["projects_raw.csv", "전체 533개 사업 원자료", "식별·계층·예산 7필드·v1.1 보정값·개정 분류·검증 판정 포함 (48개 열)"],
     ["sub_projects_raw.csv", "내역사업 1,658행", "모사업 id 연결, 2024–2026 예산 · 불일치 165개 사업은 v1.2 재추출본(source 열)"],
     ["talent_projects.csv", "인재양성 확정 96건", "주목적/일부 포함 구분, 보정 예산, 판정 근거"],
     ["verification_issues.csv", "검증 이슈 234행", "예산 불일치 49건 + 분류 부적절 195건 + 사업명 불일치"],
     ["by_department.csv", "부처별 집계 41행", "전체·인재양성(주목적/일부 포함) 2026 예산"],
-    ["by_domain.csv", "AI 도메인별 집계 28행", "사업 수·2026 예산 (보정값)"],
+    ["by_domain.csv", "AI 적용 분야별 집계 28행", "사업 수·2026 예산 (보정값)"],
   ];
   document.getElementById("files").innerHTML = files.map(([f, n, d]) => `
     <a class="file-card" href="data/${f}" download>
@@ -337,7 +337,7 @@ const TCOLS = [
   { key: "ai", label: "AI 관련성" },
   { key: "tal", label: "인재양성" },
   { key: "bv", label: "예산 검증" },
-  { key: "dom", label: "AI 도메인" },
+  { key: "dom", label: "AI 적용 분야" },
 ];
 const tState = { mode: "all", dept: "", verify: "", q: "", sortKey: "b26c", sortDir: -1 };
 
