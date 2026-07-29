@@ -59,17 +59,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const restBudget = T.b2026 - TAL.all.b2026;
   const bandCard = card(document.getElementById("hero-band-chart"), {
     title: `2026 AI 예산 ${(T.b2026 / 1e6).toFixed(1)}조원 안에서 인재양성의 위치`,
-    sub: "인재양성 96개 사업(주력 + 요소 포함)과 그 외 AI 재정사업의 규모 비교",
+    sub: "인재양성 96개 사업(주목적 + 일부 포함)과 그 외 AI 재정사업의 규모 비교",
     file: "인재양성_구성밴드",
     span2: true,
     legend: [
-      { label: "주력 인재양성 78건 · 7.11조", color: C.talentCore },
-      { label: "요소 포함 18건 · 0.76조", color: C.talentPart },
+      { label: "인재양성 주목적 78건 · 7.11조", color: C.talentCore },
+      { label: "일부 포함 18건 · 0.76조", color: C.talentPart },
       { label: "그 외 AI 재정사업 437건 · 19.68조", color: C.other },
     ],
     render: (elc) => segBand(elc, [
-      { key: "주력 인재양성", count: TAL.core.count, value: TAL.core.b2026, color: C.talentCore, desc: "교육/인재 도메인 또는 사업명상 인재양성" },
-      { key: "인재양성 요소 포함", count: TAL.partial.count, value: TAL.partial.b2026, color: C.talentPart, desc: "사업 내 인재양성 활동 포함" },
+      { key: "인재양성 주목적", count: TAL.core.count, value: TAL.core.b2026, color: C.talentCore, desc: "교육/인재 도메인 또는 사업명상 인재양성" },
+      { key: "인재양성 일부 포함", count: TAL.partial.count, value: TAL.partial.b2026, color: C.talentPart, desc: "사업 내 인재양성 활동 포함" },
       { key: "그 외 AI 재정사업", count: restCount, value: restBudget, color: C.other, dark: true, desc: "인재양성 성격이 없는 AI 사업" },
     ], { title: "인재양성 구성" }),
     note: "세그먼트에 마우스를 올리면 상세 수치 표시. 인재양성 확정 기준은 '데이터 신뢰성' 섹션 참조.",
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------- KPI ---------- */
   const kpis = [
-    { label: "인재양성 사업", v: String(TAL.total_talent_projects), unit: "개", sub: `주력 ${TAL.core.count} + 요소 포함 ${TAL.partial.count}`, accent: true },
+    { label: "인재양성 사업", v: String(TAL.total_talent_projects), unit: "개", sub: `주목적 ${TAL.core.count} + 일부 포함 ${TAL.partial.count}`, accent: true },
     { label: "인재양성 2026 예산", v: (TAL.all.b2026 / 1e6).toFixed(2), unit: "조원", sub: `전체 AI 예산의 ${(TAL.all.b2026 / T.b2026 * 100).toFixed(1)}%`, accent: true },
     { label: "인재양성 수행 부처", v: String(DATA.talent.by_dept.length), unit: "개", sub: "최대 과학기술정보통신부 · 교육부 · 고용노동부 순" },
     { label: "전체 AI 재정사업", v: "533", unit: "개", sub: `41개 부처 · 2026년 ${(T.b2026 / 1e6).toFixed(2)}조원 (검증·보정 완료)` },
@@ -90,16 +90,16 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="k-sub">${k.sub}</div>
     </div>`).join("");
 
-  /* ---------- 용어 정의: 주력 / 요소 포함 ---------- */
+  /* ---------- 용어 정의: 주목적 / 일부 포함 ---------- */
   document.getElementById("defs").innerHTML = `
     <div class="def-card">
-      <div class="d-title"><span class="sw" style="background:${C.talentCore}"></span>주력 인재양성 (core)
+      <div class="d-title"><span class="sw" style="background:${C.talentCore}"></span>인재양성 주목적 (core)
         <span class="d-stat">${TAL.core.count}개 · ${(TAL.core.b2026 / 1e6).toFixed(2)}조원</span></div>
-      <div class="d-desc">인재양성이 사업의 주된 성격인 사업. AI·SW중심대학, 내일배움카드, 두뇌한국21 등.</div>
+      <div class="d-desc">인재양성이 사업의 주된 목적인 사업. AI·SW중심대학, 내일배움카드, 두뇌한국21 등.</div>
       <div class="d-crit">판정 기준: '교육/인재' 도메인(v1.1 개정 분류) 보유 또는 사업명에 인재·양성·교육·훈련 등 키워드 포함</div>
     </div>
     <div class="def-card">
-      <div class="d-title"><span class="sw" style="background:${C.talentPart}"></span>요소 포함 (partial)
+      <div class="d-title"><span class="sw" style="background:${C.talentPart}"></span>인재양성 일부 포함 (partial)
         <span class="d-stat">${TAL.partial.count}개 · ${(TAL.partial.b2026 / 1e6).toFixed(2)}조원</span></div>
       <div class="d-desc">주된 목적은 다른 분야이나 사업 내역에 인재양성 활동(교육훈련·인턴십·장학·역량교육 등)을 포함하는 사업. 표시 예산은 사업 전체 기준.</div>
       <div class="d-crit">판정 기준: PDF 원문 사업내용 판정. 사업별 근거는 인재양성 섹션 목록과 표의 칩 호버에 표시</div>
@@ -110,15 +110,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   card(gTal, {
     title: "부처별 인재양성 예산 (2026)",
-    sub: "주력(core)과 요소 포함(partial) 구분 · 상위 10개 부처",
+    sub: "주목적(core)과 일부 포함(partial) 구분 · 상위 10개 부처",
     file: "부처별_인재양성_2026",
-    legend: [{ label: "주력 인재양성", color: C.talentCore }, { label: "요소 포함", color: C.talentPart }],
+    legend: [{ label: "인재양성 주목적", color: C.talentCore }, { label: "일부 포함", color: C.talentPart }],
     render: (elc) => stackedH(elc,
       DATA.talent.by_dept.slice(0, 10).map(d => ({
         label: d.dept,
         parts: [
-          { key: "주력", value: d.core, color: C.talentCore },
-          { key: "요소 포함", value: d.partial, color: C.talentPart },
+          { key: "주목적", value: d.core, color: C.talentCore },
+          { key: "일부 포함", value: d.partial, color: C.talentPart },
         ],
       })), { title: "부처별 인재양성" }),
   });
@@ -127,22 +127,22 @@ document.addEventListener("DOMContentLoaded", () => {
     title: "인재양성 예산 추이 2024 → 2026",
     sub: "2024 결산 · 2025 본예산 · 2026 확정 (보정값)",
     file: "인재양성_연도별_추이",
-    legend: [{ label: "주력 인재양성", color: C.talentCore }, { label: "요소 포함", color: C.talentPart }],
+    legend: [{ label: "인재양성 주목적", color: C.talentCore }, { label: "일부 포함", color: C.talentPart }],
     render: (elc) => stackedV(elc, ["2024", "2025", "2026"].map(y => ({
       label: y + "년",
       parts: [
-        { key: "주력", value: DATA.talent.yearly.core[y], color: C.talentCore },
-        { key: "요소 포함", value: DATA.talent.yearly.partial[y], color: C.talentPart },
+        { key: "주목적", value: DATA.talent.yearly.core[y], color: C.talentCore },
+        { key: "일부 포함", value: DATA.talent.yearly.partial[y], color: C.talentPart },
       ],
     })), { title: "인재양성 연도별" }),
   });
 
   card(gTal, {
     title: "인재양성 상위 15개 사업 (2026)",
-    sub: "막대 색 = 구분 (오렌지: 주력 / 연한 오렌지: 요소 포함)",
+    sub: "막대 색 = 구분 (오렌지: 주목적 / 연한 오렌지: 일부 포함)",
     file: "인재양성_상위15",
     span2: true,
-    legend: [{ label: "주력 인재양성", color: C.talentCore }, { label: "요소 포함", color: C.talentPart }],
+    legend: [{ label: "인재양성 주목적", color: C.talentCore }, { label: "일부 포함", color: C.talentPart }],
     render: (elc) => hBar(elc, DATA.talent.top.map(t => ({
       label: `${t.name}`, sub: t.dept, value: t.b26,
       color: t.cat === "core" ? C.talentCore : C.talentPart,
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   htmlCard(gTal, {
-    title: "요소 포함 18개 사업: 포함된 인재양성 요소",
+    title: "일부 포함 18개 사업: 포함된 인재양성 활동",
     sub: "주목적은 다른 분야이나 PDF 원문상 인재양성 활동을 포함하는 사업 (근거는 원문 기반 판정)",
     span2: true,
     body: `<div class="dup-list">${DATA.talent.partial_list.map(t => `
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
         color: d.domain === "교육/인재" ? C.talentCore : C.indigo,
       })),
     ], { title: "도메인별 예산" }),
-    note: "도메인은 v1.1 재분류(195건) 반영. '교육/인재'(오렌지) 78건은 인재양성 주력(core)과 일치하며, 요소 포함 18건은 별도(위 인재양성 섹션).",
+    note: "도메인은 v1.1 재분류(195건) 반영. '교육/인재'(오렌지) 78건은 인재양성 주목적(core)과 일치하며, 일부 포함 18건은 별도(위 인재양성 섹션).",
   });
 
   card(gDept, {
@@ -300,9 +300,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const files = [
     ["projects_raw.csv", "전체 533개 사업 원자료", "식별·계층·예산 7필드·v1.1 보정값·개정 도메인·검증 판정 포함 (48개 열)"],
     ["sub_projects_raw.csv", "내역사업 1,658행", "모사업 id 연결, 2024–2026 예산 · 불일치 165개 사업은 v1.2 재추출본(source 열)"],
-    ["talent_projects.csv", "인재양성 확정 96건", "주력/요소 구분, 보정 예산, 판정 근거"],
+    ["talent_projects.csv", "인재양성 확정 96건", "주목적/일부 포함 구분, 보정 예산, 판정 근거"],
     ["verification_issues.csv", "검증 이슈 234행", "예산 불일치 49건 + 분류 부적절 195건 + 사업명 불일치"],
-    ["by_department.csv", "부처별 집계 41행", "전체·인재양성(주력/요소) 2026 예산"],
+    ["by_department.csv", "부처별 집계 41행", "전체·인재양성(주목적/일부 포함) 2026 예산"],
     ["by_domain.csv", "AI 도메인별 집계 28행", "사업 수·2026 예산 (보정값)"],
   ];
   document.getElementById("files").innerHTML = files.map(([f, n, d]) => `
@@ -399,7 +399,7 @@ function renderTable() {
     if (!p.tal) return "";
     const note = (DATA.talent.notes[String(p.id)] || "").replace(/"/g, "'");
     const cls = p.tal === "core" ? "core" : "partial";
-    const label = p.tal === "core" ? "주력" : "요소";
+    const label = p.tal === "core" ? "주목적" : "일부";
     return `<span class="chip ${cls}"${note ? ` title="${note}"` : ""}>${label}</span>`;
   };
   const bvChip = { match: '<span class="chip ok">✓ 일치</span>', mismatch: '<span class="chip badc">✕ 불일치</span>', uncertain: '<span class="chip mutedc">미확정</span>' };
