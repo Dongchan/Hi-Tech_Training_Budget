@@ -274,18 +274,23 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   htmlCard(gVer, {
-    title: "검증 신뢰도: 1·2차 판정 일치율",
-    sub: "문제 판정 112건 + 정상 표본은 별도 에이전트가 독립 재검",
-    body: `<div class="mini-tiles">${[
-      ["예산 판정", DATA.verify.agreement.budget_verdict],
-      ["분류 판정", DATA.verify.agreement.classification_verdict],
-      ["AI 관련성", DATA.verify.agreement.ai_relevance],
-      ["인재양성 여부", DATA.verify.agreement.talent_related],
-    ].map(([k, a]) => {
-      const pct = (a.agree / (a.agree + a.disagree) * 100).toFixed(1);
-      return `<div class="mini"><div class="m-v">${pct}%</div><div class="m-l">${k} (${a.agree}/${a.agree + a.disagree})</div></div>`;
-    }).join("")}</div>
-    <div class="foot-note" style="margin-top:8px">의미 판단(분류·관련성)은 불일치 시 원문 전체를 본 2차 판정을 최종 채택.</div>`,
+    title: "검증 절차: 3단계 전수 대조",
+    sub: "판단이 갈린 건은 전부 원문 재확인으로 해소 후 최종 데이터에 반영. 미해결 0건",
+    body: `<div class="dup-list">
+      <div class="dup-item">
+        <div class="d-head">1단계 · 파이썬 자동 전수 검사 (533건)</div>
+        <div class="d-body">페이지 매핑·사업 계층·산술(합계·증감 역산) 전수 점검. 이상 후보 선별</div>
+      </div>
+      <div class="dup-item">
+        <div class="d-head">2단계 · 에이전트 1차 전수 대조 (533건)</div>
+        <div class="d-body">사업별 PDF 원문 발췌 ↔ 데이터의 예산 7필드·분류·인재양성 성격 대조 판정</div>
+      </div>
+      <div class="dup-item">
+        <div class="d-head">3단계 · 2차 재검·확정 (문제 판정 112건 + 정상 표본 전량)</div>
+        <div class="d-body">별도 에이전트가 원문 전체 기반으로 독립 재판정. 판단이 갈린 건은 2차 판정과 리더의 원문 실측으로 확정. 발견 오류는 v1.1·v1.2에서 전량 보정</div>
+      </div>
+    </div>
+    <div class="foot-note" style="margin-top:8px">단계별 상세 지표(1·2차 판정 간 일치율 등)는 Reports 폴더의 정합성 검증보고서에 기재</div>`,
   });
 
   /* ---------- 데이터 테이블 ---------- */
