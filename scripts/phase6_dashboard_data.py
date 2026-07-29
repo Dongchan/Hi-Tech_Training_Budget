@@ -36,6 +36,12 @@ def num(x):
     return x if isinstance(x, (int, float)) else None
 
 
+def clean_note(s):
+    """대시보드 표시용 텍스트 정제: EM 대시 제거 (원자료 CSV는 원문 유지)"""
+    import re
+    return re.sub(r"\s*—\s*", ", ", s or "")
+
+
 def j(lst):
     return ";".join(lst or [])
 
@@ -240,9 +246,9 @@ payload = {
                "agreement": vr["stats"]["recheck_agreement"],
                "name_mismatch": vr["stats"]["name_match_false"]},
     "talent": {"summary": tf["summary"], "yearly": tal_year,
-               "notes": {str(t["id"]): (t.get("talent_note") or "") for t in tf["projects"]},
+               "notes": {str(t["id"]): clean_note(t.get("talent_note")) for t in tf["projects"]},
                "partial_list": sorted(([{"id": t["id"], "dept": t["department"], "name": t["project_name"],
-                                          "b26": t["b2026"] or 0, "note": t.get("talent_note") or ""}
+                                          "b26": t["b2026"] or 0, "note": clean_note(t.get("talent_note"))}
                                          for t in tf["projects"] if t["category"] == "partial"]),
                                        key=lambda x: -x["b26"]),
                "by_dept": [{"dept": r["department"], "core": r["talent_core"], "partial": r["talent_partial"]}

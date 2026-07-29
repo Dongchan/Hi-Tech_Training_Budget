@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
       { key: "인재양성 요소 포함", count: TAL.partial.count, value: TAL.partial.b2026, color: C.talentPart, desc: "사업 내 인재양성 활동 포함" },
       { key: "그 외 AI 재정사업", count: restCount, value: restBudget, color: C.other, dark: true, desc: "인재양성 성격이 없는 AI 사업" },
     ], { title: "인재양성 구성" }),
-    note: "각 세그먼트에 마우스를 올리면 상세 수치가 표시됩니다. 인재양성 확정 기준은 '데이터 신뢰성' 섹션 참조.",
+    note: "세그먼트에 마우스를 올리면 상세 수치 표시. 인재양성 확정 기준은 '데이터 신뢰성' 섹션 참조.",
   });
   bandCard.classList.add("band-card");
 
@@ -136,24 +136,24 @@ document.addEventListener("DOMContentLoaded", () => {
       labelW: 300, labelMax: 26, title: "인재양성 상위",
       tipFmt: r => `${Math.round(r.value).toLocaleString()} 백만원${r.note ? `<br><span class="t-muted">${r.note}</span>` : ""}`,
     }),
-    note: "'교육/인재' 도메인 라벨 기준(66건 6.82조)에 검증 결과를 반영해 42건 추가·12건 제외한 최종 96건, 7.87조원. 막대에 마우스를 올리면 인재양성 판정 근거가 표시됩니다.",
+    note: "'교육/인재' 도메인 라벨 기준(66건 6.82조)에 검증 결과를 반영해 42건 추가·12건 제외, 최종 96건 7.87조원으로 조사됨. 막대에 마우스를 올리면 판정 근거 표시.",
   });
 
   htmlCard(gTal, {
-    title: "요소 포함 18개 사업 — 어떤 인재양성 요소가 있나",
-    sub: "주목적은 다른 분야지만 PDF 원문상 인재양성 활동을 포함하는 사업 (판정 근거는 원문 기반)",
+    title: "요소 포함 18개 사업: 포함된 인재양성 요소",
+    sub: "주목적은 다른 분야이나 PDF 원문상 인재양성 활동을 포함하는 사업 (근거는 원문 기반 판정)",
     span2: true,
     body: `<div class="dup-list">${DATA.talent.partial_list.map(t => `
       <div class="dup-item">
         <div class="d-head">${t.dept} · ${t.name}
-          <span style="color:var(--muted);font-weight:500">— 2026년 ${fmtKR(t.b26)}원</span></div>
-        <div class="d-body">${t.note || "판정 근거 미기재 — talent_projects.csv 참조"}</div>
+          <span style="color:var(--muted);font-weight:500">· 2026년 ${fmtKR(t.b26)}원</span></div>
+        <div class="d-body">${t.note || "판정 근거 미기재 (talent_projects.csv 참조)"}</div>
       </div>`).join("")}</div>`,
   });
 
   htmlCard(gTal, {
     title: "부처 간 중복·유사 의심 그룹",
-    sub: `인재양성 사업이 2건 이상 걸린 유사도 그룹 ${DATA.talent.dups.length}개 — 분산 편성 검토 대상`,
+    sub: `인재양성 사업이 2건 이상 걸린 유사도 그룹 ${DATA.talent.dups.length}개 · 분산 편성 검토 대상`,
     span2: true,
     body: `<div class="dup-list">${DATA.talent.dups.map((g, i) => `
       <div class="dup-item">
@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   card(gDept, {
     title: "AI 도메인별 예산 상위 14",
-    sub: "사업당 도메인 복수 부여 — 합계는 총예산을 초과",
+    sub: "사업당 도메인 복수 부여로 합계는 총예산을 초과함",
     file: "도메인별_2026예산",
     render: (elc) => hBar(elc, [
       ...DATA.by_domain.slice(0, 14).map(d => ({
@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
         color: d.domain === "교육/인재" ? C.talentCore : C.indigo,
       })),
     ], { title: "도메인별 예산" }),
-    note: "도메인은 v1.1 재분류(195건) 반영. '교육/인재'(오렌지) 78건은 인재양성 주력(core)과 일치 — 요소 포함 18건은 별도(위 인재양성 섹션).",
+    note: "도메인은 v1.1 재분류(195건) 반영. '교육/인재'(오렌지) 78건은 인재양성 주력(core)과 일치하며, 요소 포함 18건은 별도(위 인재양성 섹션).",
   });
 
   card(gDept, {
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const gVer = document.getElementById("grid-verify");
 
   card(gVer, {
-    title: `참고: ${(T.b2026 / 1e6).toFixed(1)}조원의 AI 관련성 구성 — 전수 판정`,
+    title: `참고: ${(T.b2026 / 1e6).toFixed(1)}조원의 AI 관련성 구성 (전수 판정)`,
     sub: "에이전트 팀이 533개 사업 전부를 PDF 원문 기준으로 판정 (예산은 검증 보정값)",
     file: "AI관련성_구성밴드",
     span2: true,
@@ -228,7 +228,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   card(gVer, {
     title: "예산 수치 검증 판정 (533건)",
-    sub: "PDF 원문 총괄표 ↔ JSON 7개 필드 전수 대조 — 발견 오류는 v1.1에서 전량 보정 완료",
+    sub: "PDF 원문 총괄표 ↔ JSON 7개 필드 전수 대조. 발견 오류는 v1.1에서 전량 보정 완료",
     file: "검증_예산판정",
     render: (elc) => donut(elc, [
       { key: "일치 (match)", value: DATA.verify.budget.match, color: C.good, icon: "✓" },
@@ -237,29 +237,29 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   card(gVer, {
-    title: "발견·보정한 예산 오류 49건 — 유형별 원인",
-    sub: "전원 PDF 재대조로 원인 확정 후 확정값으로 교체 (v1.1)",
+    title: "발견·보정한 예산 오류 49건: 유형별 원인",
+    sub: "전원 PDF 재대조로 원인 규명 후 확정값으로 교체됨 (v1.1)",
     file: "검증_오류유형",
     render: (elc) => hBar(elc, Object.entries(DATA.verify.error_types).map(([k, v]) => ({
       label: k, value: v, color: C.bad,
     })), { fmt: v => v + "건", labelW: 190, labelMax: 17, tipFmt: r => r.value + "건", title: "오류 유형" }),
-    note: "6열 시프트: 추경란 없는 총괄표를 7열로 읽어 값이 밀림 — 음수 예산 6건 전원 이 유형.",
+    note: "6열 시프트: 추경란 없는 총괄표를 7열로 읽어 값이 밀린 유형. 음수 예산 6건 전원 이 유형으로 조사됨.",
   });
 
   card(gVer, {
     title: "AI 도메인 분류 판정 (533건)",
-    sub: "ai_domains 라벨의 PDF 내용 부합 여부 — 부적절·누락 195건은 v1.1에서 재분류 완료",
+    sub: "ai_domains 라벨의 PDF 내용 부합 여부. 부적절·누락 195건은 v1.1에서 재분류 완료",
     file: "검증_분류판정",
     render: (elc) => hBar(elc, [
       { label: "✓ 적절 (appropriate)", value: DATA.verify.classification.appropriate, color: C.good },
       { label: "△ 일부 부적절·누락", value: DATA.verify.classification.partial, color: C.warn },
       { label: "✕ 핵심 오류 (wrong)", value: DATA.verify.classification.wrong, color: C.bad },
     ], { fmt: v => v + "건", labelW: 200, labelMax: 18, tipFmt: r => r.value + "건", title: "분류 판정" }),
-    note: "36.6%가 부적절·누락 — 도메인 기반 집계는 오차 전제 필요. 사업명 불일치도 " + DATA.verify.name_mismatch + "건.",
+    note: "36.6%가 부적절·누락으로 조사됨. 도메인 기반 집계는 오차 전제 필요. 사업명 불일치 " + DATA.verify.name_mismatch + "건 별도.",
   });
 
   htmlCard(gVer, {
-    title: "검증 신뢰도 — 1·2차 판정 일치율",
+    title: "검증 신뢰도: 1·2차 판정 일치율",
     sub: "문제 판정 112건 + 정상 표본은 별도 에이전트가 독립 재검",
     body: `<div class="mini-tiles">${[
       ["예산 판정", DATA.verify.agreement.budget_verdict],
@@ -288,7 +288,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("files").innerHTML = files.map(([f, n, d]) => `
     <a class="file-card" href="data/${f}" download>
       <span class="f-name">${dlIcon} ${n}</span>
-      <span class="f-desc">${f} — ${d}</span>
+      <span class="f-desc">${f} · ${d}</span>
     </a>`).join("");
 
   /* ---------- 스크롤 스파이 ---------- */

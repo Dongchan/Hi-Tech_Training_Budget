@@ -1,6 +1,6 @@
-# Hi-Tech Training Budget — 첨단분야 인재양성 예산 현황
+# Hi-Tech Training Budget: AI 분야 인재양성 예산 현황
 
-2026년 AI 재정사업 통합 설명자료(5,296p)를 파싱한 [KAIB2026](https://github.com/hollobit/KAIB2026) 데이터를 **원본 PDF와 전수 대조 검증**하고, 첨단분야 인재양성 예산 현황을 확정한 프로젝트입니다.
+2026년 AI 재정사업 통합 설명자료(5,296p)를 파싱한 [KAIB2026](https://github.com/hollobit/KAIB2026) 데이터를 **원본 PDF와 전수 대조 검증**하고, AI 분야 인재양성 예산 현황을 정리한 프로젝트 (첨단분야 전체가 아닌 AI 재정사업 범위의 집계).
 
 ## 🔗 대시보드 바로가기
 
@@ -22,7 +22,7 @@
 ## 구성
 
 ```
-Dash_board/     대시보드 (index.html — 상대경로, 오프라인 동작) + 원자료 CSV 6종
+Dash_board/     대시보드 (index.html, 상대경로·오프라인 동작) + 원자료 CSV 6종
 Reports/        정합성 검증보고서 · 인재양성 예산현황 · 보정결과(v1.1/v1.2) · 업스트림 제안
 Plans/          실행계획 (v1.0 ~ v1.2)
 scripts/        검증·생성 파이썬 스크립트 9종 (UTF-8)
@@ -31,7 +31,7 @@ Work_history.md 작업 이력 (최신 상단)
 ```
 
 > 용량·개인정보 사유로 원본 PDF(116MB), KAIB2026 클론, 사업별 추출 텍스트(`extracted/`)는
-> 저장소에서 제외했습니다. `scripts/phase2_extract.py`로 재생성할 수 있습니다.
+> 저장소에서 제외함. `scripts/phase2_extract.py`로 재생성 가능.
 
 ## 출처
 
