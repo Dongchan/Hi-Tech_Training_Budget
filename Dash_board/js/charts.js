@@ -32,6 +32,7 @@ function txt(parent, x, y, s, opts = {}) {
 // 백만원 단위 → 한국식 표기
 function fmtKR(v) {
   if (v == null) return "-";
+  if (v === 0) return "0";
   const sign = v < 0 ? "-" : "";
   const a = Math.abs(v);
   if (a >= 1e6) return sign + (a / 1e6).toFixed(2) + "조";
@@ -242,6 +243,51 @@ function segBand(container, parts, opts = {}) {
           { size: 15, fill: p.dark ? INK : p.color, weight: 600 });
     }
     x += bw;
+  });
+  return svg;
+}
+
+/* ---------- 추이 라인 ----------
+   series: [{label, color, values:[v,...]}], opts.xlabels: 연도 라벨 */
+function trendLine(container, series, opts = {}) {
+  const w = 640, h = 280, padL = 64, padR = 178, padT = 16, padB = 32;
+  const svg = frame(container, w, h, opts.title);
+  const xlabels = opts.xlabels || ["2024", "2025", "2026"];
+  const n = xlabels.length;
+  const max = Math.max(...series.flatMap(s => s.values.filter(v => v != null)), 1);
+  const plotW = w - padL - padR, plotH = h - padT - padB;
+  const xAt = i => padL + (plotW * i) / (n - 1);
+  const yAt = v => h - padB - (v / max) * plotH;
+
+  for (let i = 0; i <= 3; i++) {
+    const gy = h - padB - (plotH * i) / 3;
+    el("line", { x1: padL, y1: gy, x2: w - padR + 8, y2: gy, stroke: i === 0 ? LINE : SURFACE, "stroke-width": 1 }, svg);
+    txt(svg, padL - 8, gy, fmtKR((max * i) / 3), { anchor: "end", size: 11, fill: MUTED });
+  }
+  xlabels.forEach((xl, i) => txt(svg, xAt(i), h - padB + 16, xl, { anchor: "middle", size: 12, fill: BODY, weight: 500 }));
+
+  // 우측 끝 라벨 충돌 방지 배치
+  const ends = series.map((s, si) => ({ si, y: yAt(s.values[n - 1] ?? 0) }))
+    .sort((a, b) => a.y - b.y);
+  for (let i = 1; i < ends.length; i++) {
+    if (ends[i].y - ends[i - 1].y < 19) ends[i].y = ends[i - 1].y + 19;
+  }
+  const endY = {};
+  ends.forEach(e => { endY[e.si] = e.y; });
+
+  series.forEach((s, si) => {
+    const pts = s.values.map((v, i) => v == null ? null : [xAt(i), yAt(v)]).filter(Boolean);
+    el("polyline", { points: pts.map(p => p.join(",")).join(" "), fill: "none",
+                     stroke: s.color, "stroke-width": 2, "stroke-linejoin": "round" }, svg);
+    s.values.forEach((v, i) => {
+      if (v == null) return;
+      const c = el("circle", { cx: xAt(i), cy: yAt(v), r: 4.5, fill: s.color, stroke: BG, "stroke-width": 2 }, svg);
+      bindTip(c, `<div class="t-title">${s.label} · ${xlabels[i]}</div>${fmtComma(v)} 백만원 (${fmtKR(v)}원)`);
+    });
+    const ly = endY[si];
+    el("rect", { x: w - padR + 14, y: ly - 5, width: 10, height: 10, rx: 3, fill: s.color }, svg);
+    txt(svg, w - padR + 29, ly, `${ellip(s.label, 8)} ${fmtKR(s.values[n - 1] ?? 0)}`,
+        { size: 12, fill: INK, weight: 600 });
   });
   return svg;
 }

@@ -225,6 +225,72 @@ document.addEventListener("DOMContentLoaded", () => {
     ], { title: "증감 상위" }),
   });
 
+  /* ---------- 연도별 추이 (2024 → 2026) ---------- */
+  const gTrend = document.getElementById("grid-trend");
+  const YEARS = ["2024 결산", "2025 본예산", "2026 확정"];
+
+  card(gTrend, {
+    title: "전체 AI 예산 추이",
+    sub: "533개 사업 합계 (보정값 기준)",
+    file: "전체예산_추이",
+    render: (elc) => stackedV(elc, [
+      { label: "2024 결산", parts: [{ key: "합계", value: T.b2024, color: C.teal }] },
+      { label: "2025 본예산", parts: [{ key: "합계", value: T.b2025, color: C.teal }] },
+      { label: "2026 확정", parts: [{ key: "합계", value: T.b2026, color: C.teal }] },
+    ], { title: "전체 추이" }),
+    note: "연도별 예산 단계가 다름(결산·본예산·확정). 2026년 급증은 AI 예산 확대 편성에 따른 것.",
+  });
+
+  card(gTrend, {
+    title: "유형별 추이",
+    sub: "R&D · 정보화 · 일반 (연도별 누적)",
+    file: "유형별_추이",
+    legend: [{ label: "R&D", color: C.indigo }, { label: "정보화", color: C.teal }, { label: "일반", color: C.other }],
+    render: (elc) => stackedV(elc, ["2024", "2025", "2026"].map((y, i) => ({
+      label: YEARS[i],
+      parts: [
+        { key: "R&D", value: DATA.type.trend["R&D"][y], color: C.indigo },
+        { key: "정보화", value: DATA.type.trend["정보화"][y], color: C.teal },
+        { key: "일반", value: DATA.type.trend["일반"][y], color: C.other },
+      ],
+    })), { title: "유형별 추이" }),
+  });
+
+  const deptTrend = DATA.by_dept.slice(0, 4);
+  card(gTrend, {
+    title: "부처별 추이 상위 4",
+    sub: "2026 예산 기준 상위 4개 부처 (나머지 37개 부처는 by_department.csv 참조)",
+    file: "부처별_추이",
+    render: (elc) => trendLine(elc, deptTrend.map((d, i) => ({
+      label: d.department, color: [C.teal, C.indigo, C.olive, C.plum][i],
+      values: [d.b2024, d.b2025, d.b2026],
+    })), { xlabels: YEARS, title: "부처별 추이" }),
+  });
+
+  const domTrend = DATA.by_domain.slice(0, 4);
+  card(gTrend, {
+    title: "적용 분야별 추이 상위 4",
+    sub: "사업당 복수 분야 부여로 분야 합계는 총예산을 초과함 (전체는 by_domain.csv)",
+    file: "적용분야별_추이",
+    render: (elc) => trendLine(elc, domTrend.map((d, i) => ({
+      label: d.domain, color: [C.teal, C.indigo, C.olive, C.plum][i],
+      values: [d.b2024, d.b2025, d.b2026],
+    })), { xlabels: YEARS, title: "적용 분야별 추이" }),
+  });
+
+  htmlCard(gTrend, {
+    title: "2025 → 2026 변화 요약",
+    sub: "2025 본예산 대비 2026 확정예산 기준",
+    span2: true,
+    body: `<div class="mini-tiles">${[
+      [`${DATA.trend_stats.new.count}개`, `신규 사업 · ${(DATA.trend_stats.new.sum / 1e6).toFixed(2)}조원`],
+      [`${DATA.trend_stats.up2x.count}개`, `2배 이상 증액 · +${(DATA.trend_stats.up2x.sum / 1e6).toFixed(2)}조원`],
+      [`${DATA.trend_stats.up.count}개`, `증액 사업 (2배 미만 포함)`],
+      [`${DATA.trend_stats.down.count}개`, `감액 사업 · −${(DATA.trend_stats.down.sum / 1e6).toFixed(2)}조원`],
+    ].map(([v, l]) => `<div class="mini"><div class="m-v">${v}</div><div class="m-l">${l}</div></div>`).join("")}</div>
+    <div class="foot-note" style="margin-top:8px">사업별 증감 상위 목록은 '부처별 · 분야별 사업 현황' 섹션의 증감 차트 참조. 인재양성 사업의 연도별 추이는 '인재양성 사업 현황' 섹션에 별도 표시</div>`,
+  });
+
   /* ---------- 데이터 신뢰성 (검증·보정) ---------- */
   const gVer = document.getElementById("grid-verify");
 

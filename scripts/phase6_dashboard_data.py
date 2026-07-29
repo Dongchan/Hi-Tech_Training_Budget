@@ -167,11 +167,15 @@ for r in vr["results"]:
 write_csv(DATA / "verification_issues.csv", irows)
 
 # ---------------- 집계 ----------------
-by_dept = defaultdict(lambda: {"count": 0, "b2026": 0.0, "talent_core": 0.0, "talent_partial": 0.0})
+by_dept = defaultdict(lambda: {"count": 0, "b2024": 0.0, "b2025": 0.0, "b2026": 0.0,
+                                "talent_core": 0.0, "talent_partial": 0.0})
 for p in projects:
     d = by_dept[p["department"]]
+    w = vals(p)
     d["count"] += 1
-    d["b2026"] += vals(p)["b26c"] or 0
+    d["b2024"] += w["b24"] or 0
+    d["b2025"] += w["b25"] or 0
+    d["b2026"] += w["b26c"] or 0
     t = talent.get(p["id"])
     if t:
         d["talent_" + t["category"]] += t["b2026"] or 0
@@ -179,12 +183,16 @@ drows = [{"department": k, **{kk: round(vv, 1) for kk, vv in v.items()}}
          for k, v in sorted(by_dept.items(), key=lambda x: -x[1]["b2026"])]
 write_csv(DATA / "by_department.csv", drows)
 
-by_dom = defaultdict(lambda: {"count": 0, "b2026": 0.0})
+by_dom = defaultdict(lambda: {"count": 0, "b2024": 0.0, "b2025": 0.0, "b2026": 0.0})
 for p in projects:
+    w = vals(p)
     for d in dom_of(p):
         by_dom[d]["count"] += 1
-        by_dom[d]["b2026"] += vals(p)["b26c"] or 0
-domrows = [{"domain": k, "count": v["count"], "b2026": round(v["b2026"], 1)}
+        by_dom[d]["b2024"] += w["b24"] or 0
+        by_dom[d]["b2025"] += w["b25"] or 0
+        by_dom[d]["b2026"] += w["b26c"] or 0
+domrows = [{"domain": k, "count": v["count"], "b2024": round(v["b2024"], 1),
+            "b2025": round(v["b2025"], 1), "b2026": round(v["b2026"], 1)}
            for k, v in sorted(by_dom.items(), key=lambda x: -x[1]["b2026"])]
 write_csv(DATA / "by_domain.csv", domrows)
 
@@ -224,6 +232,27 @@ type_sum = {
     "정보화": round(sum(x["b26c"] or 0 for x in slim if x["info"] and not x["rnd"]), 1),
     "일반": round(sum(x["b26c"] or 0 for x in slim if not x["rnd"] and not x["info"]), 1),
 }
+
+
+def type_of(x):
+    return "R&D" if x["rnd"] else ("정보화" if x["info"] else "일반")
+
+
+type_trend = {t: {y: round(sum(x["b" + k] or 0 for x in slim if type_of(x) == t), 1)
+                  for y, k in [("2024", "24"), ("2025", "25"), ("2026", "26c")]}
+              for t in ["R&D", "정보화", "일반"]}
+
+# 추이 통계: 신규·급증·감액 (2025 본예산 대비 2026 확정)
+new_p = [x for x in slim if not (x["b25"] or 0) and (x["b26c"] or 0) > 0]
+up2x = [x for x in slim if (x["b25"] or 0) > 0 and (x["b26c"] or 0) >= 2 * x["b25"]]
+up_p = [x for x in slim if (x["b25"] or 0) > 0 and (x["b26c"] or 0) > x["b25"]]
+down_p = [x for x in slim if (x["b25"] or 0) > 0 and (x["b26c"] or 0) < x["b25"]]
+trend_stats = {
+    "new": {"count": len(new_p), "sum": round(sum(x["b26c"] or 0 for x in new_p), 1)},
+    "up2x": {"count": len(up2x), "sum": round(sum((x["b26c"] or 0) - x["b25"] for x in up2x), 1)},
+    "up": {"count": len(up_p)},
+    "down": {"count": len(down_p), "sum": round(sum(x["b25"] - (x["b26c"] or 0) for x in down_p), 1)},
+}
 type_cnt = {
     "R&D": sum(1 for x in slim if x["rnd"]),
     "정보화": sum(1 for x in slim if x["info"] and not x["rnd"]),
@@ -259,7 +288,8 @@ payload = {
                "dups": dup_groups},
     "by_dept": drows,
     "by_domain": domrows,
-    "type": {"sum": type_sum, "count": type_cnt},
+    "type": {"sum": type_sum, "count": type_cnt, "trend": type_trend},
+    "trend_stats": trend_stats,
     "top_inc": top_inc, "top_dec": top_dec,
     "projects": slim,
 }
